@@ -114,7 +114,7 @@ def h1(txt): return f'<div class="h1">{html.escape(txt)}</div><div class="tbar">
 def fonts(meta):
     d = meta.get("display_font","Archivo").replace(" ","+")
     b = meta.get("body_font","Inter").replace(" ","+")
-    fams = f"family={d}:wght@600;700;800;900" if d==b else f"family={d}:wght@600;700;800;900&family={b}:wght@400;500;600;700"
+    fams = f"family={d}:wght@400;600;700;800;900" if d==b else f"family={d}:wght@400;600;700;800;900&family={b}:wght@400;500;600;700"
     return (f"""<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{fams}&display=swap" rel="stylesheet">""")
 
