@@ -1,0 +1,768 @@
+{
+  "meta": {
+    "product": "Allbirds Tree/Wool Runner sneakers",
+    "company": "Allbirds Inc (NASDAQ: BIRD - sustainable footwear)",
+    "company_website": "https://www.allbirds.com",
+    "campaign_name": "Walk Lighter",
+    "theme": "Walk Lighter",
+    "thesis": "Allbirds does not need a new shoe - it needs to prove the two things only it can claim: measured carbon footprint per shoe and all-day comfort, and Walk Lighter makes the label the message.",
+    "variant_angle": "documented-decline revival + carbon-label transparency campaign",
+    "brand_color": "#2f6f4f",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "December 2026 \u2014 DECA District",
+    "assurances_signed": false,
+    "parent_run": "",
+    "design_style": "tech"
+  },
+  "business_problem": "Allbirds invented sustainable sneakers and watched everyone copy them: FY2024 revenue fell ~25% to ~$190M from a $297M peak, stores closed, and 'the eco shoe' lost differentiation while the comfort claim - its real retention driver - got buried under sustainability messaging [S1][S2][S3].",
+  "objectives": [
+    {
+      "id": "O1",
+      "funnel_stage": "conversion",
+      "primary": true,
+      "text": "Drive 140 attributed orders (comfort-test QR + code LIGHTER15) in 45 days at ~$110 AOV"
+    },
+    {
+      "id": "O2",
+      "funnel_stage": "consideration",
+      "text": "Capture 650 email/SMS signups via comfort-test events and the carbon-receipt funnel"
+    },
+    {
+      "id": "O3",
+      "funnel_stage": "awareness",
+      "text": "Reach 900K impressions and shift 'eco gimmick' to 'most comfortable shoe, measured' - +12 pts among surveyed shoppers"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Comfort-First Professionals (25-44)",
+      "role": "primary",
+      "demographic": "25-44, urban professionals + travelers, gender-balanced",
+      "geographic": "Austin TX metro + online",
+      "psychographic": "on feet all day; buys quality basics; skeptical of greenwashing but responsive to proof",
+      "behavioral": "researches before $100+ buys; tries on; comfort reviews drive purchase",
+      "media": "Instagram, YouTube, podcast ads, walking-heavy routines"
+    },
+    {
+      "id": "P2",
+      "name": "Eco-Conscious Millennials + Gift Buyers",
+      "role": "secondary",
+      "demographic": "28-50, sustainability-motivated buyers",
+      "geographic": "Texas + online",
+      "psychographic": "carbon-aware, brand-mission loyal",
+      "behavioral": "mission-driven purchases, gift occasions",
+      "media": "email, Instagram, PR"
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M4",
+        "type": "sec_filing_analysis",
+        "n": 1,
+        "dates": "2026-11",
+        "recruitment": "Allbirds 10-K + quarterly filings: revenue trajectory, margin, store count, transformation plan (collected 2026-11-07)",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M5",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "dates": "2026-11",
+        "recruitment": "Allbirds product/carbon-label pages, ReRun resale, vs Nike/On/Hoka positioning",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M6",
+        "type": "review_spot_check",
+        "n": 300,
+        "dates": "2026-11",
+        "recruitment": "On-site Yotpo review themes on Tree/Wool Runner pages (spot-coded)",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M1",
+        "type": "survey (measurement plan)",
+        "n": 150,
+        "dates": "planned",
+        "recruitment": "Intercept survey at comfort-test events - runs as week-0 baseline inside the measurement plan",
+        "status": "planned",
+        "results_file": ""
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "finding": "SEC filings show revenue down ~25% YoY to ~$190M with ongoing net losses - the decline is documented, not inferred; the brand has a real turnaround plan in progress"
+      },
+      {
+        "id": "R2",
+        "finding": "Comfort is the dominant organic theme in customer reviews ('cloud', 'all day', 'no break-in') - retention runs on feel, not mission"
+      },
+      {
+        "id": "R3",
+        "finding": "Allbirds already prints a carbon footprint score per product - a unique, measurable asset almost no competitor has; it is invisible in marketing"
+      },
+      {
+        "id": "R4",
+        "finding": "Copycat 'eco sneakers' (Nike Move to Zero, generic wool shoes) blurred the category - 'sustainable' no longer differentiates without numbers"
+      }
+    ]
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "~$110 blended AOV (Tree/Wool Runners $98-135)"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~45% on DTC footwear (from 10-K reported margins)"
+    },
+    {
+      "id": "A4",
+      "text": "$5,500 paid social at ~$8 CPM = ~690K impressions + ~210K organic"
+    },
+    {
+      "id": "A6",
+      "text": "6 micro creators (comfort/travel/minimal niches) at $400 each"
+    },
+    {
+      "id": "A7",
+      "text": "8 comfort-test event shifts at ~$350 each (venue, fitting chairs, signage)"
+    },
+    {
+      "id": "A8",
+      "text": "LIGHTER15 code: $15 off first pair; netted in revenue"
+    },
+    {
+      "id": "A10",
+      "text": "Tools/printing $600 (comfort-test mats, carbon-receipt cards, signage)"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~11% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat purchase ~25% within 12 months (comfort loyalists buy multiple pairs)"
+    },
+    {
+      "id": "A15",
+      "text": "Conservative case = 50% of base"
+    }
+  ],
+  "budget": {
+    "total_usd": 14650,
+    "lines": [
+      {
+        "item": "Paid social (IG/YT geo + retargeting)",
+        "category": "media",
+        "usd": 5500,
+        "basis": "A4"
+      },
+      {
+        "item": "Micro creators (6 x $400)",
+        "category": "media",
+        "usd": 2400,
+        "basis": "A6"
+      },
+      {
+        "item": "Comfort-test events (8 x ~$350)",
+        "category": "field",
+        "usd": 2800,
+        "basis": "A7"
+      },
+      {
+        "item": "Comfort mats, carbon cards, signage",
+        "category": "production",
+        "usd": 600,
+        "basis": "A10"
+      },
+      {
+        "item": "LIGHTER15 redemption fund ($15 x 140)",
+        "category": "promotion",
+        "usd": 2100,
+        "basis": "A8"
+      },
+      {
+        "item": "Contingency (~9%)",
+        "category": "contingency",
+        "usd": 1250,
+        "basis": "A11"
+      }
+    ],
+    "projection": {
+      "impressions": 900000,
+      "ctr": 0.026,
+      "conversion_rate": 0.006,
+      "aov_usd": 110.0,
+      "gross_margin": 0.45
+    }
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (QR + LIGHTER15)",
+      "baseline": "0 (new code)",
+      "target": "140",
+      "tool": "Shopify code report + UTM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Event scan-to-purchase conversion",
+      "baseline": "0",
+      "target": "9%",
+      "tool": "UTM funnel",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Email/SMS captures",
+      "baseline": "current list",
+      "target": "650",
+      "tool": "Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions + 'most comfortable, measured' lift",
+      "baseline": "week-0 survey n=150",
+      "target": "900K impr.; +12 pts",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Comfort Test Events",
+      "mechanic": "Pop-up comfort trials at campuses/offices/airports: walk a marked course in your shoes vs Tree Runners, 'comfort score' card + QR. The shoe is the prop.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "The Carbon Receipt",
+      "mechanic": "Turn Allbirds' per-product carbon score into the message: 'every shoe has a number' content + on-receipt carbon print - proof over greenwashing [R3][R4].",
+      "segment": "P2",
+      "channels": [
+        "site",
+        "social",
+        "PR"
+      ],
+      "objectives": [
+        "O3",
+        "O2"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (content)"
+    },
+    {
+      "id": "G3",
+      "name": "Second Step",
+      "mechanic": "Trade-in drive via ReRun resale: bring worn sneakers, get $20 credit, donated/refurbished - earned-media angle + foot traffic [R4].",
+      "segment": "P1",
+      "channels": [
+        "PR",
+        "email",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (social)"
+    },
+    {
+      "id": "G4",
+      "name": "Comfort Club",
+      "mechanic": "Email/SMS comfort-content series: 'the science of all-day comfort' + repeat-buyer perks targeting the 25% repeat cohort [R2][A13].",
+      "segment": "P2",
+      "channels": [
+        "email",
+        "SMS"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (web)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "SEC EDGAR",
+      "title": "Allbirds 10-K (FY2024) - revenue ~$190M, declining trend, transformation plan",
+      "date": "2025",
+      "url": "https://www.sec.gov",
+      "type": "filing"
+    },
+    {
+      "id": "S2",
+      "publisher": "Allbirds",
+      "title": "Product pages, carbon-footprint labels, ReRun resale",
+      "date": "2026",
+      "url": "https://www.allbirds.com",
+      "type": "web"
+    },
+    {
+      "id": "S3",
+      "publisher": "Company filings/press",
+      "title": "Store pullback and repositioning announcements",
+      "date": "2024-2025",
+      "url": "https://ir.allbirds.com",
+      "type": "web"
+    },
+    {
+      "id": "S4",
+      "publisher": "Footwear industry",
+      "title": "Sustainable-sneaker category crowding (Nike, On, Hoka)",
+      "date": "2025",
+      "url": "https://www.statista.com",
+      "type": "web"
+    },
+    {
+      "id": "S5",
+      "publisher": "On-site reviews",
+      "title": "Yotpo review themes on Tree/Wool Runner pages - comfort vocabulary",
+      "date": "2026-11-07",
+      "url": "https://www.allbirds.com",
+      "type": "web"
+    }
+  ],
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Walk Lighter",
+      "bullets": [],
+      "notes": "Hand a judge the shoe: 'This shoe has a carbon score printed on it. Name one other shoe that does.'"
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Walk Lighter",
+        "Allbirds sustainable sneakers",
+        "45-day campaign - Austin events + DTC"
+      ],
+      "notes": "Title."
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "notes": "Agenda."
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Problem: Allbirds invented the eco sneaker - then everyone copied it. Revenue fell ~25% to ~$190M while 'sustainable' stopped meaning anything [S1][R4].",
+        "Solution: Walk Lighter - prove the two things only Allbirds has: a printed carbon score per shoe and cloud-level comfort, at live comfort tests everywhere.",
+        "45-day goal: 140 orders, 650 captures, +12 pts 'most comfortable, measured' [O1-O3]."
+      ],
+      "notes": "Sell the fit, not the shoe."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Tree/Wool Runners: merino + eucalyptus sneakers, $98-135, famous for all-day comfort [S2][R2].",
+        "Unique asset: a printed carbon footprint score on every product - measurable sustainability no rival matches [R3][S2].",
+        "ReRun resale program exists - circularity is real, not marketing [S2].",
+        "Reviews run on 'comfort/cloud/all-day' - the retention driver is feel [R2]."
+      ],
+      "notes": "Hold the shoe up - 'the tag has a number on it. The number IS the campaign.'"
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "Company & Position",
+      "bullets": [
+        "Public DTC footwear company (NASDAQ: BIRD) - filings document a real decline and a transformation plan [S1][S3].",
+        "Category is crowded: Nike, On, Hoka all claim 'sustainable' - differentiation died [R4][S4].",
+        "Positioning gap: 'eco shoe' is generic; 'the shoe with a measurable footprint' is unclaimed.",
+        "Campaign claims the proof."
+      ],
+      "notes": "Public company - the decline is in SEC filings, not our opinion."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 140 attributed orders via LIGHTER15 + event QR at ~$110 AOV [O1].",
+        "O2: 650 email/SMS captures from comfort tests + carbon funnel [O2].",
+        "O3: 900K impressions; +12 pts 'most comfortable, measured' on pre/post survey (n=150 + holdout) [O3].",
+        "Baseline: current list; week-0 survey; Shopify code report."
+      ],
+      "notes": "Funnel-covered."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1: comfort-first professionals 25-44 - on feet all day, quality basics, greenwashing-skeptical but proof-responsive; Austin metro [S4].",
+        "P2: eco-conscious millennials + gift buyers 28-50 - mission-driven, carbon-aware [R3].",
+        "P1 buys the comfort; P2 buys the number."
+      ],
+      "notes": "Trackers vs gifters."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Methodology & Results",
+      "bullets": [
+        "SEC filing analysis: Allbirds 10-K - revenue, margins, store count, transformation plan [R1][S1].",
+        "Shelf audit of 8 sources: product/carbon-label pages, ReRun, Nike/On/Hoka positioning [S2][S4].",
+        "Review spot-check: ~300 on-site review themes - 'comfort/cloud/all-day' dominates [R2].",
+        "Measurement plan: pre/post intercept survey (n=150) runs as week-0 baseline [M1]."
+      ],
+      "notes": "What the data says."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "[R1] Revenue -25% is documented -> this is a turnaround brief, not an awareness brief.",
+        "[R2] Reviews run on comfort -> lead with feel: comfort tests, not eco lectures.",
+        "[R3] Carbon score exists but is invisible -> make the label the campaign: 'every shoe has a number'.",
+        "[R4] 'Sustainable' is generic -> sell proof (measured carbon) not adjectives."
+      ],
+      "notes": "Findings map to programs."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Theme: Walk Lighter - lighter footprint, lighter on your feet; proof, not claims.",
+        "Push-pull: comfort tests create the try-on (pull); carbon receipt + club convert at home (push) [R2][A4].",
+        "Transparency as the weapon: a printed number beats a green adjective [R3][R4].",
+        "PESO: paid geo-social, earned trade-in PR, shared comfort tests, owned email/SMS + comfort club."
+      ],
+      "notes": "Success guarantee across every touchpoint."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Comfort Test Events \u2014 Walk Lighter",
+      "bullets": [
+        "8 event shifts at campuses/offices/airports: walk a course in your shoes vs Tree Runners, 'comfort score' card + QR (P1, field, O1/O2/O3, Nino) [A7].",
+        "Judges hold the shoe - the prop is the product, DECA-compliant [A1]."
+      ],
+      "notes": "Signature program - judge-ready.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Comfort Test Events channel mockups",
+        "file": "visuals/board_s12.png"
+      }
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: The Carbon Receipt \u2014 Walk Lighter",
+      "bullets": [
+        "'Every shoe has a number' content series + on-receipt carbon print - proof over greenwashing (P2, site/social/PR, O3/O2, Rafsan) [R3][R4].",
+        "The differentiator no one else can claim [S2]."
+      ],
+      "notes": "Online bridge.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: The Carbon Receipt channel mockups",
+        "file": "visuals/board_s13.png"
+      }
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Second Step \u2014 Walk Lighter",
+      "bullets": [
+        "Trade-in drive via ReRun resale: bring worn sneakers, $20 credit, refurbished/donated (P1, PR/email/site, O1/O2, Santhosh) [S2].",
+        "Earned media + foot traffic + circularity story."
+      ],
+      "notes": "UGC engine.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Second Step channel mockups",
+        "file": "visuals/board_s14.png"
+      }
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 4: Comfort Club \u2014 Walk Lighter",
+      "bullets": [
+        "Email/SMS series: 'the science of all-day comfort' + repeat-buyer perks (P2, O1/O2, Rafsan) [R2][A13]. [A13]",
+        "Retention engine for the 25% repeat cohort. [A13]"
+      ],
+      "notes": "Revenue base program.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Comfort Club channel mockups",
+        "file": "visuals/board_s15.png"
+      }
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Schedule: Walk Lighter",
+      "bullets": [
+        "Pre-work: venue bookings, shoe stock, creator outreach | W1: Comfort Test 1 + Comfort Club live.",
+        "W2-W3: events 2-5; Carbon Receipt launches; retargeting.",
+        "W4-W5: Second Step trade-in; events 6-8; club continues.",
+        "W6 (day 45 close): last-chance SMS; post-survey; holdout read."
+      ],
+      "notes": "Tight, coherent.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Comfort Club channel mockups",
+        "file": "visuals/board_s16.png"
+      }
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Budget & Financial Viability",
+      "bullets": [
+        "Total $14,650: paid social $5.5K [A4]; creators $2.4K [A6]; events $2.8K [A7]; production $600 [A10]; LIGHTER15 fund $2.1K [A8]; contingency ~9% [A11].",
+        "Funnel: 900K impressions x 2.6% CTR x 0.6% purchase = ~140 orders = $15.4K revenue [A1][A4].",
+        "GP 45% = $6.9K; direct ROI ~-53% - a turnaround-proof budget; payback via 25% comfort-loyal repeat [A2][A13].",
+        "Conservative (50%): 70 orders, ROI ~-76%; kill-trigger protects the downside [A15]."
+      ],
+      "notes": "Honest economics."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: orders via LIGHTER15 + QR UTMs; target 140; Shopify report; weekly [O1].",
+        "O2: captures; target 650; Klaviyo; weekly [O2].",
+        "O3: impressions 900K + perception +12 pts; pre/post survey w/ holdout [O3].",
+        "Trigger: <20 scans per event by week 3 -> shift spend to Carbon Receipt + club."
+      ],
+      "notes": "Kill-switch included."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Allbirds is the rare brand with a real, documented decline - and a real, provable asset nobody's using.",
+        "Walk Lighter sells proof, not mission: a printed carbon score and a comfort claim you can test on the spot.",
+        "Judges hold the shoe and see the number - the pitch is the product."
+      ],
+      "notes": "Close while judges hold the kit."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [],
+      "notes": "Sources."
+    }
+  ],
+  "_creative": {
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "Walk 100 feet in your shoes vs ours",
+          "Comfort Test events - your feet pick the winner. #walklighter"
+        ],
+        [
+          "email",
+          "Your comfort score is in",
+          "$15 off your first pair of Tree Runners - lightest comfort you'll wear."
+        ],
+        [
+          "sms",
+          "ALLBIRDS: free comfort test this Sat - walk it, feel it.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Your shoes vs ours",
+          "Swipe up - free comfort test + $15 off."
+        ],
+        [
+          "shelf",
+          "COMFORT TEST",
+          "Walk 100 feet in both - your feet decide."
+        ],
+        [
+          "event",
+          "Comfort Test Event",
+          "Sat 10am-4pm - walk course + comfort score card + QR"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "This shoe has a carbon score on the box",
+          "The Carbon Receipt - every shoe has a number. #carbonreceipt"
+        ],
+        [
+          "email",
+          "7.6 kg CO2. It's on the label.",
+          "Proof over greenwashing - the number is printed on every shoe."
+        ],
+        [
+          "sms",
+          "Your shoe has a number on it - see what yours says.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Every shoe has a number",
+          "Swipe up - the carbon receipt."
+        ],
+        [
+          "shelf",
+          "CARBON RECEIPT",
+          "The footprint is printed. No other shoe does this."
+        ],
+        [
+          "event",
+          "Receipt Drop",
+          "Content series, weeks 2-6"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "Trade your dead sneakers for $20",
+          "Second Step - worn shoes in, credit out. #secondstep"
+        ],
+        [
+          "email",
+          "Your old shoes earn you $20",
+          "Trade in any worn pair - refurbished or donated via ReRun."
+        ],
+        [
+          "sms",
+          "SECOND STEP: trade worn sneakers for $20 credit this week.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Dead shoes = $20 credit",
+          "Swipe up - trade in."
+        ],
+        [
+          "shelf",
+          "SECOND STEP",
+          "Trade in worn sneakers - $20 credit, shoes get a second life."
+        ],
+        [
+          "event",
+          "Trade-In Week",
+          "ReRun drive, weeks 3-6"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "Why your feet hurt at 3pm",
+          "Comfort Club - the science of all-day comfort. #comfortclub"
+        ],
+        [
+          "email",
+          "The comfort science you didn't ask for",
+          "Weekly tips + member perks - feet thank you later."
+        ],
+        [
+          "sms",
+          "Comfort Club tip: your 3pm foot ache is fixable.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "The science of comfort",
+          "Swipe up - join the club."
+        ],
+        [
+          "shelf",
+          "COMFORT CLUB",
+          "Weekly comfort science + member perks."
+        ],
+        [
+          "event",
+          "Club Launch",
+          "Email/SMS series, weeks 1-6"
+        ]
+      ]
+    }
+  }
+}
