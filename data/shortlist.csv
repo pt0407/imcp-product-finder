@@ -18,3 +18,4 @@ tier,candidate,domain,category,monthly_visits,products,employees,stage1_score,an
 3,Dayton Homemade Chocolates,daytonchocolate.com,local chocolates + gifts,24108,270,micro,53.0,"Local Ohio chocolate; very small awareness",needs_verification
 3,Savannah's Candy Kitchen,savannahcandy.com,candy kitchen,155866,122,51-200,53.0,"Needs research",needs_verification
 3,Kultura Filipino,www.kulturafilipino.com,Filipino food products,220817,1016,11-50,53.7,"Ethnic food niche; large catalog; needs research",needs_verification
+0,Pan's Mushroom Jerky,www.mushroomjerky.com,plant-based shiitake jerky (sold in H-E-B),49632,23,14,53.0,"SEC filing: revenue $3.15M (FY22) -> $2.88M (FY23) -> $2.78M (YTD Nov 2024), net losses ~$0.5-1.1M/yr; in 2,500+ stores incl. H-E-B Texas; Shark Tank deal with Mark Cuban; family recipe from Malaysia. Problem = retail sell-through, revenue shrinking while store count grew",verified
