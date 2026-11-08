@@ -1,0 +1,62 @@
+{
+  "run": "v09",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 5,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 13,
+    "activities": 12,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 5,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 13,
+    "activities": 12,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 1,
+    "research": 1,
+    "strategy": 2,
+    "activities": 3,
+    "budget": 1,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 81,
+  "capped_total": 81,
+  "penalty_points": 0,
+  "final": 81,
+  "top_fixes": [
+    "Add missing title-slide metadata (school, participants, date) and the Statement of Assurances page — currently flagged warnings in check.json",
+    "Trim Slides 4 and 17 to under 110 words and rework table-heavy visuals on Slides 9/18 into charts or cards",
+    "Strengthen the conservative case on Slide 17 with a real spend-pause trigger instead of relying solely on 90-day repeat orders to reach break-even",
+    "Run or explicitly schedule the deferred survey/interviews — the only path past the research cap of 10, and the deck already promises it",
+    "Cut Slides 4 and 17 to ≤110 words and populate title-slide metadata (school/address/participants/date) flagged as W_TITLE warnings",
+    "Format Slide 16 as a dated week-by-week grid with per-activity counts, and give each budget line a stated cost basis plus a concrete break-even timeline for the -24% conservative case"
+  ],
+  "scored_at": "2026-11-07T20:21:38"
+}

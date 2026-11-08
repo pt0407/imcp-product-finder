@@ -1,21 +1,14 @@
 tier,candidate,domain,category,monthly_visits,products,employees,stage1_score,angle,status
-1,tinyB chocolate,tinybchocolate.com,artisanal chocolate (Brazilian brigadeiro),15306,30,2-10,53.0,"Founder story: Brazilian brigadeiro reinvented for Bay Area; handmade small-batch; gluten-free; almost zero awareness = whitespace",verified
-1,Candycopia,www.candycopia.com,specialty candy retail + DTC gummy mixes,296832,,8,,"Experiential 'build your own gummy mix' + local small-batch candymaker discovery; two IL storefronts + e-commerce",verified
-1,Snack Hawaii,www.snackhawaii.com,Hawaiian/Asian snacks DTC,230055,465,2-10,55.0,"Niche authentic Hawaiian snacks (Li Hing Mui, Ahi jerky invented in-house); family biz, ~88 LinkedIn followers = huge whitespace",verified
-1,People's Choice Beef Jerky,peopleschoicebeefjerky.com,craf jerky (family recipe since 1929),214480,49,2-10,53.1,"96-year family recipe, 4 generations, LA-made; heritage story vs. mass jerky brands",verified
-1,Boba Tea Protein,bobateaprotein.com,functional bubble tea protein drink,132837,69,2-10,53.0,"Functional bubble tea niche; protein+fun drink for Gen Z; likely low marketing sophistication",needs_verification
-2,Cha Cha Matcha,chachamatcha.com,matcha cafes + DTC matcha kits,244467,29,51-200,55.3,"7 cafes expanding DTC + international; matcha wellness trend; but already expanding = moderate whitespace",verified
+1,tinyB chocolate,tinybchocolate.com,artisanal chocolate (Brazilian brigadeiro),15306,30,2-10,53.0,Founder story: Brazilian brigadeiro reinvented for Bay Area; handmade small-batch; gluten-free; almost zero awareness = whitespace,"screened 26/40 MAYBE - research infeasible (Bay Area, no store/reviews)"
+1,Candycopia,www.candycopia.com,specialty candy retail + DTC gummy mixes,296832,,8,,Experiential 'build your own gummy mix' + local small-batch candymaker discovery; two IL storefronts + e-commerce,verified
+1,Snack Hawaii,www.snackhawaii.com,Hawaiian/Asian snacks DTC,230055,465,2-10,55.0,"Niche authentic Hawaiian snacks (Li Hing Mui, Ahi jerky invented in-house); family biz, ~88 LinkedIn followers = huge whitespace",screened 26/40 MAYBE - DTC -50% YoY but no TX relevance
+1,People's Choice Beef Jerky,peopleschoicebeefjerky.com,craf jerky (family recipe since 1929),214480,49,2-10,53.1,"96-year family recipe, 4 generations, LA-made; heritage story vs. mass jerky brands",screened 27/40 MAYBE - 30K reviews but sophisticated brand
+1,Boba Tea Protein,bobateaprotein.com,functional bubble tea protein drink,132837,69,2-10,53.0,Functional bubble tea niche; protein+fun drink for Gen Z; likely low marketing sophistication,screened 26/40 MAYBE - structural problem unproven
+2,Cha Cha Matcha,chachamatcha.com,matcha cafes + DTC matcha kits,244467,29,51-200,55.3,7 cafes expanding DTC + international; matcha wellness trend; but already expanding = moderate whitespace,verified
 2,Stellar Snacks,stellarsnacks.com,vegan pretzel braids,163350,22,11-50,53.2,"Mother-daughter brand, artist-collab packaging, 18k doors; already marketing-active (Sprouts launch) = less whitespace",verified
-2,The Penny Candy Store,pennycandy.com,vintage/nostalgia penny candy,246078,1211,1,55.3,"Nostalgia + bulk candy discovery; huge catalog; needs demo/brand check",needs_verification
+2,The Penny Candy Store,pennycandy.com,vintage/nostalgia penny candy,246078,1211,1,55.3,Nostalgia + bulk candy discovery; huge catalog; needs demo/brand check,needs_verification
 2,Sweet Candy Company,www.sweetcandy.com,candy company,231815,109,51-200,55.0,"Needs research: product line, demo, existing marketing",needs_verification
-2,Pan's Mushroom Jerky,www.mushroomjerky.com,functional mushroom jerky,49632,23,,53.0,"Mushroom-based jerky = functional snack trend; small traffic = whitespace",needs_verification
+2,Pan's Mushroom Jerky,www.mushroomjerky.com,functional mushroom jerky,49632,23,,53.0,Mushroom-based jerky = functional snack trend; small traffic = whitespace,screened 37/40 BUILD - v08 has real review+shelf research
 2,Torrone Candy,torronecandy.com,Italian torrone confections,36121,530,1,53.0,"Niche Italian confectionery, tiny team; novelty import angle",needs_verification
-2,Matchaful,www.matchaful.com,matcha brand,97002,37,,53.0,"Matcha wellness trend; needs research",needs_verification
-3,Liberty Puzzles,libertypuzzles.com,wooden jigsaw puzzles,244962,591,11-50,53.1,"Heirloom wooden puzzles $85-225; strong story but older/affluent demo; premium niche",verified
-3,Ujicha Matcha,ujichamatcha.com,matcha (Uji, Japan),32696,344,,53.0,"Japanese matcha authenticity; small",needs_verification
-3,Kringle Candle Company,kringlecandle.com,candles,194112,850,11-50,53.0,"Large catalog; candle is crowded category",needs_verification
-3,Blooms Candy & Soda Pop Shop,www.candycarrollton.com,vintage candy & soda shop,136782,855,,53.0,"Nostalgia candy; needs research",needs_verification
-3,Dayton Homemade Chocolates,daytonchocolate.com,local chocolates + gifts,24108,270,micro,53.0,"Local Ohio chocolate; very small awareness",needs_verification
-3,Savannah's Candy Kitchen,savannahcandy.com,candy kitchen,155866,122,51-200,53.0,"Needs research",needs_verification
-3,Kultura Filipino,www.kulturafilipino.com,Filipino food products,220817,1016,11-50,53.7,"Ethnic food niche; large catalog; needs research",needs_verification
-0,Pan's Mushroom Jerky,www.mushroomjerky.com,plant-based shiitake jerky (sold in H-E-B),49632,23,14,53.0,"SEC filing: revenue $3.15M (FY22) -> $2.88M (FY23) -> $2.78M (YTD Nov 2024), net losses ~$0.5-1.1M/yr; in 2,500+ stores incl. H-E-B Texas; Shark Tank deal with Mark Cuban; family recipe from Malaysia. Problem = retail sell-through, revenue shrinking while store count grew",verified
+2,Matchaful,www.matchaful.com,matcha brand,97002,37,,53.0,Matcha wellness trend; needs research,needs_verification
+3,Liberty Puzzles,libertypuzzles.com,wooden jigsaw puzzles,244962,591,11-50,53.1,Heirloom wooden puzzles $85-225; strong story but older/affluent demo; premium niche,verified

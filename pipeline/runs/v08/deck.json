@@ -1,0 +1,862 @@
+{
+  "meta": {
+    "product": "Pan's Mushroom Jerky",
+    "company": "Panco Foods Inc. (DBA Pan's Mushroom Jerky)",
+    "campaign_name": "Switch to Mushroom Mode",
+    "theme": "Mushroom Mode",
+    "thesis": "Pan's does not need more stores - it needs more bags sold per store, and Mushroom Mode turns H-E-B shelf space into trial.",
+    "variant_angle": "Mushroom Mode final (review research)",
+    "brand_color": "#e2711d",
+    "school": "",
+    "school_address": "",
+    "participants": [],
+    "date": "",
+    "assurances_signed": false,
+    "parent_run": "v07"
+  },
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "business_problem": "Pan's grew from ~750 to 2,500+ stores while revenue fell from $3.15M to a ~$3.0M annualized pace with losses every year: a sell-through (velocity) problem at the shelf, made worse because shoppers file it with declining plant-based meat instead of growing meat snacks.",
+  "objectives": [
+    {
+      "id": "O1",
+      "text": "Drive 1,500 attributed purchases (H-E-B coupon + online code) in 45 days, and lift units per store 25% at 6 demo stores vs. 6 control stores",
+      "funnel_stage": "conversion",
+      "primary": true
+    },
+    {
+      "id": "O2",
+      "text": "Hand out 2,400 in-store samples and generate 6,000 coupon claims",
+      "funnel_stage": "consideration",
+      "primary": false
+    },
+    {
+      "id": "O3",
+      "text": "Reach 1.0M Central Texas impressions and lift aided awareness by 10 points among surveyed shoppers",
+      "funnel_stage": "awareness",
+      "primary": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Young Snack Explorers (18-29)",
+      "role": "primary",
+      "demographic": "18-29, college students and early-career workers, Central Texas",
+      "geographic": "Austin, Round Rock, Georgetown, San Marcos, Waco (Texas District 5 area)",
+      "psychographic": "Curious about new flavors, 'better-for-you' leaning but taste-first; skeptical of products that imitate meat",
+      "behavioral": "Buys savory snacks weekly at H-E-B, c-stores, and campus stores; tries new snacks from creator content and friends",
+      "media": "TikTok and Instagram Reels daily; YouTube; group chats; low email use",
+      "evidence": [
+        "S8",
+        "S11",
+        "S5"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Flexitarian H-E-B Parents (30-50)",
+      "role": "secondary",
+      "demographic": "30-50, household income $60K+, parents buying lunchbox and after-school snacks",
+      "geographic": "Central Texas suburbs served by H-E-B",
+      "psychographic": "Wants cleaner snacks with no allergens to worry about; open to plant-based but not willing to pay for disappointment",
+      "behavioral": "Weekly H-E-B shopper; uses the H-E-B app and digital coupons; buys meat snacks for kids",
+      "media": "Facebook, Instagram, H-E-B app, email newsletters",
+      "evidence": [
+        "S5",
+        "S9",
+        "S11"
+      ]
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will not run this method; replaced by no-survey primary methods (see M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M2",
+        "type": "interview",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will not run this method; replaced by no-survey primary methods (see M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M3",
+        "type": "competitor_audit",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will not run this method; replaced by no-survey primary methods (see M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M4",
+        "type": "secondary",
+        "n": 11,
+        "dates": "2026-11-07",
+        "recruitment": "SEC filing, GFI/SPINS, Circana via trade press, company pages",
+        "status": "complete",
+        "results_file": "pipeline/brief.json"
+      },
+      {
+        "id": "M5",
+        "type": "review_analysis",
+        "n": 500,
+        "dates": "2026-11-07",
+        "recruitment": "public Judge.me review widget on mushroomjerky.com; keyword-coded content analysis (analyze_reviews.py)",
+        "status": "complete",
+        "results_file": "pipeline/research/reviews_pans/review_summary.md"
+      },
+      {
+        "id": "M6",
+        "type": "digital_shelf_audit",
+        "n": 12,
+        "dates": "2026-11-07",
+        "recruitment": "store-locator API queries from 12 Texas metro coordinates; 240 records, 159 unique stores",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_pans.md"
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "method": "M5",
+        "finding": "Content analysis of 500 public reviews (collected 2026-11-07): 53% volunteer taste/flavor unprompted, average rating 4.46/5, complaints only 5%",
+        "therefore": "Demo Days and creator taste-offs lead the campaign - product experience, not awareness, is the conversion lever"
+      },
+      {
+        "id": "R2",
+        "method": "M5",
+        "finding": "22% of 500 reviews mention repeat purchase, subscription, or buying again",
+        "therefore": "Email/SMS and the Founder's Table series end with a repeat-purchase/bundle offer, not just trial"
+      },
+      {
+        "id": "R3",
+        "method": "M5",
+        "finding": "Price is the recurring objection: 5% of reviews mention price/value and 'too expensive' appears in verbatim complaints while taste complaints are rare",
+        "therefore": "The $2-off-2 coupon is positioned as the answer to the top objection at shelf and in creative"
+      },
+      {
+        "id": "R4",
+        "method": "M5",
+        "finding": "Only 2% of reviews mention discovering Pan's in a store; most buyers find it DTC or by subscription",
+        "therefore": "Retail trial must be manufactured at the shelf (demos, clip strips, coupons) because organic retail discovery is weak"
+      },
+      {
+        "id": "R5",
+        "method": "M6",
+        "finding": "Store-locator audit (12 TX metros, 159 unique stores): 80 are H-E-B banners, all in Texas; dense in San Antonio/Austin/Houston/Corpus Christi, only 3 doors near Dallas/Fort Worth",
+        "therefore": "Demos and H-E-B sell-in concentrate in Houston, Austin and San Antonio; DFW is deferred as a later market"
+      },
+      {
+        "id": "R6",
+        "method": "M6",
+        "finding": "DoorDash dark stores appear among the nearest listings in most Texas metros",
+        "therefore": "Online convenience is already covered; the campaign invests in physical retail trial, not delivery"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Mushroom Mode Demo Days",
+      "mechanic": "12 weekend demo shifts at 6 Central Texas H-E-B test stores; sample cups beside the jerky set; QR to the '$2 off 2 bags' coupon. 6 matched control stores get the coupon but no demos or clip strip, isolating the in-store effect.",
+      "segment": "P2",
+      "channels": [
+        "in-store sampling",
+        "QR coupon"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Field marketing lead"
+    },
+    {
+      "id": "G2",
+      "name": "The Aisle Switch",
+      "mechanic": "Pitched to H-E-B's snack buyer in October-November: clip strip inside the meat-snack set at 6 test stores, shelf talker, and '$2 off 2 bags' app coupon at all ~40 Central Texas stores carrying Pan's. Fallback if declined: demos + Pan's own printable coupon.",
+      "segment": "P2",
+      "channels": [
+        "shelf talker",
+        "H-E-B app coupon",
+        "secondary placement"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "owner": "Retail/trade lead"
+    },
+    {
+      "id": "G3",
+      "name": "Mushroom Mode Taste-Off",
+      "mechanic": "3 Texas food creators run blind taste-offs: Pan's vs. their favorite beef jerky. Link goes to a store finder + coupon, or the online Texas Starter Pack with code MUSHROOMMODE. #ad disclosure on every post.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Social lead"
+    },
+    {
+      "id": "G4",
+      "name": "Founder's Table",
+      "mechanic": "Michael Pan's Malaysia recipe-to-Shark Tank story in 3 short videos and 3 emails/SMS to the existing list, each ending with the store finder and the Texas Starter Pack code.",
+      "segment": "P1",
+      "channels": [
+        "email",
+        "SMS",
+        "TikTok"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "owner": "Content lead"
+    }
+  ],
+  "budget": {
+    "lines": [
+      {
+        "item": "Paid social (TikTok, Meta) geo-targeted to Central Texas",
+        "category": "media",
+        "usd": 4000,
+        "basis": "A4"
+      },
+      {
+        "item": "Creators: 3 x $750 taste-off videos",
+        "category": "creators",
+        "usd": 2250,
+        "basis": "A6"
+      },
+      {
+        "item": "Demo Days: 12 shifts x $200 (staff + product)",
+        "category": "events",
+        "usd": 2400,
+        "basis": "A7"
+      },
+      {
+        "item": "Shelf talkers, clip strips, sample cups, design",
+        "category": "production",
+        "usd": 700,
+        "basis": "A9"
+      },
+      {
+        "item": "Email/SMS + landing page",
+        "category": "tools",
+        "usd": 300,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency",
+        "category": "contingency",
+        "usd": 350,
+        "basis": "A11"
+      }
+    ],
+    "total_usd": 10000,
+    "projection": {
+      "impressions": 1000000,
+      "ctr": 0.015,
+      "conversion_rate": 0.1,
+      "aov_usd": 19.0,
+      "gross_margin": 0.53
+    },
+    "conservative_factor": 0.5
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed purchases (coupon redemptions + online code orders)",
+      "baseline": "0 (new coupon and code)",
+      "target": "1,500 (750 retail + 750 online)",
+      "tool": "H-E-B coupon report + Shopify code report + UTMs",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Units per store per week, 6 demo vs. 6 control stores",
+      "baseline": "<= ~6 bags/store/week (SEC-derived [A14]); exact week-0 figure from Pan's",
+      "target": "+25% vs. control",
+      "tool": "Retailer sales data via Pan's",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Samples and coupon claims",
+      "baseline": "0 (new program)",
+      "target": "2,400 samples; 6,000 claims",
+      "tool": "Demo tally sheets + coupon platform",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions and aided awareness",
+      "baseline": "Week-0 survey (same questions, 150 Central Texas shoppers)",
+      "target": "1.0M impressions; +10 pts aided awareness",
+      "tool": "Ads Manager + pre/post brand-lift survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "U.S. SEC (Panco Foods Inc. Reg CF offering summary)",
+      "title": "Panco Foods Inc Small Business Bond offering summary",
+      "date": "2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1952718/000195271825000001/offeringsummarypans.pdf",
+      "type": "company"
+    },
+    {
+      "id": "S2",
+      "publisher": "Pan's Mushroom Jerky",
+      "title": "Our Story",
+      "date": "2026",
+      "url": "https://www.mushroomjerky.com/pages/our-story",
+      "type": "company"
+    },
+    {
+      "id": "S3",
+      "publisher": "CNBC Make It",
+      "title": "Shark Tank: Mark Cuban invests in founder selling vegan jerky",
+      "date": "2020-11-23",
+      "url": "https://www.cnbc.com/make-it/2020/11/23/shark-tank-mark-cuban-invests-in-founder-selling-vegan-jerky.html",
+      "type": "secondary"
+    },
+    {
+      "id": "S4",
+      "publisher": "Food Business News",
+      "title": "Mushroom jerky lures investors on 'Shark Tank'",
+      "date": "2020-11-24",
+      "url": "https://www.foodbusinessnews.net/articles/17355-mushroom-jerky-lures-investors-on-shark-tank",
+      "type": "secondary"
+    },
+    {
+      "id": "S5",
+      "publisher": "Pan's Mushroom Jerky",
+      "title": "FAQ",
+      "date": "2026",
+      "url": "https://www.mushroomjerky.com/pages/faq",
+      "type": "company"
+    },
+    {
+      "id": "S6",
+      "publisher": "The Good Food Institute (SPINS data)",
+      "title": "Analyzing plant-based meat & seafood sales",
+      "date": "2026",
+      "url": "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+      "type": "secondary"
+    },
+    {
+      "id": "S7",
+      "publisher": "Food Business News (Circana / Power of Meat)",
+      "title": "Consumers recalibrating meat purchasing patterns",
+      "date": "2026",
+      "url": "https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+      "type": "secondary"
+    },
+    {
+      "id": "S8",
+      "publisher": "Snack Food & Wholesale Bakery (Circana data)",
+      "title": "Meat snack makers play with bold flavors, on-the-go portions",
+      "date": "2025",
+      "url": "https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+      "type": "secondary"
+    },
+    {
+      "id": "S9",
+      "publisher": "Progressive Grocer",
+      "title": "H-E-B Opens in San Antonio's Far East Side",
+      "date": "2026",
+      "url": "https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+      "type": "secondary"
+    },
+    {
+      "id": "S10",
+      "publisher": "Innovationify",
+      "title": "Pan's Mushroom Jerky Shark Tank Update",
+      "date": "2026",
+      "url": "https://innovationify.com/shark-tank/pans-mushroom-jerky/",
+      "type": "secondary"
+    },
+    {
+      "id": "S11",
+      "publisher": "The Good Food Institute (SPINS data)",
+      "title": "Plant-based retail market overview",
+      "date": "2026",
+      "url": "https://gfi.org/marketresearch/",
+      "type": "secondary"
+    },
+    {
+      "id": "S12",
+      "publisher": "Pan's Mushroom Jerky (Judge.me public reviews)",
+      "title": "500 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-07",
+      "url": "https://www.mushroomjerky.com",
+      "type": "primary"
+    },
+    {
+      "id": "S13",
+      "publisher": "Pan's Mushroom Jerky store locator",
+      "title": "Store locator audit: 12 Texas metro queries, 240 records / 159 unique stores",
+      "date": "2026-11-07",
+      "url": "https://pans-store-locator.netlify.app",
+      "type": "primary"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Blended net revenue per purchase $19: 50% retail coupon purchases at $6 (2 bags x ~$4 wholesale minus $2 coupon) + 50% online Texas Starter Packs at $32 (5 bags at $8 minus 20% code); confirm wholesale price with company"
+    },
+    {
+      "id": "A2",
+      "text": "Blended gross margin 53%: retail $2.64 GP on $6 using $1.67/bag cost [S3]; online $17.65 GP on $32 after 5 x $1.67 and ~$6 shipping/packing. Cross-check: SEC figures imply 30-57% margins FY22-FY24 [S1]"
+    },
+    {
+      "id": "A3",
+      "text": "H-E-B store-level baseline velocity unknown; measured week 0 via shelf audit + company sell-through data"
+    },
+    {
+      "id": "A4",
+      "text": "Impressions 1.0M = ~670K paid at ~$6 CPM ($4,000) + ~330K creator views (3 creators); 1.5% click rate; 10% click-to-purchase (validate week 1). In-store exposure not counted in the funnel"
+    },
+    {
+      "id": "A5",
+      "text": "Pan's and H-E-B would approve in-store demos and a digital coupon (proposed, not confirmed)"
+    },
+    {
+      "id": "A6",
+      "text": "Texas food micro-creators (10K-80K followers): ~$750 per video incl. product"
+    },
+    {
+      "id": "A7",
+      "text": "In-store demo shift ~$200 (4-hr demo staff via sampling agency + product for ~200 samples)"
+    },
+    {
+      "id": "A8",
+      "text": "$2 off 2 bags manufacturer coupon; its cost is netted out of revenue per purchase (A1), not a separate line"
+    },
+    {
+      "id": "A9",
+      "text": "Production (shelf talkers, clip strips, sample cups, design) ~$700 via local print shop quotes"
+    },
+    {
+      "id": "A10",
+      "text": "Email/SMS + landing page tools ~$300 for the campaign window"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~3% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat: 30% of campaign buyers buy once more within 90 days at the same blended gross profit (~$10.15); confirm with company data"
+    },
+    {
+      "id": "A14",
+      "text": "Velocity baseline: FY24 revenue $2.78M over 11 months / 2,500 stores / ~$4 wholesale = at most ~6 bags per store per week (upper bound; includes online sales)"
+    },
+    {
+      "id": "A15",
+      "text": "Demo-day purchases (~20% of 2,400 sampled shoppers = ~480) are upside not counted in the funnel"
+    },
+    {
+      "id": "A16",
+      "text": "~40 H-E-B stores across Houston, Austin and San Antonio carry Pan's (locator audit returned 80 unique H-E-B doors in 12 TX metro queries; confirm the exact count for the three launch metros)"
+    },
+    {
+      "id": "A17",
+      "text": "Texas Starter Pack: 5-bag online bundle at $40 with 20% off code MUSHROOMMODE; site offers free shipping over $30"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Switch to Mushroom Mode",
+      "bullets": [],
+      "visual": {
+        "type": "image",
+        "desc": "Pan's bag on an H-E-B shelf beside beef jerky; 'Switch to Mushroom Mode' lockup",
+        "file": "visuals/cover.png"
+      },
+      "notes": ""
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Pan's Mushroom Jerky",
+        "Switch to Mushroom Mode",
+        "45-day campaign: January 5 - February 18, 2027"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Thesis: Pan's does not need more stores - it needs more bags sold per store [S1].",
+        "Problem: stores grew from ~750 to 2,500+ while revenue fell from $3.15M (FY22) - at most ~6 bags per store per week [S1][S2][S4][A14].",
+        "Opportunity: meat snacks +11.3% to $6.4B while plant-based meat fell 10% - Pan's sits in the wrong mental aisle [S6][S7].",
+        "Solution: 'Switch to Mushroom Mode' puts Pan's in the jerky shopper's decision at Central Texas H-E-B stores and online [O1].",
+        "45-day goal: 1,500 attributed purchases and +25% units per store at demo stores vs. control [O1]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "Four boxes: Problem / Business opportunity / Solution / 45-day goal",
+        "file": "visuals/overview.png"
+      },
+      "notes": "Open with the paradox: Pan's went from about 750 stores to 2,500, yet revenue fell. The problem is not distribution - it is what happens at the shelf."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Shiitake mushroom jerky from a decades-old Pan family recipe found in Malaysia; chewy, savory, umami [S2].",
+        "Vegan, gluten-free, Kosher, no allergens to declare; the brand says it 'isn't trying to completely imitate beef' [S5].",
+        "Shelf price $7.99-$8.99 per 2.2 oz bag; cost to make about $1.67 per bag at launch [S3].",
+        "Four core flavors; sold online, on Amazon, and in grocery including H-E-B in Texas [S2][S10]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Flat-lay of four flavor bags with a torn-open bag showing the jerky texture",
+        "file": "visuals/product.png"
+      },
+      "notes": "Stress the brand's own words: it is not trying to be beef. That line becomes our whole positioning."
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "The Company & Its Position",
+      "bullets": [
+        "Founded by engineer Michael Pan; launched 2018; Mark Cuban invested $300K for 18% on Shark Tank (2020) [S3][S4].",
+        "Revenue $3.15M (FY22) -> $2.88M (FY23) -> $2.78M (11 months FY24); net loss every year [S1].",
+        "Competitors, 52 weeks to Aug 2025: Jack Link's $898M (-5.8%), Chomps $797M (+61.5%), Old Trapper +4% [S8].",
+        "Position: savory like jerky and honest that it is not beef - unlike plant-based meat built to imitate meat [S5][S6]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Left: revenue FY22-FY24 falling vs. store count rising. Right: positioning map (x = meat-based to plant-based, y = imitates meat to honest snack) with Jack Link's, Chomps, Old Trapper, plant-based meat brands, and Pan's alone in the 'plant-based + honest snack' quadrant",
+        "file": "visuals/company.png"
+      },
+      "notes": "This is our most important slide for credibility: every number comes from the company's own SEC filing."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 1,500 attributed purchases (750 H-E-B coupon + 750 online) and +25% units per store at 6 demo stores vs. 6 control [O1].",
+        "Baseline: at most ~6 bags per store per week today [A14].",
+        "O2 (consideration): 2,400 in-store samples and 6,000 coupon claims [O2].",
+        "O3 (awareness): 1.0M Central Texas impressions and +10 points aided awareness [O3]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "O1-O3 with funnel stage, metric, target, and test-vs-control design",
+        "file": "visuals/objectives.png"
+      },
+      "notes": "One primary objective - bags sold - measured against control stores, so the client sees lift, not noise."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1 Young Snack Explorers, 18-29: Central Texas college students and young workers who buy snacks weekly and try new ones from TikTok and friends; skeptical of fake meat [S8][S11].",
+        "P2 Flexitarian H-E-B Parents, 30-50: weekly H-E-B shoppers using app coupons; want snacks with no allergens to worry about [S5][S9].",
+        "Both share one need: a savory snack that is honest about what it is - the reason Pan's says it is not imitating beef [S5].",
+        "Market: 6 in 10 US households already buy plant-based foods [S11]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Two persona cards (P1, P2) with photo, demographics, psychographics, and media habits",
+        "file": "visuals/personas.png"
+      },
+      "notes": "Interactive moment: show the two persona cards printed side by side."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Method & Results",
+      "bullets": [
+        "Secondary (complete): SEC filing, GFI/SPINS, Circana via trade press, company pages - 11 sources [S1][S6][S7][S8].",
+        "Primary, no-survey (complete): keyword-coded analysis of 500 public reviews [R1][R3] and a store-locator audit of 12 Texas metros [R5][R6] [S12][S13]; survey/interviews not run - reviews skew positive (self-selected buyers).",
+        "Key results: revenue down while stores up [S1][S2]; meat snacks +11.3%, plant-based meat -10% [S6][S7]; taste dominates reviews while price is the objection [R1][R3]; H-E-B dense in Houston/Austin/SA, thin in DFW [R5].",
+        "Influences: protein snacking boom (social), plant-based fatigue (cultural), food inflation (economic), app coupons (technological) [S6][S7][S9]."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s09.png"
+      },
+      "notes": "Name the methods and sample sizes out loud. When the survey closes, the bar chart gets our own results."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "Finding: 53% of 500 reviews volunteer taste unprompted; complaints are only 5% [R1] -> therefore demos and taste-offs lead, not awareness ads.",
+        "Finding: 'too expensive' is the recurring objection (5% price mentions) [R3] -> therefore the $2-off-2 coupon answers it at the shelf.",
+        "Finding: store count up, revenue down [S1][S2] -> therefore we fund trial at the shelf, not more distribution.",
+        "Finding: meat snacks +11.3%, plant-based meat -10% [S6][S7] -> therefore Pan's sits next to jerky, not fake meat (Aisle Switch).",
+        "Finding: H-E-B is dense in Houston/Austin/SA, only 3 doors near DFW [R5] -> therefore demos run in H-E-B strongholds."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s10.png"
+      },
+      "notes": "Every decision traces to evidence. Point at the arrows, not the text."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Big idea: Mushroom Mode - not fake meat, a savory snack you switch into. Message: 'Love jerky? Switch to Mushroom Mode.'",
+        "Positioning: for Texas snackers who want something savory and honest, Pan's is the jerky made from shiitake that does not pretend to be beef [S5].",
+        "IMC mix: Paid (geo social) + Earned (Shark Tank founder story) + Shared (#MushroomMode duets) + Owned (email/SMS, shelf talkers).",
+        "Push-pull: H-E-B gets a measurable velocity test (push); shoppers get samples and a coupon (pull) [O1][O2]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Key visual: split frame - beef jerky aisle on left, Pan's bag glowing on right, 'Switch to Mushroom Mode' lockup",
+        "file": "visuals/keyvisual.png"
+      },
+      "notes": "Point to the positioning statement. A competitor that imitates meat cannot say this line - that is what makes it ownable."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Mushroom Mode Demo Days",
+      "bullets": [
+        "Mushroom Mode in person: 12 weekend demo shifts at 6 H-E-B test stores across Houston, Austin and San Antonio; 6 control stores get the coupon only [O1][O2][R5].",
+        "Mechanic: sample cups at the jerky set; QR code to '$2 off 2 bags'; 200 samples per shift = 2,400 total [A7][A8].",
+        "Why: at ~6 bags per store per week shoppers walk past - and 53% of reviewers say taste is why they buy [A14][R1].",
+        "Measured: QR scans per store and units per store vs. control stores [O1]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Demo table mockup: orange tablecloth, 'Switch to Mushroom Mode' banner, sample cups, QR sign",
+        "file": "visuals/demo.png"
+      },
+      "notes": "Interactive moment: hand the judge the printed shelf talker and sample-cup sleeve."
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: The Aisle Switch",
+      "bullets": [
+        "Mushroom Mode on the shelf: proposed clip strip inside the H-E-B meat-snack set at 6 test stores [O1].",
+        "Sell-in: pitched to H-E-B's snack buyer in October-November as a 6-week velocity test; fallback is demos + Pan's printable coupon.",
+        "App coupon at ~40 H-E-B stores across Houston/Austin/San Antonio: 'Love jerky? Switch to Mushroom Mode. $2 off 2 bags.' [A8][A16][O2][R3]",
+        "Why: meat snacks are growing 11.3% - and 'too expensive' is the top review objection, so the coupon answers it at the shelf [S7][R3]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Shelf mockup: Pan's clip strip hanging between Jack Link's and Chomps, orange shelf talker with QR",
+        "file": "visuals/s13.png"
+      },
+      "notes": "This is a proposal to H-E-B's buyer, framed as a 6-week velocity test with control stores; the fallback keeps the campaign alive if they say no."
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Taste-Off + Founder's Table",
+      "bullets": [
+        "Mushroom Mode online: 3 Texas food creators run blind Pan's vs. beef jerky taste-offs; fans duet with #MushroomMode [O1][O3].",
+        "Every video links to the store finder + coupon or the online Texas Starter Pack (code MUSHROOMMODE) with #ad disclosure [A17].",
+        "Founder's Table: Michael Pan tells the Malaysia recipe-to-Shark Tank story in 3 videos and 3 emails/SMS - 22% of reviewers reorder, so the series ends with a repeat offer [S2][S3][R2].",
+        "Named decision-maker: Mark Cuban's investment is the credibility hook for the H-E-B pitch [S4]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "TikTok phone mockup: split-screen taste-off with score cards; email mockup from Michael Pan",
+        "file": "visuals/tiktok.png"
+      },
+      "notes": "Walk the judge through the phone mockup of the taste-off. Honest taste-offs only work because Pan's does not claim to be beef."
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Creative Samples",
+      "bullets": [
+        "Shelf talker: 'Love jerky? Switch to Mushroom Mode. Scan: $2 off 2 bags.' [O1]",
+        "TikTok caption: 'Blind taste-off: beef jerky vs. mushroom jerky. I did not expect this. #MushroomMode #ad' [O3]",
+        "SMS (opted-in): 'Pan's: Mushroom Mode is at your H-E-B. Save $2 on 2 bags this week: [link]. Reply STOP to opt out.' [O1]",
+        "Email subject/preview: 'I put my family recipe on Shark Tank. Now it's at H-E-B.' / 'Save $2 - Michael' [O1]"
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Phone mockups (SMS, TikTok, email) plus printed shelf talker",
+        "file": "visuals/creative.png"
+      },
+      "notes": "Read the shelf talker aloud: six words do the whole job - permission to switch."
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Week-by-Week Schedule",
+      "bullets": [
+        "Mushroom Mode Oct-Nov: H-E-B buyer sell-in + store selection in Houston/Austin/SA | W1: talkers + coupon live (P2, retail, O1/O2, trade lead); Founder email 1 (P1, email, O3, CRM lead)",
+        "W2-W3: Demo Days begin (P2, sampling, O1/O2, field lead); Taste-Off videos 1-2 (P1, TikTok, O3, social lead)",
+        "W4-W5: demos continue; Taste-Off 3 + duets (P1, TikTok, O1/O3, social lead); Founder emails 2-3 (P1, email, O1, CRM lead); retargeting (P1/P2, paid, O1, paid lead)",
+        "W6-W7: final demos; last-chance coupon SMS (P1/P2, O1); read test vs. control (O1, analytics lead)"
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Gantt grid: rows = programs (Aisle Switch, Demo Days, Taste-Off, Founder's Table, Retargeting), columns = Wk0-W7; each bar labeled segment, channel, objective, owner",
+        "file": "visuals/gantt.png"
+      },
+      "notes": "Read the grid left to right: sell-in first, then shelf, then demos, then social proof, then conversion."
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Proposed Budget & Financial Viability",
+      "bullets": [
+        "Total $10,000: paid social $4,000 [A4]; creators 3 x $750 = $2,250 [A6]; demos 12 x $200 = $2,400 [A7]; production $700 [A9]; tools $300 [A10]; contingency $350 [A11].",
+        "Funnel: 1.0M impressions x 1.5% x 10% = 1,500 purchases; half H-E-B coupon ($6 net), half online packs ($32) = $19 avg, $28.5K [A1][A4].",
+        "Gross profit at 53% = $15.1K; profit ROI 51%; ROAS 4.6x on $6.25K ad spend [A2].",
+        "Conservative (50%): 750 purchases, ROI -24%; with 30% repeat in 90 days it reaches about break-even [A13].",
+        "Upside not counted: ~480 demo-day purchases [A15]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "Itemized budget table + funnel math + base vs. conservative case",
+        "file": "visuals/budget.png"
+      },
+      "notes": "Lead with honesty: in-window it breaks even; the return comes from repeat buyers and from keeping shelf space. Then show the test-vs-control design that proves it."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: attributed purchases; baseline 0; target 1,500; H-E-B coupon + Shopify code reports; weekly [O1].",
+        "O1: units per store per week, demo vs. control; baseline <= ~6 [A14]; target +25%; retailer data; weekly [O1].",
+        "O2: samples and claims; baseline 0; target 2,400 and 6,000; tally sheets + coupon platform; weekly [O2].",
+        "O3: 1.0M impressions; aided awareness via pre/post survey of 150 shoppers; target +10 pts [O3].",
+        "Trigger: under 20 QR scans per shift by week 3, move demos to the top 3 stores; creator click rate under 1%, shift spend to Meta [A4]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "KPI table: objective -> KPI -> baseline -> target -> tool -> cadence",
+        "file": "visuals/kpi.png"
+      },
+      "notes": "Test vs. control is what a CPG buyer wants: proof the lift came from the campaign."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Thesis: Pan's does not need more stores - it needs more bags sold per store. Mushroom Mode turns H-E-B shelf space into trial [O1].",
+        "Projected: 1,500 purchases and $15.1K gross profit on $10K (51% ROI), plus a test-vs-control result Pan's can take to every retailer [A1][O1].",
+        "Mission: a family recipe from Malaysia, honest about what it is - kept on Texas shelves because Texans tried it [S2][S5].",
+        "Next: if test stores beat control by 25%, roll Mushroom Mode to more H-E-B stores [O1]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Michael Pan photo-style portrait + 'Mushroom Mode' lockup + projected results callouts",
+        "file": "visuals/why.png"
+      },
+      "notes": "Close on the thesis, word for word, as we opened."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [
+        "U.S. SEC. Panco Foods Inc. Reg CF offering summary. 2025. https://www.sec.gov/Archives/edgar/data/1952718/000195271825000001/offeringsummarypans.pdf",
+        "Pan's Mushroom Jerky. 'Our Story.' 2026. https://www.mushroomjerky.com/pages/our-story",
+        "CNBC Make It. 'Shark Tank: Mark Cuban invests in founder selling vegan jerky.' 2020-11-23. https://www.cnbc.com/make-it/2020/11/23/shark-tank-mark-cuban-invests-in-founder-selling-vegan-jerky.html",
+        "Food Business News. 'Mushroom jerky lures investors on Shark Tank.' 2020-11-24. https://www.foodbusinessnews.net/articles/17355-mushroom-jerky-lures-investors-on-shark-tank",
+        "Pan's Mushroom Jerky. 'FAQ.' 2026. https://www.mushroomjerky.com/pages/faq",
+        "The Good Food Institute / SPINS. 'Analyzing plant-based meat & seafood sales.' 2026. https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "Food Business News / Circana. 'Consumers recalibrating meat purchasing patterns.' 2026. https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+        "Snack Food & Wholesale Bakery / Circana. 'Meat snack makers play with bold flavors.' 2025. https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+        "Progressive Grocer. 'H-E-B Opens in San Antonio's Far East Side.' 2026. https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+        "Innovationify. 'Pan's Mushroom Jerky Shark Tank Update.' 2026. https://innovationify.com/shark-tank/pans-mushroom-jerky/",
+        "The Good Food Institute / SPINS. 'Plant-based retail market overview.' 2026. https://gfi.org/marketresearch/"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    }
+  ]
+}

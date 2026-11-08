@@ -1,0 +1,62 @@
+{
+  "run": "v08",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 5,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 12,
+    "activities": 13,
+    "budget": 8,
+    "impact": 8,
+    "organization": 5,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 5,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 12,
+    "activities": 13,
+    "budget": 8,
+    "impact": 8,
+    "organization": 5,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 1,
+    "research": 1,
+    "strategy": 1,
+    "activities": 2,
+    "budget": 2,
+    "impact": 2,
+    "organization": 0,
+    "effectiveness": 1,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 81,
+  "capped_total": 81,
+  "penalty_points": 0,
+  "final": 81,
+  "top_fixes": [
+    "Complete title-slide metadata (school, participants, date) and sign Statement of Assurances — currently unpenalized but flagged",
+    "Add a real survey (n>=30) or 3 interviews to lift Research from the 10-point lite cap",
+    "Replace budget labeled-assumptions with at least one sourced vendor quote and add a second conservative scenario, since the conservative case shows -24% ROI",
+    "Fix the budget hole: state who funds the ~$12K coupon redemption (6,000 claims x $2) or add it to the $10K total, and attach real cost bases instead of bare assumption tags.",
+    "Produce real visuals for Slides 9, 10, and 13 (review-analysis chart, metro store-density map, shelf-set mockup) — the research section currently renders as placeholder cards.",
+    "De-risk the H-E-B dependency: the entire 1,500-purchase objective and the Aisle Switch program assume buyer approval that is only 'proposed' — add an explicit plan-B budget/creative path if the sell-in fails."
+  ],
+  "scored_at": "2026-11-07T20:19:21"
+}
