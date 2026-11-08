@@ -108,7 +108,7 @@
 - Why: biltong is an unfamiliar word in Texas [R6] and only 4% of reviewers found it in a store [R3] - the shelf is where education must happen.
 - Measured: QR scans per store and units per store vs. control stores [O1].
 
-*Visual (mockup):* Demo table mockup: dark red tablecloth, 'It's Not Jerky - It's Biltong' banner, sample cups, QR sign
+*Visual (image):* Creative board: Biltong 101 Demo Days channel mockups
 
 > Talk track: Interactive moment: hand the judge the printed shelf talker and sample-cup sleeve.
 
@@ -118,7 +118,7 @@
 - App coupon at DFW H-E-B stores carrying Braav: 'Love jerky? Try biltong. $2 off 2 bags.' [A8][A16][O2]
 - Why: meat snacks are growing 11.3% - put the air-dried upgrade where those shoppers already are [S6].
 
-*Visual (image):* 
+*Visual (image):* Creative board: The Jerky Aisle Upgrade channel mockups
 
 > Talk track: This is a proposal to H-E-B's buyer, framed as a 6-week velocity test with control stores; the fallback keeps the campaign alive if they say no.
 
@@ -128,7 +128,7 @@
 - Story fuel for the tour: Plano HQ + South African heritage + ex-NFL founder in 3 short videos and 3 emails/SMS - converting the 20% repeat base into bulk buyers [S10][R4].
 - Named credibility: Ted Casey (Dymatize), Gabe Carimi (ex-NFL), Warren Pala (SA native) - the H-E-B pitch's proof points [S1].
 
-*Visual (mockup):* TikTok phone mockup: split-screen taste-off with score cards; email mockup from the Stryve team
+*Visual (image):* Creative board: Jerky or Biltong? channel mockups
 
 > Talk track: Walk the judge through the phone mockup of the taste-off. The reveal - 'you can't tell it's not jerky' - is the whole campaign.
 
@@ -138,7 +138,7 @@
 - SMS (opted-in): 'Stryve: Braav biltong is at your H-E-B. Save $2 on 2 bags this week: [link]. Reply STOP to opt out.' [O1]
 - Email subject/preview: 'We took beef snacks public. Then sales fell 41%.' / 'Here's the fix - The Stryve Team' [O1]
 
-*Visual (image):* Real product photography for creative samples
+*Visual (image):* Creative board: The Biltong Story channel mockups
 
 > Talk track: Read the shelf talker aloud: six words do the whole job - permission to try something new.
 
@@ -148,7 +148,7 @@
 - W4-W5 (Jan 26-Feb 8): demos continue; Taste-Off 3 + duets (P1, TikTok, O1/O3, Santhosh); founder emails 2-3 (P1, email, O1, Santhosh); retargeting (P1/P2, paid, O1, Nino)
 - W6-W7 (Feb 9-18): final demos; last-chance SMS (P1/P2, O1, Rafsan); read test vs. control + awareness survey w/ non-campaign holdout (O1/O3, all)
 
-*Visual (image):* 
+*Visual (image):* Creative board: The Biltong Story channel mockups
 
 > Talk track: Read the grid left to right: sell-in first, then shelf, then demos, then social proof, then conversion.
 

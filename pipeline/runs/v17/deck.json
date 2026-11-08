@@ -708,9 +708,9 @@
         "Measured: QR scans per store and units per store vs. control stores [O1]."
       ],
       "visual": {
-        "type": "mockup",
-        "desc": "Demo table mockup: dark red tablecloth, 'It's Not Jerky - It's Biltong' banner, sample cups, QR sign",
-        "file": "visuals/s12.png"
+        "type": "image",
+        "desc": "Creative board: Biltong 101 Demo Days channel mockups",
+        "file": "visuals/board_s12.png"
       },
       "notes": "Interactive moment: hand the judge the printed shelf talker and sample-cup sleeve."
     },
@@ -726,7 +726,8 @@
       ],
       "visual": {
         "type": "image",
-        "file": "visuals/s13.png"
+        "desc": "Creative board: The Jerky Aisle Upgrade channel mockups",
+        "file": "visuals/board_s13.png"
       },
       "notes": "This is a proposal to H-E-B's buyer, framed as a 6-week velocity test with control stores; the fallback keeps the campaign alive if they say no."
     },
@@ -741,9 +742,9 @@
         "Named credibility: Ted Casey (Dymatize), Gabe Carimi (ex-NFL), Warren Pala (SA native) - the H-E-B pitch's proof points [S1]."
       ],
       "visual": {
-        "type": "mockup",
-        "desc": "TikTok phone mockup: split-screen taste-off with score cards; email mockup from the Stryve team",
-        "file": "visuals/s14.png"
+        "type": "image",
+        "desc": "Creative board: Jerky or Biltong? channel mockups",
+        "file": "visuals/board_s14.png"
       },
       "notes": "Walk the judge through the phone mockup of the taste-off. The reveal - 'you can't tell it's not jerky' - is the whole campaign."
     },
@@ -759,8 +760,8 @@
       ],
       "visual": {
         "type": "image",
-        "desc": "Real product photography for creative samples",
-        "file": "photos/stryve_bites.png"
+        "desc": "Creative board: The Biltong Story channel mockups",
+        "file": "visuals/board_s15.png"
       },
       "notes": "Read the shelf talker aloud: six words do the whole job - permission to try something new."
     },
@@ -776,7 +777,8 @@
       ],
       "visual": {
         "type": "image",
-        "file": "visuals/s16.png"
+        "desc": "Creative board: The Biltong Story channel mockups",
+        "file": "visuals/board_s16.png"
       },
       "notes": "Read the grid left to right: sell-in first, then shelf, then demos, then social proof, then conversion."
     },

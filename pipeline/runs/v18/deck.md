@@ -102,7 +102,7 @@
 - Every rider gets a 'ride report' card -> email capture; control group gets the QR offer with no event, isolating event lift.
 - Segment P1; weeks 1-6; owner Nino (field). Target: 400 rides, 15% quote rate. [O2][A7]
 
-*Visual (image):* Test-ride event - real product photography
+*Visual (image):* Creative board: Test Ride the Dog channel mockups
 
 > Talk track: Program 1: the bike demos itself - judges can ride it. Control group isolates event lift.
 
@@ -112,7 +112,7 @@
 - Segment P1; weeks 1-7; owner Santhosh. Target: damage-review share <50% of 1-stars. [O3][R1]
 - Ready Ledger: live trust dashboard + 'brand that shows its receipts' PR push to ebike press [G4].
 
-*Visual (image):* Unboxing insert + email - real product photography
+*Visual (image):* Creative board: Ready Ledger channel mockups
 
 > Talk track: Program 2: the core fix - make the last mile of the purchase the brand promise.
 
@@ -121,7 +121,7 @@
 - Each links to the test-ride finder + READY150 code; #ad disclosure on every post.
 - Segment P2; weeks 2-6; owner Rafsan (social). Target: 400K creator views, 800 email captures [O1][O2].
 
-*Visual (image):* Creator content - real product photography
+*Visual (image):* Creative board: Dog Pack channel mockups
 
 > Talk track: Program 3: the awareness engine - dog-companion creators carrying the Arrive Ready offer.
 
@@ -131,7 +131,7 @@
 - Email subject: 'The part nobody films: your bike, ready in 10 minutes' - setup concierge teaser. [G1][G3]
 - All creative shows real product photography, no stock ebike footage.
 
-*Visual (image):* Real product photography for creative
+*Visual (image):* Creative board: Test Ride the Dog channel mockups
 
 > Talk track: Show real product photography in every asset - no stock ebike footage.
 
@@ -141,7 +141,7 @@
 - Wk5-6: second test-ride wave; email/SMS nurture to captures; review-corpus recount #1.
 - Wk7: final push; recount #2; retro + scale recommendation to company.
 
-*Visual (timeline):* 45-day Gantt: programs, owners, milestones
+*Visual (image):* Creative board: Ready Ledger channel mockups
 
 > Talk track: Walk the 45 days: inserts live wk1, events wk2-4, second wave wk5-6, retro wk7.
 

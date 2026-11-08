@@ -681,8 +681,8 @@
       ],
       "visual": {
         "type": "image",
-        "desc": "Test-ride event - real product photography",
-        "file": "photos/labrador_3.jpg"
+        "desc": "Creative board: Test Ride the Dog channel mockups",
+        "file": "visuals/board_s12.png"
       },
       "notes": "Program 1: the bike demos itself - judges can ride it. Control group isolates event lift."
     },
@@ -698,8 +698,8 @@
       ],
       "visual": {
         "type": "image",
-        "desc": "Unboxing insert + email - real product photography",
-        "file": "photos/labrador_4.jpg"
+        "desc": "Creative board: Ready Ledger channel mockups",
+        "file": "visuals/board_s13.png"
       },
       "notes": "Program 2: the core fix - make the last mile of the purchase the brand promise."
     },
@@ -714,8 +714,8 @@
       ],
       "visual": {
         "type": "image",
-        "desc": "Creator content - real product photography",
-        "file": "photos/labrador_1.jpg"
+        "desc": "Creative board: Dog Pack channel mockups",
+        "file": "visuals/board_s14.png"
       },
       "notes": "Program 3: the awareness engine - dog-companion creators carrying the Arrive Ready offer."
     },
@@ -731,8 +731,8 @@
       ],
       "visual": {
         "type": "image",
-        "desc": "Real product photography for creative",
-        "file": "photos/labrador_2.jpg"
+        "desc": "Creative board: Test Ride the Dog channel mockups",
+        "file": "visuals/board_s15.png"
       },
       "notes": "Show real product photography in every asset - no stock ebike footage."
     },
@@ -747,9 +747,9 @@
         "Wk7: final push; recount #2; retro + scale recommendation to company."
       ],
       "visual": {
-        "type": "timeline",
-        "desc": "45-day Gantt: programs, owners, milestones",
-        "file": "visuals/s16.png"
+        "type": "image",
+        "desc": "Creative board: Ready Ledger channel mockups",
+        "file": "visuals/board_s16.png"
       },
       "notes": "Walk the 45 days: inserts live wk1, events wk2-4, second wave wk5-6, retro wk7."
     },
