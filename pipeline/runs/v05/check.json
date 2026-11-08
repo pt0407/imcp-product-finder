@@ -1,0 +1,59 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school_address missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.participants missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.date missing (needed on title slide)"
+    },
+    {
+      "code": "W_FINANCE",
+      "msg": "conservative case loses money; address the risk on the budget slide"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "findings_cited_on_strategy": 0,
+    "budget_lines": 7,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 4,
+    "body_slides_with_visual": 16,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 15000,
+    "ad_spend_usd": 8500,
+    "break_even_orders": 4464,
+    "base_case": {
+      "orders": 5280,
+      "revenue_usd": 42240,
+      "gross_profit_usd": 17741,
+      "roi_profit_based": 0.183,
+      "roas": 4.97,
+      "cac_usd": 2.84
+    },
+    "conservative_case": {
+      "orders": 2640,
+      "revenue_usd": 21120,
+      "gross_profit_usd": 8870,
+      "roi_profit_based": -0.409,
+      "roas": 2.48,
+      "cac_usd": 5.68
+    }
+  },
+  "penalty_points": 0
+}

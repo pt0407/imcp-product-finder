@@ -1,0 +1,755 @@
+{
+  "meta": {
+    "product": "Pan's Mushroom Jerky",
+    "company": "Panco Foods Inc. (DBA Pan's Mushroom Jerky)",
+    "campaign_name": "Pan's Tank: Pitch Your Flavor",
+    "theme": "Pitch Your Flavor",
+    "thesis": "Pan's won Mark Cuban on Shark Tank - now Texas students pitch Pan's, and every pitch is a reason to taste it at H-E-B.",
+    "variant_angle": "Pans B: community challenge - Pitch Your Flavor",
+    "brand_color": "#e2711d",
+    "school": "",
+    "school_address": "",
+    "participants": [],
+    "date": "",
+    "assurances_signed": false
+  },
+  "campaign_window": {
+    "start": "2027-03-01",
+    "end": "2027-04-14"
+  },
+  "business_problem": "Pan's grew from ~750 to 2,500+ stores while revenue fell and losses continued: shoppers are not trying the product at the shelf, and Gen Z - the most flavor-curious buyers - has no reason to engage with a brand they file under declining plant-based meat.",
+  "objectives": [
+    {
+      "id": "O1",
+      "text": "Drive 5,000 attributed purchases at Central Texas H-E-B stores and online in 45 days",
+      "funnel_stage": "conversion",
+      "primary": true
+    },
+    {
+      "id": "O2",
+      "text": "Collect 1,500 flavor pitches and 6,000 new email/SMS subscribers",
+      "funnel_stage": "consideration",
+      "primary": false
+    },
+    {
+      "id": "O3",
+      "text": "Reach 4M impressions and 400 #PitchYourFlavor UGC videos",
+      "funnel_stage": "awareness",
+      "primary": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Gen-Z Snack Explorers (14-24)",
+      "role": "primary",
+      "demographic": "14-24, high school and college students, mixed income, Central Texas",
+      "geographic": "Austin, Round Rock, Georgetown, San Marcos, Waco (Texas District 5 area)",
+      "psychographic": "Curious about new flavors, 'better-for-you' leaning but taste-first; skeptical of products that imitate meat",
+      "behavioral": "Buys savory snacks weekly at H-E-B, c-stores, and campus stores; tries new snacks from creator content and friends",
+      "media": "TikTok and Instagram Reels daily; YouTube; group chats; low email use",
+      "evidence": [
+        "S8",
+        "S11",
+        "S5"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Flexitarian H-E-B Parents (30-50)",
+      "role": "secondary",
+      "demographic": "30-50, household income $60K+, parents buying lunchbox and after-school snacks",
+      "geographic": "Central Texas suburbs served by H-E-B",
+      "psychographic": "Wants cleaner snacks with no allergens to worry about; open to plant-based but not willing to pay for disappointment",
+      "behavioral": "Weekly H-E-B shopper; uses the H-E-B app and digital coupons; buys meat snacks for kids",
+      "media": "Facebook, Instagram, H-E-B app, email newsletters",
+      "evidence": [
+        "S5",
+        "S9",
+        "S11"
+      ]
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": null,
+        "dates": "",
+        "recruitment": "",
+        "status": "pending",
+        "results_file": ""
+      },
+      {
+        "id": "M2",
+        "type": "interview",
+        "n": null,
+        "dates": "",
+        "recruitment": "",
+        "status": "pending",
+        "results_file": ""
+      },
+      {
+        "id": "M3",
+        "type": "competitor_audit",
+        "n": null,
+        "dates": "",
+        "recruitment": "H-E-B shelf audit (pending)",
+        "status": "pending",
+        "results_file": ""
+      },
+      {
+        "id": "M4",
+        "type": "secondary",
+        "n": 11,
+        "dates": "2026-11-07",
+        "recruitment": "SEC filing, GFI/SPINS, Circana via trade press, company pages",
+        "status": "complete",
+        "results_file": "pipeline/brief.json"
+      }
+    ],
+    "findings": []
+  },
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Pitch Your Flavor Open Call",
+      "mechanic": "Texas students (14+, parental consent under 18) film a 30-second Shark Tank-style pitch for the next Pan's flavor, posted with #PitchYourFlavor. No purchase necessary; official rules on the landing page. Each entrant gets a coupon.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram Reels",
+        "landing page"
+      ],
+      "objectives": [
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "owner": "Social lead"
+    },
+    {
+      "id": "G2",
+      "name": "Taste-Before-You-Pitch Demo Days",
+      "mechanic": "16 weekend demo shifts at 8 Central Texas H-E-B stores: shoppers taste the current flavors, get a 'buy 2 save $3' QR coupon, and can enter a pitch on the spot.",
+      "segment": "P2",
+      "channels": [
+        "in-store sampling",
+        "QR coupon"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Field marketing lead"
+    },
+    {
+      "id": "G3",
+      "name": "Campus Tank Finals",
+      "mechanic": "Top 5 pitches present live at a Central Texas campus event (proposed with business student orgs); founder Michael Pan judges by video; winner's flavor goes into proposed R&D for a Texas limited edition.",
+      "segment": "P1",
+      "channels": [
+        "live event",
+        "livestream",
+        "PR"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        6
+      ],
+      "owner": "Events lead"
+    },
+    {
+      "id": "G4",
+      "name": "Creator Pitch Squad",
+      "mechanic": "4 Texas food creators post their own flavor pitch in week 1 to model the format, then duet top fan pitches; each has a unique coupon code and #ad disclosure.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Influencer lead"
+    }
+  ],
+  "budget": {
+    "lines": [
+      {
+        "item": "Paid social (TikTok, Meta) geo-targeted to Texas",
+        "category": "media",
+        "usd": 5500,
+        "basis": "A4"
+      },
+      {
+        "item": "Creators: 4 x $750",
+        "category": "creators",
+        "usd": 3000,
+        "basis": "A6"
+      },
+      {
+        "item": "Demo Days: 16 shifts x $150",
+        "category": "events",
+        "usd": 2400,
+        "basis": "A7"
+      },
+      {
+        "item": "Campus Tank Finals: prizes, stage, livestream",
+        "category": "events",
+        "usd": 1500,
+        "basis": "A12"
+      },
+      {
+        "item": "Coupon funding: $1.50 x first 1,000 redemptions",
+        "category": "promotions",
+        "usd": 1500,
+        "basis": "A8"
+      },
+      {
+        "item": "Sample cups, signage, design",
+        "category": "production",
+        "usd": 800,
+        "basis": "A9"
+      },
+      {
+        "item": "Email/SMS + contest landing page",
+        "category": "tools",
+        "usd": 300,
+        "basis": "A10"
+      }
+    ],
+    "total_usd": 15000,
+    "projection": {
+      "impressions": 4000000,
+      "ctr": 0.012,
+      "conversion_rate": 0.11,
+      "aov_usd": 8.0,
+      "gross_margin": 0.42
+    },
+    "conservative_factor": 0.5
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed purchases (coupon codes + QR + online orders)",
+      "baseline": "Week-0 sell-through from Pan's data",
+      "target": "5,000 purchases",
+      "tool": "Coupon platform + Shopify + unique creator codes",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Flavor pitches and new subscribers",
+      "baseline": "0 pitches; current list size (week 0)",
+      "target": "1,500 pitches; +6,000 subscribers",
+      "tool": "Landing page form + email/SMS platform",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions and UGC videos",
+      "baseline": "0 (new hashtag)",
+      "target": "4M impressions; 400 videos",
+      "tool": "Ads Manager + hashtag tracking",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Aided awareness among Central Texas 14-24",
+      "baseline": "Pre-campaign survey (week 0)",
+      "target": "+10 pts",
+      "tool": "Pre/post brand-lift survey",
+      "cadence": "pre/post"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "U.S. SEC (Panco Foods Inc. Reg CF offering summary)",
+      "title": "Panco Foods Inc Small Business Bond offering summary",
+      "date": "2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1952718/000195271825000001/offeringsummarypans.pdf",
+      "type": "company"
+    },
+    {
+      "id": "S2",
+      "publisher": "Pan's Mushroom Jerky",
+      "title": "Our Story",
+      "date": "2026",
+      "url": "https://www.mushroomjerky.com/pages/our-story",
+      "type": "company"
+    },
+    {
+      "id": "S3",
+      "publisher": "CNBC Make It",
+      "title": "Shark Tank: Mark Cuban invests in founder selling vegan jerky",
+      "date": "2020-11-23",
+      "url": "https://www.cnbc.com/make-it/2020/11/23/shark-tank-mark-cuban-invests-in-founder-selling-vegan-jerky.html",
+      "type": "secondary"
+    },
+    {
+      "id": "S4",
+      "publisher": "Food Business News",
+      "title": "Mushroom jerky lures investors on 'Shark Tank'",
+      "date": "2020-11-24",
+      "url": "https://www.foodbusinessnews.net/articles/17355-mushroom-jerky-lures-investors-on-shark-tank",
+      "type": "secondary"
+    },
+    {
+      "id": "S5",
+      "publisher": "Pan's Mushroom Jerky",
+      "title": "FAQ",
+      "date": "2026",
+      "url": "https://www.mushroomjerky.com/pages/faq",
+      "type": "company"
+    },
+    {
+      "id": "S6",
+      "publisher": "The Good Food Institute (SPINS data)",
+      "title": "Analyzing plant-based meat & seafood sales",
+      "date": "2026",
+      "url": "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+      "type": "secondary"
+    },
+    {
+      "id": "S7",
+      "publisher": "Food Business News (Circana / Power of Meat)",
+      "title": "Consumers recalibrating meat purchasing patterns",
+      "date": "2026",
+      "url": "https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+      "type": "secondary"
+    },
+    {
+      "id": "S8",
+      "publisher": "Snack Food & Wholesale Bakery (Circana data)",
+      "title": "Meat snack makers play with bold flavors, on-the-go portions",
+      "date": "2025",
+      "url": "https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+      "type": "secondary"
+    },
+    {
+      "id": "S9",
+      "publisher": "Progressive Grocer",
+      "title": "H-E-B Opens in San Antonio's Far East Side",
+      "date": "2026",
+      "url": "https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+      "type": "secondary"
+    },
+    {
+      "id": "S10",
+      "publisher": "Innovationify",
+      "title": "Pan's Mushroom Jerky Shark Tank Update",
+      "date": "2026",
+      "url": "https://innovationify.com/shark-tank/pans-mushroom-jerky/",
+      "type": "secondary"
+    },
+    {
+      "id": "S11",
+      "publisher": "The Good Food Institute (SPINS data)",
+      "title": "Plant-based retail market overview",
+      "date": "2026",
+      "url": "https://gfi.org/marketresearch/",
+      "type": "secondary"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Brand revenue per purchase ~$8.00: 2 bags at ~$4.00 wholesale (~50% of $7.99-8.99 shelf price); confirm with company"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~42%: average of FY22 (40%), FY23 (30%), and YTD FY24 (57%) from SEC filing figures"
+    },
+    {
+      "id": "A3",
+      "text": "H-E-B store-level baseline velocity unknown; measured week 0 via shelf audit + company sell-through data"
+    },
+    {
+      "id": "A4",
+      "text": "Paid social: ~$2.30 CPM; 1.5% CTR on coupon creative; 12% coupon-claim-to-purchase (validate week 1)"
+    },
+    {
+      "id": "A5",
+      "text": "Pan's and H-E-B would approve in-store demos and a digital coupon (proposed, not confirmed)"
+    },
+    {
+      "id": "A6",
+      "text": "Texas food micro-creators (10K-80K followers): ~$750 per video incl. product"
+    },
+    {
+      "id": "A7",
+      "text": "In-store demo shift ~$150 (4-hr demo staff via sampling agency, product included)"
+    },
+    {
+      "id": "A8",
+      "text": "Coupon cost: $1.50 brand-funded discount on first 1,000 redemptions; beyond that absorbed in margin"
+    },
+    {
+      "id": "A9",
+      "text": "Production (shelf talkers, sample cups, design) ~$800 via local print shop quotes"
+    },
+    {
+      "id": "A10",
+      "text": "Email/SMS + landing page tools ~$300 for the campaign window"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~3% of budget"
+    },
+    {
+      "id": "A12",
+      "text": "Event costs: campus venue comped by student orgs; prizes and stage materials ~$1,500"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "",
+      "bullets": [],
+      "visual": {
+        "type": "image",
+        "desc": "Pan's bag on an H-E-B shelf beside beef jerky; 'Pan's Tank: Pitch Your Flavor' lockup"
+      },
+      "notes": ""
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Pan's Mushroom Jerky",
+        "Pan's Tank: Pitch Your Flavor",
+        "45-day campaign: March 1 - April 14, 2027"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Thesis: Pan's won its Shark Tank pitch - now Texas students pitch Pan's [S4].",
+        "Problem: Pan's grew from ~750 to 2,500+ stores, yet revenue fell from $3.15M (FY22) with losses every year - shoppers are not trying it [S1][S2][S4].",
+        "Business opportunity: meat snacks +11.3% to $6.4B while plant-based meat fell 10% - flavor-curious Gen Z needs a reason to see Pan's as a snack, not fake meat [S6][S7].",
+        "Solution: 'Pan's Tank' invites Texas students to pitch the next flavor Shark Tank-style - and taste Pan's at H-E-B to do it [O1].",
+        "45-day goal: 5,000 attributed purchases and 1,500 flavor pitches [O1][O2]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "Four boxes: Problem / Business opportunity / Solution / 45-day goal"
+      },
+      "notes": "Open with the paradox: Pan's went from about 750 stores to 2,500, yet revenue fell. The problem is not distribution - it is what happens at the shelf."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Shiitake mushroom jerky from a decades-old Pan family recipe found in Malaysia; chewy, savory, umami [S2].",
+        "Vegan, gluten-free, Kosher, no allergens to declare; the brand says it 'isn't trying to completely imitate beef' [S5].",
+        "Shelf price $7.99-$8.99 per 2.2 oz bag; cost to make about $1.67 per bag at launch [S3].",
+        "Four core flavors; sold online, on Amazon, and in grocery including H-E-B in Texas [S2][S10]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Flat-lay of four flavor bags with a torn-open bag showing the jerky texture"
+      },
+      "notes": "Stress the brand's own words: it is not trying to be beef. That line becomes our whole positioning."
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "The Company & Its Position",
+      "bullets": [
+        "Founded by engineer Michael Pan; launched 2018; Mark Cuban invested $300K for 18% on Shark Tank in 2020 [S3][S4].",
+        "Revenue $3.15M (FY22) -> $2.88M (FY23) -> $2.78M (11 months FY24); net loss every year [S1].",
+        "Store count rose from about 750 to 2,500+ while revenue fell - fewer bags sold per store [S1][S2][S4].",
+        "Category tailwind: meat snacks +11.3% to $6.4B; headwind: plant-based meat -10% [S6][S7]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Line chart: revenue FY22-FY24 falling vs. bar chart of store count rising; category map with meat snacks up and plant-based meat down"
+      },
+      "notes": "This is our most important slide for credibility: every number comes from the company's own SEC filing."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary, conversion): 5,000 attributed purchases at Central Texas H-E-B stores and online [O1].",
+        "O2 (consideration): 1,500 flavor pitches and 6,000 new email/SMS subscribers [O2].",
+        "O3 (awareness): 4M impressions and 400 #PitchYourFlavor videos [O3]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "O1-O3 with funnel stage, metric, target"
+      },
+      "notes": "Pitches are the engagement engine, purchases are the scoreboard."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1 Gen-Z Snack Explorers, 14-24: Central Texas students who try snacks from TikTok and friends; love having a say in products [S8][S11].",
+        "P2 Flexitarian H-E-B Parents, 30-50: weekly H-E-B shoppers who use app coupons and want allergen-free snacks [S5][S9].",
+        "P1 creates the buzz; P2 buys the bags at the shelf during demo weekends.",
+        "Market: 6 in 10 US households already buy plant-based foods [S11]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Two persona cards with photo, demographics, psychographics, media habits"
+      },
+      "notes": "Survey and interviews will confirm how many students would enter a flavor contest."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Method & Results",
+      "bullets": [
+        "Secondary (complete): SEC filing, GFI/SPINS, Circana via trade press, company pages - 11 sources [S1][S6][S7][S8].",
+        "Key results: revenue down while stores up [S1][S2]; meat snacks +11.3% [S7]; plant-based meat -10% [S6]; Chomps +61.5% shows new snack brands can break out [S8].",
+        "Primary (in field): 10-question survey of Central Texas snack buyers, 3-5 interviews with taste test, H-E-B shelf audit at 3 stores.",
+        "Influences: creator culture (social), plant-based fatigue (cultural), food inflation (economic), short video (technological) [S6][S7]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Methods table + category growth bar chart"
+      },
+      "notes": "Methods first, then results."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "Finding: store count up, revenue down [S1][S2] -> therefore every entry path requires tasting at H-E-B or online with a coupon.",
+        "Finding: plant-based meat -10%, meat snacks +11.3% [S6][S7] -> therefore pitches are about flavor and snacking, never 'fake meat.'",
+        "Finding: founder won on Shark Tank [S3][S4] -> therefore the contest borrows the Shark Tank format the brand truly owns.",
+        "Finding: losses every year [S1] -> therefore prizes are low-cost and the winner's flavor goes to R&D after the campaign."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "Finding -> therefore rows with source tags"
+      },
+      "notes": "Survey results will add R1-R3 here."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Big idea: Pitch Your Flavor - Pan's won its own Shark Tank pitch; now Texas students pitch Pan's.",
+        "Positioning: Pan's is the savory snack built on a family recipe and a real pitch, not a meat imitation [S5].",
+        "IMC mix: Shared (#PitchYourFlavor UGC) + Paid (geo social) + Earned (Campus Tank PR) + Owned (email/SMS, demos).",
+        "Ownable: only Pan's has a Shark Tank founder story and Mark Cuban backing to anchor this format [S4]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Key visual: Shark Tank-style stage with a Pan's bag on a podium, 'Pitch Your Flavor' lockup"
+      },
+      "notes": "Judges are business people - a pitch competition speaks their language."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "45-Day Schedule",
+      "bullets": [
+        "Pitch Your Flavor W1-2 (Mar 1-14): creator pitches drop (P1, TikTok, O3, influencer lead); open call opens (P1, O2, social lead); demos start (P2, sampling, O1/O2, field lead).",
+        "W3-4 (Mar 15-28): fan pitches and duets peak; weekend demos; retargeting to coupon viewers (P1/P2, O1).",
+        "W5-6 (Mar 29-Apr 11): top 5 announced; Campus Tank Finals in week 6 (P1, live event, O1/O3, events lead).",
+        "W7 (Apr 12-14): winner announced; results recap email; coupon expires (O1/O2)."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Gantt: 7 weeks x programs with segment and owner labels"
+      },
+      "notes": "45 days, built so the live final lands in week 6 when the hashtag has peaked."
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 1: Pitch Your Flavor Open Call",
+      "bullets": [
+        "Pitch Your Flavor goes live: Texas students 14+ film a 30-second Shark Tank-style pitch for a new Pan's flavor [O2][O3].",
+        "No purchase necessary, official rules posted, parental consent under 18.",
+        "Every entrant receives a 'buy 2 save $3' coupon to taste before they pitch [O1].",
+        "Target: 1,500 pitches and 400 public videos [O2][O3]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "TikTok mockup: student holding a Pan's bag pitching 'Hill Country Smoke' with on-screen 'Pitch Your Flavor' sticker"
+      },
+      "notes": "Interactive: hand the judge a printed entry card with the QR code."
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 2: Taste-Before-You-Pitch Demo Days",
+      "bullets": [
+        "Pitch Your Flavor in store: 16 weekend demo shifts at 8 Central Texas H-E-B stores [O1][O2].",
+        "Shoppers taste current flavors, scan for $3 off 2 bags, and can submit a pitch on a card [A7][A8].",
+        "Why: revenue fell while stores grew - trial at the shelf is the missing step [S1][S2].",
+        "Target: 3,200 samples; sales lift measured vs. matched control stores [O1]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Demo table mockup with 'Taste. Then Pitch.' sign, sample cups, QR coupon"
+      },
+      "notes": "Parents (P2) buy here even if their teens are the ones pitching."
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 3: Campus Tank Finals + Creator Pitch Squad",
+      "bullets": [
+        "Pitch Your Flavor finale: top 5 pitches present live at a proposed Central Texas campus event in week 6 [O1][O3].",
+        "Founder Michael Pan judges by video; the winning flavor enters proposed R&D for a Texas limited edition [S2].",
+        "Creator Pitch Squad: 4 Texas food creators model the format in week 1, then duet fan pitches; unique codes + #ad [O1][O3].",
+        "PR hook: 'Shark Tank brand lets Texas students pitch' - local TV and student press."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Event stage mockup + livestream frame with Michael Pan on screen"
+      },
+      "notes": "This is the earned-media moment - a real outcome, not just a hashtag."
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "Creative Samples",
+      "bullets": [
+        "TikTok caption: 'My Shark Tank pitch for Pan's next flavor: Hill Country Smoke. Your turn. #PitchYourFlavor #ad' [O3]",
+        "SMS (opted-in): 'Pan's: Pitch Your Flavor ends Apr 11. Taste first - save $3 on 2 bags at H-E-B: [link]. Reply STOP to opt out.' [O1]",
+        "Email subject/preview: 'I pitched Mark Cuban. Now you pitch me.' / 'Win a spot in Campus Tank - Michael' [O2]",
+        "Demo sign: 'Taste. Then Pitch. Scan for $3 off 2 bags.' [O1]"
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Phone mockups (TikTok, SMS, email) + printed demo sign"
+      },
+      "notes": "Read the email subject line aloud - it is the whole campaign in one sentence."
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Proposed Budget & Financial Viability",
+      "bullets": [
+        "Total $15,000: paid social $5,500 [A4]; creators $3,000 [A6]; demos 16 x $150 = $2,400 [A7]; finals $1,500 [A12]; coupon $1,500 [A8]; production $800 [A9]; tools $300 [A10].",
+        "Funnel: 4M impressions x 1.2% CTR x 11% purchase = 5,280 purchases x $8 brand revenue = $42.2K [A1][A4].",
+        "Gross profit at 42% = $17.7K; profit ROI 18%; ROAS 4.97x on $8.5K ad spend [A2].",
+        "Break-even 4,464 purchases. Conservative case (50%) 2,640 loses $6.1K in-window - offset by 6,000 owned subscribers and a new-flavor pipeline [O2]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "Itemized budget + funnel math + base vs. conservative case"
+      },
+      "notes": "Lower in-window ROI than a pure trial program; the payoff is the owned audience and a product idea."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: attributed purchases via coupon platform, Shopify, and creator codes; target 5,000; weekly [O1].",
+        "O2: pitches and subscribers via landing page and email/SMS platform; target 1,500 and +6,000; weekly [O2].",
+        "O3: 4M impressions and 400 UGC videos via Ads Manager and hashtag tracking; +10 pts awareness pre/post [O3].",
+        "Trigger: if pitches are under 300 by week 2, add a $500 weekly prize boost; if demo QR scans are under 20 per shift, move demos to top stores [A4]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "KPI table: objective -> KPI -> baseline -> target -> tool -> cadence"
+      },
+      "notes": "Every metric has a baseline plan, target, tool, and cadence."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Thesis: Pan's won Mark Cuban on Shark Tank - now Texas students pitch Pan's, and every pitch starts with a taste at H-E-B [S4][O1].",
+        "Projected: 5,280 purchases, $42.2K brand revenue, 1,500 pitches, and a fan-created flavor idea [A1][O1][O2].",
+        "Mission: a family recipe that started with one pitch now invites thousands of young Texans to make their own [S2][S3].",
+        "Lasting asset: 6,000 owned subscribers and a repeatable contest format for every new market [O2]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Collage of student pitch frames + 'Pitch Your Flavor' lockup + projected results"
+      },
+      "notes": "Close on the thesis, word for word."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [
+        "U.S. SEC. Panco Foods Inc. Reg CF offering summary. 2025. https://www.sec.gov/Archives/edgar/data/1952718/000195271825000001/offeringsummarypans.pdf",
+        "Pan's Mushroom Jerky. 'Our Story.' 2026. https://www.mushroomjerky.com/pages/our-story",
+        "CNBC Make It. 'Shark Tank: Mark Cuban invests in founder selling vegan jerky.' 2020-11-23. https://www.cnbc.com/make-it/2020/11/23/shark-tank-mark-cuban-invests-in-founder-selling-vegan-jerky.html",
+        "Food Business News. 'Mushroom jerky lures investors on Shark Tank.' 2020-11-24. https://www.foodbusinessnews.net/articles/17355-mushroom-jerky-lures-investors-on-shark-tank",
+        "Pan's Mushroom Jerky. 'FAQ.' 2026. https://www.mushroomjerky.com/pages/faq",
+        "The Good Food Institute / SPINS. 'Analyzing plant-based meat & seafood sales.' 2026. https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/",
+        "Food Business News / Circana. 'Consumers recalibrating meat purchasing patterns.' 2026. https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+        "Snack Food & Wholesale Bakery / Circana. 'Meat snack makers play with bold flavors.' 2025. https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+        "Progressive Grocer. 'H-E-B Opens in San Antonio's Far East Side.' 2026. https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+        "Innovationify. 'Pan's Mushroom Jerky Shark Tank Update.' 2026. https://innovationify.com/shark-tank/pans-mushroom-jerky/",
+        "The Good Food Institute / SPINS. 'Plant-based retail market overview.' 2026. https://gfi.org/marketresearch/"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    }
+  ]
+}
