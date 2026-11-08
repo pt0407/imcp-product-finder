@@ -125,7 +125,7 @@
     },
     {
       "id": "A6",
-      "text": "6 micro creators (craft/cozy/campus) at $400 each"
+      "text": "6 micro creators (fitness/hydration/campus) at $400 each"
     },
     {
       "id": "A7",
@@ -215,7 +215,7 @@
       "objective": "O2",
       "kpi": "Email/SMS captures",
       "baseline": "current list",
-      "target": "900",
+      "target": "800",
       "tool": "Klaviyo",
       "cadence": "weekly"
     },
@@ -413,7 +413,7 @@
         "Solution: Glow Up Hydration - live hydration-check stations, 7-day glow challenges, desk-worker targeting, giftable bundles.",
         "45-day goal: 200 orders, 800 captures, +12 pts 'the bottle that reminds you' [O1-O3]."
       ],
-      "notes": "We sell the finish line, not the craft."
+      "notes": "Sell the reminder, not the bottle."
     },
     {
       "n": 5,
@@ -460,7 +460,7 @@
         "P2: desk workers + gifters 25-45 - forget water at desk; gift-occasion buyers [R3][R4].",
         "P1 is the quantified-self story; P2 is reliable revenue."
       ],
-      "notes": "Beginners vs gifters."
+      "notes": "Trackers vs gifters."
     },
     {
       "n": 9,
@@ -561,7 +561,7 @@
     {
       "n": 16,
       "section": "strategy",
-      "title": "45-Day Schedule: Can't Fail Club",
+      "title": "45-Day Schedule: Glow Up Hydration",
       "bullets": [
         "Pre-work: venue bookings, demo-bottle stock, creator outreach | W1: station 1 + challenge live.",
         "Funnel: 1.1M impressions x 2.8% CTR x 0.65% purchase = ~200 orders = $12K revenue [A1][A4].",
@@ -581,7 +581,7 @@
       "title": "Budget & Financial Viability",
       "bullets": [
         "O1: orders via GLOW15 + QR UTMs; target 200; Shopify report; weekly [O1].",
-        "Funnel: 1.1M impressions x 2.8% CTR x 0.6% purchase = ~185 orders = $11.1K revenue [A1][A4].",
+        "Funnel: 1.1M impressions x 2.8% CTR x 0.65% purchase = ~200 orders = $12K revenue [A1][A4].",
         "GP 45% = $5K; direct ROI ~-56% - entry-proof budget; accessory repeat payback [A2][A13].",
         "Honest read: buying first-time smart-bottle users + quantified proof [A15]."
       ],
