@@ -1,0 +1,73 @@
+{
+  "run": "v13",
+  "grader_session": "fresh",
+  "pass": 1,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: \"2026 KeHE Trend Finder Golden Ticket Winner - fast-track to all 12 KeHE DCs; RangeMe Top 50; Forbes July 2026\" plus founders' dated history and named competitors (Jack Link's, Chomps) with a positioning map",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"the 2026 KeHE Golden Ticket opens nationwide doors NOW, but with 2 employees and DTC-only sales, nothing on shelf says 'this is not the jerky you hate'\" - a specific structural timing/channel problem plus SMART O1-O3 on Slide 7",
+      "fix": ""
+    },
+    "research": {
+      "score": 5,
+      "evidence": "Slide 9: \"keyword-coded analysis of 38 public Judge.me reviews [R1][R2][R4] + distribution audit of 6 sources... survey/interviews/competitor audit scheduled in-window (M1-M3 pending)\" - review_analysis n=38 is below the n>=100 lite threshold and only 1 lite method completed, so primary_lite_ok=false; auto-capped at 5",
+      "fix": "Execute the already-promised M1-M3 in-window (n>=30 survey or 3+ interviews, plus the competitor audit) and add the results before final submission; at minimum grow the review analysis to n>=100 and add a second lite method (e.g., store observation or social listening n>=100) to unlock the 6-10 band."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"Big idea: Crunch, Verified - the only jerky chip whose crunch is proven, not promised\" and Slide 12's blind crunch-off mechanic built directly on findings [R1][R2][R5][R6]; the acoustic-lab-verified crunch is a claim competitors cannot copy",
+      "fix": "Programs 3 and the Proof Kit share Slide 14, diluting the 'one big idea per slide' logic; split the creator program and proof kit onto separate slides so each program gets its own finding-to-decision arc."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 16: \"W4-W5 (Jan 26-Feb 8): demos continue; video 3 + duets (P1, TikTok, O1/O3); Board Box deliveries (P2, events, O1/O3); retargeting (P1/P2, paid, O1)\" - segment, objective, owner-role, and week all named per activity",
+      "fix": "Name individual owners (not just 'field lead'/'social lead'/'retail lead' roles) and add an explicit channel column where 'field'/'events'/'analytics' are ambiguous; pre-work Oct-Nov also needs concrete dated deliverables."
+    },
+    "budget": {
+      "score": 9,
+      "evidence": "Slide 17: \"Total $9,000: media $3,000; creators $1,950; demos $1,800; Board Box $800; production $600; tools $250; contingency $600\" - lines sum exactly, funnel math shown (800K x 1.5% x 10% = 1,200 at $22 = $26.4K), GP-based ROI 32%, ROAS 5.3x, and an honest conservative case at ~-34%",
+      "fix": "The conservative case loses money and is only 'recovered' by assumed 25% repeat + KeHE openings - add a contingency trigger or break-even action (e.g., pause paid social at week 3 if CAC > $15) to show the loss case is managed, not just acknowledged."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O1: attributed purchases; baseline 0; target 1,200; code reports + UTMs; weekly\" plus \"'crunch verified' recall baseline = in-window intercept survey n=100... target +8 pts\" - every KPI has baseline, target, tool, and cadence",
+      "fix": "The +8pt recall target depends on a survey that is itself scheduled inside the campaign window (W6-W7) - specify the pre-campaign baseline survey date and n so recall lift is attributable, not just post-campaign recall."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 3 TOC maps cleanly to slides 4-20 and each slide carries one main idea; Slide 14 however compresses two programs - \"I Hate Jerky\" creators AND the \"Proof Kit\" sell sheet - onto one slide",
+      "fix": "Split Slide 14 into two slides (creator program vs. proof kit) so the strategy section stays one-idea-per-slide and matches the four-program deck.json structure."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 thesis \"BEEST does not need more awards - it needs shoppers to hear the crunch once and never go back\" is restated verbatim on Slide 19 with a clear persuasive through-line",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk track on all 16 body slides with interactive moments: Slide 12 \"hand the judge a sample cup - let them crunch it\", Slide 8 persona-card side-by-side, Slide 15 \"read the shelf card aloud\", plus phone-mockup and demo-table walkthroughs",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides have visuals (mockups on Slides 8, 12, 14, 15, 18); Slide 16's schedule bullets run ~115 words and Slide 17's budget bullets ~95 words with dense bracketed citations, pushing past the 110-word guidance",
+      "fix": "Trim Slide 16's bracketed assumption tags ([P1, field, O1/O2, field lead]) into the Gantt visual or notes and shorten Slide 17 bullets so both stay under ~110 words."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Slide 2 title slide lacks school, school address, participants, and date per check.json warnings (\"meta.school missing\", \"meta.participants missing\", \"meta.date missing\") - a completeness gap for a client pitch",
+      "fix": "Complete all title-slide metadata (school, address, participant names, date) and add assurances per DECA requirements before submission."
+    }
+  },
+  "total": 81,
+  "top_fixes": [
+    "Execute the promised M1-M3 primary research in-window (n>=30 survey or 3+ interviews, plus the competitor audit); research is auto-capped at 5 because review_analysis n=38 is below the n>=100 lite threshold and only 1 lite method is complete (points: research 5->7-10, ~4-6 hours).",
+    "Complete title-slide metadata (school, address, participants, date) - cheap professionalism fix protecting the overall score (~15 minutes).",
+    "Split Slide 14 (creator program + proof kit share one slide) and trim Slides 16-17 bracketed citations to <=110 words - protects organization and design scores (~45 minutes)."
+  ]
+}

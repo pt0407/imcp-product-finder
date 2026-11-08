@@ -1,0 +1,73 @@
+{
+  "run": "v13",
+  "grader_session": "fresh",
+  "pass": 2,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: \"Founded 2023 by Lucas Prado & Nicole Ruiz - industrial engineers... 2026 KeHE Trend Finder Golden Ticket Winner - fast-track to all 12 KeHE DCs; RangeMe Top 50; Forbes July 2026\" plus named competitors (Jack Link's, Chomps) and a positioning map",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"the 2026 KeHE Golden Ticket opens nationwide doors NOW, but with 2 employees and DTC-only sales, nothing on shelf says 'this is not the jerky you hate'\" - a structural channel/distribution-gap problem, paired with quantified O1-O3 on Slide 7",
+      "fix": ""
+    },
+    "research": {
+      "score": 6,
+      "evidence": "Slide 9: \"keyword-coded analysis of 38 public Judge.me reviews [R1][R2][R4] + distribution audit of 6 sources [R5][R6]; survey/interviews/competitor audit scheduled in-window (M1-M3 pending)\" - review_analysis n=38 is below the n>=100 lite threshold and only one lite method qualifies (primary_lite_ok=false)",
+      "fix": "Run the promised M1-M3 primary methods (survey n>=30, 3 interviews, competitor audit) BEFORE the deck is finalized - the deck already budgets an n=100 intercept survey for W6-W7, so pull a pre-window Austin intercept (n=30+) forward and cite it on Slide 9 to unlock 11+."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"Big idea: Crunch, Verified - the only jerky chip whose crunch is proven, not promised... Push-pull: KeHE/retail buyers get a proof kit and velocity test (push); shoppers get crunch tests and a code (pull)\" - the acoustic-lab-verified crunch is genuinely ownable (patent-pending, Slide 10 -> R6), but the PESO channel mix itself is copyable",
+      "fix": "Elevate the uncopyable element further: make the acoustic crunch reading the hero of every creative (the 'crunch meter' prop on Slide 12 is good) and explicitly state why Jack Link's/Chomps cannot replicate a lab-verified crunch claim on shelf."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 16: \"W2-W3 (Jan 12-25): Crunch-Test demos begin (P1, field, O1/O2, field lead); I Hate Jerky videos 1-2 (P1, TikTok, O3, social lead)\" - every activity names segment/channel/objective, but owners are role titles, not named individuals, and some programs (G2 Board Box) have gaps between W1 and W4-W5",
+      "fix": "Assign named team members to each owner role and state an explicit week for every program's start/end (Board Box has no W2-W3 presence; clarify whether that is intentional)."
+    },
+    "budget": {
+      "score": 9,
+      "evidence": "Slide 17: \"Total $9,000: media $3,000; creators $1,950; demos $1,800; Board Box $800; production $600; tools $250; contingency $600\" - lines sum correctly to $9,000, funnel math checks out (800K x 1.5% x 10% = 1,200 x $22 = $26.4K), GP 45% = $11.9K, profit ROI 32%; conservative case honestly shows ~-34% but recovery rationale is thin",
+      "fix": "Quantify the conservative-case recovery: give a number for the 25% repeat contribution (e.g., 600 buyers x 25% x $22 x 45% = ~$1.5K GP) and state what evidence supports the repeat assumption beyond '8% of reviews mention repeat/gift'."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O1: sample-to-purchase vs. control; baseline week-0; target 12%; QR + code match; weekly... Trigger: under 15 QR scans per shift by week 3, move demos to top 2 venues\" - full objective->KPI->baseline->target->tool->cadence mapping plus decision triggers; minor weakness: the O3 recall baseline survey has not been run yet",
+      "fix": "State the pre-campaign survey fielding date (W6-W7 intercept n=100 is the post-campaign read; the 'baseline' needs an actual pre-window wave or the +8pt lift is unattributable)."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 14: \"Program 3: I Hate Jerky + Proof Kit\" compresses two distinct programs (G3 creator program AND G4 proof kit) onto one slide - the only slide where one-idea-per-slide breaks",
+      "fix": "Split Slide 14 into two slides (creator program vs. proof kit) or rename/merge the programs in deck.json so slide titles match program boundaries."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 thesis \"BEEST does not need more awards - it needs shoppers to hear the crunch once and never go back\" is restated verbatim on Slide 19, and every program traces back to 'the crunch is the proof' - a clear, persuasive through-line",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Slide 12: \"Interactive moment: hand the judge a sample cup - let them crunch it. That sound IS the pitch\" plus persona cards (Slide 8), crunch-meter demo prop (Slide 12), TikTok phone mockup (Slide 14) - talk-track notes on all 16 body slides with planned interactive elements",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides (s04-s19) have real PNG visuals - mockups on Slides 8, 12, 14, 15; chart on 6; table on 7 - but Slides 16-17 run dense (5 bullets each mixing schedule detail and funnel math) and several 'image' visuals are generic stock-style rather than custom data graphics",
+      "fix": "Move the conservative-case math on Slide 17 into the visual (it already has a comparison table - cut the fifth bullet to match) and consider splitting the W6-W7 schedule detail off Slide 16."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "check.json warnings: \"meta.school missing\", \"meta.school_address missing\", \"meta.participants missing\", \"meta.date missing\" - title slide (Slide 2) lacks all required DECA metadata for a client pitch",
+      "fix": "Complete title-slide metadata (school, address, participant names, date) and confirm assurances_signed before submission."
+    }
+  },
+  "total": 82,
+  "top_fixes": [
+    "Run at least one real primary method before finalizing (n>=30 Austin intercept survey or 3 buyer interviews) - M1-M3 are marked PENDING and review_analysis n=38 is below the lite threshold, capping research at ~6/15 (points: research 6->11+, biggest single lever).",
+    "Complete title-slide metadata (school, address, participants, date) - four check.json warnings; cheap professionalism fix protecting overall (points: overall 4->5).",
+    "Quantify the conservative-case recovery on Slide 17 (25% repeat x $22 x 45% margin) so the -34% ROI has a defensible bridge, and split Slide 14's two programs onto separate slides (points: budget 9->10, organization 4->5)."
+  ]
+}

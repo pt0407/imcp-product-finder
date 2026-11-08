@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "product": "BEEST Snacks - Crunchy Jerky Chips & Charcuterie Trail Mix",
+    "company": "BEEST Snacks (Best International Foods LLC), Austin, TX",
+    "campaign_name": "Crunch, Verified",
+    "theme": "Crunch, Verified",
+    "thesis": "BEEST does not need more awards - it needs shoppers to hear the crunch once and never go back, and Crunch, Verified turns retail sampling into believers.",
+    "variant_angle": "Crunch Verified rev1 (proof-led demo + charcuterie occasion)",
+    "brand_color": "#c8102e",
+    "school": "",
+    "school_address": "",
+    "participants": [],
+    "date": "",
+    "assurances_signed": false,
+    "parent_run": ""
+  },
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "business_problem": "BEEST just won the 2026 KeHE Golden Ticket - nationwide distribution is arriving before consumer awareness. With ~2 employees and DTC/independent-only sales, the crunch-verified product has no trial engine at retail: shoppers cannot know it is crunchy until they bite it, and nothing on shelf says 'this is not the jerky you hate.'",
+  "objectives": [
+    {
+      "id": "O1",
+      "text": "Drive 1,200 attributed purchases (retail code + online code) in 45 days and lift trial-to-repeat among sampled shoppers",
+      "funnel_stage": "conversion",
+      "primary": true
+    },
+    {
+      "id": "O2",
+      "text": "Run 1,600 blind crunch-test samples and generate 4,000 coupon claims",
+      "funnel_stage": "consideration",
+      "primary": false
+    },
+    {
+      "id": "O3",
+      "text": "Reach 800K Texas impressions and get 'crunch verified' remembered by surveyed shoppers",
+      "funnel_stage": "awareness",
+      "primary": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Macro-Driven Snackers (18-34)",
+      "role": "primary",
+      "demographic": "18-34, gym-goers, students, young professionals, Texas",
+      "geographic": "Austin, DFW, Houston, San Antonio",
+      "psychographic": "Counts protein and sugar grams; burned by chalky protein snacks; wants real food that tastes good",
+      "behavioral": "Buys jerky/meat snacks weekly; discovers products via TikTok/creators; checks macros before buying",
+      "media": "TikTok, Instagram Reels, YouTube fitness, Amazon",
+      "evidence": [
+        "S8",
+        "S12"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Clean-Label Parents & Hosts (30-55)",
+      "role": "secondary",
+      "demographic": "30-55, parents and hosts who buy snacks for families, parties, and gatherings",
+      "geographic": "Texas suburbs",
+      "psychographic": "Wants no-added-sugar snacks kids will eat; values real ingredients; shops for occasions (parties, game days, gifting)",
+      "behavioral": "Weekly grocery shopper; uses store apps/coupons; plans snacks for events",
+      "media": "Facebook, Instagram, email, Pinterest",
+      "evidence": [
+        "S9",
+        "S12"
+      ]
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will run intercept survey in Austin during campaign window - see DELIVERY plan",
+        "status": "pending",
+        "results_file": ""
+      },
+      {
+        "id": "M2",
+        "type": "interview",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will interview 3 jerky/meat-snack buyers in Austin",
+        "status": "pending",
+        "results_file": ""
+      },
+      {
+        "id": "M3",
+        "type": "competitor_audit",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will audit Austin-area jerky/meat-snack sets during window",
+        "status": "pending",
+        "results_file": ""
+      },
+      {
+        "id": "M4",
+        "type": "secondary",
+        "n": 8,
+        "dates": "2026-11-07",
+        "recruitment": "company press room, LinkedIn, Forbes, KeHE/RangeMe announcements, category data",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_beest.md"
+      },
+      {
+        "id": "M5",
+        "type": "review_analysis",
+        "n": 38,
+        "dates": "2026-11-07",
+        "recruitment": "public Judge.me reviews on beestsnacks.com; keyword-coded content analysis (analyze_reviews.py)",
+        "status": "complete",
+        "results_file": "pipeline/research/reviews_beest/review_summary.md"
+      },
+      {
+        "id": "M6",
+        "type": "digital_shelf_audit",
+        "n": 6,
+        "dates": "2026-11-07",
+        "recruitment": "public web audit: site, press room, wholesale, recognition, channels",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_beest.md"
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "method": "M5",
+        "finding": "Content analysis of 38 public site reviews (collected 2026-11-07): 42% mention taste/flavor, 21% texture/crunch, 18% compare it directly to jerky/meat snacks, avg rating 4.34/5 with real complaints present",
+        "therefore": "The crunch is the story - demos and blind crunch tests lead; the review corpus is small but honest enough to show both love and friction"
+      },
+      {
+        "id": "R2",
+        "method": "M5",
+        "finding": "Verbatim review: 'I HATE jerky but LOVE Beest. It's salty, savory and meets all my macros as someone with insulin resistance. Skip the jerky and go Beest!'",
+        "therefore": "The campaign targets jerky skeptics, not jerky lovers - 'the jerky upgrade for people who hate jerky' is the positioning"
+      },
+      {
+        "id": "R4",
+        "method": "M5",
+        "finding": "8% of 38 reviews mention gifting/sharing; complaints run 3% - small but real critical mass",
+        "therefore": "The Charcuterie Trail Mix gets an occasion play (parties, gifting) while complaints inform demo talking points"
+      },
+      {
+        "id": "R5",
+        "method": "M6",
+        "finding": "Audit (6 public sources): 2026 KeHE Golden Ticket winner with fast-track access to all 12 KeHE DCs - nationwide doors are opening NOW, before consumer awareness exists",
+        "therefore": "The campaign is a launch-window sprint: be the brand buyers discover when the doors open, not after"
+      },
+      {
+        "id": "R6",
+        "method": "M6",
+        "finding": "Patent-pending crunch process 'verified through acoustic lab testing' + Non-UPF Verified + BRCGS AA facility + 46-52g protein, 0g added sugar per bag",
+        "therefore": "'Crunch, Verified' is ownable: a measurable, provable claim no jerky competitor can copy - the crunch is literally measurable"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Crunch-Test Demo Days",
+      "mechanic": "8 weekend demo shifts at Austin-area fitness studios, farmers markets, and partner retail (Central Market/HEB where stocked); blind crunch-off: BEEST vs. the jerky shoppers actually buy, judged by sound and texture. QR to '$3 off 2 bags' code. Controls: same stores, coupon only.",
+      "segment": "P1",
+      "channels": [
+        "in-store/field sampling",
+        "QR coupon"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Field marketing lead"
+    },
+    {
+      "id": "G2",
+      "name": "The Charcuterie Board in a Bag",
+      "mechanic": "Occasion program for the Charcuterie Trail Mix: pitch to Austin event venues, corporate offices, and KeHE buyers as the shelf-stable party/gifting answer - 'a charcuterie board without the board.' 200-unit 'Board Box' pilot for 10 local hosts + PR kit.",
+      "segment": "P2",
+      "channels": [
+        "B2B outreach",
+        "experiential",
+        "PR"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "owner": "Retail/partnerships lead"
+    },
+    {
+      "id": "G3",
+      "name": "I Hate Jerky",
+      "mechanic": "3 Austin food/fitness creators who publicly dislike jerky try BEEST on camera - blind crunch test, macro reveal at the end. Tagline: 'I HATE jerky but LOVE Beest.' Link to store finder + code CRUNCH. #ad disclosure.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube Shorts"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Social lead"
+    },
+    {
+      "id": "G4",
+      "name": "Crunch, Verified Proof Kit",
+      "mechanic": "The proof engine: acoustic-lab crunch data, Non-UPF verification, and the founders' family-diabetes story packaged into a one-page sell sheet for KeHE buyers + retailers + press; 3 short founder videos ('we measured the crunch') + email/SMS to the existing list ending in the starter pack.",
+      "segment": "P1",
+      "channels": [
+        "B2B sales kit",
+        "email",
+        "SMS",
+        "TikTok"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        4,
+        6,
+        7
+      ],
+      "owner": "Content/sales lead"
+    }
+  ],
+  "budget": {
+    "lines": [
+      {
+        "item": "Paid social (TikTok, Meta) geo-targeted to Texas",
+        "category": "media",
+        "usd": 3000,
+        "basis": "A4"
+      },
+      {
+        "item": "Creators: 3 x $650 crunch-test videos",
+        "category": "creators",
+        "usd": 1950,
+        "basis": "A6"
+      },
+      {
+        "item": "Demo Days: 8 shifts x $225 (staff + product)",
+        "category": "events",
+        "usd": 1800,
+        "basis": "A7"
+      },
+      {
+        "item": "Board Box pilot product + packaging for 10 hosts",
+        "category": "product",
+        "usd": 800,
+        "basis": "A12"
+      },
+      {
+        "item": "Proof kit design, shelf cards, QR cards",
+        "category": "production",
+        "usd": 600,
+        "basis": "A9"
+      },
+      {
+        "item": "Email/SMS + landing page",
+        "category": "tools",
+        "usd": 250,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency",
+        "category": "contingency",
+        "usd": 600,
+        "basis": "A11"
+      }
+    ],
+    "total_usd": 9000,
+    "projection": {
+      "impressions": 800000,
+      "ctr": 0.015,
+      "conversion_rate": 0.1,
+      "aov_usd": 22.0,
+      "gross_margin": 0.45
+    },
+    "conservative_factor": 0.5
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed purchases (code redemptions + orders)",
+      "baseline": "0 (new code)",
+      "target": "1,200",
+      "tool": "Shopify code report + UTMs + retailer coupon",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Sample-to-purchase conversion",
+      "baseline": "week-0 demo tracking",
+      "target": "12% of sampled shoppers buy within 7 days",
+      "tool": "QR scan + code redemption match",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Samples and coupon claims",
+      "baseline": "0",
+      "target": "1,600 samples; 4,000 claims",
+      "tool": "Demo tally + coupon platform",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions and 'crunch verified' recall",
+      "baseline": "week-0 intercept survey (n=100 Austin shoppers)",
+      "target": "800K impressions; +8 pts aided recall",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "BEEST Snacks",
+      "title": "Press & Media page (Golden Ticket, RangeMe Top 50, Forbes, product specs)",
+      "date": "2026",
+      "url": "https://www.beestsnacks.com/pages/press-room",
+      "type": "company"
+    },
+    {
+      "id": "S2",
+      "publisher": "LinkedIn",
+      "title": "BEEST Snacks company page (HQ Austin, ~2 employees, founded 2023)",
+      "date": "2026",
+      "url": "https://linkedin.com/company/beestsnacks",
+      "type": "secondary"
+    },
+    {
+      "id": "S3",
+      "publisher": "BEEST Snacks blog",
+      "title": "KeHE Golden Ticket 2026 announcement",
+      "date": "2026",
+      "url": "https://www.beestsnacks.com/blogs/news/kehe-golden-ticket-2026",
+      "type": "company"
+    },
+    {
+      "id": "S4",
+      "publisher": "FIESTA Community",
+      "title": "Lucas Prado & Nicole Ruiz founder story",
+      "date": "2026",
+      "url": "https://www.fiesta.community/stories/lucas-prado-nicole-ruiz",
+      "type": "secondary"
+    },
+    {
+      "id": "S5",
+      "publisher": "Snack Food & Wholesale Bakery (Circana data)",
+      "title": "Meat snack makers play with bold flavors, on-the-go portions",
+      "date": "2025",
+      "url": "https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+      "type": "secondary"
+    },
+    {
+      "id": "S6",
+      "publisher": "Food Business News (Circana / Power of Meat)",
+      "title": "Consumers recalibrating meat purchasing patterns",
+      "date": "2026",
+      "url": "https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+      "type": "secondary"
+    },
+    {
+      "id": "S7",
+      "publisher": "The Good Food Institute (SPINS data)",
+      "title": "Plant-based retail market overview",
+      "date": "2026",
+      "url": "https://gfi.org/marketresearch/",
+      "type": "secondary"
+    },
+    {
+      "id": "S8",
+      "publisher": "Progressive Grocer",
+      "title": "H-E-B Opens in San Antonio's Far East Side",
+      "date": "2026",
+      "url": "https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+      "type": "secondary"
+    },
+    {
+      "id": "S9",
+      "publisher": "BEEST Snacks",
+      "title": "Homepage - products, 'Real Food. Real Crunch. Unreal Macros.'",
+      "date": "2026",
+      "url": "https://www.beestsnacks.com/",
+      "type": "company"
+    },
+    {
+      "id": "S10",
+      "publisher": "BEEST Snacks (Judge.me public reviews)",
+      "title": "38 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-07",
+      "url": "https://www.beestsnacks.com/",
+      "type": "primary"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Blended net revenue per purchase $22: 60% online (trail mix/beef chips ~$10-13/bag, starter 2-pack ~$24 with code) + 40% retail coupon (~$7 net); confirm pricing with company"
+    },
+    {
+      "id": "A2",
+      "text": "Blended gross margin 45%: meat-snack COGS; company is bootstrapped so margin discipline is high; confirm with company"
+    },
+    {
+      "id": "A3",
+      "text": "Retail baseline velocity unknown (KeHE doors not yet open); measured week 0 at any stocked Austin doors"
+    },
+    {
+      "id": "A4",
+      "text": "Impressions 800K = ~550K paid at ~$5.5 CPM ($3,000) + ~250K creator views; 1.5% CTR; 10% click-to-purchase (validate week 1)"
+    },
+    {
+      "id": "A5",
+      "text": "BEEST and retail partners would approve sampling - founders are accessible (hello@beestsnacks.com); proposed, not confirmed"
+    },
+    {
+      "id": "A6",
+      "text": "Austin food/fitness micro-creators (10K-80K): ~$650 per video incl. product"
+    },
+    {
+      "id": "A7",
+      "text": "Demo shift ~$225 (3-hr staff + product for ~200 samples)"
+    },
+    {
+      "id": "A8",
+      "text": "$3 off 2 bags code; cost netted in blended revenue (A1)"
+    },
+    {
+      "id": "A9",
+      "text": "Production ~$600: shelf cards, QR cards, proof-kit one-pager design via local print"
+    },
+    {
+      "id": "A10",
+      "text": "Email/SMS + landing page ~$250"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~6.7% of budget"
+    },
+    {
+      "id": "A12",
+      "text": "Board Box pilot: 10 hosts x 1 trail-mix bag + insert card ~= $800 product+packaging"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat: 25% of buyers reorder within 90 days (8% of reviews mention repeat/gift); confirm with company"
+    },
+    {
+      "id": "A14",
+      "text": "KeHE Golden Ticket doors open progressively through 2027 - the campaign window is the awareness window buyers will judge the brand on"
+    },
+    {
+      "id": "A15",
+      "text": "Demo-day purchases (~15% of 1,600 sampled = ~240) are upside not counted in funnel"
+    },
+    {
+      "id": "A17",
+      "text": "Online offer: starter 2-pack ~$24-26 with 20% off code CRUNCH; free shipping threshold per site"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Crunch, Verified",
+      "bullets": [],
+      "visual": {
+        "type": "image",
+        "desc": "BEEST jerky chips bag mid-crunch with sound-wave motif; 'Crunch, Verified' lockup",
+        "file": "visuals/s01.png"
+      },
+      "notes": ""
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "BEEST Snacks - Crunchy Jerky Chips & Charcuterie Trail Mix",
+        "Crunch, Verified",
+        "45-day campaign: January 5 - February 18, 2027"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Thesis: BEEST does not need more awards - it needs shoppers to hear the crunch once and never go back [O1].",
+        "Problem: the 2026 KeHE Golden Ticket opens nationwide doors NOW, but with 2 employees and DTC-only sales, nothing on shelf says 'this is not the jerky you hate' [S3][R5].",
+        "Opportunity: the crunch is literally measurable - patent-pending process, acoustic-lab verified, 0g added sugar, 46-52g protein [S1][R6].",
+        "Solution: 'Crunch, Verified' proves the difference in person - blind crunch tests, charcuterie occasions, and a proof kit for buyers [O1][R6].",
+        "45-day goal: 1,200 attributed purchases and sample-to-purchase tracked against control stores [O1]."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s04.png"
+      },
+      "notes": "Open with the timing: Golden Ticket doors are opening while nobody knows the brand. The crunch is the proof point."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Crunchy Jerky Chips: beef (48g protein) and pork (46g protein) - 0g sugar, ~230 cal, crunch 'through and through' via patent-pending process [S1][S9].",
+        "Charcuterie Trail Mix: pork jerky chips + parmesan crisps + roasted almonds - 52g protein, 0g added sugar, 7g fiber; 'a charcuterie board in a bag' [S1].",
+        "Non-UPF Verified, BRCGS Grade AA facility, Made in USA; ~$10-13/bag online, multipacks for retail [S1].",
+        "Sold DTC, Amazon, Austin/California independents; nationwide via KeHE (Golden Ticket) + Faire wholesale [S1][S3]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Three product bags fanned with a crunch 'sound wave' graphic and macro callouts",
+        "file": "visuals/s05.png"
+      },
+      "notes": "The crunch is the differentiator - jerky is a chore to eat, these are chips. Show the texture."
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "The Company & Its Position",
+      "bullets": [
+        "Founded 2023 by Lucas Prado & Nicole Ruiz - industrial engineers, husband-and-wife; product began as a family recipe -> university thesis -> 8 years scaling in South America -> Austin [S2][S4].",
+        "2026 KeHE Trend Finder Golden Ticket Winner - fast-track to all 12 KeHE DCs; RangeMe Top 50; Forbes July 2026 [S1][S3].",
+        "Competitors: Jack Link's, Chomps, traditional jerky brands - none offer a verified-crunch chip format in the meat-snack set [S5].",
+        "Position: real-food protein snack for people who hate jerky's texture - crunch-verified, 0 sugar, macro-clean [S9][R2]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Left: recognition timeline (2023 founding -> 2026 Golden Ticket/Forbes/RangeMe). Right: positioning map (x = texture: tough jerky to crunchy chip, y = protein: standard to 50g+) with BEEST alone in the crunchy-high-protein quadrant",
+        "file": "visuals/s06.png"
+      },
+      "notes": "The credentials are real - Golden Ticket is one of the most competitive validations in natural foods. The gap is consumer awareness."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 1,200 attributed purchases and sample-to-purchase tracked vs. control stores [O1].",
+        "O2 (consideration): 1,600 blind crunch-test samples and 4,000 coupon claims [O2].",
+        "O3 (awareness): 800K Texas impressions and +8 pts 'crunch verified' recall [O3]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "O1-O3 with funnel stage, metric, target, and tracking design",
+        "file": "visuals/s07.png"
+      },
+      "notes": "One primary objective - purchases - with sample-to-purchase as the proof metric that matters to retail buyers."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1 Macro-Driven Snackers, 18-34: Austin/DFW/Texas gym-goers and students who count protein grams and have been burned by chalky protein snacks [S5][R2].",
+        "P2 Clean-Label Parents & Hosts, 30-55: weekly shoppers buying no-added-sugar snacks for families and planning party/game-day/gifting occasions [S6][R4].",
+        "Both share one need: a meat snack that doesn't feel like a compromise - the crunch IS the proof [R1][R6].",
+        "Market: meat snacks +11.3% to $6.4B; 'real food / non-UPF' is the fastest-rising consumer demand in the aisle [S5][S6]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Two persona cards (P1, P2) with photo, demographics, psychographics, media habits",
+        "file": "visuals/s08.png"
+      },
+      "notes": "Interactive moment: show the persona cards side by side - one macros-focused, one occasion-focused."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Method & Results",
+      "bullets": [
+        "Secondary (complete): press room, LinkedIn, Forbes, KeHE/RangeMe announcements, category data - 8 sources [S1][S3][S4][S5].",
+        "Primary, no-survey so far (complete): keyword-coded analysis of 38 public Judge.me reviews [R1][R2][R4] + distribution audit of 6 sources [R5][R6] [S10]; survey/interviews/competitor audit scheduled in-window (M1-M3 pending).",
+        "Key results: taste/crunch dominate reviews; one verbatim says 'I HATE jerky but LOVE Beest' [R1][R2]; Golden Ticket doors opening before awareness exists [R5]; crunch is patent-pending and lab-verified [R6].",
+        "Influences: protein-snack boom (social), non-UPF/clean-label demand (cultural), meat-snack growth +11.3% (market), KeHE timing (technological/distribution) [S5][S6]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Review theme chart (taste 42%, texture 21%, vs-jerky 18%) + distribution timeline",
+        "file": "visuals/s09.png"
+      },
+      "notes": "Be honest: n=38 is small - say so. The verbatim 'I HATE jerky but LOVE Beest' quote is the hook. Primary methods run in-window."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "Finding: 'I HATE jerky but LOVE Beest' is a verbatim review; 18% compare it to jerky directly [R1][R2] -> target jerky skeptics, not jerky lovers.",
+        "Finding: Golden Ticket opens doors NOW with zero consumer awareness [R5] -> sprint the launch window, don't coast.",
+        "Finding: crunch is patent-pending + acoustic-lab verified [R6] -> make the crunch audible and measurable in every demo.",
+        "Finding: 8% mention gifting; trail mix IS a charcuterie board [R4][S1] -> add the occasion play for parties/gifting.",
+        "Finding: real complaints exist (avg 4.34, not 5.0) [R1] -> demo talking points address texture expectations honestly."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Insights-to-decisions flow diagram",
+        "file": "visuals/s10.png"
+      },
+      "notes": "Every decision traces to a finding. The 'I hate jerky' quote is the emotional center."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Big idea: Crunch, Verified - the only jerky chip whose crunch is proven, not promised. Message: 'Hear that? That's the difference.'",
+        "Positioning: for snackers who want jerky's protein without jerky's chore - BEEST is the crunchy, 0-sugar, macro-clean upgrade [S9][R2].",
+        "IMC mix: Paid (geo social) + Earned (Golden Ticket/Forbes story) + Shared (#CruncHVerified duets) + Owned (email/SMS, shelf cards, B2B proof kit).",
+        "Push-pull: KeHE/retail buyers get a proof kit and velocity test (push); shoppers get crunch tests and a code (pull) [O1][O2]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Key visual: jerky chip mid-crunch with acoustic sound-wave rings, 'Crunch, Verified' lockup",
+        "file": "visuals/s11.png"
+      },
+      "notes": "Point to the positioning: 'jerky's protein without jerky's chore.' The acoustic verification is the ownable claim."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Crunch-Test Demo Days",
+      "bullets": [
+        "Crunch, Verified in person: 8 weekend demo shifts at Austin fitness studios, farmers markets, and partner retail; control stores get the code only [O1][O2].",
+        "Mechanic: blind crunch-off - BEEST vs. the jerky shoppers actually buy; judged by sound and texture; QR to '$3 off 2 bags'; ~200 samples per shift = 1,600 total [A7][A8].",
+        "Why: the product converts jerky-haters on first bite - 'I HATE jerky but LOVE Beest' - and most shoppers have never heard of it [R1][R2][R5].",
+        "Measured: QR scans per venue and sample-to-purchase vs. control [O1]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Demo table mockup: red tablecloth, 'Crunch, Verified' banner, crunch-meter prop, sample cups, QR sign",
+        "file": "visuals/s12.png"
+      },
+      "notes": "Interactive moment: hand the judge a sample cup - let them crunch it. That sound IS the pitch."
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: The Charcuterie Board in a Bag",
+      "bullets": [
+        "Crunch, Verified for occasions: pitch the Charcuterie Trail Mix to Austin venues, offices, and KeHE buyers as the shelf-stable party/gifting answer [O1][O3].",
+        "Board Box pilot: 10 local hosts get a trail-mix bag + insert card - real occasions generate real content and reviews [A12].",
+        "Why: 8% of reviews mention gifting and the product literally IS a charcuterie board - an occasion jerky never owned [R4][S1].",
+        "KeHE timing: Golden Ticket doors open through 2027 - the proof kit lands while buyers are deciding placement [A14]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Charcuterie board flat-lay with BEEST trail mix bag as centerpiece + 'Board in a Bag' callout",
+        "file": "visuals/s13.png"
+      },
+      "notes": "This is the B2B2C leg: the same product that demos at gyms also anchors parties and corporate gifting."
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: I Hate Jerky + Proof Kit",
+      "bullets": [
+        "Crunch, Verified online: 3 Austin creators who publicly dislike jerky try BEEST blind - crunch test, macro reveal at the end; 'I HATE jerky but LOVE Beest' is the caption hook [O1][O3].",
+        "Every video links to the store finder + code CRUNCH with #ad disclosure [A17].",
+        "Proof Kit: acoustic-lab crunch data + Non-UPF verification + the family-diabetes founder story in a one-page sell sheet for KeHE buyers and press [S1][S4].",
+        "Named credibility: Golden Ticket, RangeMe Top 50, Forbes July 2026 - the proof kit leads with these [S1][S3]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "TikTok phone mockup: blind crunch test with 'I HATE jerky' caption reveal; one-page proof-kit mockup",
+        "file": "visuals/s14.png"
+      },
+      "notes": "The creator hook is the verbatim review - real customers already say it. The proof kit is what turns a Golden Ticket into doors."
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Creative Samples",
+      "bullets": [
+        "Shelf card: 'Crunch, Verified. Jerky chips so crunchy we measured them. $3 off 2 bags.' [O1]",
+        "TikTok caption: 'I HATE jerky but I tried this blind crunch test... 52g protein, 0 sugar. #CruncHVerified #ad' [O3]",
+        "SMS (opted-in): 'BEEST: hear that crunch? $3 off 2 bags this week: [link]. Reply STOP to opt out.' [O1]",
+        "Proof-kit headline: 'The only jerky chip with a lab-verified crunch. Golden Ticket 2026.' [O3]"
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Phone mockups (SMS, TikTok, email) plus printed shelf card and proof-kit one-pager",
+        "file": "visuals/s15.png"
+      },
+      "notes": "Read the shelf card aloud: 'we measured them' is the claim no competitor can make."
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Week-by-Week Schedule",
+      "bullets": [
+        "Pre-work (Oct-Nov): KeHE outreach + proof kit + venue booking | W1 (Jan 5): cards + code live (P1, retail, O1/O2, retail lead); founder email 1 (P1, email, O3, content lead)",
+        "W2-W3 (Jan 12-25): Crunch-Test demos begin (P1, field, O1/O2, field lead); I Hate Jerky videos 1-2 (P1, TikTok, O3, social lead)",
+        "W4-W5 (Jan 26-Feb 8): demos continue; video 3 + duets (P1, TikTok, O1/O3); Board Box deliveries (P2, events, O1/O3); retargeting (P1/P2, paid, O1)",
+        "W6-W7 (Feb 9-18): final demos; last-chance SMS (P1/P2, O1); intercept survey n=100 (O3); read sample-to-purchase (O1, analytics)"
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "45-day Gantt: proof kit -> demos -> creators -> Board Box -> survey -> readout",
+        "file": "visuals/s16.png"
+      },
+      "notes": "Read left to right: proof kit first (it enables everything), then crunch tests, then creators, then occasions, then measurement."
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Proposed Budget & Financial Viability",
+      "bullets": [
+        "Total $9,000: media $3,000; creators $1,950; demos $1,800; Board Box $800; production $600; tools $250; contingency $600 [A4][A6][A7][A9][A10][A11][A12].",
+        "Funnel: 800K x 1.5% x 10% = 1,200 purchases at $22 = $26.4K [A1][A4].",
+        "The $3 code is manufacturer-funded, netted in revenue [A1][A8].",
+        "GP 45% = $11.9K; profit ROI 32%; ROAS 5.3x [A2].",
+        "Conservative (50%): ROI ~-34%; 25% repeat + KeHE openings recover it [A13][A14]. Upside: ~240 demo purchases [A15]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Budget bar chart + base/conservative case comparison table",
+        "file": "visuals/s17.png"
+      },
+      "notes": "Lead with honesty: conservative loses in-window; the return is repeat buyers and being the brand buyers see when KeHE doors open."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: attributed purchases; baseline 0; target 1,200; code reports + UTMs; weekly [O1].",
+        "O1: sample-to-purchase vs. control; baseline week-0 [A3]; target 12%; QR + code match; weekly [O1].",
+        "O2: samples and claims; baseline 0; target 1,600 and 4,000; tally + coupon platform; weekly [O2].",
+        "O3: 800K impressions; 'crunch verified' recall baseline = in-window intercept survey n=100, post-campaign survey; target +8 pts [O3].",
+        "Trigger: under 15 QR scans per shift by week 3, move demos to top 2 venues; creator CTR under 1%, shift spend to Meta [A4]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "KPI dashboard mockup: objectives -> metrics -> targets -> tools -> cadence",
+        "file": "visuals/s18.png"
+      },
+      "notes": "Sample-to-purchase is the metric retail buyers actually care about - it predicts reorder."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Thesis: BEEST does not need more awards - it needs shoppers to hear the crunch once and never go back. Crunch, Verified turns retail sampling into believers [O1].",
+        "Projected: 1,200 purchases and $11.9K gross profit on $9K (32% ROI), plus a sample-to-purchase readout BEEST takes to every KeHE buyer [A1][O1].",
+        "Mission: real food for real macros - a family recipe that took 8 years and a patent to make crunchy; every crunch-verified bag is a shopper who stopped settling for tough jerky [S4][R2].",
+        "Next: if sample-to-purchase beats 12%, scale Crunch-Test demos to KeHE launch markets as doors open [O1][A14]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Product bag + 'Crunch, Verified' lockup + projected results callouts",
+        "file": "visuals/s19.png"
+      },
+      "notes": "Close on the thesis verbatim - the crunch is the campaign, the crunch is the product, the crunch is the proof."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [
+        "BEEST Snacks. 'Press & Media.' 2026. https://www.beestsnacks.com/pages/press-room",
+        "LinkedIn. 'BEEST Snacks company page.' 2026. https://linkedin.com/company/beestsnacks",
+        "BEEST Snacks. 'KeHE Golden Ticket 2026.' 2026. https://www.beestsnacks.com/blogs/news/kehe-golden-ticket-2026",
+        "FIESTA Community. 'Lucas Prado & Nicole Ruiz - BEEST Snacks story.' 2026. https://www.fiesta.community/stories/lucas-prado-nicole-ruiz",
+        "BEEST Snacks. 'Homepage - Real Food. Real Crunch. Unreal Macros.' 2026. https://www.beestsnacks.com/",
+        "Snack Food & Wholesale Bakery / Circana. 'Meat snack makers play with bold flavors.' 2025. https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+        "Food Business News / Circana. 'Consumers recalibrating meat purchasing patterns.' 2026. https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+        "Progressive Grocer. 'H-E-B Opens in San Antonio's Far East Side.' 2026. https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+        "The Good Food Institute / SPINS. 'Plant-based retail market overview.' 2026. https://gfi.org/marketresearch/",
+        "BEEST Snacks (Judge.me). '38 public customer reviews - keyword-coded content analysis.' 2026-11-07. https://www.beestsnacks.com/"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    }
+  ]
+}
