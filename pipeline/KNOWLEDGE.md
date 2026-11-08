@@ -278,3 +278,13 @@ Build the projection bottom-up from these numbers, not top-down from a target.
 9. Text-heavy slides (over 110 words)
 10. Unsourced numbers
 11. Penalties: over 20 slides, wrong numbering or order, missing bibliography, unsigned Statement of Assurances
+
+## 15. Judge intel (sourced, not Reddit)
+
+r/DECA is effectively empty — DECA advice lives on DECA Direct, state DECA sites, LinkedIn, and winner write-ups. Verified sources:
+
+- **"In the Judge's Mind" (DECA Direct):** first 10 seconds decide the room — confident greeting, eye contact, match formality to the judge's role. Judges reward "realistic business thinking": who/what/when/how, costs, timelines, measurable benefit. Strongest decks "tell a cohesive story": restate the issue, name the gap, show the solution fills it. Don't insult the client's current strategy — pitch as enhancement, not fix of their failure.
+- **"Tips from Past Winners" (California DECA PDF):** end by closing the sale — summarize best points, ask the judge to adopt the plan. Judges sit through dozens of decks; uniqueness + confidence beat polish.
+- **Cengage judge article:** never define textbook terms without applying them to THIS scenario; pitching an idea as fixing the company's past failure insults leadership — frame as a new opportunity.
+- **Andrew Weatherman (ex-DECA Exec President, Medium):** don't center the campaign on a gimmick — judges take it less seriously. The two months between state and ICDC separate finalists: know the scenario space, adjust plans to variables, and ground every plan in "real-world" feasibility (who executes, what it costs).
+- **decaplus.org sample role-plays:** official IMCP scenarios — read before delivery practice.
