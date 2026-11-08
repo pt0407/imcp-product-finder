@@ -268,21 +268,31 @@ def slide_html(deck, s, run, idx, total, charts=None):
         for sg in deck.get("segments",[]):
             cards += f"""<div class="card"><div class="cl">{html.escape(sg['id'])} · {html.escape(sg['name'].upper())} {"(PRIMARY)" if sg.get('role')=='primary' else ""}</div>
 <div class="body" style="font-size:20px"><b>Who:</b> {html.escape(sg.get('demographic',''))}<br><b>Where:</b> {html.escape(sg.get('geographic',''))}<br><b>Mindset:</b> {html.escape(sg.get('psychographic',''))}<br><b>Behavior:</b> {html.escape(sg.get('behavioral',''))}<br><b>Media:</b> {html.escape(sg.get('media',''))}</div></div>"""
-        body = kicker("AUDIENCE SEGMENTS") + h1(s.get("title","Target Market")) + f'<div class="grid2" style="margin-top:22px">{cards}</div>'
+        seg_imgs = ""
+        imgs = []
+        for d in ("webimg","photos"):
+            p = run/d
+            if p.exists(): imgs += sorted(x for x in p.iterdir() if x.suffix.lower() in (".jpg",".jpeg",".png",".webp"))
+        if imgs:
+            cells = "".join(f'<img src="{x.resolve().as_uri()}" style="flex:1;height:140px;object-fit:cover;border-radius:14px;min-width:0">' for x in imgs[:4])
+            seg_imgs = f'<div style="display:flex;gap:16px;margin-top:26px">{cells}</div>'
+        body = kicker("AUDIENCE SEGMENTS") + h1(s.get("title","Target Market")) + f'<div class="grid2" style="margin-top:22px">{cards}</div>{seg_imgs}'
         return page(meta, idx, total, body, sec=sec)
 
     # ---------- research slides ----------
     if sec == "research":
         if "Method" in s.get("title","") or "Results" in s.get("title",""):
             meth = "".join(f'<div class="q"><div class="body" style="font-size:20px">{html.escape(m["type"].replace("_"," ").title())} (n={m.get("n") or "—"}): {html.escape(m.get("recruitment","")[:180])} — {html.escape(m.get("status",""))}</div></div>' for m in deck.get("research",{}).get("methods",[]) if m.get("status")=="complete")
-            finds = "".join(f'<div class="q"><div class="body" style="font-size:20px">{html.escape(f["finding"][:240])}</div></div>' for f in deck.get("research",{}).get("findings",[]))
-            tchart = f'<img src="{charts["themes"].resolve().as_uri()}" style="width:100%;border-radius:12px;margin-top:14px">' if "themes" in charts else ""
-            body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>{tchart}'
+            finds = "".join(f'<div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">{html.escape(f["finding"][:190])}</div></div>' for f in deck.get("research",{}).get("findings",[])[:5])
+            body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>'
         else:
             rows = ""
             for f in deck.get("research",{}).get("findings",[]):
                 dec = next((clean(b) for b in slides.get(11,{}).get("bullets",[]) if f["id"] in b), "→ campaign decision")
                 rows += f'<div class="card" style="margin-bottom:18px;display:flex;gap:24px;align-items:center"><div class="body" style="flex:1.4;font-size:20px"><b>[{f["id"]}]</b> {html.escape(f["finding"][:200])}</div><div class="arrow">→</div><div class="body" style="flex:1;font-size:19px;color:var(--brand);font-weight:700">{html.escape(dec[:140])}</div></div>'
+            if not rows:
+                for b_ in slides.get(11,{}).get("bullets",[])[:5]:
+                    rows += f'<div class="card" style="margin-bottom:14px"><div class="body" style="font-size:20px">{html.escape(clean(b_))}</div></div>'
             body = kicker("STRATEGIC LOGIC") + h1(s.get("title","")) + f'<div style="margin-top:18px">{rows}</div>'
         return page(meta, idx, total, body, sec=sec)
 
@@ -290,16 +300,23 @@ def slide_html(deck, s, run, idx, total, charts=None):
     if sec == "strategy" and "Program" in s.get("title",""):
         ids = [g for g in [p["id"] for p in deck.get("programs",[])] if g in " ".join(s.get("bullets",[]))]
         prog = find(deck, ids[0]) if ids else None
+        if not prog:
+            pm = re.search(r"Program\s+(\d+)", s.get("title",""))
+            if pm:
+                i = int(pm.group(1)) - 1
+                progs = deck.get("programs",[])
+                prog = progs[i] if 0 <= i < len(progs) else None
         if prog:
             body = kicker(f"PROGRAM {prog['id'][1:]} · {prog['name'].upper()}") + h1(prog["name"]) + f"""
-<div class="card" style="margin-top:20px"><div class="body" style="font-size:23px">{html.escape(prog['mechanic'])}</div></div>
-<div class="grid4" style="margin-top:22px">
-<div class="card"><div class="cl">SEGMENT</div><div class="body" style="font-size:19px">{html.escape(prog.get('segment',''))}</div></div>
-<div class="card"><div class="cl">CHANNELS</div><div class="body" style="font-size:19px">{html.escape(' · '.join(prog.get('channels',[])))}</div></div>
-<div class="card"><div class="cl">OBJECTIVES</div><div class="body" style="font-size:19px">{html.escape(' · '.join(prog.get('objectives',[])))}</div></div>
-<div class="card"><div class="cl">WEEKS / OWNER</div><div class="body" style="font-size:19px">Wks {html.escape(str(prog.get('weeks',[])))} · {html.escape(prog.get('owner',''))}</div></div>
-</div>
-{"" if not uri else f'<img class="vis" src="{uri}" style="margin-top:24px;max-height:300px">'}"""
+<div class="cols2" style="margin-top:16px"><div class="col" style="flex:1.15">
+<div class="card"><div class="body" style="font-size:21px">{html.escape(prog['mechanic'])}</div></div>
+<div class="grid2" style="margin-top:18px;gap:14px">
+<div class="card" style="padding:16px 18px"><div class="cl">SEGMENT</div><div class="body" style="font-size:17px">{html.escape(prog.get('segment',''))}</div></div>
+<div class="card" style="padding:16px 18px"><div class="cl">CHANNELS</div><div class="body" style="font-size:17px">{html.escape(' · '.join(prog.get('channels',[])))}</div></div>
+<div class="card" style="padding:16px 18px"><div class="cl">OBJECTIVES</div><div class="body" style="font-size:17px">{html.escape(' · '.join(prog.get('objectives',[])))}</div></div>
+<div class="card" style="padding:16px 18px"><div class="cl">WEEKS / OWNER</div><div class="body" style="font-size:17px">Wks {html.escape(str(prog.get('weeks',[])))} · {html.escape(prog.get('owner',''))}</div></div>
+</div></div>
+<div class="col">{"" if not uri else f'<img class="vis" src="{uri}" style="max-height:560px;width:100%;object-fit:contain">'}</div></div>"""
             return page(meta, idx, total, body, sec=sec)
 
     if sec == "strategy" and ("Schedule" in s.get("title","") or "Week" in s.get("title","")):
