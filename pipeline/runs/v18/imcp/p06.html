@@ -1,7 +1,20 @@
 <!doctype html><html><head><meta charset='utf-8'><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&display=swap" rel="stylesheet"><style>
+:root{--brand:#FFBC00;--acc:#ff6e0d}
 *{box-sizing:border-box;margin:0;padding:0}
-.page{width:1600px;height:900px;font-family:'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;color:#1c1c1e;position:relative;padding:64px 76px;display:flex;flex-direction:column}
+.page{width:1600px;height:900px;font-family:'Poppins','Helvetica Neue',Helvetica,Arial,sans-serif;color:#1c1c1e;position:relative;padding:70px 96px 150px;display:flex;flex-direction:column}
+.frame{position:absolute;left:26px;top:26px;right:26px;bottom:26px;border:5px solid var(--acc);border-radius:34px;pointer-events:none}
+.navbar{position:absolute;left:64px;right:64px;bottom:40px;display:flex;align-items:center;justify-content:space-between}
+.navpills{display:flex;gap:12px}
+.navp{font-size:16px;font-weight:700;padding:9px 20px;border-radius:999px;background:#eceadf;color:#57534a}
+.navp.on{background:var(--acc);color:#fff}
+.pgcirc{width:54px;height:54px;border-radius:50%;background:var(--brand);color:#fff;font-size:21px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.statp{display:inline-block;background:var(--brand);color:#fff;font-size:28px;font-weight:800;padding:13px 28px;border-radius:999px;margin:6px 12px 6px 0}
+.themep{display:inline-block;background:var(--acc);color:#fff;font-size:26px;font-weight:800;padding:14px 38px;border-radius:999px;margin:8px 0 18px}
+.tbar{width:88px;height:10px;background:var(--acc);border-radius:6px;margin:4px 0 20px}
+.catband{background:var(--acc);color:#fff;font-weight:800;font-size:19px;padding:10px 18px;letter-spacing:.04em}
+.strip{position:absolute;left:0;right:0;bottom:0;height:230px;display:flex;overflow:hidden;gap:4px}
+.strip img{flex:1;object-fit:cover;min-width:0;height:230px}
 .kick{font-family:'Poppins','Poppins',sans-serif;font-size:19px;letter-spacing:.32em;font-weight:800;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
 .kick.grey{color:#9a917f}
 .h1{font-family:'Poppins','Poppins',sans-serif;font-size:54px;font-weight:900;letter-spacing:-1.5px;line-height:1.03;margin-bottom:8px}
@@ -31,5 +44,4 @@ img.vis{max-width:100%;max-height:560px;border-radius:16px;object-fit:contain;bo
 .tag{display:inline-block;background:var(--brand);color:#fff;border-radius:999px;padding:5px 14px;font-size:14px;font-weight:800;letter-spacing:.06em}
 .mono{font-family:'SF Mono',Menlo,monospace}
 </style></head>
-<body><div class="page" style="background:#ffffff"><div class="kick">COMPANY &amp; POSITION</div><div class="h1">The Company &amp; Its Position</div><div class="cols2"><div class="col"><div class="body"><li class=""><b>California DTC brand est.</b> 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees.</li><li class=""><b>Trust assets exist but are buried:</b> UL certifications, Trustpilot 4.7/620, founder story - none above the fold.</li><li class=""><b>DTC-only vs.</b> &#x27;affordable for all&#x27; promise; no mass retail presence found in audit - whitespace is experience, not distribution.</li></div></div><div class="col"><img class="vis" src="file:///Users/pranav/Desktop/DevinProjects/imcp-product-finder/pipeline/runs/v18/visuals/s06.png"></div></div>
-<div class="pfoot"><span>Arrive Ready</span><span>6 / 20</span></div></div></body></html>
+<body><div class="page" style="background:#ffffff"><div class="frame"></div><div class="kick">COMPANY &amp; POSITION</div><div class="h1">The Company &amp; Its Position</div><div class="tbar"></div><div class="cols2"><div class="col"><div class="body"><li class=""><b>California DTC brand est.</b> 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees.</li><li class=""><b>Trust assets exist but are buried:</b> UL certifications, Trustpilot 4.7/620, founder story - none above the fold.</li><li class=""><b>DTC-only vs.</b> &#x27;affordable for all&#x27; promise; no mass retail presence found in audit - whitespace is experience, not distribution.</li></div></div><div class="col"><img class="vis" src="file:///Users/pranav/Desktop/DevinProjects/imcp-product-finder/pipeline/runs/v18/visuals/s06.png"></div></div><div class="navbar"><div class="navpills"><span class="navp on">Product</span><span class="navp">Objectives</span><span class="navp">Target Market</span><span class="navp">Proposed Plan</span><span class="navp">Expenses</span><span class="navp">Key Metrics</span></div><div class="pgcirc">6</div></div></div></body></html>

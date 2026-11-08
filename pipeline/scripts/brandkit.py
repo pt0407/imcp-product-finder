@@ -56,8 +56,8 @@ def font_families(text):
                 fams[f] += 1
     return [f for f,_ in fams.most_common(8)]
 
-def logo_url(home_html, base):
-    # prefer explicit logo-named images
+def logo_url(home_html, base, prefer=""):
+    cands = []
     for m in re.findall(r"(?:src|data-src|srcset)\s*=\s*[\"']([^\"']*(?:logo|Logo)[^\"']*?\.(?:png|svg|jpe?g|webp)[^\"']*)[\"']", home_html):
         u = m.split(" ")[0].replace("&amp;","&")
         if "next/image" in u:  # unwrap next/image proxy
@@ -65,8 +65,14 @@ def logo_url(home_html, base):
             if inner: u = urllib.parse.unquote(inner.group(1))
         if u.startswith("//"): u = "https:" + u
         if u.startswith("/"): u = base.rstrip("/") + u
-        return u
-    return None
+        cands.append(u)
+    if not cands: return None
+    pw = prefer.split()[0].lower() if prefer else ""
+    for u in cands:
+        # check context around the URL for the preferred brand name
+        i = home_html.find(u.split("?")[0].split("/")[-1])
+        if pw and pw in home_html[max(0,i-300):i+300].lower(): return u
+    return cands[0]
 
 import urllib.parse
 
@@ -92,7 +98,7 @@ def main():
 
     colors = hex_colors(html + "\n" + css_text)
     fonts  = font_families(html + "\n" + css_text)
-    logo   = logo_url(html, site)
+    logo   = logo_url(html, site, deck["meta"].get("product",""))
 
     brand = {
         "site": site,
