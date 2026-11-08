@@ -1,70 +1,66 @@
 {
-  "product": "tinyB chocolate (brigadeiros)",
-  "company": "tinyB chocolate",
-  "category": "artisan chocolate / Brazilian brigadeiros (gifting + experiences)",
-  "brand_color": "#d62828",
+  "product": "Pan's Mushroom Jerky",
+  "company": "Panco Foods Inc. (DBA Pan's Mushroom Jerky)",
+  "category": "savory snacks / meat-snack aisle (plant-based shiitake jerky)",
+  "brand_color": "#e2711d",
   "facts": [
-    {"fact": "2025 revenue ~$916K, +30% YoY, profitable and bootstrapped; raising $1.5M", "source": "S5"},
-    {"fact": "Revenue mix: ~57% corporate events, ~22% brick-and-mortar, ~14% gifting/DTC, ~7% wholesale", "source": "S5"},
-    {"fact": "Average order ~$47; margins 72-78% across channels", "source": "S5"},
-    {"fact": "3,200+ corporate events delivered, 82,000+ participants, clients incl. Google, Cisco, Meta, Salesforce, PwC", "source": "S5"},
-    {"fact": "Flagship store at 411 S B St, San Mateo CA, open ~1 year, $200K year one", "source": "S5"},
-    {"fact": "4.8 Google rating, 5.0 Yelp; 30,000+ customers served", "source": "S5"},
-    {"fact": "Founded 2014 by Renata Stoica, a Brazilian former nurse; brigadeiros are gluten-free, made in small batches", "source": "S6"},
-    {"fact": "~40 employees per PitchBook", "source": "S7"},
-    {"fact": "US chocolate market $29.2B in 2025, +5.7% CAGR 2020-2025 (GlobalData)", "source": "S1"},
-    {"fact": "Valentine's Day spending expected at record $29.1B; candy is the most-planned gift (56% of celebrants)", "source": "S2"},
-    {"fact": "84% of Americans enhance Valentine's with chocolate/candy; 92% hope to receive chocolate", "source": "S3"},
-    {"fact": "US confectionery $42.5B in 2025, +5.3% dollars; 99.8% household penetration; avg buyer spends $352/yr", "source": "S4"},
-    {"fact": "Edible gifts are 36% of corporate gifts; 81% of recipients find them most appreciated; 79% more likely to remember the giver", "source": "S8"}
+    {"fact": "Revenue $3,148,758 (FY22) -> $2,882,541 (FY23) -> $2,776,426 (YTD Nov 30, 2024); net losses -$956K, -$1.12M, -$545K", "source": "S1"},
+    {"fact": "14 employees; Portland, OR; founded as Panco Foods Dec 2020 (brand launched 2018)", "source": "S1"},
+    {"fact": "Sold in 2,500+ US stores; family shiitake recipe founder Michael Pan found visiting relatives in Malaysia in 2006", "source": "S2"},
+    {"fact": "Retail price $7.99-$8.99; cost to make ~$1.67/bag (2020); sales $300K (2018), $755K (2019)", "source": "S3"},
+    {"fact": "Shark Tank S12E6 (Nov 2020): Mark Cuban invested $300K for 18%; ~750 retail outlets at the time", "source": "S4"},
+    {"fact": "Brand says it 'isn't trying to completely imitate beef'; no allergens to declare, gluten-free, vegan, Kosher", "source": "S5"},
+    {"fact": "US plant-based meat retail sales fell 10% in dollars and 11% in units in 2025 to ~$1.0B", "source": "S6"},
+    {"fact": "Meat snacks sales rose 11.3% to $6.4B in 2025 with volume +9.2%", "source": "S7"},
+    {"fact": "Dried meat snacks $6.8B (+11.5%); jerky subcategory $2.4B (-0.5%); Chomps $797M (+61.5%)", "source": "S8"},
+    {"fact": "H-E-B operates 455 stores in Texas and Mexico, ~$49.6B revenue (2025)", "source": "S9"},
+    {"fact": "Mark Cuban announced Pan's selection for distribution in H-E-B stores across Texas", "source": "S10"},
+    {"fact": "6 in 10 US households bought plant-based foods in 2025; distribution losses drove declines while velocities rose", "source": "S11"}
   ],
   "problem_candidates": [
-    {"problem": "Revenue concentration: 57% of revenue is corporate events - a capacity-limited, relationship-driven channel - while consumer DTC gifting is only ~14% and wholesale ~7%", "evidence": ["S5"]},
-    {"problem": "Corporate event kits reach 82,000+ participants but contain no consumer purchase path - the B2B audience never converts to DTC buyers", "evidence": ["S5"]},
-    {"problem": "Seasonal gifting spike (Valentine's, holidays) is the biggest consumer occasion but the brand has no gifting-specific campaign engine", "evidence": ["S2", "S3", "S5"]}
+    {"problem": "Velocity gap: store count grew from ~750 (2020) to 2,500+ while revenue fell 12% from FY22 to FY24 annualized pace - each store is selling fewer bags", "evidence": ["S1", "S2", "S4"]},
+    {"problem": "Category mis-association: shoppers file Pan's with 'plant-based meat' (-10% in 2025) instead of savory/protein snacks (+11.3%)", "evidence": ["S6", "S7", "S5"]},
+    {"problem": "Unprofitable growth: net losses every year since FY22 mean the brand needs efficient, measurable trial, not expensive awareness", "evidence": ["S1"]}
   ],
   "competitors": [
-    {"name": "Lindt / Ghirardelli / Russell Stover", "price": "$15-60/box", "channel": "mass retail + DTC", "positioning": "traditional boxed chocolates, heart-shaped boxes", "source": "S3"},
-    {"name": "DTC chocolate brands (e.g., Dandelion, Raaka)", "price": "$20-45", "channel": "DTC + select retail", "positioning": "bean-to-bar craft chocolate", "source": "S1"},
-    {"name": "Corporate gifting platforms (Giftsenda etc.)", "price": "varies", "channel": "B2B marketplaces", "positioning": "curated corporate gift boxes", "source": "S8"}
+    {"name": "Jack Link's (Link Snacks)", "price": "$6-9", "channel": "mass retail, c-store", "positioning": "classic beef jerky; $898M, -5.8%", "source": "S8"},
+    {"name": "Chomps", "price": "$2-3/stick", "channel": "grocery, Target, DTC", "positioning": "grass-fed meat sticks; $797M, +61.5%", "source": "S8"},
+    {"name": "Old Trapper", "price": "$7-10", "channel": "grocery", "positioning": "smoked beef jerky; +4%", "source": "S8"},
+    {"name": "Plant-based meat brands (frozen/refrigerated)", "price": "$5-8", "channel": "grocery freezer/cooler", "positioning": "meat imitation; category -10%", "source": "S6"}
   ],
   "sources": [
-    {"id": "S1", "publisher": "GlobalData", "title": "USA Chocolate (Confectionery) Market Analysis", "date": "2025", "url": "https://www.globaldata.com/store/report/usa-chocolate-market-analysis/", "type": "secondary"},
-    {"id": "S2", "publisher": "National Retail Federation / Prosper Insights", "title": "Valentine's Day Spending Expected to Reach New Records", "date": "2026-01", "url": "https://nrf.com/media-center/press-releases/valentine-s-day-spending-expected-to-reach-new-records", "type": "secondary"},
-    {"id": "S3", "publisher": "National Confectioners Association", "title": "Consumers Embrace Chocolate And Candy For Valentine's Day", "date": "2026", "url": "https://candyusa.com/news/consumers-embrace-chocolate-and-candy-to-elevate-their-valentines-day-celebrations/", "type": "industry"},
-    {"id": "S4", "publisher": "Circana via The Shelby Report", "title": "State of Treating 2026", "date": "2026-05-21", "url": "https://theshelbyreport.com/2026/05/21/state-of-treating-2026-whats-driving-confectionery-consumers-now/", "type": "secondary"},
-    {"id": "S5", "publisher": "tinyB chocolate (company investor brief)", "title": "Investor Brief, May 2026", "date": "2026-05", "url": "https://tinybchocolate.com/pages/investor-brief", "type": "company"},
-    {"id": "S6", "publisher": "Forbes Brasil", "title": "Brasileira fatura R$ 25 milhões vendendo brigadeiro no Vale do Silicio", "date": "2023-07-18", "url": "https://forbes.com.br/forbes-money/2023/07/brasileira-fatura-milhoes-vendendo-brigadeiro-no-vale-do-silicio/", "type": "secondary"},
-    {"id": "S7", "publisher": "PitchBook", "title": "TinyB Chocolate company profile", "date": "2026", "url": "https://pitchbook.com/profiles/company/439570-99", "type": "secondary"},
-    {"id": "S8", "publisher": "Giftsenda / Coresight Research", "title": "Holiday Gifting Report for Corporates", "date": "2025", "url": "https://www.giftsenda.com/blog/holiday-gifting-report-for-corporates/", "type": "vendor"}
+    {"id": "S1", "publisher": "U.S. SEC (Panco Foods Inc. Reg CF offering summary)", "title": "Panco Foods Inc Small Business Bond offering summary", "date": "2025", "url": "https://www.sec.gov/Archives/edgar/data/1952718/000195271825000001/offeringsummarypans.pdf", "type": "company"},
+    {"id": "S2", "publisher": "Pan's Mushroom Jerky", "title": "Our Story", "date": "2026", "url": "https://www.mushroomjerky.com/pages/our-story", "type": "company"},
+    {"id": "S3", "publisher": "CNBC Make It", "title": "Shark Tank: Mark Cuban invests in founder selling vegan jerky", "date": "2020-11-23", "url": "https://www.cnbc.com/make-it/2020/11/23/shark-tank-mark-cuban-invests-in-founder-selling-vegan-jerky.html", "type": "secondary"},
+    {"id": "S4", "publisher": "Food Business News", "title": "Mushroom jerky lures investors on 'Shark Tank'", "date": "2020-11-24", "url": "https://www.foodbusinessnews.net/articles/17355-mushroom-jerky-lures-investors-on-shark-tank", "type": "secondary"},
+    {"id": "S5", "publisher": "Pan's Mushroom Jerky", "title": "FAQ", "date": "2026", "url": "https://www.mushroomjerky.com/pages/faq", "type": "company"},
+    {"id": "S6", "publisher": "The Good Food Institute (SPINS data)", "title": "Analyzing plant-based meat & seafood sales", "date": "2026", "url": "https://gfi.org/resource/analyzing-plant-based-meat-and-seafood-sales/", "type": "secondary"},
+    {"id": "S7", "publisher": "Food Business News (Circana / Power of Meat)", "title": "Consumers recalibrating meat purchasing patterns", "date": "2026", "url": "https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns", "type": "secondary"},
+    {"id": "S8", "publisher": "Snack Food & Wholesale Bakery (Circana data)", "title": "Meat snack makers play with bold flavors, on-the-go portions", "date": "2025", "url": "https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions", "type": "secondary"},
+    {"id": "S9", "publisher": "Progressive Grocer", "title": "H-E-B Opens in San Antonio's Far East Side", "date": "2026", "url": "https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side", "type": "secondary"},
+    {"id": "S10", "publisher": "Innovationify", "title": "Pan's Mushroom Jerky Shark Tank Update", "date": "2026", "url": "https://innovationify.com/shark-tank/pans-mushroom-jerky/", "type": "secondary"},
+    {"id": "S11", "publisher": "The Good Food Institute (SPINS data)", "title": "Plant-based retail market overview", "date": "2026", "url": "https://gfi.org/marketresearch/", "type": "secondary"}
   ],
   "assumptions": [
-    {"id": "A1", "text": "DTC AOV ~$47 (company-reported average order across channels)"},
-    {"id": "A2", "text": "DTC gross margin ~72% (company-reported gifting/DTC margin)"},
-    {"id": "A3", "text": "Baseline monthly DTC orders unknown; week-1 dashboard establishes it"},
-    {"id": "A4", "text": "Paid social benchmarks: 2.5M impressions at ~$2.60 CPM; 1.2% CTR; 4.5% landing conversion"},
-    {"id": "A5", "text": "tinyB is open to including a consumer insert card in corporate event kits (not yet confirmed)"},
-    {"id": "A6", "text": "Micro-creator rates $400-$900 per post for food/lifestyle creators"},
-    {"id": "A7", "text": "Brigadeiro Bar pop-up costs: venue comped by partner cafe, product COGS ~$8/participant"},
-    {"id": "A8", "text": "Content production via local Bay Area creators"},
-    {"id": "A9", "text": "Email/SMS platform ~$200/mo plus list-growth ads"},
-    {"id": "A10", "text": "PR = product seeding to 5 food/gifting writers; no cash retainers"},
-    {"id": "A11", "text": "Landing page + QR tooling ~$200 one-time"},
-    {"id": "A12", "text": "Contingency ~$1,000 (~5% of lines)"}
+    {"id": "A1", "text": "Brand revenue per purchase ~$8.00: 2 bags at ~$4.00 wholesale (~50% of $7.99-8.99 shelf price); confirm with company"},
+    {"id": "A2", "text": "Gross margin ~42%: average of FY22 (40%), FY23 (30%), and YTD FY24 (57%) from SEC filing figures"},
+    {"id": "A3", "text": "H-E-B store-level baseline velocity unknown; measured week 0 via shelf audit + company sell-through data"},
+    {"id": "A4", "text": "Paid social: ~$2.30 CPM; 1.5% CTR on coupon creative; 12% coupon-claim-to-purchase (validate week 1)"},
+    {"id": "A5", "text": "Pan's and H-E-B would approve in-store demos and a digital coupon (proposed, not confirmed)"}
   ],
   "research": {
     "methods": [
       {"id": "M1", "type": "survey", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
       {"id": "M2", "type": "interview", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
-      {"id": "M3", "type": "competitor_audit", "n": 3, "dates": "2026-11-07", "recruitment": "Agency desk audit of confectionery brands + gifting platforms", "status": "complete", "results_file": "pipeline/brief.json"},
-      {"id": "M4", "type": "secondary", "n": null, "dates": "2026-11-07", "recruitment": "Industry reports and trade press", "status": "complete", "results_file": "pipeline/brief.json"}
+      {"id": "M3", "type": "competitor_audit", "n": null, "dates": "", "recruitment": "H-E-B shelf audit (pending)", "status": "pending", "results_file": ""},
+      {"id": "M4", "type": "secondary", "n": 11, "dates": "2026-11-07", "recruitment": "SEC filing, GFI/SPINS, Circana via trade press, company pages", "status": "complete", "results_file": "pipeline/brief.json"}
     ],
     "findings": []
   },
   "open_questions": [
-    "Current DTC order volume and email list size (company investor brief gives mix but not counts)",
-    "Whether corporate event kits can carry a consumer insert card",
-    "Which SKU leads DTC gifting (box vs. single brigadeiros)",
-    "Store capacity for weekend tasting bar"
+    "Which H-E-B stores carry Pan's, and which aisle (snack, jerky, natural foods, produce)?",
+    "Company's H-E-B sell-through and wholesale price (ask Pan's directly)",
+    "Is there a current digital coupon program (Pan's site lists 'Free Coupons')?",
+    "Which flavor sells best in Texas?"
   ]
 }
