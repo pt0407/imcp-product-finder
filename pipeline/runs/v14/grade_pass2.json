@@ -1,0 +1,72 @@
+{
+  "run": "v14",
+  "grader_session": "fresh",
+  "pass": 2,
+  "scores": {
+    "industry_knowledge": {
+      "score": 4,
+      "evidence": "Slide 6: \"Founder Christian: Chicago childhood -> Flagler College (FL) -> study abroad Costa Rica & Colombia -> began shipping air plants ~2010\" plus named Guatemala communities and a positioning map with the brand alone in the 'easy-care + real-mission' quadrant",
+      "fix": "Slide 8 admits \"exact segment sizing to be validated in-window\" - add real market-size numbers for the air-plant/epiphyte niche (or state the TAM range) so industry knowledge isn't visibly incomplete."
+    },
+    "business_opportunity": {
+      "score": 4,
+      "evidence": "Slide 4: \"shoppers cannot identify air plants - the product needs education before the sale, and the brand's best asset (Pencils of Promise schools) is invisible, earning $1/order with zero marketing\" - a specific structural problem, with SMART O1-O3 on Slide 7",
+      "fix": "Quantify the opportunity: no conversion or revenue figure is given for the 140K monthly visits (Slide 6) - state an estimated conversion gap or revenue at stake to move from 'developing' to 'exemplary' problem framing."
+    },
+    "research": {
+      "score": 5,
+      "evidence": "Slide 9: \"Primary lite (complete): digital shelf audit of 6 public pages - reviews, mission placement, catalog, B2B rails [R1][R2][R3][R5]; intercept survey, interviews, and competitor audit scheduled in-window (M1-M3 pending)\" - only ONE no-survey primary method completed (n=6 shelf audit) plus secondary sources; primary_lite_ok=false",
+      "fix": "Complete M1-M3 before submission (even n=30 intercept survey + 3 interviews + competitor audit would unlock the 11-15 band); until then the honest 5 is correct - the deck does deserve credit for transparently labeling pending work and making real audit findings (zero reviews, buried mission) drive decisions on Slide 10."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"The Unkillable Plant - the only plant that survives your neglect AND builds a school while it does. Message: 'Kill-proof. Care-free. World-changing.'\" with IMC mix and B2B push-pull; Slide 13's live donation counter makes the real POP partnership the emotional engine",
+      "fix": "The live-plant demo + real $1/order NGO donation is near-unassailable, but 'geo social + creators + B2B outreach' remains a largely copyable PESO list - sharpen one more defensible mechanism (e.g., the dated care-tag neglect test as a proprietary proof format competitors cannot replicate) and reduce reliance on standard paid-social reach math."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 16: \"W2-W3 (Jan 12-25): trials continue; creator videos 1-2 (P1, TikTok, O1/O3, social lead); corporate outreach wave 1 (P2, B2B, O3, wholesale lead)\" - segment/channel/objective/owner and weeks all aligned within the 45-day window",
+      "fix": "Owners are role labels ('field lead', 'social lead'), not named individuals - name actual team members per program so accountability is clear; also slide 14 compresses two programs (Corporate Plant + Plant 101) onto one slide, diluting per-activity detail."
+    },
+    "budget": {
+      "score": 8,
+      "evidence": "Slide 17: \"Total $7,000: paid social $2,500 [A4]; creators 2 x $600 = $1,200 [A6]; trials 6 x $200 = $1,200 [A7]... Gross profit at 55% = $9.2K; profit ROI 32%; ROAS 4.9x\" with a labeled conservative case (check.json: 7 lines sum to $7,000, profit-based ROI, conservative -34% ROI)",
+      "fix": "Conservative case loses ~$2.4K gross profit in-window (ROI -34%) - the slide names repeat buyers/Q1 gifting tail as recovery but gives no quantified recovery math; add an explicit conservative-case recovery estimate or reallocation plan (e.g., shift spend to B2B where CAC is lowest)."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O1: attributed purchases; baseline 0; target 600; code reports + UTMs; weekly\" ... \"Mission metric: live School Plant counter - every attributed plant adds $1 to Pencils of Promise; target 600+ plants = $600+ donated\" - every KPI has objective, baseline, target, tool, cadence, plus decision triggers",
+      "fix": "The 500K-impression target lacks a baseline and an awareness measurement method (no brand-lift survey or awareness KPI); add a simple pre/post aided-awareness check or competitor-share proxy so the awareness objective is actually measured, not just impressions counted."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 3 TOC follows the official outline (Overview -> Product & Company -> Objectives -> Target Market -> Research -> Strategy/Activities/Schedule -> Budget -> Impact -> Bibliography); Slide 15 keeps one idea per slide ('read the care tag aloud - it is the whole campaign in 15 words')",
+      "fix": "Slide 14 crams two distinct programs ('The Corporate Plant (B2B)...' AND 'Plant 101 Content Engine...') onto one slide, and Slide 16 packs pre-work plus all seven weeks into a single dense slide - split each onto two slides to restore one-idea-per-slide discipline."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 19 restates Slide 4 verbatim: \"Air Plant Supply Co does not need more products - it needs Americans to know a plant can survive their neglect, and every living plant sold builds a school in Guatemala.\" - thesis bookended, 'kill-proof, care-free, world-changing' through-line is persuasive",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk-track notes on all 16 body slides with planned interactive elements: Slide 12 \"Interactive: hand the judge a live plant with the care tag\", Slide 8 \"Interactive: show both personas\", Slide 15 \"Read the care tag aloud\", Slide 4 \"Open with the demo: hold up a live air plant\"",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides (4-19) have visuals - mockups for sampling table (Slide 12), School Plant page (Slide 13), flat-lay + TikTok mockup (Slide 14), and a positioning map (Slide 6); consistent brand system",
+      "fix": "Slides 4, 17, and 19 run 111-115 words vs. the 62-92 winner average (check.json W_WORDS x3) - move funnel math and conservative-case detail to notes/appendix; theme 'The Unkillable Plant' missing from strategy slides 14 and 16 (check.json W_THEME x2)."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Slide 2 title slide lists product/campaign/date but check.json flags missing meta.school, school_address, participants, and date - same completeness gap as prior graded decks",
+      "fix": "Add school name, school address, participant names, and date to the title slide (meta fields are empty in deck.json) - a professionalism/compliance fix that protects the overall impression."
+    }
+  },
+  "top_fixes": [
+    "Run the pending primary research (M1-M3: intercept survey, interviews, competitor audit) before submission - the deck's own research is honestly capped at 5/15 with only one completed no-survey method (digital_shelf_audit n=6) plus secondary sources (points: research 5->11+, ~1-2 days of fieldwork).",
+    "Quantify the conservative-case recovery plan on Slide 17: the -34% in-window ROI is acknowledged but the 'repeat buyers + Q1 gifting tail' recovery is unpriced - add a 90-day revenue estimate and a spend-reallocation trigger so the financial risk reads as managed, not absorbed (points: budget 8->9, ~1 hour).",
+    "Complete title-slide metadata (school, address, participants, date - all flagged by check.json) and split Slide 14's two programs and Slide 16's seven-week schedule onto separate slides to restore one-idea-per-slide discipline and trim 111-115-word slides 4/17/19 toward the 62-92 winner average (points: overall + design + organization ~2-3 pts, ~1 hour)."
+  ]
+}

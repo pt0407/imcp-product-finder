@@ -1,0 +1,73 @@
+{
+  "run": "v14",
+  "grader_session": "fresh",
+  "pass": 1,
+  "scores": {
+    "industry_knowledge": {
+      "score": 4,
+      "evidence": "Slide 6: \"Founder Christian: Chicago childhood -> Flagler College (FL) -> study abroad Costa Rica & Colombia -> began shipping air plants ~2010\" plus \"~43 SKUs, $6-$150 price band; 30-day health guarantee; handmade holiday trees built in Guatemala\" (Slide 5) and \"~140K monthly visits on the Shopify dataset\"",
+      "fix": "Competitor analysis stays at category level (\"Etsy/DTC air-plant sellers compete on price and variety\", Slide 6) - name 2-3 real competitors with price/product specifics to hit exemplary."
+    },
+    "business_opportunity": {
+      "score": 4,
+      "evidence": "Slide 4: \"the brand's best asset (Pencils of Promise schools) is invisible, earning $1/order with zero marketing\" + \"~140K monthly visits... real audience, thin conversion layer\" (Slide 6) - structural problem, not just awareness, plus SMART O1-O3 on Slide 7",
+      "fix": "Quantify the opportunity cost: what $1/order has raised vs. what the invisible mission could plausibly convert - the mission counter is the wedge but no baseline donation revenue is given."
+    },
+    "research": {
+      "score": 5,
+      "evidence": "Slide 9: \"digital shelf audit of 6 public pages... ZERO on-site reviews [R1]; mission buried in a 2016 blog post [R2]\" with \"intercept survey, interviews, and competitor audit scheduled in-window (M1-M3 pending)\" - only secondary sources + a 6-page audit; auto-capped at 5 by research_no_primary",
+      "fix": "Run M1-M3 before the campaign window: even n=30 intercept survey at Austin nurseries or 3 creator/vendor interviews unlocks the 10-11 range; the deck already schedules the survey in W6 - pull it forward and report results."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"The Unkillable Plant - the only plant that survives your neglect AND builds a school while it does. Message: 'Kill-proof. Care-free. World-changing.'\" - big idea directly solves the 'education before sale' problem and the uncopyable mission tie-in is real (Slide 10 maps every decision to an audit finding)",
+      "fix": "The IMC mix line is still a standard PESO list - name the single uncopyable asset (the live donation counter + the botanical 'unkillable' proof demo) as the strategic spine competitors cannot replicate."
+    },
+    "activities": {
+      "score": 14,
+      "evidence": "Slide 16: \"W1 (Jan 5): trials begin (P1, field, O1/O2, field lead)... W6-W7 (Feb 9-18): final trials; last-chance email (P1/P2, O1)... in-window intercept survey at Austin nurseries (O3, research lead)\" - segment/channel/objective/owner per activity across all 7 weeks",
+      "fix": "Replace role labels ('field lead', 'social lead') with named individuals or DECA roles to make ownership real for a client pitch."
+    },
+    "budget": {
+      "score": 7,
+      "evidence": "Slide 17: \"Total $7,000: paid social $2,500; creators 2 x $600 = $1,200; trials 6 x $200 = $1,200; School Plant page + counter $700; POP kit $500; tools $200; contingency $700\" - lines sum correctly, funnel math (500K x 1.2% x 8% = 480) shown, profit ROI 32%, conservative -34% disclosed honestly",
+      "fix": "No cost basis on any line - each amount is a bare assumption; cite a benchmark or quote (creator rate card, venue fee, Meta CPM estimate) per line. Conservative case loses money with only 'repeat buyers + Q1 gifting tail' as recovery - quantify that tail."
+    },
+    "impact": {
+      "score": 8,
+      "evidence": "Slide 18: \"O1: attributed purchases; baseline 0; target 600; code reports + UTMs; weekly\" plus \"Mission metric: live School Plant counter... target 600+ plants = $600+ donated\" - good mapping, but impressions (500K) and wholesale inquiries (25) lack baselines",
+      "fix": "Add baselines for O3 (current weekly impressions, current B2B inquiry volume) and a brand-lift or aided-awareness measure so 'awareness' is captured beyond raw impressions."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 3 TOC follows official order (Overview -> Product & Company -> Objectives -> Target Market -> Research -> Strategy -> Budget -> Impact -> Bibliography); Slide 14 compresses \"Programs 3+4: Corporate Plant & Plant 101\" onto one slide",
+      "fix": "Split Slide 14's two programs onto separate slides to restore one-idea-per-slide."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 thesis: \"Air Plant Supply Co does not need more products - it needs Americans to know a plant can survive their neglect, and every living plant sold builds a school in Guatemala\" restated verbatim on Slide 19: \"Close on the thesis verbatim - kill-proof, care-free, world-changing.\"",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk track on all 16 body slides with planned interactions: Slide 12 \"hand the judge a live plant with the care tag\", Slide 8 \"show both personas\", Slide 15 \"Read the care tag aloud - it is the whole campaign in 15 words\"",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "16/16 body slides have visuals (mockups, charts, Gantt); but Slides 4, 17, 19 run 111-115 words vs the 62-92 winner band, and check.json flags theme 'The Unkillable Plant' missing from strategy slide 11 text",
+      "fix": "Trim Slides 4/17/19 to <=110 words (move funnel math and conservative-case detail to notes/appendix) and put the campaign theme word on the strategy slide headline."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Slide 2 title slide lacks school, address, participants and date per check.json warnings (\"meta.school missing\", \"meta.participants missing\", \"meta.date missing\") - same professionalism/completeness gap as prior decks",
+      "fix": "Complete all title-slide metadata (school, address, participant names, date) before submission."
+    }
+  },
+  "top_fixes": [
+    "Complete primary research: M1-M3 (intercept survey, interviews, competitor audit) are scheduled but PENDING - even n=30 survey or 3 interviews lifts research from the hard 5-cap toward 10-13 (points: research 5->10+, ~6-10 hours).",
+    "Add cost basis to every budget line (benchmarks, quotes, or labeled assumptions with source) and quantify the conservative-case recovery path - the deck loses -34% ROI in-window with only vague 'repeat buyers + Q1 gifting tail' justification (points: budget 7->9).",
+    "Fix title-slide metadata (school, address, participants, date), trim Slides 4/17/19 to <=110 words, split Slide 14 into two program slides, and put the campaign theme on the strategy headline - cheap compliance fixes protecting overall/organization/design (points: ~3-4 across three categories, ~1 hour)."
+  ],
+  "total": 77
+}

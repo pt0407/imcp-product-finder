@@ -1,0 +1,80 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school_address missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.participants missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.date missing (needed on title slide)"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 4: 111 words (winners averaged 62-92)"
+    },
+    {
+      "code": "W_THEME",
+      "msg": "slide 14: theme 'The Unkillable Plant' not on strategy slide"
+    },
+    {
+      "code": "W_THEME",
+      "msg": "slide 16: theme 'The Unkillable Plant' not on strategy slide"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 17: 113 words (winners averaged 62-92)"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 19: 115 words (winners averaged 62-92)"
+    },
+    {
+      "code": "W_FINANCE",
+      "msg": "conservative case loses money; address the risk on the budget slide"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "primary_lite_ok": false,
+    "findings_cited_on_strategy": 5,
+    "budget_lines": 7,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 4,
+    "body_slides_with_visual": 16,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 7000,
+    "ad_spend_usd": 3700,
+    "break_even_orders": 364,
+    "base_case": {
+      "orders": 480,
+      "revenue_usd": 16800,
+      "gross_profit_usd": 9240,
+      "roi_profit_based": 0.32,
+      "roas": 4.54,
+      "cac_usd": 14.58
+    },
+    "conservative_case": {
+      "orders": 240,
+      "revenue_usd": 8400,
+      "gross_profit_usd": 4620,
+      "roi_profit_based": -0.34,
+      "roas": 2.27,
+      "cac_usd": 29.17
+    }
+  },
+  "penalty_points": 0
+}
