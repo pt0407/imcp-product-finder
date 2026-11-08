@@ -83,11 +83,20 @@
       },
       {
         "id": "M1",
-        "type": "survey",
+        "type": "survey (measurement plan)",
         "n": 150,
         "dates": "pending",
-        "recruitment": "Intercept survey at fit-event sites + founder interview (founder does public interviews)",
-        "status": "pending",
+        "recruitment": "Intercept survey n=150 at fit-event sites \u2014 runs as the week-0 baseline instrument inside the measurement plan",
+        "status": "planned",
+        "results_file": ""
+      },
+      {
+        "id": "M6",
+        "type": "expert_interview",
+        "n": 1,
+        "dates": "proposed",
+        "recruitment": "Founder interview \u2014 Will Roman takes public calls (Ecommerce Conversations); proposed to the brand",
+        "status": "proposed",
         "results_file": ""
       }
     ],
@@ -153,7 +162,7 @@
     }
   ],
   "budget": {
-    "total_usd": 12450,
+    "total_usd": 15450,
     "lines": [
       {
         "item": "Paid social (FB/YT geo + retargeting)",
@@ -178,6 +187,12 @@
         "category": "production",
         "usd": 650,
         "basis": "A10"
+      },
+      {
+        "item": "FITTED redemption fund ($25 x 120 orders)",
+        "category": "promotion",
+        "usd": 3000,
+        "basis": "A8"
       },
       {
         "item": "Contingency (~10%)",
@@ -232,7 +247,7 @@
     {
       "id": "G1",
       "name": "Get Fitted Events",
-      "mechanic": "Pop-up fitting stations at Texas venues (gun shows, western events, malls): Brannock fitting + try-on wall + 'your size, guaranteed' card + QR. Solves the fit gamble in person.",
+      "mechanic": "Pop-up fitting stations at western-wear retailers, country festivals, and outlet malls: Brannock fitting + try-on wall + 'your size, guaranteed' card + QR. Solves the fit gamble in person.",
       "segment": "P1",
       "channels": [
         "in-person events",
@@ -435,7 +450,7 @@
       "bullets": [
         "Independent Austin bootmaker - 250+ verified reviews, events-driven sales model, founder-accessible [S1][S2][S3].",
         "Texas boot culture is real - Tecovas scaled on it; Chisos is the craft-first alternative [S4].",
-        "Positioning gap: 'handmade Texas boots' is crowded; 'the boot that fits you' is unclaimed.",
+        "Positioning gap: Tecovas owns the showroom; Chisos owns the fit guarantee at DTC - we bring the Brannock to the customer, they make you come to the store [S4].",
         "Campaign claims the fit guarantee."
       ],
       "notes": "Category + brand facts."
@@ -470,7 +485,7 @@
       "bullets": [
         "Content analysis of 250 public Judge.me reviews (collected 2026-11-07), keyword-coded [R1-R4].",
         "Digital shelf audit of 8 sources: sizing pages, fit quiz, events vs Tecovas [S1][S4][S5].",
-        "Pending: intercept survey (n=150) at fit events + founder interview - founder takes public calls [S3].",
+        "Measurement plan: pre/post intercept survey (n=150) runs as the week-0 baseline [M1]; founder interview proposed \u2014 he takes public calls [M6][S3].",
         "250 reviews with real fit-complaint themes - the problem is visible in the data."
       ],
       "notes": "What the data says."
@@ -492,10 +507,8 @@
       "section": "strategy",
       "title": "Campaign Strategy",
       "bullets": [
-        "Theme: Get Fitted - the boot brand that guarantees the fit.",
-        "Push-pull: fitting events create the try-on (pull); fit-guide + gift drops convert at home (push) [R2][A4].",
-        "Trust-channel native: YouTube + events where boot buyers actually are [R3].",
-        "PESO: paid geo-social, earned Texas-event PR, shared craft stories, owned email/SMS + fit guide."
+        "8 fitting-event shifts at Texas venues: western-wear retailers, country festivals, outlet malls (P1, field, O1/O2/O3, Nino) [A7].",
+        "Solves the fit gamble face-to-face - judges hold a real $450 boot, DECA-compliant. [A1]"
       ],
       "notes": "Success guarantee across every touchpoint."
     },
@@ -581,10 +594,10 @@
       "section": "budget",
       "title": "Budget & Financial Viability",
       "bullets": [
-        "Total $12,450: paid social $5.5K [A4]; creators $2.4K [A6]; events $2.8K [A7]; production $650 [A10]; contingency ~10% [A11].",
+        "Total $15,450: paid social $5.5K [A4]; creators $2.4K [A6]; events $2.8K [A7]; production $650 [A10]; FITTED fund $3K [A8]; contingency ~10% [A11].",
         "Funnel: 800K impressions x 2.5% CTR x 0.6% purchase = ~120 orders = $54K revenue [A1][A4].",
-        "GP 50% = $27K; direct ROI ~+134% base - a $450 AOV changes the math: 120 orders covers the budget [A2][A13].",
-        "Conservative (50%): 60 orders, ROI ~+17% - still positive; the first candidate whose math works [A15]."
+        "GP 50% = $27K; direct ROI ~+75% base - the $450 AOV covers the full budget including redemptions [A2][A13].",
+        "Conservative (50%): 60 orders, ROI ~-13% - the only candidate whose upside case is self-funding [A15]."
       ],
       "notes": "Honest economics."
     },
