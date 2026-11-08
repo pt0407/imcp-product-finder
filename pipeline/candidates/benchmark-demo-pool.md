@@ -1,0 +1,13 @@
+# Benchmark-demo pool (screened 2026-11-07)
+User criterion: "NVIDIA play" — run benchmarks/live numbers as the demo. Minimal human involvement, quantifiable superiority, high scores.
+
+| Candidate | Live benchmark demo | Corpus | Verdict |
+|---|---|---|---|
+| **xtool.com** | Laser engraver — engrave judge's name/keychain LIVE in front of them = benchmark + gift in one | 150+ Judge.me (saved) | **TOP** — demo is a machine doing work in real-time |
+| **sharge.com** | Transparent power bank — live wattage display, charge race vs generic bank | 150+ Judge.me (saved) | strong — quantified + cool prop |
+| minisforum.com | Mini PC — run Cinebench/game FPS live vs old laptop | judge.me refs but fetch 404 (slug differs) | needs slug fix; classic benchmark play |
+| sabrent.com | SSD speed test live | judge.me:8, unfetched | corporate-ish |
+| gpd.hk | handheld PC benchmarks | unverified | niche |
+
+## Insight
+Tech products with quantified specs let you "show, not tell" — the demo is a number going up on a screen. xTool adds the gift mechanic (judge leaves with an engraved object) = benchmark + leave-behind.
