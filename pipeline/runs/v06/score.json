@@ -1,0 +1,64 @@
+{
+  "run": "v06",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 11,
+    "budget": 7,
+    "impact": 7,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 3,
+    "overall": 3
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 11,
+    "budget": 7,
+    "impact": 7,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 3,
+    "overall": 3
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 0,
+    "research": 0,
+    "strategy": 0,
+    "activities": 0,
+    "budget": 0,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 2,
+    "overall": 0
+  },
+  "noisy_categories": [
+    "design"
+  ],
+  "raw_total": 65,
+  "capped_total": 65,
+  "penalty_points": 0,
+  "final": 65,
+  "top_fixes": [
+    "Build the real visuals (charts, positioning map, shelf/TikTok/demo mockups, Gantt) to replace the 'MOCKUP NEEDED' placeholders — design +2-3, plus delivery and overall",
+    "Complete primary research (survey n>=30 with dates, 3+ interviews), show the results on Slide 9, and cite R# findings on the strategy slides — removes the research cap of 5 (up to +6-10) and lifts strategy",
+    "Reconcile the O1 numbers (+25% at 6 stores vs. 4,500 attributed purchases) across Slides 7, 17, and 18, and back the budget with real quotes and a non-negative case — business opportunity, budget, and impact +1-3",
+    "Complete primary research (survey n>=30 + 3 interviews), report n, dates and results on Slide 9, and cite at least 3 [R#] findings on Slides 10-14. This lifts the research cap from 5 toward 10-14 and strengthens strategy (+6-10 pts).",
+    "Reconcile the O1 math: the 4,500 purchases (9,000 bags) vs. a +25% lift on ~6 bags/store/week at 6 stores. Rebuild the funnel by channel, including demo conversions, so the base case is positive and consistent (+2-4 pts across business opportunity, budget, impact and effectiveness).",
+    "Complete the title slide (school, address, participants, date), trim Slide 17 under 110 words, and add cadence to every KPI plus a real brand-lift method (+2-3 pts across organization, overall, impact and design)."
+  ],
+  "scored_at": "2026-11-07T19:49:51"
+}
