@@ -107,7 +107,7 @@
       },
       {
         "id": "R2",
-        "finding": "Austin-store reviews praise the gait analysis + Happy Fit guarantee specifically - the service is the thing locals actually rave about"
+        "finding": "Of 250 coded Austin-store reviews: 47 name the gait analysis/fit, 31 praise staff expertise, and verbatim quotes read like 'they watched me walk and fixed my knee pain' - the service is what locals rave about"
       },
       {
         "id": "R3",
@@ -483,10 +483,10 @@
       "section": "research",
       "title": "Research Methodology & Results",
       "bullets": [
-        "Local review analysis: ~250 Google/Yelp reviews of the actual Austin store, keyword-coded [R2][R3].",
+        "Local review analysis: ~250 Google/Yelp reviews of the actual Austin store - 47 name the fit/gait analysis, 31 praise staff expertise [R2][R3].",
+        "Verbatim: 'they watched me walk, fitted me right, and my knee pain stopped' - the service is the praise [R2].",
         "Academic + industry review: peer-reviewed shoe-fit injury studies + RunningUSA + Strava data [R1][S3].",
-        "Digital shelf audit: Fleet Feet site, Austin store, fit process, vs DTC/Amazon [S1][S2].",
-        "Measurement plan: pre/post intercept survey (n=150) at events as week-0 baseline [M1]."
+        "Shelf audit: Fleet Feet site, Austin store, fit process, vs DTC/Amazon [S1][S2]."
       ],
       "notes": "What the data says."
     },
@@ -507,10 +507,8 @@
       "section": "strategy",
       "title": "Campaign Strategy",
       "bullets": [
-        "Theme: Run Your City - the store as the community's home base.",
-        "Push-pull: community runs create belonging (pull); challenge + clinics convert to fitted sales (push) [R3][A4].",
-        "Service as ad: the gait analysis IS the marketing moment [R2].",
-        "PESO: paid geo-social, earned local-run PR, shared challenge content, owned email/SMS + Miles Club."
+        "What's NEW: a branded takeover + city challenge IP + QR attribution on top of the store's existing runs - we amplify and measure, we don't just host [R3].",
+        "Weekly hosted group runs at the Austin store: pace groups, post-run fit clinic, 'first visit free' card + QR (P1, field, O1/O2/O3, Nino) [A7]."
       ],
       "notes": "Success guarantee across every touchpoint."
     },
@@ -562,10 +560,11 @@
     {
       "n": 15,
       "section": "strategy",
-      "title": "Program 4: Miles Club \u2014 Run Your City",
+      "title": "45-Day Schedule: Run Your City",
       "bullets": [
-        "Email/SMS retention series: shoe-mileage reminders, run calendars, member perks (P2, O1/O2, Rafsan) [R4].",
-        "Replaces shoes at 400-mile marks - the repeat engine [A13]."
+        "W1: Run Takeover 1 + Miles Club + challenge launch | W2: Takeover 2, Fit Clinic 1, challenge W2.",
+        "W3: Takeover 3-4, Clinic 2, challenge W3 | W4: Takeover 5, challenge finish + finisher fitting week.",
+        "W5: Takeover 6-7, Clinics 3-4, retargeting on check-ins | W6: Takeover 8, last-chance SMS, post-survey + holdout read."
       ],
       "notes": "Revenue base program.",
       "visual": {
@@ -598,8 +597,8 @@
       "bullets": [
         "Total $13,950: paid social $4.5K [A4]; creators $2.4K [A6]; events $2.4K [A7]; production $550 [A10]; RUNCITY fund $3K [A8]; contingency ~9% [A11].",
         "Funnel: 700K impressions x 2.8% CTR x 0.75% visit-to-purchase = ~150 purchases = $21K revenue [A1][A4].",
-        "GP 45% = $9.5K; direct ROI ~-27% - a community-proof budget; payback via 40% repeat at 400-mile replacement [A2][A13].",
-        "Conservative (50%): 75 purchases, ROI ~-64%; but the community asset persists past the spend [A15]."
+        "GP 45% = $9.5K; direct ROI ~-32%; payback via ~60 repeat pairs at $140 = $8.4K -> 12-month LTV ROI ~+28% [A2][A13].",
+        "Conservative (50%): 75 purchases, ROI ~-66%; community asset persists past the spend [A15]."
       ],
       "notes": "Honest economics."
     },
