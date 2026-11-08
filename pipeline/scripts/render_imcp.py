@@ -70,6 +70,21 @@ def b64(p):
     import base64
     return base64.b64encode(p.read_bytes()).decode()
 
+def creative(deck, n):
+    return (deck.get("_creative") or {}).get(str(n)) or {}
+
+def photo_bg(run, c):
+    f = c.get("photo","")
+    p = run/f if f else None
+    if p and p.exists():
+        ov = c.get("overlay",0.72)
+        return (f'<div style="position:absolute;inset:0;background:url({p.resolve().as_uri()}) center/cover"></div>'
+                f'<div style="position:absolute;inset:0;background:linear-gradient(105deg,rgba(10,8,16,{ov}) 30%,rgba(10,8,16,{ov*0.55}))"></div>'), True
+    return "", False
+
+def quote_card(txt, attrib=""):
+    return f'<div class="q" style="background:#fff;margin-bottom:0;padding:16px 18px"><div style="font-size:19px;line-height:1.38;font-style:italic">“{html.escape(txt[:170])}”</div><small>{html.escape(attrib)}</small></div>'
+
 def photo_strip(run, n=5):
     imgs = []
     for d in ("webimg","photos"):
@@ -248,6 +263,11 @@ def slide_html(deck, s, run, idx, total, charts=None):
                 picrow = '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px">' + "".join(f'<img src="{p.resolve().as_uri()}" style="width:100%;height:190px;object-fit:cover;border-radius:14px">' for p in pics) + '</div>'
             body = kicker("PRODUCT PROFILE") + h1(s.get("title","The Product")) + f'<div class="body" style="font-size:24px;max-width:1100px">{B(s)}</div>' + f'<div class="grid4" style="margin-top:22px">{cards}</div>' + picrow
         else:
+            bgd, ok = photo_bg(run, creative(deck, n))
+            if ok:
+                bl = "".join(f'<div style="font-size:23px;color:#fff;opacity:.94;line-height:1.5;margin-bottom:16px">{html.escape(clean(b_))}</div>' for b_ in s.get("bullets",[])[:5])
+                body = bgd + f'<div style="position:relative;margin-top:8px"><div style="font-size:19px;letter-spacing:.32em;font-weight:800;color:#fff;opacity:.7;margin-bottom:14px">COMPANY & POSITION</div><div class="h1" style="color:#fff">{html.escape(s.get("title",""))}</div><div style="margin-top:26px;max-width:1150px">{bl}</div></div>'
+                return page(meta, idx, total, body, bg="#0c0a12", sec=sec)
             right = f'<img class="vis" src="{uri}">' if uri else ""
             body = kicker("COMPANY & POSITION") + h1(s.get("title","")) + f'<div class="cols2"><div class="col"><div class="body">{B(s)}</div></div><div class="col">{right}</div></div>'
         return page(meta, idx, total, body, sec=sec)
@@ -283,8 +303,15 @@ def slide_html(deck, s, run, idx, total, charts=None):
     if sec == "research":
         if "Method" in s.get("title","") or "Results" in s.get("title",""):
             meth = "".join(f'<div class="q"><div class="body" style="font-size:20px">{html.escape(m["type"].replace("_"," ").title())} (n={m.get("n") or "—"}): {html.escape(m.get("recruitment","")[:180])} — {html.escape(m.get("status",""))}</div></div>' for m in deck.get("research",{}).get("methods",[]) if m.get("status")=="complete")
-            finds = "".join(f'<div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">{html.escape(f["finding"][:190])}</div></div>' for f in deck.get("research",{}).get("findings",[])[:5])
-            body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>'
+            cap = 4 if creative(deck, n).get("quotes") else 5
+            finds = "".join(f'<div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">{html.escape(f["finding"][:170])}</div></div>' for f in deck.get("research",{}).get("findings",[])[:cap])
+            qband = ""
+            qs = creative(deck, n).get("quotes", [])
+            if qs:
+                qband = ('<div class="kick grey" style="font-size:15px;margin-top:12px">VERBATIM — WHAT REAL BUYERS SAY</div>'
+                         '<div style="display:flex;gap:16px;margin-top:6px">'
+                         + "".join(quote_card(q["text"], q.get("attrib","Verified buyer")) for q in qs[:3]) + '</div>')
+            body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>{qband}'
         else:
             rows = ""
             for f in deck.get("research",{}).get("findings",[]):
@@ -412,6 +439,9 @@ def main(deck_path):
             return (0.299*r+0.587*g+0.114*bl)/255
         m["cover_bg"] = min(b.get("palette",[]) or [m["brand_color"]], key=lum)
         if b.get("logo_file"): m["logo_file"] = b["logo_file"]
+    cj = run / "creative.json"
+    if cj.exists():
+        deck["_creative"] = json.loads(cj.read_text())
     outdir = run / "imcp"; outdir.mkdir(exist_ok=True)
     slides = deck["slides"]; total = len(slides); pngs = []
     charts = make_charts(deck, run)
