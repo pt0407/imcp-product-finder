@@ -390,7 +390,12 @@
       "section": "cover",
       "title": "Run Your City",
       "bullets": [],
-      "notes": "Hold a running shoe up: '90% of new runners quit in a year. Most were wearing the wrong shoe. This store fixes that for free.'"
+      "notes": "Hold a running shoe up: '90% of new runners quit in a year. Most were wearing the wrong shoe. This store fixes that for free.'",
+      "visual": {
+        "type": "hero",
+        "desc": "Fleet Feet runner hero image",
+        "src": "webimg/hero.jpg"
+      }
     },
     {
       "n": 2,
@@ -441,7 +446,12 @@
         "The Austin store already runs weekly group runs + clinics - a real community asset [R3][S2].",
         "Austin's trail/run culture is a local moat no national ad can buy [S5]."
       ],
-      "notes": "The service IS the product."
+      "notes": "The service IS the product.",
+      "visual": {
+        "type": "product",
+        "desc": "Fleet Feet shoe/tech image",
+        "src": "webimg/tech.jpg"
+      }
     },
     {
       "n": 6,
@@ -621,7 +631,7 @@
       "bullets": [
         "Fleet Feet owns the two things online can't copy: a free expert fit and a real running community - the local reviews prove it.",
         "Run Your City sells belonging, not shoes - and the judges can literally join the Saturday run.",
-        "A local store, local data, local prop: the strongest district pitch there is."
+        "A local store, local data, local prop - the deck the room already lives in."
       ],
       "notes": "Close while judges hold the kit."
     },

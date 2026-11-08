@@ -8,10 +8,6 @@
     },
     {
       "code": "W_VISUAL",
-      "msg": "slide 5: no visual"
-    },
-    {
-      "code": "W_VISUAL",
       "msg": "slide 6: no visual"
     },
     {
@@ -63,7 +59,7 @@
     "has_projection": true,
     "kpis_missing_target": 0,
     "kpis_with_baseline": 4,
-    "body_slides_with_visual": 5,
+    "body_slides_with_visual": 6,
     "body_slides_with_notes": 16,
     "campaign_days": 45
   },
