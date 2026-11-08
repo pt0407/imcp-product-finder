@@ -9,11 +9,13 @@ All paths are relative to `/Users/pranav/Desktop/DevinProjects/imcp-product-find
 |---|---|
 | `pipeline/KNOWLEDGE.md` | Marketing knowledge + winner patterns. **Read before every task.** |
 | `pipeline/rubric.json` | Official 2026–27 evaluation form, bands, harsh guidance, auto-caps |
+| `pipeline/prompts/00_screen.md` | Score a candidate business before building decks |
 | `pipeline/prompts/01_brief.md` | Build the brief, survey, and interview guide; load real research |
 | `pipeline/prompts/02_generate.md` | Write a full deck variant |
 | `pipeline/prompts/03_grade.md` | Grade a deck (fresh session only) |
 | `pipeline/prompts/04_revise.md` | Revise the leading variant |
-| `pipeline/scripts/*.py` | check_deck, score, render, new_run, calibrate, extract_pdf, summarize_survey |
+| `pipeline/scripts/*.py` | check_deck, score, render, new_run, calibrate, extract_pdf, summarize_survey, make_visuals |
+| `pipeline/tools/*.py` | fetch_reviews_judgeme, analyze_reviews (no-survey primary research) |
 | `pipeline/team.json` | School, address, participants, date (the human fills this in) |
 | `pipeline/leaderboard.csv` | Ranked results across all runs |
 
@@ -32,6 +34,9 @@ python3 check_deck.py ../tests/fixture/deck.json   # should print 0 errors
 ```
 Ask the human to fill in `pipeline/team.json`.
 
+## Step 0.5: Screen candidates (when asked to find new businesses)
+For each candidate name the human gives (or one you discover in `data/shortlist.csv` / the Shopify dataset), follow `prompts/00_screen.md` and write `pipeline/candidates/<slug>.md`. Only run Steps 2–5 on candidates that get a **Build it** verdict. Rank all screened candidates in `data/shortlist.csv` by score.
+
 ## Step 1: Calibrate the grader (once)
 ```
 python3 extract_pdf.py
@@ -45,6 +50,8 @@ If it fails, re-read `rubric.json` → `harsh_guidance` and regrade the failing 
 ## Step 2: Brief and research instruments
 Follow `prompts/01_brief.md`. Output: `pipeline/brief.json`, `research/survey.md`, `research/interview_guide.md`.
 **Hand the survey to the human immediately.** Real responses take the longest, so start them first.
+
+**If the human says the survey won't happen:** follow `prompts/01_brief.md` → Prompt 01c. Run the no-survey methods yourself where possible (review fetch + analysis is fully automatable). You need **at least 2 completed lite methods** (`review_analysis` n≥100, `social_listening` n≥100, `digital_shelf_audit`/`store_observation` n≥3) to lift the Research cap from 5 to 10. Set skipped methods to `"not_applicable"`. Never present review analysis as a survey — label it customer-voice analysis and state the self-selection limitation on slide 9.
 
 ## Step 3: Generate variants (research pending)
 Create 4 variants with different strategic angles. Pick from:
@@ -62,6 +69,7 @@ For each angle:
 ```
 python3 new_run.py "Trial program"          # creates runs/vNN/
 # follow prompts/02_generate.md in this session
+python3 scripts/make_visuals.py ../runs/vNN/deck.json  # generates PNG visuals from deck.json data
 python3 check_deck.py ../runs/vNN/deck.json # loop until 0 errors
 python3 render.py ../runs/vNN/deck.json     # creates deck.md, deck.html, deck.pdf
 ```
@@ -85,8 +93,8 @@ python3 check_deck.py ../runs/vMM/deck.json && python3 render.py ../runs/vMM/dec
 Repeat until a stop rule triggers.
 
 ## Step 6: Load real research and finalize
-When the human provides survey results and interview notes:
-1. Follow `prompts/01_brief.md` → Prompt 01b. Use `summarize_survey.py`. Only use numbers it prints.
+When the human provides survey results, interview notes, or confirms the no-survey methods from Step 2:
+1. Follow `prompts/01_brief.md` → Prompt 01b (survey/interviews) or 01c (no-survey methods). Use `summarize_survey.py` / `analyze_reviews.py`. Only use numbers they print.
 2. Create a revision of the top run: `new_run.py "<angle> final" --from vNN`. Replace the research slides (9–10) with real findings, and cite ≥3 [R#] on strategy slides.
 3. Run `python3 check_deck.py ../runs/vMM/deck.json --final`. This blocks on placeholders, pending research, missing title info, and unsigned assurances.
 4. Render, then grade 2 fresh passes, then score.

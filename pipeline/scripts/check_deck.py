@@ -118,8 +118,8 @@ def check(deck, final=False):
             if PLACEHOLDER_RE.search(slide_text(s) + " " + s.get("notes", "")):
                 err("E_PLACEHOLDER", f"slide {s['n']} contains a placeholder (VERIFY/TBD/TODO/{{{{)")
         for m in methods:
-            if m.get("status") != "complete":
-                err("E_RESEARCH_PENDING", f"research method {m.get('id')} is not complete; real data required")
+            if m.get("status") not in ("complete", "not_applicable"):
+                err("E_RESEARCH_PENDING", f"research method {m.get('id')} is not complete; real data required (use status 'not_applicable' for methods the team will not run)")
 
     # ---- Warnings --------------------------------------------------------------
     theme = (meta.get("theme") or "").lower()
@@ -153,12 +153,15 @@ def check(deck, final=False):
     survey_ok = any(m.get("type") == "survey" and (m.get("n") or 0) >= 30 for m in complete)
     interviews_ok = sum(1 for m in complete if m.get("type") == "interview") >= 3 or \
         any(m.get("type") == "interview" and (m.get("n") or 0) >= 3 for m in complete)
+    lite_min = {"review_analysis": 100, "social_listening": 100, "digital_shelf_audit": 3, "store_observation": 3}
+    lite_done = [m for m in complete if m.get("type") in lite_min and (m.get("n") or 0) >= lite_min[m["type"]]]
     strategy_r = {t for s in slides if s.get("section") == "strategy"
                   for t in tags_in(slide_text(s)) if t.startswith("R")}
     kpis = deck.get("kpis", [])
     body = [s for s in slides if 4 <= s["n"] <= 19]
     facts = {
         "primary_research_ok": survey_ok or interviews_ok,
+        "primary_lite_ok": len(lite_done) >= 2,
         "findings_cited_on_strategy": len(strategy_r),
         "budget_lines": len(lines),
         "has_projection": fin is not None,

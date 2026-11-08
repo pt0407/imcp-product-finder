@@ -41,7 +41,8 @@
   ],
   "auto_caps": {
     "_note": "Applied by scripts/score.py from deck.json facts. A grader cannot score above these caps.",
-    "research_no_primary": {"category": "research", "cap": 5, "rule": "No completed primary research (survey with n>=30 or >=3 interviews)."},
+    "research_no_primary": {"category": "research", "cap": 5, "rule": "No completed primary research (survey with n>=30 or >=3 interviews) and no completed no-survey methods."},
+    "research_primary_lite": {"category": "research", "cap": 10, "rule": "Only no-survey primary methods completed (review_analysis n>=100, digital_shelf_audit or store_observation n>=3, social_listening n>=100). Need >=2 of them. Real survey/interviews unlock 11-15."},
     "research_unlinked": {"category": "research", "cap": 10, "rule": "Fewer than 3 research findings [R#] are cited on strategy slides."},
     "budget_thin": {"category": "budget", "cap": 6, "rule": "Fewer than 5 budget lines, or no projected revenue."},
     "impact_no_targets": {"category": "impact", "cap": 6, "rule": "Any KPI is missing a target."},

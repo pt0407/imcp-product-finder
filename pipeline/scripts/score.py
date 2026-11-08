@@ -57,7 +57,7 @@ def caps_from_facts(facts):
         caps[r["category"]] = min(caps.get(r["category"], 99), r["cap"])
 
     if not facts.get("primary_research_ok"):
-        cap("research_no_primary")
+        cap("research_primary_lite" if facts.get("primary_lite_ok") else "research_no_primary")
     if facts.get("findings_cited_on_strategy", 0) < 3:
         cap("research_unlinked")
     if facts.get("budget_lines", 0) < 5 or not facts.get("has_projection"):

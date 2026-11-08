@@ -85,6 +85,14 @@ The guidelines name **cultural, social, economic, technological** influences and
 ### Competitor audit
 3–5 competitors × price, channel, positioning, and message. Show a **positioning map** (two axes, such as price vs. indulgence) with the white space marked.
 
+### No-survey primary methods (fallback when the team can't collect a survey)
+Judges still reward real data collection. If a survey/interviews are impossible, complete **at least two** of these and label them honestly:
+- **Review analysis** (`review_analysis`, n≥100): keyword-coded content analysis of public customer reviews. Customer-voice data, not a survey — state that reviewers self-select and skew positive.
+- **Store observation** (`store_observation`, n≥3): in-person visits recording shelf placement, facings, price tags, competitor adjacency.
+- **Digital shelf audit** (`digital_shelf_audit`, n≥3): the same audit on retailer sites (placement, review counts, price vs. competitors).
+- **Social listening** (`social_listening`, n≥100): coded public posts/comments about the brand or category.
+Two completed lite methods cap Research at 10/15. A real survey or 3 interviews unlock 11–15. Never blur the distinction on the slide.
+
 ### The format that earns points
 > **Finding** (method, n, source) → **Therefore** we will [specific campaign decision]
 

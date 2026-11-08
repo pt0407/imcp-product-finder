@@ -41,6 +41,7 @@
   ],
   "facts": {
     "primary_research_ok": true,
+    "primary_lite_ok": false,
     "findings_cited_on_strategy": 3,
     "budget_lines": 8,
     "has_projection": true,
