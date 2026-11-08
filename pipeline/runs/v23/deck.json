@@ -1,0 +1,754 @@
+{
+  "meta": {
+    "product": "Chisos handcrafted cowboy boots",
+    "company": "Chisos Boots (Austin TX handcrafted bootmaker, 90% DTC)",
+    "company_website": "https://chisos.com",
+    "campaign_name": "Get Fitted",
+    "theme": "Get Fitted",
+    "thesis": "Chisos does not need more boot designs - it needs buyers to stop losing the sizing gamble, and Get Fitted turns a $400 online boot purchase from a leap of faith into a guaranteed fit.",
+    "variant_angle": "fit-first DTC footwear campaign + boot prop",
+    "brand_color": "#8b5e3c",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "December 2026 \u2014 DECA District",
+    "assurances_signed": false,
+    "parent_run": "",
+    "design_style": "editorial"
+  },
+  "business_problem": "Chisos sells $300-600 handcrafted boots online where fit is the whole risk: 250 analyzed reviews are 93% four-plus-star on quality, but the complaints that exist cluster hard on sizing and fit uncertainty - the one thing a screen can't resolve [R1][R2][S2][S5].",
+  "objectives": [
+    {
+      "id": "O1",
+      "funnel_stage": "conversion",
+      "primary": true,
+      "text": "Drive 120 attributed orders (fit-event QR + code FITTED) in 45 days at ~$450 AOV"
+    },
+    {
+      "id": "O2",
+      "funnel_stage": "consideration",
+      "text": "Capture 500 email/SMS signups via fit-check events and sizing-guide funnels"
+    },
+    {
+      "id": "O3",
+      "funnel_stage": "awareness",
+      "text": "Reach 800K Texas impressions and shift 'boots are risky online' to 'Chisos gets the fit right' - +12 pts among surveyed shoppers"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Texas Boot Buyers (25-54)",
+      "role": "primary",
+      "demographic": "25-54, men, $75K+, Texas professionals + ranch-adjacent",
+      "geographic": "Austin/Central Texas + online",
+      "psychographic": "wants real boots not fast-fashion; values craft, heritage, Texas-made",
+      "behavioral": "researches before $400+ buys; wary of online sizing; buys at events/stores",
+      "media": "YouTube, Facebook, Instagram, events"
+    },
+    {
+      "id": "P2",
+      "name": "Gift-Buyers + Boot Collectors",
+      "role": "secondary",
+      "demographic": "partners + collectors 30-60",
+      "geographic": "Texas + online",
+      "psychographic": "gift-occasion purchases, heritage/craft appreciation",
+      "behavioral": "holiday buys, repeat collectors",
+      "media": "email, YouTube"
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M4",
+        "type": "review_analysis",
+        "n": 250,
+        "dates": "2026-11",
+        "recruitment": "250 public Judge.me reviews on chisos.com, keyword-coded (collected 2026-11-07)",
+        "status": "complete",
+        "results_file": "research/reviews_chisos/reviews.csv"
+      },
+      {
+        "id": "M5",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "dates": "2026-11",
+        "recruitment": "Chisos product/sizing pages, fit quiz, events vs Tecovas/Lucchese positioning",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": 150,
+        "dates": "pending",
+        "recruitment": "Intercept survey at fit-event sites + founder interview (founder does public interviews)",
+        "status": "pending",
+        "results_file": ""
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "finding": "93% four-plus-star on quality across 250 reviews - 'soft leather', 'cushioned insoles', craftsmanship is loved; the product is not the problem"
+      },
+      {
+        "id": "R2",
+        "finding": "Complaints cluster on sizing/fit ('struggle', 'hurt', 'instep') - the only recurring negative is the fit gamble DTC can't resolve"
+      },
+      {
+        "id": "R3",
+        "finding": "Reviewers mention YouTube reviews and word-of-mouth - discovery runs on trust channels, not ads"
+      },
+      {
+        "id": "R4",
+        "finding": "Repeat buyers exist ('bought two pairs') but fit complaints persist across them - the friction is structural, not a bad batch"
+      }
+    ]
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "~$450 blended AOV (boots $300-600)"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~50% on handcrafted boots"
+    },
+    {
+      "id": "A4",
+      "text": "$5,500 paid social at ~$8 CPM = ~690K impressions + ~110K organic"
+    },
+    {
+      "id": "A6",
+      "text": "6 micro creators (Texas lifestyle/boot niche) at $400 each"
+    },
+    {
+      "id": "A7",
+      "text": "8 fit-event shifts at ~$350 each (venue, fitting tools, signage)"
+    },
+    {
+      "id": "A8",
+      "text": "FITTED code: free sizing consultation + $25 off first pair; netted"
+    },
+    {
+      "id": "A10",
+      "text": "Tools/printing $650 (Brannock devices, sizing cards, signage)"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~11% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat purchase ~30% within 12 months (boot collectors)"
+    },
+    {
+      "id": "A15",
+      "text": "Conservative case = 50% of base"
+    }
+  ],
+  "budget": {
+    "total_usd": 12450,
+    "lines": [
+      {
+        "item": "Paid social (FB/YT geo + retargeting)",
+        "category": "media",
+        "usd": 5500,
+        "basis": "A4"
+      },
+      {
+        "item": "Micro creators (6 x $400)",
+        "category": "media",
+        "usd": 2400,
+        "basis": "A6"
+      },
+      {
+        "item": "Get Fitted events (8 x ~$350)",
+        "category": "field",
+        "usd": 2800,
+        "basis": "A7"
+      },
+      {
+        "item": "Brannock devices, sizing cards, signage",
+        "category": "production",
+        "usd": 650,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency (~10%)",
+        "category": "contingency",
+        "usd": 1100,
+        "basis": "A11"
+      }
+    ],
+    "projection": {
+      "impressions": 800000,
+      "ctr": 0.025,
+      "conversion_rate": 0.006,
+      "aov_usd": 450.0,
+      "gross_margin": 0.5
+    }
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (QR + FITTED)",
+      "baseline": "0 (new code)",
+      "target": "120",
+      "tool": "Shopify code report + UTM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Event scan-to-purchase conversion",
+      "baseline": "0",
+      "target": "10%",
+      "tool": "UTM funnel",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Email/SMS captures",
+      "baseline": "current list",
+      "target": "500",
+      "tool": "Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions + 'Chisos gets fit right' lift",
+      "baseline": "week-0 survey n=150",
+      "target": "800K impr.; +12 pts",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Get Fitted Events",
+      "mechanic": "Pop-up fitting stations at Texas venues (gun shows, western events, malls): Brannock fitting + try-on wall + 'your size, guaranteed' card + QR. Solves the fit gamble in person.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "The Fit Guide",
+      "mechanic": "Online sizing-guide funnel: QR -> video fit quiz -> 'recommended size' -> first-pair offer. Mirrors the event for the DTC funnel.",
+      "segment": "P1",
+      "channels": [
+        "YouTube",
+        "site",
+        "email"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (content)"
+    },
+    {
+      "id": "G3",
+      "name": "Texas Boot Stories",
+      "mechanic": "Founder/customer content: 'why Texans buy Chisos' - craft process, break-in stories, event clips. Trust-channel native (YouTube-heavy per R3).",
+      "segment": "P1",
+      "channels": [
+        "YouTube",
+        "Facebook",
+        "PR"
+      ],
+      "objectives": [
+        "O3",
+        "O2"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (content)"
+    },
+    {
+      "id": "G4",
+      "name": "Gift a Pair",
+      "mechanic": "Giftable positioning: gift card + sizing consultation + 'the gift of a real fit' to gifters [R4].",
+      "segment": "P2",
+      "channels": [
+        "email",
+        "SMS",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (web)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "Chisos Boots",
+      "title": "Product pages, sizing guide, about - Austin bootmaker",
+      "date": "2026",
+      "url": "https://chisos.com",
+      "type": "web"
+    },
+    {
+      "id": "S2",
+      "publisher": "Judge.me via chisos.com",
+      "title": "250 public customer reviews - keyword-coded analysis",
+      "date": "2026-11-07",
+      "url": "https://chisos.com",
+      "type": "web"
+    },
+    {
+      "id": "S3",
+      "publisher": "Founder interviews",
+      "title": "Will Roman on Ecommerce Conversations podcast - events-driven DTC strategy",
+      "date": "2022",
+      "url": "https://podbay.fm",
+      "type": "web"
+    },
+    {
+      "id": "S4",
+      "publisher": "Texas boot market",
+      "title": "Tecovas/Lucchese positioning and Texas boot culture",
+      "date": "2025",
+      "url": "https://www.tecovas.com",
+      "type": "web"
+    },
+    {
+      "id": "S5",
+      "publisher": "DTC footwear industry",
+      "title": "Online footwear sizing-return rates and fit-gamble friction",
+      "date": "2025",
+      "url": "https://www.statista.com",
+      "type": "web"
+    }
+  ],
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Get Fitted",
+      "bullets": [],
+      "notes": "Hold up a real boot: 'This cost $450. Would you buy it without trying it on? That's the whole problem.'"
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Get Fitted",
+        "Chisos handcrafted cowboy boots",
+        "45-day campaign - Texas events + DTC"
+      ],
+      "notes": "Title."
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "notes": "Agenda."
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Problem: 93% of reviewers love the craftsmanship, but every complaint circles the same thing - fit is a gamble online, and a $450 boot is a big gamble [R1][R2].",
+        "Solution: Get Fitted - pop-up fitting events, an online fit-guide funnel, Texas-native trust content, giftable pairs.",
+        "45-day goal: 120 orders, 500 captures, +12 pts 'Chisos gets the fit right' [O1-O3]."
+      ],
+      "notes": "Sell the fit, not the boot."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Handcrafted cowboy boots: real leather, cushioned insoles, $300-600 - Austin-made, 90% sold DTC [S1][S3].",
+        "Reviews: 'soft leather', 'cushioned', 'beautifully made' - quality is proven [R1].",
+        "The risk is fit, not product: you can't try on a boot through a screen [R2].",
+        "Founder does public interviews - the story is accessible [S3]."
+      ],
+      "notes": "Hold the boot up - '$450 on a screen is a gamble. That's the whole problem.'"
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "Company & Position",
+      "bullets": [
+        "Independent Austin bootmaker - 250+ verified reviews, events-driven sales model, founder-accessible [S1][S2][S3].",
+        "Texas boot culture is real - Tecovas scaled on it; Chisos is the craft-first alternative [S4].",
+        "Positioning gap: 'handmade Texas boots' is crowded; 'the boot that fits you' is unclaimed.",
+        "Campaign claims the fit guarantee."
+      ],
+      "notes": "Category + brand facts."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 120 attributed orders via FITTED + event QR at ~$450 AOV [O1].",
+        "O2: 500 email/SMS captures from fit events + guide [O2].",
+        "O3: 800K impressions; +12 pts 'Chisos gets the fit right' on pre/post survey (n=150 + holdout) [O3].",
+        "Baseline: current list; week-0 survey; Shopify code report."
+      ],
+      "notes": "Funnel-covered."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1: Texas boot buyers 25-54 - professionals + ranch-adjacent who want real boots; research-heavy, fit-wary; Austin/Central Texas [S4].",
+        "P2: gift-buyers + collectors 30-60 - heritage purchases, holiday-driven [R4].",
+        "P1 carries the fit problem; P2 carries revenue."
+      ],
+      "notes": "Trackers vs gifters."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Methodology & Results",
+      "bullets": [
+        "Content analysis of 250 public Judge.me reviews (collected 2026-11-07), keyword-coded [R1-R4].",
+        "Digital shelf audit of 8 sources: sizing pages, fit quiz, events vs Tecovas [S1][S4][S5].",
+        "Pending: intercept survey (n=150) at fit events + founder interview - founder takes public calls [S3].",
+        "250 reviews with real fit-complaint themes - the problem is visible in the data."
+      ],
+      "notes": "What the data says."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "[R1] Quality is loved (93% four-plus) -> sell craftsmanship + fit, not product fixes.",
+        "[R2] Complaints are sizing/fit -> the whole campaign is the fix: fitting events + online fit guide.",
+        "[R3] Discovery runs on YouTube/word-of-mouth -> trust-channel content over flashy ads.",
+        "[R4] Repeat buyers exist -> collector/gift programs compound the base."
+      ],
+      "notes": "Findings map to programs."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Theme: Get Fitted - the boot brand that guarantees the fit.",
+        "Push-pull: fitting events create the try-on (pull); fit-guide + gift drops convert at home (push) [R2][A4].",
+        "Trust-channel native: YouTube + events where boot buyers actually are [R3].",
+        "PESO: paid geo-social, earned Texas-event PR, shared craft stories, owned email/SMS + fit guide."
+      ],
+      "notes": "Success guarantee across every touchpoint."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Get Fitted Events \u2014 Get Fitted",
+      "bullets": [
+        "8 fitting-event shifts at Texas venues: Brannock fitting, try-on wall, 'your size, guaranteed' card + QR (P1, field, O1/O2/O3, Nino) [A7].",
+        "Solves the fit gamble face-to-face - the prop is a real boot, DECA-compliant."
+      ],
+      "notes": "Signature program - judge-ready.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Get Fitted Events channel mockups",
+        "file": "visuals/board_s12.png"
+      }
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: The Fit Guide \u2014 Get Fitted",
+      "bullets": [
+        "Video fit quiz + sizing-guide funnel; 'recommended size' -> first-pair offer (P1, YouTube/site, O1/O3, Santhosh) [A4].",
+        "The DTC answer to the fit problem [R2]."
+      ],
+      "notes": "Online bridge.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: The Fit Guide channel mockups",
+        "file": "visuals/board_s13.png"
+      }
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Texas Boot Stories \u2014 Get Fitted",
+      "bullets": [
+        "Founder/craft content: 'why Texans buy Chisos' - process videos, break-in stories, event clips (P1, YouTube/FB/PR, O3/O2, Rafsan) [R3][S3].",
+        "Founder interview availability is real - cite it."
+      ],
+      "notes": "UGC engine.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Texas Boot Stories channel mockups",
+        "file": "visuals/board_s14.png"
+      }
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 4: Gift a Pair \u2014 Get Fitted",
+      "bullets": [
+        "Gift card + sizing consultation bundle; 'the gift of a real fit' messaging to gifters (P2, email/SMS/site, O1/O2) [R4].",
+        "Gift-occasion revenue play."
+      ],
+      "notes": "Revenue base program.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Gift a Pair channel mockups",
+        "file": "visuals/board_s15.png"
+      }
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Schedule: Get Fitted",
+      "bullets": [
+        "Pre-work: venue bookings (gun shows, western events, malls), Brannock stock, creators | W1: Fit Guide + event 1 live.",
+        "W2-W3: events 2-5; Texas Boot Stories; retargeting on scanners.",
+        "W4-W5: Gift a Pair; events 6-8; stories continue.",
+        "W6 (day 45 close): last-chance SMS; post-survey; holdout read."
+      ],
+      "notes": "Tight, coherent.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Gift a Pair channel mockups",
+        "file": "visuals/board_s16.png"
+      }
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Budget & Financial Viability",
+      "bullets": [
+        "Total $12,450: paid social $5.5K [A4]; creators $2.4K [A6]; events $2.8K [A7]; production $650 [A10]; contingency ~10% [A11].",
+        "Funnel: 800K impressions x 2.5% CTR x 0.6% purchase = ~120 orders = $54K revenue [A1][A4].",
+        "GP 50% = $27K; direct ROI ~+134% base - a $450 AOV changes the math: 120 orders covers the budget [A2][A13].",
+        "Conservative (50%): 60 orders, ROI ~+17% - still positive; the first candidate whose math works [A15]."
+      ],
+      "notes": "Honest economics."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: orders via FITTED + QR UTMs; target 120; Shopify report; weekly [O1].",
+        "O2: captures; target 500; Klaviyo; weekly [O2].",
+        "O3: impressions 800K + perception +12 pts; pre/post survey w/ holdout [O3].",
+        "Trigger: <15 scans per event by week 3 -> shift spend to Fit Guide + gift drops."
+      ],
+      "notes": "Kill-switch included."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Chisos sells a $450 product people are afraid to buy online - not because of the boots, but because of the fit. [S1]",
+        "Get Fitted removes the fear: real fitting, real guarantee, real Texas trust - and the judges hold the product.",
+        "A boot you can touch beats a boot on a screen - the demo is the product."
+      ],
+      "notes": "Close while judges hold the kit."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [],
+      "notes": "Sources."
+    }
+  ],
+  "_creative": {
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "You wouldn't buy a $450 boot without trying it",
+          "Get Fitted events - free fitting, guaranteed size. #getfitted"
+        ],
+        [
+          "email",
+          "Your size, guaranteed",
+          "Free fitting at our next event - FITTED code inside."
+        ],
+        [
+          "sms",
+          "CHISOS: free boot fitting this Sat - your size, guaranteed.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "A $450 boot deserves a real fitting",
+          "Swipe up - free fitting + $25 off."
+        ],
+        [
+          "shelf",
+          "GET FITTED",
+          "Free fitting - your size guaranteed, $25 off today."
+        ],
+        [
+          "event",
+          "Get Fitted Event",
+          "Sat 10am-4pm - Brannock fitting + try-on wall + QR"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "The 60-second boot fit quiz",
+          "The Fit Guide - your size, recommended by video. #fitguide"
+        ],
+        [
+          "email",
+          "Stop guessing your size",
+          "Our video fit quiz finds your size - first-pair offer inside."
+        ],
+        [
+          "sms",
+          "Your fit guide is live - find your size in 60 seconds.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "60 seconds to your size",
+          "Swipe up - video fit quiz."
+        ],
+        [
+          "shelf",
+          "THE FIT GUIDE",
+          "Free video fit quiz - your size, recommended."
+        ],
+        [
+          "event",
+          "Fit Guide Live",
+          "Online funnel, weeks 1-6"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "How a Texas boot gets made",
+          "Texas Boot Stories - the craft, the break-in, the fit. #texasboots"
+        ],
+        [
+          "email",
+          "From Austin hands to your feet",
+          "The Chisos craft story - plus how events drive our sales."
+        ],
+        [
+          "sms",
+          "New Texas Boot Story just dropped - watch the craft.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Real boots, real hands",
+          "Swipe up - the craft story."
+        ],
+        [
+          "shelf",
+          "TEXAS BOOT STORIES",
+          "Made in Austin - watch the craft."
+        ],
+        [
+          "event",
+          "Story Drop",
+          "YouTube/FB content, weeks 2-6"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "The gift that actually fits",
+          "Gift a Pair: gift card + sizing consult. #giftapair"
+        ],
+        [
+          "email",
+          "Give them boots that fit",
+          "Gift card + free sizing consultation - the thoughtful gift."
+        ],
+        [
+          "sms",
+          "Gift a Pair: gift card + sizing consult - this week.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Boots they'll actually wear",
+          "Swipe up - gift card + consult."
+        ],
+        [
+          "shelf",
+          "GIFT A PAIR",
+          "Gift card + sizing consult - the gift that fits."
+        ],
+        [
+          "event",
+          "Gift Week",
+          "Bundle push, weeks 3-6"
+        ]
+      ]
+    }
+  }
+}

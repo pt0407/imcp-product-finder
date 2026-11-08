@@ -1,0 +1,71 @@
+<!doctype html><html><head><meta charset='utf-8'><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700;800;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><style>
+:root{--brand:#8b5e3c;--acc:#2b1d12}
+*{box-sizing:border-box;margin:0;padding:0}
+.page{width:1600px;height:900px;font-family:'Work Sans','Helvetica Neue',Helvetica,Arial,sans-serif;color:#1c1c1e;position:relative;padding:70px 96px 150px;display:flex;flex-direction:column}
+.frame{position:absolute;left:26px;top:26px;right:26px;bottom:26px;border:5px solid var(--acc);border-radius:34px;pointer-events:none}
+.navbar{position:absolute;left:64px;right:64px;bottom:40px;display:flex;align-items:center;justify-content:space-between}
+.navpills{display:flex;gap:12px}
+.navp{font-size:16px;font-weight:700;padding:9px 20px;border-radius:999px;background:#eceadf;color:#57534a}
+.navp.on{background:var(--acc);color:#fff}
+.pgcirc{width:54px;height:54px;border-radius:50%;background:var(--brand);color:#fff;font-size:21px;font-weight:800;display:flex;align-items:center;justify-content:center}
+.statp{display:inline-block;background:var(--brand);color:#fff;font-size:28px;font-weight:800;padding:13px 28px;border-radius:999px;margin:6px 12px 6px 0}
+.themep{display:inline-block;background:var(--acc);color:#fff;font-size:26px;font-weight:800;padding:14px 38px;border-radius:999px;margin:8px 0 18px}
+.tbar{width:88px;height:10px;background:var(--acc);border-radius:6px;margin:4px 0 20px}
+.catband{background:var(--acc);color:#fff;font-weight:800;font-size:19px;padding:10px 18px;letter-spacing:.04em}
+.strip{position:absolute;left:0;right:0;bottom:0;height:230px;display:flex;overflow:hidden;gap:4px}
+.strip img{flex:1;object-fit:cover;min-width:0;height:230px}
+
+/* ---- design languages ---------------------------------------------------
+   soft     (playful brands): no frame, blob radius, sticker kickers, big pills
+   tech     (hardware/spec brands): hairline frame, square corners, mono accents
+   editorial(food/heritage):   default — accent frame + underline bars ------- */
+.style-soft .frame{display:none}
+.style-soft .card{border-radius:30px;border:2px solid #f2dcea;box-shadow:0 8px 24px rgba(232,84,138,.08)}
+.style-soft .kick{color:var(--brand);background:#fbe3ee;display:inline-block;padding:8px 22px;border-radius:999px;letter-spacing:.14em;font-size:15px}
+.style-soft .tbar{display:none}
+.style-soft .navp{border-radius:999px}
+.style-soft .pgcirc{border-radius:50%;background:var(--acc)}
+.style-soft .themep,.style-soft .statp{border-radius:999px}
+.style-soft .q{border-radius:0 24px 24px 0;border-left-width:8px}
+.style-soft img.vis{border-radius:28px}
+.style-soft .h1{letter-spacing:-2px}
+.style-tech .frame{border-width:2px;border-radius:4px;inset:34px}
+.style-tech .card{border-radius:6px;border:1px solid #d8d8dc;box-shadow:none}
+.style-tech .kick{letter-spacing:.3em}
+.style-tech .navp{border-radius:4px}
+.style-tech .pgcirc{border-radius:4px;background:#1c1c1e}
+.style-tech .themep,.style-tech .statp{border-radius:4px}
+.style-tech .tbar{height:4px;border-radius:0;width:64px}
+.style-tech img.vis{border-radius:6px}
+.style-tech .q{border-radius:0;border-left-width:3px}
+.kick{font-family:'Work Sans','Helvetica Neue',sans-serif;font-size:16px;letter-spacing:.24em;font-weight:700;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
+.kick.grey{color:#9a917f}
+.h1{font-family:'Fraunces','Work Sans',sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.2px;line-height:1.04;margin-bottom:8px}
+.sub{font-size:21px;color:#6d675e;margin-bottom:26px}
+.pfoot{position:absolute;bottom:30px;left:76px;right:76px;display:flex;justify-content:space-between;font-size:15px;color:#b3aa99;border-top:1px solid #ece5d8;padding-top:14px}
+.card{background:#fff;border:1px solid #e8e1d4;border-radius:16px;padding:26px 28px;box-shadow:0 4px 14px rgba(60,50,30,.04)}
+.card .cl{font-size:15px;letter-spacing:.22em;font-weight:800;color:var(--brand);margin-bottom:12px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.statn{font-size:64px;font-weight:900;color:var(--brand);line-height:1}
+.statl{font-size:16px;color:#6d675e;margin-top:10px;line-height:1.35}
+.body{font-size:23px;line-height:1.5;color:#33302a}
+.body li{margin-bottom:16px}
+.body li::marker{color:var(--brand)}
+ul.body{list-style:disc;padding-left:26px}
+.arrow{color:var(--brand);font-weight:900;font-size:30px}
+table.tb{width:100%;border-collapse:collapse;font-size:20px}
+.tb th{background:#211d18;color:#fff;text-align:left;padding:14px 16px;font-size:16px;letter-spacing:.08em}
+.tb td{padding:14px 16px;border-bottom:1px solid #ece5d8;vertical-align:top;line-height:1.35}
+.tb tr:nth-child(even) td{background:#faf7f1}
+.ph{border:2px dashed #d8cfbf;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#a2977f;font-size:18px;text-align:center;padding:20px}
+img.vis{max-width:100%;max-height:560px;border-radius:16px;object-fit:contain;box-shadow:0 14px 40px rgba(0,0,0,.14)}
+.cols2{display:flex;gap:40px}
+.col{flex:1}
+.q{border-left:6px solid var(--brand);background:#fff;padding:18px 22px;border-radius:0 14px 14px 0;font-size:21px;line-height:1.4;margin-bottom:16px;box-shadow:0 4px 14px rgba(60,50,30,.06)}
+.q small{display:block;color:#a2977f;font-size:14px;margin-top:8px;letter-spacing:.08em;text-transform:uppercase}
+.tag{display:inline-block;background:var(--brand);color:#fff;border-radius:999px;padding:5px 14px;font-size:14px;font-weight:800;letter-spacing:.06em}
+.mono{font-family:'SF Mono',Menlo,monospace}
+</style></head>
+<body class="style-editorial"><div class="page" style="background:#ffffff"><div class="frame"></div><div class="kick">45-DAY SCHEDULE</div><div class="h1">45-Day Schedule: Get Fitted</div><div class="tbar"></div><table class="tb" style="margin-top:20px"><tr><th>PROGRAM</th><th>WEEKS 1-7</th><th>OWNER</th></tr><tr><td style="font-weight:700">Get Fitted Events</td><td><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">1</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">2</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">3</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">4</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">5</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">6</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">7</span></td><td style="font-size:17px">Nino (field)</td></tr><tr><td style="font-weight:700">The Fit Guide</td><td><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">1</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">2</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">3</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">4</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">5</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">6</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">7</span></td><td style="font-size:17px">Santhosh (content)</td></tr><tr><td style="font-weight:700">Texas Boot Stories</td><td><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">1</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">2</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">3</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">4</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">5</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">6</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">7</span></td><td style="font-size:17px">Rafsan (content)</td></tr><tr><td style="font-weight:700">Gift a Pair</td><td><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">1</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">2</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">3</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">4</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">5</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">6</span><span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">7</span></td><td style="font-size:17px">Rafsan (web)</td></tr></table><div class="body" style="margin-top:20px;font-size:20px"><li class=""><b>Pre-work:</b> venue bookings (gun shows, western events, malls), Brannock stock, creators | W1: Fit Guide + event 1 live.</li><li class=""><b>W2-W3:</b> events 2-5; Texas Boot Stories; retargeting on scanners.</li><li class=""><b>W4-W5:</b> Gift a Pair; events 6-8; stories continue.</li><li class=""><b>W6 (day 45 close):</b> last-chance SMS; post-survey; holdout read.</li></div><div class="navbar"><div class="navpills"><span class="navp">Product</span><span class="navp">Objectives</span><span class="navp">Target Market</span><span class="navp on">Proposed Plan</span><span class="navp">Expenses</span><span class="navp">Key Metrics</span></div><div class="pgcirc">16</div></div></div></body></html>
