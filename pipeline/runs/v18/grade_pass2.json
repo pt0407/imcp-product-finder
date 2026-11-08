@@ -1,0 +1,72 @@
+{
+  "run": "v18",
+  "grader_session": "fresh",
+  "pass": 2,
+  "scores": {
+    "industry_knowledge": {
+      "score": 4,
+      "evidence": "Slide 6: \"California DTC brand est. 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees [S1][S6]\" plus UL 2849/2271 certs, Trustpilot 4.7/620, and a DTC-only vs 'affordable for all' positioning gap on Slide 5",
+      "fix": "Name at least one or two actual ebike competitors (e.g., Lectric, Rad Power, Heybike, Sixthreezero) and state PUCKIPUPPY's price/certification position against them - the deck asserts 'no competitor claims' the delivery-experience gap without showing the competitive field."
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"PUCKIPUPPY's product wins - its delivery journey loses buyers. 11% of 500 reviews are 1-star; ~68% of those cite shipping damage, assembly, app issues, or support\" - a specific structural problem (last-mile/fulfillment friction at a $1,400 ticket) plus measurable O1-O3 on Slide 7",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"keyword-coded analysis of 500 public Judge.me reviews incl. 1-star deep-dive [R1][R2]; digital shelf/price audit of 6 sources\" - real no-survey primary methods (review_analysis n=500, shelf audit n=6, dated 2026-11-08) but survey/interviews not run, so auto-capped at 10; check.json also shows only 2 findings cited on strategy slides (<3 cap trigger)",
+      "fix": "Field even a small survey (n>=30 at TX bike shops/dog parks) or 3 buyer interviews to unlock 11-15; also cite a third [R#] finding directly on the strategy slides (e.g., R4 price/sticker shock already on Slide 10 but add R3/R5 references on Slides 11-16)."
+    },
+    "strategy": {
+      "score": 12,
+      "evidence": "Slide 11: \"Positioning: 'the ebike that arrives ready' - own the delivery-experience gap no competitor claims\" built on coded findings (Slide 10: \"68% of 1-stars = damage/assembly/support [R1] -> Arrive Ready unboxing + setup concierge\"); the live trust dashboard/Ready Ledger is the most ownable element, but creator + pop-up tactics are copyable",
+      "fix": "Sharpen the non-copyable core: lead with the published claim-resolution-time dashboard + damage-claim promise as the moat, and fix the Slide 11 visual description that still reads 'It's Not Jerky-style theme lockup' (leftover from a prior run)."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 12: \"Segment P1; weeks 1-6; owner Nino (field). Target: 400 rides, 15% quote rate\" - every program names segment, weeks, owner, objective; Slide 16 gives a 45-day week-by-week cadence",
+      "fix": "The week-by-week schedule drops owners and channels per week - annotate Wk2-4 with which owner runs which program and which channel fires when; also resolve A5 ('PUCKIPUPPY would approve test-ride pop-ups... proposed, not confirmed') before the deck claims 8 events as fact."
+    },
+    "budget": {
+      "score": 8,
+      "evidence": "Slide 17: \"Total $21,000: media $8,000 [A4]...\" line items sum correctly (8,000+6,400+2,400+1,200+400+2,600=21,000), funnel math checks (1.2M x 1.5% x 0.6% = ~108 orders), profit-based ROI ~56%, honest conservative case - but assumption A4 prices 1.2M impressions at '~$9 CPM = $10.8K' while the media line is $8,000, an unexplained $2.8K gap",
+      "fix": "Reconcile the media math: either raise the media line to ~$10.8K or restate A4's CPM/impression basis so the $8,000 line is internally consistent; note that A5/A8 (company approval for pop-ups, finance partner) are unconfirmed, so flag which costs are contingent."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O1: attributed orders - Shopify code + UTM report, weekly; target 90... O3: 1-star review share recount - re-crawl Judge.me corpus bi-weekly, same keyword method\" - every objective maps to KPI + baseline + target + tool + cadence, plus off-track triggers; deck.json shows all 4 KPIs have baselines and targets",
+      "fix": "Standardize O3's target - deck.json says '11% to under 7%', Slide 7 says '68% of negatives to <50%', KPI says '<50% of 1-star reviews' (three different metrics); also add one awareness/consideration metric since O2 captures are the only upper-funnel measure."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Official outline order followed (Overview -> Product/Company -> Objectives -> Target -> Research -> Strategy -> Budget -> Impact -> Bibliography, Slides 4-20); Slide 14 however compresses two distinct programs ('Dog Pack' creators AND 'Ready Ledger' PR/dashboard) onto one slide, and Slide 7 mis-cites O2's capture target to [A2] (the gross-margin assumption)",
+      "fix": "Split Slide 14 into separate Dog Pack and Ready Ledger slides and correct the [A2] citation on Slide 7 to the correct assumption/KPI anchor."
+    },
+    "effectiveness": {
+      "score": 4,
+      "evidence": "Slide 4 thesis 'PUCKIPUPPY's product wins - its delivery journey loses buyers' is restated as the close on Slide 19 ('X orders arrived ready, 0 unresolved damage claims'), and Slide 10 delivers a clean finding->decision through-line; but the closing slide carries a duplicated citation '[R1][A3]. [R1][A3]' and the 'It's Not Jerky-style' mockup label leaks another campaign's name",
+      "fix": "Proofread the bibliography/close slides for stray citations and cross-campaign template leftovers before presenting - small errors undercut an otherwise persuasive arc."
+    },
+    "delivery": {
+      "score": 4,
+      "evidence": "Talk tracks on 13 of 16 body slides (missing on Slides 6, 7, 8 per check.json) with real interactive intent - Slide 4: 'judges sit on the Labrador Pro and ride - the product demos itself'; Slide 5: 'Pass around the photo'; control-group design on Slide 12",
+      "fix": "A $1,400 ebike cannot realistically be ridden at a district competition - replace with a phone-mockup walkthrough of the unboxing/QR setup flow, a printed 'ride report' card handout, and the real product photos as a pass-around prop; add notes to Slides 6-8."
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides carry a visual (check.json: body_slides_with_visual=16) using real PUCKIPUPPY product photography (photos/labrador_*.jpg) plus 7 custom PNG charts/diagrams; however Slides 11-15 label their visuals 'mockup' while reusing the same 4 product photos - no actual mockups rendered - and Slide 11's lockup description references 'It's Not Jerky'",
+      "fix": "Produce actual mockups (insert card, trust dashboard, creator frame, email) for the strategy slides instead of recycling product photos, and purge the cross-campaign 'It's Not Jerky' label."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Complete client-pitch metadata (school 'Legacy Ranch High School', address, 3 named participants) and professional language throughout; but meta.date is 'April 2027 (ICDC - confirm)', assurances_signed=false, and parent_run='v17' indicates regenerated/reused material with visible template leftovers",
+      "fix": "Confirm the competition date, sign the assurances, and do a final cleanup pass for template leftovers (It's Not Jerky reference, duplicated citations) before submission."
+    }
+  },
+  "top_fixes": [
+    "Fix the budget inconsistency: assumption A4 prices 1.2M impressions at ~$10.8K while the media line is $8,000 - reconcile CPM/impressions or the line item, and flag the unconfirmed company approvals (A5 pop-ups, A8 finance partner) that the whole plan depends on (points: budget 8->9+, ~30 min).",
+    "Field a minimal real primary method (n>=30 survey or 3 interviews at TX bike shops/dog parks) to escape the 10-point no-survey cap, and cite a third [R#] finding on the strategy slides (points: research 10->13+, ~4-6 hours).",
+    "Replace the implausible 'judges ride the ebike' demo with a phone-mockup unboxing/QR walkthrough + printed ride-report handout, add talk tracks to Slides 6-8, and clean up template leftovers ('It's Not Jerky-style lockup', duplicated '[R1][A3]', wrong [A2] cite on Slide 7) (points: delivery/organization/effectiveness/design ~+3-4 combined, ~1-2 hours)."
+  ]
+}

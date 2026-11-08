@@ -1,0 +1,78 @@
+{
+  "run": "v18",
+  "grader_session": "fresh",
+  "pass": "rev2_pass2",
+  "deck_version": "v18 rev2",
+  "scores": {
+    "industry_knowledge": {
+      "score": 4,
+      "evidence": "Slide 6: \"California DTC brand est. 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees [S1][S6]\" plus Slide 5 product specifics \"Labrador Pro (~$1,399), Boxer ST, Corgi, Husky trike\" and \"UL 2849/2271 certified\" - strong company facts with dates, but no competitor is ever named; the 'position' is only an inferred category whitespace.",
+      "fix": "Name at least two real competitors in the category (e.g., Lectric, Himiway, Rad Power) and state PUCKIPUPPY's price/position vs. each on Slide 6 - the positioning map needs named rivals to earn the 5th point."
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"PUCKIPUPPY's product wins - its delivery journey loses buyers. 11% of 500 reviews are 1-star; ~68% of those cite shipping damage, assembly, app issues, or support\" - a specific structural problem (last-mile delivery leak on a $1.4K DTC ticket), and Slide 7 gives SMART objectives (\"90 attributed orders... 400 test-ride signups... cut damage/support-driven 1-star share from ~68%... to under 50%\").",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"keyword-coded analysis of 500 public Judge.me reviews incl. 1-star deep-dive [R1][R2]; digital shelf/price audit of 6 sources [R4][R6]\" plus Slide 10 finding->decision mapping. No-survey primary only (review_analysis n=500 + digital_shelf_audit n=6) = primary_lite cap 10; check.json also flags findings_cited_on_strategy=2 < 3 (research_unlinked cap 10).",
+      "fix": "Field at least one real survey (n>=30) or 3 interviews at TX bike shops/dog parks - the deck itself flags M1/M2 as 'pending team fieldwork' - and cite >=3 distinct [R#] findings on strategy slides to unlock 11-15."
+    },
+    "strategy": {
+      "score": 12,
+      "evidence": "Slide 11: \"Positioning: 'the ebike that arrives ready' - own the delivery-experience gap no competitor claims [R1][R6]\" built on coded findings, with the Arrive Ready insert + setup concierge + live trust dashboard (Slide 13) as the mechanism. Strong and differentiated, but the PESO mix and creator program are copyable, and the 'un-copyable' element (publishing live claim-resolution data) depends on company cooperation that is still an unconfirmed assumption [A5].",
+      "fix": "Make the un-copyable asset explicit: the trust dashboard publishing real damage-claim resolution times requires operational data no competitor exposes - argue that as the moat, not just a channel, and secure company sign-off on data access before the pitch."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 16: \"Wk1: Arrive Ready inserts live... Wk2-4: 6 test-ride pop-ups + 8 Dog Pack creator posts... Wk5-6: second test-ride wave... Wk7: final push; recount #2; retro\" and Slide 12 \"Segment P1; weeks 1-6; owner Nino (field). Target: 400 rides, 15% quote rate\" - week-by-week timeline with segment/channel/owner/objective on the program slides; 400 rides over 8 events (~50/event) is ambitious and dates/venues are not specified.",
+      "fix": "Add specific dates and named shop/dog-park venues to the Wk2-6 activities and show per-event ride targets so 400 signups is verifiably achievable, not aspirational."
+    },
+    "budget": {
+      "score": 8,
+      "evidence": "Slide 17: \"Total $21,000: media $8,000 [A4]; creators 8 x $800 [A6]; events 8 x $300 [A7]; inserts [A9]; tools [A10]; contingency [A11]\" - lines sum correctly (8,000+6,400+2,400+1,200+400+2,600=21,000), funnel math to $102.6K revenue, GP-based ROI ~56%, honest conservative case (\"~43 orders -> -$7K, offset by 800 captures (~$12K list value)\"), and margin sensitivity 25%/40%. Weakness: every cost basis is a self-labeled assumption [A4]-[A11]; no external quote or benchmark is cited for any line.",
+      "fix": "Anchor at least 2-3 lines to real benchmarks (e.g., creator-rate survey, event insurance quote, print-shop estimate) instead of pure assumptions - the labels are honest but the numbers are unverified."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O1: attributed orders - Shopify code + UTM report, weekly; target 90... O3: 1-star review share recount - re-crawl Judge.me corpus bi-weekly, same keyword method\" - every objective maps to KPI + tool + cadence, plus leading/lagging indicators and off-track triggers (\"if wk3 rides <150, shift media to CA home market\"). Minor weakness: two baselines are '0 (new codes)'/'n/a (new program)' which weakens lift claims for O1/O2.",
+      "fix": "Add a pre-campaign baseline proxy for consideration KPIs (e.g., current Klaviyo list size, current site traffic to product pages) so the 400/800 targets can be shown as incremental lift, not just absolute counts."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "TOC order (Slide 3) matches the official outline: Overview -> Product & Company -> Objectives -> Target Market -> Research -> Strategy -> Budget -> Impact -> Bibliography, and most slides carry one idea. Two slips: Slide 13 merges Program 2 (Arrive Ready) and Program 4 (Ready Ledger) on one slide, and Slide 9 crams methods, results, and 'influences' into 4 dense bullets.",
+      "fix": "Split Slide 13 into separate Arrive Ready and Ready Ledger slides (Ready Ledger already has its own slide-worthy claim-resolution metric) and move the 'Influences' line on Slide 9 into a footnote or notes."
+    },
+    "effectiveness": {
+      "score": 4,
+      "evidence": "Slide 4 thesis \"PUCKIPUPPY's product wins - its delivery journey loses buyers\" is echoed at the close on Slide 19 (\"Mission metric: 'X orders arrived ready, 0 unresolved damage claims'\") - a clear, persuasive through-line. Not a verbatim restatement, and the middle (Slides 11-16) leans on mechanism detail over emotional payoff.",
+      "fix": "Restate the thesis sentence verbatim in the Slide 19 close before the mission metric so judges hear the bookend explicitly."
+    },
+    "delivery": {
+      "score": 4,
+      "evidence": "Talk-track notes on all 16 body slides (check.json: body_slides_with_notes=16) with real interactive intent - Slide 4 \"judges sit on the Labrador Pro and ride\", Slide 5 \"Pass around the photo\", Slide 12 control-group demo, Slide 18 trigger walkthrough. Missing: no planned handout/prop walkthrough for the actual unboxing insert or the ride-report card beyond mentioning them.",
+      "fix": "Add a planned moment to physically pass the printed Arrive Ready insert mockup and a 'ride report' card to judges during the program slides - one tangible prop per program."
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides carry a visual (check.json: body_slides_with_visual=16) mixing real PUCKIPUPPY photography (photos/labrador_*.jpg) with generated charts/timelines in one brand system (#1f6f8b). Gap: Slide 15 'Creative Samples' describes hero video, static, and email copy in text only - no actual creative mockups are shown, which is the single most persuasive asset for an IMC pitch.",
+      "fix": "Mock up at least the hero frame + email creative on Slide 15 (even wireframe-level) so judges see the actual assets, not descriptions of them."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Complete professional metadata (school 'Legacy Ranch High School', address '1277 Co Rd 258, Liberty Hill, TX 78642', 3 named participants, 'April 2027 (ICDC - confirm)'), zero check errors, honest conservative-case disclosure (W_FINANCE warning acknowledged on Slide 17). Held back from 5 by unconfirmed company cooperation [A5] and self-labeled budget assumptions - a client pitch still pending real sign-off.",
+      "fix": "Obtain written company confirmation for the insert program, trust-dashboard data access, and finance CTA before submission - flip 'assurances_signed: false' to true."
+    }
+  },
+  "total": 81,
+  "auto_caps_applied": {
+    "research_primary_lite": 10,
+    "research_unlinked": 10
+  },
+  "top_fixes": [
+    "Run at least one real primary method (n>=30 survey at TX bike shops/dog parks, or 3 interviews) and cite >=3 distinct [R#] findings on strategy slides - unlocks research 10->13+ (~4-6 hours fieldwork).",
+    "Add actual creative mockups (hero frame, static, email) to Slide 15 and a physical insert/ride-report prop moment to the delivery plan - biggest design/delivery gains per hour (~2 hours).",
+    "Anchor budget lines to external benchmarks/quotes instead of pure assumptions and add named competitors to the Slide 6 positioning map - cheap credibility fixes for budget and industry_knowledge (~1-2 hours)."
+  ]
+}

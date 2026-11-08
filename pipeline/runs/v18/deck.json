@@ -1,0 +1,828 @@
+{
+  "meta": {
+    "product": "PUCKIPUPPY Ebikes (Labrador Pro / Boxer ST)",
+    "company": "PUCKIPUPPY Inc., California (DTC)",
+    "campaign_name": "Arrive Ready",
+    "theme": "Arrive Ready",
+    "thesis": "PUCKIPUPPY does not need more awareness - it needs its $1,400 ebikes to arrive ready to ride and buyers protected when they don't, and Arrive Ready turns the delivery experience into the campaign.",
+    "variant_angle": "Arrive Ready rev1 (review-driven unboxing + test-ride + dog-companion)",
+    "brand_color": "#1f6f8b",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan (IMCP team)"
+    ],
+    "date": "April 2027 (ICDC - confirm)",
+    "assurances_signed": false,
+    "parent_run": "v17"
+  },
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "business_problem": "PUCKIPUPPY sells $1,299-$1,699 ebikes DTC to buyers making a $1,400+ online decision - and its own reviews show the last mile is the leak: 11% of 500 analyzed reviews are 1-star, and ~68% of those cite freight shipping damage, hard assembly, app/connectivity, or slow support. The product satisfies buyers who receive it intact (torque-sensor praise, 80-mile range), so the fix is not more product - it is making every order arrive ready, and making the trust signals (UL certs, 4.7 Trustpilot) visible at the decision moment.",
+  "objectives": [
+    {
+      "id": "O1",
+      "text": "Drive 90 attributed orders (quotes + purchases) in 45 days at ~$950 blended AOV",
+      "funnel_stage": "conversion",
+      "primary": true
+    },
+    {
+      "id": "O2",
+      "text": "Book 400 test-ride signups and 800 email/SMS captures from test-ride and creator traffic",
+      "funnel_stage": "consideration",
+      "primary": false
+    },
+    {
+      "id": "O3",
+      "text": "Cut damage/support-driven 1-star review share from ~68% of negatives to under 50% via Arrive Ready unboxing + setup concierge",
+      "funnel_stage": "retention",
+      "primary": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "First-Time E-Commuters (28-50)",
+      "role": "primary",
+      "demographic": "28-50, suburban TX households, $60K+ income, one car per adult",
+      "geographic": "DFW, Austin, Houston metros",
+      "psychographic": "Wants car-free short trips; researches big online purchases carefully; trusts certifications and real-owner reviews",
+      "behavioral": "Buys ebikes/scooters after 2-6 week consideration; reads Reddit/Tom's Guide; expects white-glove delivery for $1K+ items",
+      "media": "YouTube reviews, Google search, Facebook groups, email",
+      "evidence": [
+        "S3",
+        "S4",
+        "R1"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Pet-People Lifestyle Buyers (25-45)",
+      "role": "secondary",
+      "demographic": "25-45, dog owners, $50K+ income, buy pet + lifestyle products together",
+      "geographic": "TX metros + CA (brand home market)",
+      "psychographic": "Treats the ebike as a lifestyle accessory for rides with the dog; responds to founder story and breed-named models",
+      "behavioral": "Follows pet/lifestyle creators; gifts generously; shares unboxing content",
+      "media": "Instagram, TikTok, pet Facebook groups",
+      "evidence": [
+        "S1",
+        "S3",
+        "R5"
+      ]
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": null,
+        "dates": "2026-11-08",
+        "recruitment": "team may field at TX bike shops/dog parks; replaced for now by no-survey primary methods (M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M2",
+        "type": "interview",
+        "n": null,
+        "dates": "2026-11-08",
+        "recruitment": "same - pending team fieldwork",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M3",
+        "type": "competitor_audit",
+        "n": null,
+        "dates": "2026-11-08",
+        "recruitment": "folded into digital shelf audit M6",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M4",
+        "type": "secondary",
+        "n": 8,
+        "dates": "2026-11-08",
+        "recruitment": "company about/press/product pages, Trustpilot, Tom's Guide, third-party store metrics, industry data",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_pucki.md"
+      },
+      {
+        "id": "M5",
+        "type": "review_analysis",
+        "n": 500,
+        "dates": "2026-11-08",
+        "recruitment": "public Judge.me review API on puckipuppy.com; keyword-coded content analysis (analyze_reviews.py); 1-star deep-dive",
+        "status": "complete",
+        "results_file": "pipeline/research/reviews_pucki"
+      },
+      {
+        "id": "M6",
+        "type": "digital_shelf_audit",
+        "n": 6,
+        "dates": "2026-11-08",
+        "recruitment": "public web audit: product/price pages, retailer locator, certifications, competitor price check",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_pucki.md"
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "method": "M5",
+        "finding": "n=500 reviews: avg 4.31/5, 70% five-star, 11% one-star (53). Of 1-star reviews, ~68% cite shipping damage, difficult assembly, app/connectivity, or slow support - not ride quality",
+        "cites": [
+          "S5",
+          "A3"
+        ]
+      },
+      {
+        "id": "R2",
+        "method": "M5",
+        "finding": "Positive drivers: torque-sensor ride feel, 80-mile range, fast delivery, easy assembly - the product itself satisfies buyers who receive it intact",
+        "cites": [
+          "S5"
+        ]
+      },
+      {
+        "id": "R3",
+        "method": "M5",
+        "finding": "Only ~2% of reviews mention repeat/bulk purchase; gifting 3% - consideration-to-repeat path is thin for a $1.4K ticket",
+        "cites": [
+          "S5",
+          "A1"
+        ]
+      },
+      {
+        "id": "R4",
+        "method": "M6",
+        "finding": "DTC-only premium positioning ($1,299-$1,699 hero SKUs) vs. 'affordable for all' brand promise; no mass retail presence found in audit",
+        "cites": [
+          "S2",
+          "S7"
+        ]
+      },
+      {
+        "id": "R5",
+        "method": "M4",
+        "finding": "Founder-led dog-companion story (Bob + Puck, est. 2022) is distinctive and press-covered, but underused vs. generic ebike competitors",
+        "cites": [
+          "S1",
+          "S3"
+        ]
+      },
+      {
+        "id": "R6",
+        "method": "M4",
+        "finding": "UL 2849/2271 certifications and Trustpilot 4.7/620 are strong trust assets that are buried below the fold on product pages",
+        "cites": [
+          "S2",
+          "S4"
+        ]
+      }
+    ]
+  },
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Test Ride the Dog",
+      "mechanic": "6 weekend test-ride pop-ups at TX bike shops + 2 dog-park events: riders try the Labrador Pro, scan QR for $150 off + free battery check. Every rider leaves with a 'ride report' card feeding the email list. Control: same QR offer, no event.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "Arrive Ready",
+      "mechanic": "Unboxing insert + setup concierge for every order in window: damage-photo claim promise (<24h response), QR to a 10-min video setup + torque-sensor tuning guide, trade-in/finance CTA. Ships as a card + email sequence; creative leads with 'Your PUCKIPUPPY arrives ready - here's proof.'",
+      "segment": "P1",
+      "channels": [
+        "packaging insert",
+        "email/SMS",
+        "landing page"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "owner": "Santhosh (lifecycle)"
+    },
+    {
+      "id": "G3",
+      "name": "Dog Pack",
+      "mechanic": "8 dog/lifestyle micro-creators (10K-80K) film 'ride with your dog' content: bike + dog in one shot, torque-sensor feel, unboxing reaction. Each links to test-ride finder + code READY150.",
+      "segment": "P2",
+      "channels": [
+        "TikTok",
+        "Instagram Reels",
+        "YouTube"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (social)"
+    },
+    {
+      "id": "G4",
+      "name": "Ready Ledger",
+      "mechanic": "Trust dashboard on site + emails: live count of Arrive Ready orders, damage-claim resolution time, UL cert badges moved above the fold. PR push to Tom's Guide/ebike press: 'the brand that shows its receipts.'",
+      "segment": "P1",
+      "channels": [
+        "site",
+        "email",
+        "PR"
+      ],
+      "objectives": [
+        "O3",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "owner": "Santhosh"
+    }
+  ],
+  "budget": {
+    "lines": [
+      {
+        "item": "Paid social + search (TikTok, Meta, Google) geo TX + CA",
+        "category": "media",
+        "usd": 8000,
+        "basis": "A4"
+      },
+      {
+        "item": "Dog Pack creators: 8 x $800",
+        "category": "creators",
+        "usd": 6400,
+        "basis": "A6"
+      },
+      {
+        "item": "Test Ride the Dog: 8 events x $300 (staff, transport, insurance)",
+        "category": "events",
+        "usd": 2400,
+        "basis": "A7"
+      },
+      {
+        "item": "Arrive Ready inserts: 500 units design+print",
+        "category": "production",
+        "usd": 1200,
+        "basis": "A9"
+      },
+      {
+        "item": "Email/SMS + landing page + trust dashboard",
+        "category": "tools",
+        "usd": 400,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency",
+        "category": "contingency",
+        "usd": 2600,
+        "basis": "A11"
+      }
+    ],
+    "total_usd": 21000,
+    "projection": {
+      "impressions": 1200000,
+      "ctr": 0.015,
+      "conversion_rate": 0.006,
+      "aov_usd": 950.0,
+      "gross_margin": 0.32
+    },
+    "conservative_factor": 0.4
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (code READY150 + test-ride QR)",
+      "baseline": "0 (new codes)",
+      "target": "90 orders",
+      "tool": "Shopify code report + UTMs",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Test-ride-to-quote conversion",
+      "baseline": "n/a (new program)",
+      "target": "15% of 400 riders request quote",
+      "tool": "Event tally + CRM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Test-ride signups + email captures",
+      "baseline": "0",
+      "target": "400 rides; 800 captures",
+      "tool": "Event QR analytics + Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "1-star review share mentioning damage/support",
+      "baseline": "~68% of 53 1-star reviews (n=500 corpus)",
+      "target": "<50% of 1-star reviews in post-window sample",
+      "tool": "Judge.me re-crawl + keyword recount",
+      "cadence": "bi-weekly"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "PUCKIPUPPY",
+      "title": "About / Our Story - founder Bob, dog Puck, est. California 2022",
+      "date": "2026",
+      "url": "https://www.puckipuppy.com/pages/about-us",
+      "type": "company"
+    },
+    {
+      "id": "S2",
+      "publisher": "PUCKIPUPPY",
+      "title": "Product pages - Labrador Pro ~$1,399; UL 2849/2271 certifications listed",
+      "date": "2026",
+      "url": "https://www.puckipuppy.com/products/labrador-pro",
+      "type": "company"
+    },
+    {
+      "id": "S3",
+      "publisher": "Tom's Guide",
+      "title": "PUCKIPUPPY ebike review - combines e-bike performance with pet companionship",
+      "date": "2026",
+      "url": "https://www.tomsguide.com",
+      "type": "secondary"
+    },
+    {
+      "id": "S4",
+      "publisher": "Trustpilot",
+      "title": "PUCKIPUPPY reviews - 4.7/5 across ~620 reviews",
+      "date": "2026",
+      "url": "https://www.trustpilot.com/review/www.puckipuppy.com",
+      "type": "secondary"
+    },
+    {
+      "id": "S5",
+      "publisher": "Judge.me (via puckipuppy.com)",
+      "title": "584 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-08",
+      "url": "https://www.puckipuppy.com",
+      "type": "primary_lite"
+    },
+    {
+      "id": "S6",
+      "publisher": "EcomScout / ListSignal",
+      "title": "Third-party Shopify estimate: ~$1M-$10M revenue tier, 11-50 employees (estimate, not audited)",
+      "date": "2026",
+      "url": "https://ecomscout.com",
+      "type": "secondary"
+    },
+    {
+      "id": "S7",
+      "publisher": "PUCKIPUPPY",
+      "title": "Retailer / store locator and test-ride partner pages",
+      "date": "2026",
+      "url": "https://www.puckipuppy.com/pages/stores",
+      "type": "company"
+    },
+    {
+      "id": "S8",
+      "publisher": "PeopleForBikes / industry retail data",
+      "title": "E-bike category growth and DTC share trends",
+      "date": "2025",
+      "url": "https://peopleforbikes.org",
+      "type": "secondary"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Blended order value ~$950: hero ebikes $1,299-$1,699 (Labrador Pro ~$1,399) mixed with batteries/accessories; confirm with company AOV"
+    },
+    {
+      "id": "A2",
+      "text": "Blended gross margin ~32% for DTC ebike hardware (components + freight); industry range 25-40% - confirm with company"
+    },
+    {
+      "id": "A3",
+      "text": "~11% of 500 analyzed reviews are 1-star (53); ~68% of those cite shipping damage, assembly, app/connect, or support friction"
+    },
+    {
+      "id": "A4",
+      "text": "Impressions 1.2M at ~$6.7 CPM paid social/search ($8,000 media line) + ~400K creator views; 1.5% CTR; 0.6% click-to-quote/order"
+    },
+    {
+      "id": "A5",
+      "text": "PUCKIPUPPY would approve test-ride pop-ups at TX bike shops and the unboxing insert program (proposed, not confirmed)"
+    },
+    {
+      "id": "A6",
+      "text": "Dog/lifestyle micro-creators (10K-80K followers): ~$800 per video incl. product"
+    },
+    {
+      "id": "A7",
+      "text": "Test-ride pop-up shift ~$300 (staff + bike transport + insurance)"
+    },
+    {
+      "id": "A8",
+      "text": "Trade-in/finance partner exists or can be added (confirm current financing options on site)"
+    },
+    {
+      "id": "A9",
+      "text": "Unboxing insert production ~$1,200 for 500 units (card + QR setup concierge + care guide)"
+    },
+    {
+      "id": "A10",
+      "text": "Email/SMS + landing page tools ~$400 for the window"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~10% of budget"
+    },
+    {
+      "id": "A12",
+      "text": "Repeat/attach: 25% of buyers add battery/accessory within 90 days (~$150 GP); confirm with company"
+    },
+    {
+      "id": "A13",
+      "text": "Baseline damage-claim and support-ticket rate unknown publicly; measured via company data or review-share trend"
+    },
+    {
+      "id": "A14",
+      "text": "~145K monthly site visits (third-party estimate); ~11-50 employees - company size confirmed only as 'small team' publicly"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Arrive Ready",
+      "bullets": [
+        "PUCKIPUPPY Ebikes - Integrated Marketing Campaign",
+        "Legacy Ranch High School - IMCP"
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Real PUCKIPUPPY Labrador Pro product photography",
+        "file": "photos/labrador_1.jpg"
+      }
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Arrive Ready",
+        "PUCKIPUPPY Ebikes",
+        "45-day campaign - DTC + Texas test rides"
+      ],
+      "visual": {
+        "type": "none",
+        "desc": "Clean title slide"
+      }
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "Campaign Overview",
+        "The Product & Company",
+        "Objectives & Target Market",
+        "Research Method & Results",
+        "Campaign Strategy & Programs",
+        "Budget & Financial Viability",
+        "Impact & Measurement",
+        "Bibliography"
+      ]
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Thesis: PUCKIPUPPY's product wins - its delivery journey loses buyers. 11% of 500 reviews are 1-star; ~68% of those cite shipping damage, assembly, app issues, or support [R1][S5].",
+        "Big idea: Arrive Ready - every order ships with a damage-claim promise, QR setup concierge, and finance/trade-in path; trust badges move above the fold [R6].",
+        "Demo: judges sit on the Labrador Pro and ride - the product demos itself [S2].",
+        "Goal: 90 attributed orders + 400 test rides + cut damage-review share in 45 days."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Labrador Pro product shot",
+        "file": "photos/labrador_2.jpg"
+      },
+      "notes": "Open with the stat: 1 in 9 reviews is 1-star, and most blame the delivery, not the bike."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "PUCKIPUPPY makes dog-breed-named ebikes - Labrador Pro (~$1,399), Boxer ST, Corgi, Husky trike - for riders 28-50 who want car-free trips [S2].",
+        "UL 2849/2271 certified; torque sensor praised as 'natural' feel; 80-mile range in reviews [S2][S5].",
+        "Problem: $1,299-$1,699 sticker + freight shipping + self-assembly = the highest-anxiety purchase in the category [R1][R4]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Real PUCKIPUPPY Labrador Pro photography",
+        "file": "photos/labrador_3.jpg"
+      },
+      "notes": "Pass around the photo; 'this is a $1,400 decision made on a website - here's where it breaks.'"
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "The Company & Its Position",
+      "bullets": [
+        "California DTC brand est. 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees [S1][S6].",
+        "Trust assets exist but are buried: UL certifications, Trustpilot 4.7/620, founder story - none above the fold [R6].",
+        "DTC-only vs. 'affordable for all' promise; no mass retail presence found in audit - whitespace is experience, not distribution [R4]."
+      ],
+      "visual": {
+        "type": "diagram",
+        "desc": "Positioning map: premium DTC vs value brands vs PUCKIPUPPY trust-led",
+        "file": "visuals/s06.png"
+      },
+      "notes": "Company position: DTC-only premium vs 'affordable for all' promise - whitespace is experience, not distribution."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 90 attributed orders via READY150 code + test-ride QR at ~$950 blended AOV [A1].",
+        "O2: 400 test-ride signups and 800 email/SMS captures.",
+        "O3: cut damage/support-driven 1-star share from ~68% of 1-star reviews to under 50% of negatives via Arrive Ready [R1][A3]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Objective funnel: awareness -> consideration -> conversion -> retention",
+        "file": "visuals/s07.png"
+      },
+      "notes": "Three objectives: orders, consideration captures, and the review-mix fix that proves Arrive Ready worked."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1 - First-Time E-Commuters (28-50): suburbs, one car per adult, 2-6 week consideration, reads reviews + certifications [S3][S4].",
+        "P2 - Pet-People Lifestyle Buyers (25-45): dog owners who ride with pets; respond to founder story + breed models [S1][R5].",
+        "Both need the same thing: proof the $1,400 bike arrives ready and is supported when it doesn't [R1]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Labrador Pro lifestyle shot",
+        "file": "photos/labrador_4.jpg"
+      },
+      "notes": "Two segments, one anxiety: a $1,400 bike bought online needs proof it arrives ready."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Method & Results",
+      "bullets": [
+        "Secondary (complete): 8 sources - about/press, product pages, Trustpilot, Tom's Guide, third-party metrics, industry data [S1][S3][S4][S6][S8].",
+        "Primary, no-survey (complete): keyword-coded analysis of 500 public Judge.me reviews incl. 1-star deep-dive [R1][R2]; digital shelf/price audit of 6 sources [R4][R6].",
+        "Key results: product satisfies intact-delivery buyers [R2]; negatives cluster on damage+support ~68% of 1-stars [R1]; trust assets buried [R6]; repeat path thin [R3].",
+        "Influences: e-bike category growth (market), review-driven purchase behavior (cultural), DTC fulfillment expectations (technological) [S8][R1]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Research methods + findings summary",
+        "file": "visuals/s09.png"
+      },
+      "notes": "Emphasize: this is real coded review data, not vibes - 500 reviews, 53 one-stars, every theme counted."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "68% of 1-stars = damage/assembly/support [R1] -> Arrive Ready unboxing + setup concierge + damage-claim promise [G2].",
+        "Torque-sensor + range praise [R2] -> ride-feel leads all creative; certifications move above the fold [R6][G4].",
+        "Thin repeat/gifting [R3] + $1.4K sticker [R4] -> finance/trade-in CTA inside every touchpoint [G2].",
+        "Dog-companion story underused [R5] -> Dog Pack creator program is the awareness engine [G3]."
+      ],
+      "visual": {
+        "type": "diagram",
+        "desc": "Finding -> decision mapping",
+        "file": "visuals/s10.png"
+      },
+      "notes": "Four findings, four decisions - every campaign element traces to a coded review theme."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "PESO: Paid (geo social/search) + Earned (ebike press push) + Owned (email/SMS, site trust dashboard) + Shared (creator UGC) [G1-G4].",
+        "Positioning: 'the ebike that arrives ready' - own the delivery-experience gap no competitor claims [R1][R6].",
+        "Message house: proof (UL, 4.7 Trustpilot, ride feel) -> protection (Arrive Ready) -> pathway (test ride, finance).",
+        "Measurement: codes + UTMs on every program; weekly KPI review; pre/post review-corpus recount [R1]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Arrive Ready campaign theme lockup",
+        "file": "photos/labrador_2.jpg"
+      },
+      "notes": "PESO mix plus positioning: own the delivery-experience gap. Proof -> protection -> pathway."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Test Ride the Dog",
+      "bullets": [
+        "Arrive Ready test rides: 6 weekend pop-ups at TX bike shops + 2 dog-park events [G1][A5];",
+        "Every rider gets a 'ride report' card -> email capture; control group gets the QR offer with no event, isolating event lift.",
+        "Segment P1; weeks 1-6; owner Nino (field). Target: 400 rides, 15% quote rate. [O2][A7]"
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Test-ride event - real product photography",
+        "file": "photos/labrador_3.jpg"
+      },
+      "notes": "Program 1: the bike demos itself - judges can ride it. Control group isolates event lift."
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: Arrive Ready",
+      "bullets": [
+        "Every order in window ships an insert: damage-photo claim promise (<24h), QR to 10-min setup + torque-sensor guide, finance/trade-in CTA.",
+        "Email/SMS sequence mirrors the insert; trust dashboard publishes live claim-resolution times and UL badges above the fold.",
+        "Segment P1; weeks 1-7; owner Santhosh. Target: damage-review share <50% of 1-stars. [O3][R1]",
+        "Ready Ledger: live trust dashboard + 'brand that shows its receipts' PR push to ebike press [G4]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Unboxing insert + email - real product photography",
+        "file": "photos/labrador_4.jpg"
+      },
+      "notes": "Program 2: the core fix - make the last mile of the purchase the brand promise."
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Dog Pack",
+      "bullets": [
+        "Arrive Ready Dog Pack: 8 dog/lifestyle micro-creators (10K-80K) film 'ride with your dog' content + unboxing reactions [G3][A6].",
+        "Each links to the test-ride finder + READY150 code; #ad disclosure on every post.",
+        "Segment P2; weeks 2-6; owner Rafsan (social). Target: 400K creator views, 800 email captures [O1][O2]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Creator content - real product photography",
+        "file": "photos/labrador_1.jpg"
+      },
+      "notes": "Program 3: the awareness engine - dog-companion creators carrying the Arrive Ready offer."
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Creative Samples",
+      "bullets": [
+        "Arrive Ready hero video: 'your bike, ready in 10 minutes' - unboxing -> setup QR -> first ride, dog cameo [G2];",
+        "Static: UL badges + '4.7 on Trustpilot' + '$150 off test rides' - proof stack above the fold. [R6][S4]",
+        "Email subject: 'The part nobody films: your bike, ready in 10 minutes' - setup concierge teaser. [G1][G3]",
+        "All creative shows real product photography, no stock ebike footage."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Real product photography for creative",
+        "file": "photos/labrador_2.jpg"
+      },
+      "notes": "Show real product photography in every asset - no stock ebike footage."
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Week-by-Week Schedule",
+      "bullets": [
+        "Wk1: Arrive Ready inserts live; trust badges above fold; test-ride bookings open; press outreach.",
+        "Wk2-4: 6 test-ride pop-ups + 8 Dog Pack creator posts; paid social/search live; weekly KPI review.",
+        "Wk5-6: second test-ride wave; email/SMS nurture to captures; review-corpus recount #1.",
+        "Wk7: final push; recount #2; retro + scale recommendation to company."
+      ],
+      "visual": {
+        "type": "timeline",
+        "desc": "45-day Gantt: programs, owners, milestones",
+        "file": "visuals/s16.png"
+      },
+      "notes": "Walk the 45 days: inserts live wk1, events wk2-4, second wave wk5-6, retro wk7."
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Proposed Budget & Financial Viability",
+      "bullets": [
+        "Total $21,000: media $8,000 [A4]; creators 8 x $800 [A6]; events 8 x $300 [A7]; inserts [A9]; tools [A10]; contingency [A11].",
+        "Funnel: 1.2M x 1.5% x 0.6% = ~108 orders x $950 = $102.6K [A1][A4].",
+        "GP 32% = $32.8K; ROI ~56% [A2]. Breakeven ~69 orders [O1].",
+        "Conservative (40%): ~43 orders -> -$7K, offset by 800 captures (~$12K list value) + lower support cost [A12][A13].",
+        "Margin sensitivity: 25% GP -> -14%; 40% GP -> +95% (ebike hardware range) [A2]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Budget breakdown + ROI scenarios",
+        "file": "visuals/s17.png"
+      },
+      "notes": "Line-item every dollar; show the conservative case honestly and how email list + support savings mitigate."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: attributed orders - Shopify code + UTM report, weekly; target 90.",
+        "O2: test rides (event tally) + email captures (Klaviyo) - target 400/800.",
+        "O3: 1-star review share recount - re-crawl Judge.me corpus bi-weekly, same keyword method [R1].",
+        "Leading indicators: QR scan rate, quote requests, insert redemption; lagging: orders, review mix.",
+        "Triggers: if wk3 rides <150, shift media to CA home market; if claims >2%, pause inserts and audit packaging [A5]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "KPI dashboard - real product photography",
+        "file": "visuals/s18.png"
+      },
+      "notes": "KPI dashboard: orders, rides, captures, review-share recount. Triggers if off-track."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "For buyers: a $1,400 purchase that arrives ready, supported, and financed - the anxiety removed. [S2]",
+        "For PUCKIPUPPY: converts its best asset (product love) into retained revenue; every damage claim prevented is margin saved [R1][A3].",
+        "For the category: proves DTC ebike brands can own the delivery experience as a brand promise.",
+        "Mission metric: 'X orders arrived ready, 0 unresolved damage claims' - the number we print on the trust dashboard. [O3]"
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Arrive Ready brand lockup",
+        "file": "photos/labrador_3.jpg"
+      },
+      "notes": "Close on the mission metric: orders arrived ready, zero unresolved damage claims."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [
+        "PUCKIPUPPY. 'About / Our Story.' 2026. https://www.puckipuppy.com/pages/about-us",
+        "PUCKIPUPPY. 'Labrador Pro Ebike product page.' 2026. https://www.puckipuppy.com/products/labrador-pro",
+        "Tom's Guide. 'PUCKIPUPPY ebike review.' 2026. https://www.tomsguide.com",
+        "Trustpilot. 'PUCKIPUPPY reviews (4.7/5, ~620).' 2026. https://www.trustpilot.com/review/www.puckipuppy.com",
+        "PUCKIPUPPY (Judge.me). '584 public customer reviews - keyword-coded content analysis.' 2026-11-08. https://www.puckipuppy.com",
+        "EcomScout/ListSignal. 'PUCKIPUPPY Shopify metrics estimate.' 2026. https://ecomscout.com",
+        "PeopleForBikes. 'E-bike participation and retail data.' 2025. https://peopleforbikes.org"
+      ],
+      "visual": {
+        "type": "none",
+        "desc": "Bibliography"
+      }
+    }
+  ]
+}

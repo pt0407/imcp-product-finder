@@ -21,10 +21,10 @@ PUCKIPUPPY sells $1,400 ebikes to online-first buyers who need trust before a bi
 ## Campaign angle to test first
 "Test Ride the Dog" - demo/test-ride events + dog-companion lifestyle content + trade-in/finance messaging to compress the $1.4K consideration cycle; measure test-ride-to-quote conversion.
 
-## Top open questions
-1. What do the 53 1-star reviews actually complain about (battery? assembly? support?)? - needs review-text deep dive.
-2. Do they have retail/test-ride partners or is it DTC-only?
-3. Is the dog-companion angle already their main campaign, or is it underused?
+## Open questions (2026-11-08 update)
+1. ~~What do the 1-star reviews complain about?~~ **ANSWERED:** n=500 analysis - ~68% of 53 1-stars cite freight shipping damage, difficult assembly, app/connectivity, or slow support; NOT ride quality. Product satisfies intact-delivery buyers (torque-sensor praise, 80-mi range). -> became the "Arrive Ready" campaign thesis (v18).
+2. Do they have retail/test-ride partners or is it DTC-only? -> pages/stores lists bike-shop partners; no mass retail found (digital_shelf_audit_pucki.md).
+3. Is the dog-companion angle already their main campaign, or is it underused? -> underused vs. generic ebike competitors; brand story exists but creative doesn't lead with it.
 
 ## Verdict: BUILD IT (borderline)
 Best non-food candidate screened: real scale (~$500K+/mo est.), 584-review corpus, demo-able product, distinctive brand. The value-vs-premium tension is the problem to solve. Weaker than Stryve on hard financial evidence but stronger than anything else non-food.

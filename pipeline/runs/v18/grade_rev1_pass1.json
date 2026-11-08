@@ -1,0 +1,82 @@
+{
+  "run": "v18",
+  "grader_session": "fresh",
+  "pass": 1,
+  "revision": "rev1",
+  "scores": {
+    "industry_knowledge": {
+      "score": 4,
+      "evidence": "Slide 5: \"PUCKIPUPPY makes dog-breed-named ebikes - Labrador Pro (~$1,399), Boxer ST, Corgi, Husky trike\" plus UL 2849/2271 certs and Slide 6: \"California DTC brand est. 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees\" - real company facts with dates and product specifics. However Slide 6's competitive read is \"premium DTC vs value brands vs PUCKIPUPPY trust-led\" with no named competitor anywhere in the deck.",
+      "fix": "Name at least two real ebike competitors (e.g., Lectric, Aventon, Ride1Up, Rad Power) with a price/positioning data point on Slide 6 to satisfy the 'competitor or category position' bar for a 5."
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"PUCKIPUPPY's product wins - its delivery journey loses buyers. 11% of 500 reviews are 1-star; ~68% of those cite shipping damage, assembly, app issues, or support\" - a specific structural post-purchase gap, not generic 'low awareness'. Slide 7 gives SMART objectives: \"O1 (primary): 90 attributed orders via READY150 code + test-ride QR at ~$950 blended AOV\" / \"O3: cut damage/support-driven 1-star share from ~68% of negatives to under 50%\" and Slide 8 defines P1/P2 segments with evidence cites.",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"keyword-coded analysis of 500 public Judge.me reviews incl. 1-star deep-dive [R1][R2]; digital shelf/price audit of 6 sources [R4][R6]\" - two completed no-survey primary methods with n and dates (2026-11-08), results summarized, and Slide 10 shows textbook finding->decision traceability (\"68% of 1-stars = damage/assembly/support [R1] -> Arrive Ready unboxing + setup concierge\"). Auto-capped at 10: no survey (n>=30) or interviews were fielded, and check.json counts only 2 findings cited on strategy slides.",
+      "fix": "Field even a small survey or 3+ interviews (e.g., at the planned TX test-ride pop-ups) before the window to unlock 11-15; the finding->decision slide is already exemplary, so real primary data would carry the category."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"Positioning: 'the ebike that arrives ready' - own the delivery-experience gap no competitor claims [R1][R6]\" with proof->protection->pathway message house, plus a control-group test design on Slide 12 (\"control group gets the QR offer with no event, isolating event lift\") and a live trust dashboard on Slide 13/14. The ownable element (operational delivery-experience ownership + measurable review-mix fix) is real, though the underlying tactics - inserts, creators, paid social - remain copyable.",
+      "fix": "Sharpen the defensibility: tie the damage-claim promise to a contractual/logistics commitment (e.g., carrier-level packaging spec or white-glove freight partner) so 'arrives ready' is an operational moat, not just messaging; state why a competitor copying the insert can't copy the resolution SLA."
+    },
+    "activities": {
+      "score": 12,
+      "evidence": "Slide 16: \"Wk1: Arrive Ready inserts live; trust badges above fold; test-ride bookings open; press outreach. / Wk2-4: 6 test-ride pop-ups + 8 Dog Pack creator posts; paid social/search live\" and program slides name segment, weeks and owner (Slide 12: \"Segment P1; weeks 1-6; owner Nino (field). Target: 400 rides, 15% quote rate\"). Weakness: the week-by-week schedule does not restate segment/channel/objective per activity, and Slide 14 merges two distinct programs (Dog Pack + Ready Ledger) onto one slide.",
+      "fix": "Split Slide 14 into two program slides and annotate each week-block on Slide 16 with its segment/channel/objective tags so the alignment is visible on the schedule itself."
+    },
+    "budget": {
+      "score": 8,
+      "evidence": "Slide 17: \"Total $21,000: media $8,000 [A4]; creators 8 x $800 [A6]; events 8 x $300 [A7]\" - lines sum correctly (8,000+6,400+2,400+1,200+400+2,600=21,000), every line cites an assumption ID, funnel math \"1.2M x 1.5% x 0.6% = ~108 orders x $950 = $102.6K\" yields profit-based \"ROI ~56%\" and the honest conservative case \"~43 orders -> -$7K, offset by 800 captures (~$12K list value)\" is on-slide. Deductions: breakeven is stated as \"~66 orders\" but check.json computes 69; the ~$12K email-list valuation is a soft, uncited number; and the conservative ROI is still -37% (check.json W_FINANCE warning).",
+      "fix": "Correct breakeven to ~69 orders, cite a benchmark for email-list value (or reframe as 'asset created, valued at $X per industry CPL'), and state the post-mitigation conservative ROI explicitly instead of leaving the reader to net -$7K against +$12K."
+    },
+    "impact": {
+      "score": 8,
+      "evidence": "Slide 18: \"O1: attributed orders - Shopify code + UTM report, weekly; target 90. / O2: test rides (event tally) + email captures (Klaviyo) - target 400/800. / O3: 1-star review share recount - re-crawl Judge.me corpus bi-weekly, same keyword method [R1]\" plus leading/lagging indicators and off-track triggers. All KPIs carry targets, tools and cadence. Weaknesses: ride/capture KPIs have only \"0 (new program)\" baselines (deck.json kpis), there is no brand-lift or awareness KPI despite awareness being an O2-adjacent goal, and O3's \"68% of negatives\" vs \"68% of 1-stars\" wording wobbles between slides 4 and 7.",
+      "fix": "Unify O3 wording ('68% of 1-star reviews'), and add one awareness/consideration metric (e.g., branded-search lift or aided-recall survey of test-ride participants) so the campaign's top-of-funnel claim is measured, not assumed."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 3 TOC follows official IMCP order and slides run Overview -> Product/Company -> Objectives -> Target Market -> Research -> Strategy -> Budget -> Impact -> Bibliography. Deductions: Slide 14 packs two programs (\"Arrive Ready Dog Pack\" AND \"Ready Ledger\") onto one slide, and Slide 11 contains a formatting artifact: \"[G1-G4]. - objective O1\" - stray text that would look unpolished on the rendered slide.",
+      "fix": "Remove the stray '- objective O1' artifact on Slide 11 and give Ready Ledger its own slide (or fold it cleanly into the strategy slide) to restore one-idea-per-slide."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 opens with an explicit thesis: \"PUCKIPUPPY's product wins - its delivery journey loses buyers\" and Slide 19 closes on the matching mission metric: \"'X orders arrived ready, 0 unresolved damage claims' - the number we print on the trust dashboard\". The proof->protection->pathway through-line (Slide 11) runs unbroken through every program slide.",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "check.json confirms talk-track notes on all 16 body slides, and they contain real interactive direction: Slide 4 \"Open with the stat: 1 in 9 reviews is 1-star\", Slide 5 \"Pass around the photo\", Slide 12 \"judges can ride it\" (product-as-demo), Slide 14 includes a control-group design, and Slide 15 directs \"Show real product photography in every asset\". Planned props are concrete (ride report cards, unboxing insert, QR offer).",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides carry visuals (check.json body_slides_with_visual=16) and real product photography anchors slides 1, 4, 5, 8. But several 'mockups' are mislabeled: Slide 12 \"Test-ride event mockup\" and Slide 13 \"Unboxing insert + email mockup\" are just reused Labrador Pro photos (labrador_3.jpg / labrador_4.jpg), and photos/labrador_2.jpg is reused on slides 4, 11 and 15. The visuals/s06-s18 PNGs exist for 7 slides but program/creative slides rely on stock-like product shots rather than actual mockups.",
+      "fix": "Produce at least simple rendered mockups for the test-ride card, unboxing insert, email, and trust dashboard (even wireframe-level) instead of reusing product photos, and stop repeating the same 4 photos across 10+ slides."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "The deck reads as a complete, professional client pitch: cited thesis, real coded review data, honest budget with conservative case, measurement triggers, and a bibliography. Residual polish gaps: meta.date reads \"April 2027 (ICDC - confirm)\" (an unconfirmed hedge in the deck metadata), assurances_signed is false, Slide 2/title slide still shows only campaign info with no school/address/participants/date, and Slide 11 has the stray '- objective O1' artifact.",
+      "fix": "Confirm the competition date and remove '(ICDC - confirm)' hedging, add school/address/participants/date to the title slide, and fix the Slide 11 artifact before submission."
+    }
+  },
+  "auto_caps_applied": {
+    "research": "cap 10 - no-survey primary methods only (primary_research_ok=false, primary_lite_ok=true); 2 findings cited on strategy slides",
+    "budget": "no cap - 6 lines, projection present",
+    "impact": "no cap - all KPIs have targets and baselines",
+    "design": "no cap - all 16 body slides have visuals",
+    "delivery": "no cap - notes on all 16 body slides"
+  },
+  "total": 82,
+  "top_fixes": [
+    "Fix Slide 17 breakeven (~66 -> ~69 orders), cite a source for the ~$12K email-list value, and state the post-mitigation conservative ROI explicitly (points: budget 8->9, ~30 min).",
+    "Split Slide 14 into Dog Pack and Ready Ledger and remove the '- objective O1' artifact on Slide 11 (points: organization 4->5, ~30 min).",
+    "Build real mockups for the test-ride card, unboxing insert, email and trust dashboard instead of reusing product photos (points: design 4->5, ~2-3 hrs).",
+    "Field a small survey or 3+ interviews at the test-ride pop-ups to unlock research scores above the 10-point no-survey cap (points: research 10->13+, ~4-6 hrs)."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "run": "v18",
+  "grader_session": "fresh",
+  "pass": 2,
+  "revision": "rev1",
+  "scores": {
+    "industry_knowledge": {
+      "score": 4,
+      "evidence": "Slide 6: \"California DTC brand est. 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees [S1][S6]\" plus UL 2849/2271 certs and Trustpilot 4.7/620 on Slide 5, and a DTC-only vs 'affordable for all' whitespace position on Slide 6",
+      "fix": "Name real ebike competitors (Lectric, Rad Power, Heybike, Sixthreezero) and state PUCKIPUPPY's price/certification position against them - the deck claims 'no competitor claims' the delivery-experience gap without showing the competitive field."
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"PUCKIPUPPY's product wins - its delivery journey loses buyers. 11% of 500 reviews are 1-star; ~68% of those cite shipping damage, assembly, app issues, or support\" - a specific structural last-mile problem at a $1,400 ticket, with measurable O1-O3 on Slide 7",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"keyword-coded analysis of 500 public Judge.me reviews incl. 1-star deep-dive [R1][R2]; digital shelf/price audit of 6 sources [R4][R6]\" - real no-survey primary methods dated 2026-11-08, but survey/interviews not run; check.json confirms findings_cited_on_strategy=2 (<3), so auto-capped at 10",
+      "fix": "Field a minimal survey (n>=30 at TX bike shops/dog parks) or 3 buyer interviews to unlock 11-15; cite a third [R#] finding directly on strategy slides (Slide 11 currently cites only [R1][R6])."
+    },
+    "strategy": {
+      "score": 12,
+      "evidence": "Slide 11: \"Positioning: 'the ebike that arrives ready' - own the delivery-experience gap no competitor claims\" built on Slide 10's finding->decision map (\"68% of 1-stars = damage/assembly/support [R1] -> Arrive Ready unboxing + setup concierge\"); the live trust dashboard is the ownable element, but creator + pop-up tactics remain copyable",
+      "fix": "Lead with the published claim-resolution-time dashboard and damage-claim promise as the moat, not the PESO mix; the unconfirmed company approvals (A5 pop-ups, A8 finance partner) should be stated as conditions on the plan."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 12: \"Segment P1; weeks 1-6; owner Nino (field). Target: 400 rides, 15% quote rate\" - every program names segment, weeks, owner, objective; Slide 16 gives a 45-day week-by-week cadence",
+      "fix": "The week-by-week schedule drops owners and channels per week - annotate Wk2-4 with which owner runs which program and which channel fires when; resolve A5 ('proposed, not confirmed' company approval for pop-ups) before claiming 8 events as fact."
+    },
+    "budget": {
+      "score": 8,
+      "evidence": "Slide 17: \"Total $21,000: media $8,000 [A4]...\" line items in deck.json sum correctly (8,000+6,400+2,400+1,200+400+2,600=21,000), funnel math checks (1.2M x 1.5% x 0.6% = ~108 orders), profit-based ROI ~56%, honest conservative case (-$7K at 40% with list-value offset) - but the slide omits dollar figures for inserts/tools/contingency and A5/A8 costs are unconfirmed",
+      "fix": "Show all six line items with dollar values on the slide itself, not just media/creators/events; flag which costs are contingent on company approvals (A5, A8) and state the contingency draw-down rule."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O1: attributed orders - Shopify code + UTM report, weekly; target 90... O3: 1-star review share recount - re-crawl Judge.me corpus bi-weekly, same keyword method\" - all 4 KPIs have baseline + target + tool + cadence per deck.json, plus off-track triggers; minor inconsistency: Slide 7 says '68% of negatives to <50%' vs KPI '<50% of 1-star reviews'",
+      "fix": "Standardize the O3 metric wording across Slides 7, 18, and deck.json (share of 1-star reviews vs share of all negatives); add one upper-funnel awareness metric since O2 captures are the only consideration measure."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Official outline order followed (Overview -> Product/Company -> Objectives -> Target -> Research -> Strategy -> Budget -> Impact -> Bibliography); Slide 14 still compresses two distinct programs ('Dog Pack' creators AND 'Ready Ledger' PR/dashboard) onto one slide, and Slide 7 mis-cites O2's capture target to [A2] (the gross-margin assumption)",
+      "fix": "Split Slide 14 into separate Dog Pack and Ready Ledger slides to keep one idea per slide; correct the [A2] citation on Slide 7 to the correct assumption/KPI anchor."
+    },
+    "effectiveness": {
+      "score": 4,
+      "evidence": "Slide 4 thesis 'PUCKIPUPPY's product wins - its delivery journey loses buyers' is restated at the close on Slide 19 ('X orders arrived ready, 0 unresolved damage claims'), and Slide 10 delivers a clean finding->decision through-line; the close restates the mission metric rather than the thesis verbatim, weakening the echo",
+      "fix": "End Slide 19 with the exact thesis sentence ('the product wins - the delivery journey loses buyers, and Arrive Ready fixes it') so the open/close bookend is explicit."
+    },
+    "delivery": {
+      "score": 4,
+      "evidence": "Talk tracks now on all 16 body slides (check.json: body_slides_with_notes=16) with real interactive intent - Slide 5: \"Pass around the photo\"; Slide 12: \"judges can ride it\" plus a control-group design; Slide 18: off-track triggers scripted",
+      "fix": "A $1,400 ebike cannot realistically be ridden at a district competition - replace with a phone-mockup walkthrough of the unboxing/QR setup flow and a printed 'ride report' card handout; the photo pass-around is good but stage it deliberately."
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides carry a visual (check.json: body_slides_with_visual=16) using real PUCKIPUPPY photography (photos/labrador_*.jpg) plus 7 custom PNG charts/diagrams; however Slides 12-15 label visuals 'mockup' while recycling the same 4 product photos - no actual mockups rendered",
+      "fix": "Produce real mockups (insert card, trust dashboard, creator frame, email) for the strategy slides instead of recycling product photos; the visual system is otherwise consistent and professional."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Complete client-pitch metadata (school 'Legacy Ranch High School', address '1277 Co Rd 258, Liberty Hill, TX 78642', 3 named participants) and professional language throughout; but meta.date is 'April 2027 (ICDC - confirm)', assurances_signed=false, and parent_run='v17' indicates regenerated material",
+      "fix": "Confirm the competition date, sign the assurances, and do a final proofread for citation errors ([A2] on Slide 7) before submission."
+    }
+  },
+  "top_fixes": [
+    "Field a minimal real primary method (n>=30 survey or 3 interviews at TX bike shops/dog parks) to escape the 10-point no-survey cap, and cite a third [R#] finding on the strategy slides (points: research 10->13+, ~4-6 hours).",
+    "Show all six budget line items with dollar values on Slide 17 and flag costs contingent on unconfirmed approvals (A5 pop-ups, A8 finance partner); reconcile the conservative-case -$7K with the list-value offset explicitly (points: budget 8->9, ~30 min).",
+    "Split Slide 14 into Dog Pack and Ready Ledger slides, fix the [A2] mis-citation on Slide 7, and replace the implausible 'judges ride the ebike' demo with a phone-mockup unboxing/QR walkthrough + printed ride-report handout (points: organization/effectiveness/delivery ~+3 combined, ~1-2 hours)."
+  ]
+}

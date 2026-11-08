@@ -1,0 +1,73 @@
+{
+  "run": "v18",
+  "grader_session": "fresh",
+  "pass": 1,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 5: \"PUCKIPUPPY makes dog-breed-named ebikes - Labrador Pro (~$1,399), Boxer ST, Corgi, Husky trike\"; Slide 6: \"California DTC brand est. 2022 by founder Bob, named for his dog Puck; ~145K monthly visits, 11-50 employees\" plus Trustpilot 4.7/620 and 'no mass retail presence found in audit' positioning",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"PUCKIPUPPY's product wins - its delivery journey loses buyers. 11% of 500 reviews are 1-star; ~68% of those cite shipping damage, assembly, app issues, or support\" - a specific structural problem, with SMART O1-O3 on Slide 7 (90 orders, 400 rides/800 captures, <50% damage-share of 1-stars)",
+      "fix": ""
+    },
+    "research": {
+      "score": 9,
+      "evidence": "Slide 9: \"keyword-coded analysis of 500 public Judge.me reviews incl. 1-star deep-dive [R1][R2]; digital shelf/price audit of 6 sources\" - two no-survey primary methods completed (n=500, n=6, dated 2026-11-08) plus 8 secondary sources; Slide 10 traces four findings to four campaign decisions. Auto-capped at 10 (no-survey lite only); only 2 findings cited on strategy slides per check.json and corpus size is inconsistent (584 in bibliography vs 500 analyzed)",
+      "fix": "Field the pending survey/interviews (M1/M2, n>=30 or >=3) to unlock 11-15; reconcile the 584-vs-500 review corpus count; cite at least 3 distinct findings on strategy slides 11-16."
+    },
+    "strategy": {
+      "score": 12,
+      "evidence": "Slide 11: \"Positioning: 'the ebike that arrives ready' - own the delivery-experience gap no competitor claims [R1][R6]\" with a proof -> protection -> pathway message house built directly on coded review findings; the live trust dashboard publishing claim-resolution times (Slide 14 'Ready Ledger') is a semi-ownable element. PESO/channel mix is otherwise conventional and 'no competitor claims' is asserted, not evidenced",
+      "fix": "Prove the whitespace: name 2-3 competitor ebikes and show none own the delivery-experience promise; make the Ready Ledger trust dashboard the single uncopyable asset rather than one of four programs."
+    },
+    "activities": {
+      "score": 12,
+      "evidence": "Slide 16: \"Wk1: Arrive Ready inserts live; trust badges above fold; test-ride bookings open; press outreach. Wk2-4: 6 test-ride pop-ups + 8 Dog Pack creator posts...\" - 45-day timeline within window; program slides 12-14 each name Segment, weeks, owner and target. However the week-by-week schedule itself does not restate segment/channel per activity, and slide 14 compresses two programs (Dog Pack + Ready Ledger) onto one slide",
+      "fix": "Add segment/channel columns to the Slide 16 Gantt or bullets so every weekly activity carries its segment and channel; split Program 3 and Program 4 onto separate slides."
+    },
+    "budget": {
+      "score": 8,
+      "evidence": "Slide 17: \"Total $21,000: media $8,000 [A4]; creators 8 x $800 [A6]; events 8 x $300 [A7]; inserts [A9]; tools [A10]; contingency [A11]\" - 6 lines sum correctly to $21,000 with labeled assumption bases, funnel math (1.2M x 1.5% x 0.6% = ~108 orders x $950), profit-based ROI ~56%, breakeven ~66, and an honest conservative case (-$7K at 40% factor) plus margin sensitivity 25%->-14% / 40%->+95%. Weakness: conservative mitigation relies on '~$12K list value' for captures not yet built plus unquantified support savings, and W_FINANCE warning confirms the losing case is only partially addressed",
+      "fix": "Quantify the conservative-case offset (actual email/SMS revenue assumption, support-ticket cost per case from review data) or show a second scenario that stays profitable; tie each line item to a real quote/benchmark rather than self-labeled assumptions."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O3: 1-star review share recount - re-crawl Judge.me corpus bi-weekly, same keyword method\" with per-objective tools (Shopify code + UTM, Klaviyo, event tally), targets (90 orders, 400 rides/800 captures, <50% share), leading/lagging indicators, and off-track triggers ('if wk3 rides <150, shift media to CA'). Baselines are thin for the new codes ('0 (new codes)') and order attribution lacks an incrementality control outside the test-ride program",
+      "fix": "Add a baseline period for order volume/review mix before launch and extend the control-group design to paid traffic so attributed orders are incremental, not just tagged."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slides 3-20 follow the official outline order (Overview -> Product/Company -> Objectives -> Target Market -> Research -> Strategy -> Budget -> Impact -> Bibliography), one idea per slide, consistent section labels. Deductions: Slide 14 packs two programs (Dog Pack + Ready Ledger) onto one slide, and Slide 19 has a duplicated citation typo '[R1][A3]. [R1][A3]'",
+      "fix": "Split Slide 14 into Dog Pack and Ready Ledger slides; remove the duplicated citation on Slide 19."
+    },
+    "effectiveness": {
+      "score": 4,
+      "evidence": "Slide 4 thesis stated up front: \"PUCKIPUPPY's product wins - its delivery journey loses buyers\"; the close (Slide 19) lands the same through-line as the mission metric: \"'X orders arrived ready, 0 unresolved damage claims'\" - persuasive and consistent, though the close restates the metric rather than the thesis verbatim",
+      "fix": "Restate the thesis sentence verbatim in the final line of Slide 19 to mirror the Slide 4 open exactly."
+    },
+    "delivery": {
+      "score": 4,
+      "evidence": "Talk-track notes present on 13/16 body slides including planned interactive elements: Slide 5 \"Pass around the photo\", Slide 12 control group that \"isolates event lift\", Slide 4 \"judges sit on the Labrador Pro and ride\". Deducted because slides 6, 7 and 8 have no notes at all, and delivery cannot be fully judged from slides alone",
+      "fix": "Write talk-track notes for Slides 6, 7 and 8 and add one scripted interactive moment per program slide (e.g., live scan of the test-ride QR)."
+    },
+    "design": {
+      "score": 3,
+      "evidence": "All 16 body slides carry a visual (16/16 per check.json) in a consistent teal brand system, but only ~7 are real generated charts/diagrams (s06-s10, s16-s18); Slides 11, 12, 13, 14, 15 and 19 are labeled 'mockup'/'lockup' yet reuse the same 4 product photos - e.g. Slide 11 'Arrive Ready concept mockup' is just photos/labrador_2.jpg, identical to Slide 15's 'Real product photography'. Product photography is real and appropriate, but mockup claims are not backed by designed assets",
+      "fix": "Produce actual designed mockups for the Arrive Ready insert, email sequence, trust dashboard and creator content (even simple Figma-style frames) instead of reusing product photos; differentiate photo reuse across slides."
+    },
+    "overall": {
+      "score": 3,
+      "evidence": "Strong pitch spine and real primary review analysis, but professionalism gaps: meta.date reads \"April 2027 (ICDC - confirm)\" (unconfirmed), assurances_signed=false, corpus inconsistency (584 vs 500 reviews between Slide 9 and Slide 20), Slide 7 cites [A2] (a margin assumption) for O2 email captures, and the conservative case loses ~37% ROI with only soft mitigation",
+      "fix": "Confirm the competition date and get assurances signed; reconcile the review count; fix the O2 citation; present the conservative case as a plan, not just a warning."
+    }
+  },
+  "top_fixes": [
+    "Replace reused product photos on Slides 11-15/19 with real designed mockups (insert, email, dashboard, creator frames) - currently 'mockup' slides are just labrador_*.jpg duplicates (design 3->4).",
+    "Field the pending survey/interviews (or at minimum run 3 bike-shop/dog-park interviews) to escape the 10-point no-survey research cap, and reconcile the 584-vs-500 review corpus (research 9->12+).",
+    "Strengthen the conservative budget case with quantified offsets (email revenue assumption, per-ticket support savings) so the -37% scenario shows a credible path to viability (budget 8->9).",
+    "Complete professionalism items: confirm ICDC date, sign assurances, add talk tracks for Slides 6-8, fix the duplicated citation on Slide 19 (overall 3->4)."
+  ]
+}
