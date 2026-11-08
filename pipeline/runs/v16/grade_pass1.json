@@ -1,0 +1,73 @@
+{
+  "run": "v16",
+  "grader_session": "fresh",
+  "pass": 1,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: \"Competitors in Texas biltong are fragmented regional players (Brooklyn Biltong, Shaka's, Billi Tong's, Lowfeld Soul Food); Stryve is the only national brand with H-E-B scale\" plus dated FY2023 10-K facts (net sales $29.9M -> $17.7M, 'low-quality revenue') and a positioning map",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"net sales fell 41% (10-K) while ~1,400 public reviews show only 4% discovered Braav in-store - distribution without velocity\" - a specific structural channel problem, plus SMART O1-O3 on Slide 7 (\"2,000 attributed purchases... +25% units per store at 6 demo stores vs. 6 control\")",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"keyword-coded analysis of 1,400 public Stamped.io reviews [R1][R4] and a public distribution/digital-shelf audit of 8 sources... survey/interviews not run - published reviews skew positive\" - two no-survey primary methods, honest limitation disclosed, but still capped at 10 under primary_lite",
+      "fix": "Run at least a small real survey (n>=30 H-E-B shoppers) or 3 store-manager/buyer interviews; the deck already promises a post-campaign awareness survey of 150 shoppers, so fielding a pre-campaign version unlocks 11-15."
+    },
+    "strategy": {
+      "score": 14,
+      "evidence": "Slide 11: \"Positioning: for performance and clean-label shoppers... Braav is the air-dried beef upgrade\" with tactic-specific PESO line (\"Paid geo-social -> store traffic; Earned Plano founder/ex-NFL story -> H-E-B buyer pitch\") and the defensible 'air-dried, never cooked' factual claim",
+      "fix": "The PESO mix is still a checklist any CPG brand could copy; make the 6-test-vs-6-control velocity-test design itself the headline strategy element, and add one more ownable mechanic (e.g., the H-E-B buyer sell-in frame) rather than listing four channels."
+    },
+    "activities": {
+      "score": 14,
+      "evidence": "Slide 16: \"W2-W3 (Jan 12-25): Biltong 101 demos begin (P1, field, O1/O2, Nino); Taste-Off videos 1-2 (P1, TikTok, O3, Santhosh)\" - named owners (Nino/Santhosh/Rafsan), segment, channel, objective, week all present, plus plan-B retail doors",
+      "fix": "deck.json still lists G2 owner as 'Retail/trade lead' and G4 as 'Content lead' - name individuals there too; also clarify that Oct-Nov sell-in sits outside the 45-day campaign window."
+    },
+    "budget": {
+      "score": 9,
+      "evidence": "Slide 17: \"Total $15,000: social $5,500... creators 3 x $1,000; demos 12 x $250; production $900; tools $400; contingency $2,200\" - lines sum exactly, funnel math shown (\"1.5M x 1.5% x 10% = 2,250 purchases at $18 avg = $40.5K\"), profit-based ROI 21%, honest conservative case (-40%) with breakeven ~wk 10-12",
+      "fix": "Conservative case still loses ~-40% in-window; add a sentence quantifying the repeat tail (A13: 30% reorder at ~$8 GP) that carries it to breakeven, and flag the $2 coupon's manufacturer cost explicitly rather than only 'netted in revenue'."
+    },
+    "impact": {
+      "score": 10,
+      "evidence": "Slide 18: \"O3: 1.5M impressions; aided awareness of 'biltong' baseline at week 0 vs. post-campaign survey of 150 shoppers + non-campaign holdout DMAs; target +12 pts net of control\" - every KPI has baseline, target, tool, and weekly cadence; test-vs-control units/store KPI is genuinely attributable",
+      "fix": ""
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 14 still compresses three ideas (creator taste-off tour, founder-story email/SMS program, named credibility bios) into one 'Jerky or Biltong?' slide despite G3/G4 being separate programs in deck.json",
+      "fix": "Split the founder-story program (G4) onto its own slide; keep slide 14 to the creator tour only."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 thesis \"Stryve does not need more doors - it needs shoppers who understand what biltong is and come back for it\" restated verbatim on Slide 19 (\"Close on the thesis, word for word, as we opened\")",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk track on all 16 body slides plus planned interactions: \"hand the judge the printed shelf talker and sample-cup sleeve\" (Slide 12), persona cards side-by-side (Slide 8), phone-mockup walkthrough (Slide 14)",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides carry visuals (16 PNGs verified: s01 + s04-s19) and Slide 17 was word-trimmed, but Slide 4 still runs ~115+ words across five dense thesis/problem/opportunity bullets - over the 110-word guideline",
+      "fix": "Trim Slide 4 to <=110 words (move the thesis detail into the talk track) and keep the remaining slides within the 40-110 word band."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "meta.date is \"April 2027 (ICDC - confirm)\" - a tentative, unconfirmed date on the title slide, and assurances_signed is false; otherwise the deck is a complete, professional client pitch",
+      "fix": "Confirm the actual ICDC date before printing; a '(confirm)' placeholder reads as unfinished to judges."
+    }
+  },
+  "top_fixes": [
+    "Field real primary research (n>=30 shopper survey or 3 buyer/store-manager interviews) to break the 10-point no-survey cap - the deck already commits to a 150-shopper post-campaign survey, so a pre-campaign baseline is the missing piece (~4-6 hours).",
+    "Split Slide 14 into creator-tour and founder-story slides (G3/G4 are separate programs) and trim Slide 4 to <=110 words - fixes organization and design in one editing pass (~30 min).",
+    "Confirm the competition date and sign assurances before submission; replace 'April 2027 (ICDC - confirm)' with the real date on Slide 2 (~5 min)."
+  ],
+  "total": 89
+}

@@ -1,0 +1,72 @@
+{
+  "run": "v16",
+  "grader_session": "fresh",
+  "pass": 2,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: \"Stryve Foods Corp (NASDAQ: SNAX), Plano TX; founded by Ted Casey (Dymatize), ex-NFL player Gabe Carimi, and South African native Warren Pala\" plus \"Competitors in Texas biltong are fragmented regional players (Brooklyn Biltong, Shaka's, Billi Tong's, Lowfeld Soul Food); Stryve is the only national brand with H-E-B scale\" - dated company facts, product specifics, and competitor position with a positioning map",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"net sales fell 41% (10-K) while ~1,400 public reviews show only 4% discovered Braav in-store - distribution without velocity\" - a specific structural channel problem, not generic low awareness, backed by SMART O1-O3 on Slide 7 (\"2,000 attributed purchases... and +25% units per store at 6 demo stores vs. 6 control\")",
+      "fix": ""
+    },
+    "research": {
+      "score": 9,
+      "evidence": "Slide 9: \"keyword-coded analysis of 1,400 public Stamped.io reviews [R1][R4] and a public distribution/digital-shelf audit of 8 sources [R5][R6]... survey/interviews not run - published reviews skew positive\" - no-survey primary only (auto-cap 10), methods/n/dates stated, and Slide 10 traces every decision finding-to-\"therefore\"",
+      "fix": "Still no survey or interviews (n>=30 or 3+) - the shopper voice is inferred from DTC reviews the deck itself admits skew positive. Run even a small intercept survey at 2 H-E-B stores to unlock 11-15 and validate the 'biltong is unfamiliar' assumption with non-buyers."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"Big idea: It's Not Jerky - biltong is air-dried, never cooked; a different product for a different shopper\" built on cited findings, plus tactic-specific PESO and a test-vs-control velocity design; Slide 13 adds plan-B doors. The 'air-dried, never cooked' proof point is genuinely uncopyable by jerky brands, though the creator/paid-social execution remains largely standard IMC",
+      "fix": "Make the test-vs-control velocity readout itself the hero of the pitch (it is the asset Stryve's 10-K says it lacks) and name it as the ownable deliverable, not just a measurement footnote."
+    },
+    "activities": {
+      "score": 13,
+      "evidence": "Slide 16: \"W2-W3 (Jan 12-25): Biltong 101 demos begin (P1, field, O1/O2, Nino); Taste-Off videos 1-2 (P1, TikTok, O3, Santhosh)\" - week-by-week within the 45-day window with segment/channel/objective/owner per row and named individuals",
+      "fix": "Two owners remain role titles not people (\"Retail/trade lead\" on G2, \"Content lead\" on G4 in deck.json), and the Oct-Nov pre-work plus W6-W7 readout compress several activities onto one bullet - expand to one line each and name all four owners."
+    },
+    "budget": {
+      "score": 9,
+      "evidence": "Slide 17: \"Total $15,000: social $5,500 [A4]; creators 3 x $1,000 [A6]; demos 12 x $250 [A7]; production $900 [A9]; tools $400 [A10]; contingency $2,200 [A11]\" - six lines sum exactly to $15,000, funnel math checks (1.5M x 1.5% x 10% = 2,250 x $18 = $40.5K), profit-based ROI 21%, and an honest conservative case (\"ROI ~-40%... breakeven ~wk 10-12\") with plan-B doors",
+      "fix": "The 45% gross-margin assumption [A2] sits above the 10-K's own 25-40% history - show the margin sensitivity (GP at 35% and 25%) or re-base the base case so the 21% ROI isn't resting on the friendliest margin."
+    },
+    "impact": {
+      "score": 10,
+      "evidence": "Slide 18: \"O3: 1.5M impressions; aided awareness of 'biltong' baseline at week 0 vs. post-campaign survey of 150 shoppers + non-campaign holdout DMAs; target +12 pts net of control\" - every objective maps to KPI, baseline, target, tracking tool (coupon reports, Shopify code, UTMs, tally sheets) and cadence, plus decision triggers (\"under 30 QR scans per shift by week 3, move demos to top 3 stores\")",
+      "fix": ""
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 3 TOC matches official outline order (Overview -> Product/Company -> Objectives -> Target Market -> Research -> Strategy/Activities/Schedule -> Budget -> Impact -> Bibliography) with one idea per slide, but Slide 14 still compresses Program 3 (taste-off tour), Program 4 fuel (\"Story fuel for the tour... founder story\") and named credibility onto one slide",
+      "fix": "Split Slide 14 into 'Taste-Off Tour' and 'Biltong Story' slides - two distinct programs on one slide violates the one-idea-per-slide standard that cost points in pass 1."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 opens with the thesis verbatim - \"Stryve does not need more doors - it needs shoppers who understand what biltong is and come back for it\" - and Slide 19 closes \"Thesis: Stryve does not need more doors - it needs shoppers who try it once to come back\" with the same line and a concrete next step",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Slide 12 notes: \"Interactive moment: hand the judge the printed shelf talker and sample-cup sleeve\"; Slide 8 \"Interactive moment: show the two persona cards printed side by side\"; Slide 14 \"Walk the judge through the phone mockup\"; substantive talk-track notes on all 16 body slides",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "Slides 8, 12, 14, 15 use persona-card/demo-table/phone mockups, Slide 6 has a chart, Slide 7 a table, all under the #8a2f2f brand system and 16/16 body slides carry visuals - but Slides 9 and 10 run ~100 words of dense findings text and the W_THEME warning flags Slide 16 for missing the 'It's Not Jerky' theme lockup",
+      "fix": "Convert the finding->decision arrows on Slide 10 into a visual flow diagram and re-run the theme check so every slide carries the It's Not Jerky lockup."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Slide 2 metadata is now complete (school 'Legacy Ranch High School', address, three named participants), but meta.date reads \"April 2027 (ICDC - confirm)\" - an unconfirmed date on a submission, and check.json still flags \"conservative case loses money; address the risk\" (partially mitigated on Slide 17 but the warning stands)",
+      "fix": "Confirm the actual ICDC presentation date before submission and close out the conservative-case warning with the margin sensitivity and plan-B framing on the budget slide itself."
+    }
+  },
+  "top_fixes": [
+    "Run one real primary instrument (n>=30 intercept survey of H-E-B meat-snack shoppers, or 3 store-manager/H-E-B buyer interviews) - it is the only thing between this deck and research scores of 11-15 (points: research 9->13+, ~3-5 hours).",
+    "Split Slide 14 into two slides (Taste-Off Tour vs. Biltong Story/credibility) to restore one-idea-per-slide and protect the organization score (~20 minutes).",
+    "Re-base the budget on a conservative margin (show GP at 25-35% per the 10-K, not just the 45% assumption) and confirm the April 2027 date - cheap fixes that protect budget, overall, and the W_FINANCE warning (~45 minutes)."
+  ]
+}

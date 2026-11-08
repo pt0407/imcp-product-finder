@@ -1,0 +1,48 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_THEME",
+      "msg": "slide 16: theme 'It's Not Jerky' not on strategy slide"
+    },
+    {
+      "code": "W_FINANCE",
+      "msg": "conservative case loses money; address the risk on the budget slide"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "primary_lite_ok": true,
+    "findings_cited_on_strategy": 4,
+    "budget_lines": 6,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 4,
+    "body_slides_with_visual": 16,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 15000,
+    "ad_spend_usd": 8500,
+    "break_even_orders": 1852,
+    "base_case": {
+      "orders": 2250,
+      "revenue_usd": 40500,
+      "gross_profit_usd": 18225,
+      "roi_profit_based": 0.215,
+      "roas": 4.76,
+      "cac_usd": 6.67
+    },
+    "conservative_case": {
+      "orders": 1125,
+      "revenue_usd": 20250,
+      "gross_profit_usd": 9112,
+      "roi_profit_based": -0.393,
+      "roas": 2.38,
+      "cac_usd": 13.33
+    }
+  },
+  "penalty_points": 0
+}
