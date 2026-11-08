@@ -1,0 +1,70 @@
+{
+  "product": "tinyB chocolate (brigadeiros)",
+  "company": "tinyB chocolate",
+  "category": "artisan chocolate / Brazilian brigadeiros (gifting + experiences)",
+  "brand_color": "#d62828",
+  "facts": [
+    {"fact": "2025 revenue ~$916K, +30% YoY, profitable and bootstrapped; raising $1.5M", "source": "S5"},
+    {"fact": "Revenue mix: ~57% corporate events, ~22% brick-and-mortar, ~14% gifting/DTC, ~7% wholesale", "source": "S5"},
+    {"fact": "Average order ~$47; margins 72-78% across channels", "source": "S5"},
+    {"fact": "3,200+ corporate events delivered, 82,000+ participants, clients incl. Google, Cisco, Meta, Salesforce, PwC", "source": "S5"},
+    {"fact": "Flagship store at 411 S B St, San Mateo CA, open ~1 year, $200K year one", "source": "S5"},
+    {"fact": "4.8 Google rating, 5.0 Yelp; 30,000+ customers served", "source": "S5"},
+    {"fact": "Founded 2014 by Renata Stoica, a Brazilian former nurse; brigadeiros are gluten-free, made in small batches", "source": "S6"},
+    {"fact": "~40 employees per PitchBook", "source": "S7"},
+    {"fact": "US chocolate market $29.2B in 2025, +5.7% CAGR 2020-2025 (GlobalData)", "source": "S1"},
+    {"fact": "Valentine's Day spending expected at record $29.1B; candy is the most-planned gift (56% of celebrants)", "source": "S2"},
+    {"fact": "84% of Americans enhance Valentine's with chocolate/candy; 92% hope to receive chocolate", "source": "S3"},
+    {"fact": "US confectionery $42.5B in 2025, +5.3% dollars; 99.8% household penetration; avg buyer spends $352/yr", "source": "S4"},
+    {"fact": "Edible gifts are 36% of corporate gifts; 81% of recipients find them most appreciated; 79% more likely to remember the giver", "source": "S8"}
+  ],
+  "problem_candidates": [
+    {"problem": "Revenue concentration: 57% of revenue is corporate events - a capacity-limited, relationship-driven channel - while consumer DTC gifting is only ~14% and wholesale ~7%", "evidence": ["S5"]},
+    {"problem": "Corporate event kits reach 82,000+ participants but contain no consumer purchase path - the B2B audience never converts to DTC buyers", "evidence": ["S5"]},
+    {"problem": "Seasonal gifting spike (Valentine's, holidays) is the biggest consumer occasion but the brand has no gifting-specific campaign engine", "evidence": ["S2", "S3", "S5"]}
+  ],
+  "competitors": [
+    {"name": "Lindt / Ghirardelli / Russell Stover", "price": "$15-60/box", "channel": "mass retail + DTC", "positioning": "traditional boxed chocolates, heart-shaped boxes", "source": "S3"},
+    {"name": "DTC chocolate brands (e.g., Dandelion, Raaka)", "price": "$20-45", "channel": "DTC + select retail", "positioning": "bean-to-bar craft chocolate", "source": "S1"},
+    {"name": "Corporate gifting platforms (Giftsenda etc.)", "price": "varies", "channel": "B2B marketplaces", "positioning": "curated corporate gift boxes", "source": "S8"}
+  ],
+  "sources": [
+    {"id": "S1", "publisher": "GlobalData", "title": "USA Chocolate (Confectionery) Market Analysis", "date": "2025", "url": "https://www.globaldata.com/store/report/usa-chocolate-market-analysis/", "type": "secondary"},
+    {"id": "S2", "publisher": "National Retail Federation / Prosper Insights", "title": "Valentine's Day Spending Expected to Reach New Records", "date": "2026-01", "url": "https://nrf.com/media-center/press-releases/valentine-s-day-spending-expected-to-reach-new-records", "type": "secondary"},
+    {"id": "S3", "publisher": "National Confectioners Association", "title": "Consumers Embrace Chocolate And Candy For Valentine's Day", "date": "2026", "url": "https://candyusa.com/news/consumers-embrace-chocolate-and-candy-to-elevate-their-valentines-day-celebrations/", "type": "industry"},
+    {"id": "S4", "publisher": "Circana via The Shelby Report", "title": "State of Treating 2026", "date": "2026-05-21", "url": "https://theshelbyreport.com/2026/05/21/state-of-treating-2026-whats-driving-confectionery-consumers-now/", "type": "secondary"},
+    {"id": "S5", "publisher": "tinyB chocolate (company investor brief)", "title": "Investor Brief, May 2026", "date": "2026-05", "url": "https://tinybchocolate.com/pages/investor-brief", "type": "company"},
+    {"id": "S6", "publisher": "Forbes Brasil", "title": "Brasileira fatura R$ 25 milhões vendendo brigadeiro no Vale do Silicio", "date": "2023-07-18", "url": "https://forbes.com.br/forbes-money/2023/07/brasileira-fatura-milhoes-vendendo-brigadeiro-no-vale-do-silicio/", "type": "secondary"},
+    {"id": "S7", "publisher": "PitchBook", "title": "TinyB Chocolate company profile", "date": "2026", "url": "https://pitchbook.com/profiles/company/439570-99", "type": "secondary"},
+    {"id": "S8", "publisher": "Giftsenda / Coresight Research", "title": "Holiday Gifting Report for Corporates", "date": "2025", "url": "https://www.giftsenda.com/blog/holiday-gifting-report-for-corporates/", "type": "vendor"}
+  ],
+  "assumptions": [
+    {"id": "A1", "text": "DTC AOV ~$47 (company-reported average order across channels)"},
+    {"id": "A2", "text": "DTC gross margin ~72% (company-reported gifting/DTC margin)"},
+    {"id": "A3", "text": "Baseline monthly DTC orders unknown; week-1 dashboard establishes it"},
+    {"id": "A4", "text": "Paid social benchmarks: 2.5M impressions at ~$2.60 CPM; 1.2% CTR; 4.5% landing conversion"},
+    {"id": "A5", "text": "tinyB is open to including a consumer insert card in corporate event kits (not yet confirmed)"},
+    {"id": "A6", "text": "Micro-creator rates $400-$900 per post for food/lifestyle creators"},
+    {"id": "A7", "text": "Brigadeiro Bar pop-up costs: venue comped by partner cafe, product COGS ~$8/participant"},
+    {"id": "A8", "text": "Content production via local Bay Area creators"},
+    {"id": "A9", "text": "Email/SMS platform ~$200/mo plus list-growth ads"},
+    {"id": "A10", "text": "PR = product seeding to 5 food/gifting writers; no cash retainers"},
+    {"id": "A11", "text": "Landing page + QR tooling ~$200 one-time"},
+    {"id": "A12", "text": "Contingency ~$1,000 (~5% of lines)"}
+  ],
+  "research": {
+    "methods": [
+      {"id": "M1", "type": "survey", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M2", "type": "interview", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M3", "type": "competitor_audit", "n": 3, "dates": "2026-11-07", "recruitment": "Agency desk audit of confectionery brands + gifting platforms", "status": "complete", "results_file": "pipeline/brief.json"},
+      {"id": "M4", "type": "secondary", "n": null, "dates": "2026-11-07", "recruitment": "Industry reports and trade press", "status": "complete", "results_file": "pipeline/brief.json"}
+    ],
+    "findings": []
+  },
+  "open_questions": [
+    "Current DTC order volume and email list size (company investor brief gives mix but not counts)",
+    "Whether corporate event kits can carry a consumer insert card",
+    "Which SKU leads DTC gifting (box vs. single brigadeiros)",
+    "Store capacity for weekend tasting bar"
+  ]
+}

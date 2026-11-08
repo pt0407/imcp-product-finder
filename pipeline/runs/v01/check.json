@@ -1,0 +1,63 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school_address missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.participants missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.date missing (needed on title slide)"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 4: 112 words (winners averaged 62-92)"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 10: 124 words (winners averaged 62-92)"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "findings_cited_on_strategy": 0,
+    "budget_lines": 8,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 6,
+    "body_slides_with_visual": 16,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 20000,
+    "ad_spend_usd": 14000,
+    "break_even_orders": 645,
+    "base_case": {
+      "orders": 1680,
+      "revenue_usd": 84000,
+      "gross_profit_usd": 52080,
+      "roi_profit_based": 1.604,
+      "roas": 6.0,
+      "cac_usd": 11.9
+    },
+    "conservative_case": {
+      "orders": 840,
+      "revenue_usd": 42000,
+      "gross_profit_usd": 26040,
+      "roi_profit_based": 0.302,
+      "roas": 3.0,
+      "cac_usd": 23.81
+    }
+  },
+  "penalty_points": 0
+}

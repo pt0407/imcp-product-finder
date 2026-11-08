@@ -1,0 +1,215 @@
+{
+  "meta": {
+    "product": "tinyB chocolate (brigadeiros)",
+    "company": "tinyB chocolate",
+    "campaign_name": "Borogodó, Delivered",
+    "theme": "Borogodó",
+    "thesis": "tinyB's corporate-event engine reaches 82,000+ people a year but converts none of them to consumers - 'Borogodó, Delivered' bridges that gap into DTC gifting.",
+    "variant_angle": "channel-gap: corporate-to-consumer bridge + Valentine's gifting",
+    "brand_color": "#d62828",
+    "school": "",
+    "school_address": "",
+    "participants": [],
+    "date": "",
+    "assurances_signed": false
+  },
+  "campaign_window": {"start": "2027-01-19", "end": "2027-03-04"},
+  "business_problem": "tinyB earns ~57% of revenue from corporate events - a capacity-limited channel - while consumer DTC gifting is only ~14% and wholesale ~7%. Its kits reach 82,000+ participants yearly but contain no path to a consumer purchase, so the brand's biggest audience never becomes its customer base.",
+  "objectives": [
+    {"id": "O1", "text": "Drive 1,000 new DTC orders during the 45-day Valentine's-anchored window", "funnel_stage": "conversion", "primary": true},
+    {"id": "O2", "text": "Grow the owned audience by 5,000 email/SMS subscribers and 10,000 campaign-attributed site sessions", "funnel_stage": "consideration", "primary": false},
+    {"id": "O3", "text": "Generate 3M impressions and 350K engagements; 250 #ShareTheBorogodo posts", "funnel_stage": "awareness", "primary": false}
+  ],
+  "segments": [
+    {"id": "P1", "name": "The Gifter - corporate attendees turned gift buyers", "role": "primary",
+     "demographic": "25-45, professionals who attended a tinyB corporate workshop (Google, Meta, Salesforce-type employees)",
+     "geographic": "Bay Area first (San Mateo store + event footprint), then national DTC shipping",
+     "psychographic": "Experienced brigadeiros at a work event; associates the brand with a memorable hands-on moment; buys gifts for partners, friends, and hostesses",
+     "behavioral": "Received product in a corporate kit; no purchase path was offered; likely buys chocolate gifts 2-4x/year",
+     "media": "Email (work-life), Instagram, word of mouth in office networks",
+     "evidence": ["S5", "S8"]},
+    {"id": "P2", "name": "The Sweet-Seeker - Gen-Z dessert loyalists", "role": "secondary",
+     "demographic": "18-28, Bay Area and coastal US, students and young professionals",
+     "geographic": "San Francisco Bay Area, then national",
+     "psychographic": "Follows food creators; loves novel desserts; values gluten-free and 'real ingredient' stories; buys small indulgences weekly",
+     "behavioral": "Discovers brands on TikTok/Instagram; buys DTC chocolate online; engages with founder stories",
+     "media": "TikTok, Instagram Reels, YouTube; SMS responsive",
+     "evidence": ["S4", "S6"]}
+  ],
+  "research": {
+    "methods": [
+      {"id": "M1", "type": "survey", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M2", "type": "interview", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M3", "type": "competitor_audit", "n": 3, "dates": "2026-11-07", "recruitment": "Agency desk audit of confectionery brands + gifting platforms", "status": "complete", "results_file": "pipeline/brief.json"},
+      {"id": "M4", "type": "secondary", "n": null, "dates": "2026-11-07", "recruitment": "Industry reports and trade press", "status": "complete", "results_file": "pipeline/brief.json"}
+    ],
+    "findings": []
+  },
+  "programs": [
+    {"id": "G1", "name": "The Corporate Bridge", "mechanic": "Insert a 'Take Borogodó Home' card into every corporate event kit starting week 1: a QR code + 20% off first DTC order + a recipe card. 3,200+ annual events = the warmest audience the brand owns.", "segment": "P1", "channels": ["event kit insert", "QR landing page", "post-event email"], "objectives": ["O1", "O2"], "weeks": [1, 2, 3, 4, 5, 6], "owner": "Events & retail lead"},
+    {"id": "G2", "name": "Brigadeiro Bar", "mechanic": "Weekend tasting bar at the San Mateo flagship plus 3 proposed Bay Area cafe partners: guests taste 3 brigadeiros, get a stamped card, and receive the gifting-box offer. Target 600 tastings.", "segment": "P1", "channels": ["in-store/pop-up sampling", "POS cards", "partner cafe foot traffic"], "objectives": ["O1", "O2"], "weeks": [1, 2, 3, 4, 5], "owner": "Retail & events lead"},
+    {"id": "G3", "name": "#ShareTheBorogodo", "mechanic": "UGC challenge timed to Galentine's/Valentine's: post your gifting or tasting moment with #ShareTheBorogodo; weekly winners receive a brigadeiro box. All posts include #ad disclosure per FTC rules.", "segment": "P2", "channels": ["TikTok", "Instagram Reels"], "objectives": ["O1", "O3"], "weeks": [2, 3, 4, 5, 6], "owner": "Social & community lead"},
+    {"id": "G4", "name": "Valentine's Brigadeiro Box", "mechanic": "Limited-edition gift box (assorted brigadeiros + handwritten-style card + 'borogodó' meaning card) launched week 3 for Galentine's/Valentine's; promoted via email, SMS, and paid social to gift buyers.", "segment": "P1", "channels": ["DTC site", "email", "SMS", "paid social"], "objectives": ["O1", "O2"], "weeks": [3, 4, 5, 6], "owner": "E-commerce lead"},
+    {"id": "G5", "name": "Renata's Kitchen", "mechanic": "Founder-led content series: Renata Stoica shares the brigadeiro recipe origin story and 'borogodó' meaning weekly across TikTok and email; 6 food/lifestyle micro-creators seed the story weeks 1-3.", "segment": "P2", "channels": ["TikTok", "email", "creator posts"], "objectives": ["O2", "O3"], "weeks": [1, 2, 3, 4, 5, 6], "owner": "Content & PR lead"}
+  ],
+  "budget": {
+    "lines": [
+      {"item": "Paid social media (TikTok, Meta, Instagram)", "category": "media", "usd": 6500, "basis": "A4"},
+      {"item": "Creator seeding: 6 creators x $700 (fee + product)", "category": "creators", "usd": 4200, "basis": "A6"},
+      {"item": "Brigadeiro Bar production + partner kit materials", "category": "events", "usd": 3000, "basis": "A7"},
+      {"item": "Product sampling for tastings and creators", "category": "events", "usd": 2000, "basis": "A7"},
+      {"item": "Corporate Bridge insert cards design + print + fulfillment", "category": "production", "usd": 1000, "basis": "A5"},
+      {"item": "Email/SMS tools and list growth", "category": "tools", "usd": 800, "basis": "A9"},
+      {"item": "PR outreach (gifted reviews to food/gifting writers)", "category": "pr", "usd": 300, "basis": "A10"},
+      {"item": "Landing page + QR codes", "category": "tools", "usd": 200, "basis": "A11"},
+      {"item": "Contingency", "category": "contingency", "usd": 1000, "basis": "A12"}
+    ],
+    "total_usd": 19000,
+    "projection": {"impressions": 2500000, "ctr": 0.012, "conversion_rate": 0.045, "aov_usd": 47, "gross_margin": 0.72},
+    "conservative_factor": 0.5
+  },
+  "kpis": [
+    {"objective": "O1", "kpi": "New DTC orders attributed to campaign codes/QR", "baseline": "none yet - measured week 1 via Shopify", "target": "1,000 orders", "tool": "Shopify + unique codes per program", "cadence": "weekly"},
+    {"objective": "O1", "kpi": "Corporate Bridge card scans and redemptions", "baseline": "0 (new program)", "target": "800 scans, 150 redemptions", "tool": "QR analytics + Shopify codes", "cadence": "weekly"},
+    {"objective": "O2", "kpi": "Email + SMS subscriber growth", "baseline": "current list size - measured week 1", "target": "+5,000 subscribers", "tool": "Klaviyo/SMS platform", "cadence": "weekly"},
+    {"objective": "O2", "kpi": "Site sessions from campaign UTMs", "baseline": "none yet - measured week 1", "target": "10,000 sessions", "tool": "Google Analytics 4", "cadence": "weekly"},
+    {"objective": "O3", "kpi": "Impressions and engagements", "baseline": "none yet - measured week 1", "target": "3M impressions, 350K engagements", "tool": "TikTok/Meta Ads Manager", "cadence": "weekly"},
+    {"objective": "O3", "kpi": "UGC posts using #ShareTheBorogodo", "baseline": "0", "target": "250 posts", "tool": "TikTok/Instagram hashtag tracking", "cadence": "weekly"}
+  ],
+  "sources": [
+    {"id": "S1", "publisher": "GlobalData", "title": "USA Chocolate (Confectionery) Market Analysis", "date": "2025", "url": "https://www.globaldata.com/store/report/usa-chocolate-market-analysis/", "type": "secondary"},
+    {"id": "S2", "publisher": "National Retail Federation / Prosper Insights", "title": "Valentine's Day Spending Expected to Reach New Records", "date": "2026-01", "url": "https://nrf.com/media-center/press-releases/valentine-s-day-spending-expected-to-reach-new-records", "type": "secondary"},
+    {"id": "S3", "publisher": "National Confectioners Association", "title": "Consumers Embrace Chocolate And Candy For Valentine's Day", "date": "2026", "url": "https://candyusa.com/news/consumers-embrace-chocolate-and-candy-to-elevate-their-valentines-day-celebrations/", "type": "industry"},
+    {"id": "S4", "publisher": "Circana via The Shelby Report", "title": "State of Treating 2026", "date": "2026-05-21", "url": "https://theshelbyreport.com/2026/05/21/state-of-treating-2026-whats-driving-confectionery-consumers-now/", "type": "secondary"},
+    {"id": "S5", "publisher": "tinyB chocolate (company investor brief)", "title": "Investor Brief, May 2026", "date": "2026-05", "url": "https://tinybchocolate.com/pages/investor-brief", "type": "company"},
+    {"id": "S6", "publisher": "Forbes Brasil", "title": "Brasileira fatura R$ 25 milhões vendendo brigadeiro no Vale do Silicio", "date": "2023-07-18", "url": "https://forbes.com.br/forbes-money/2023/07/brasileira-fatura-milhoes-vendendo-brigadeiro-no-vale-do-silicio/", "type": "secondary"},
+    {"id": "S7", "publisher": "PitchBook", "title": "TinyB Chocolate company profile", "date": "2026", "url": "https://pitchbook.com/profiles/company/439570-99", "type": "secondary"},
+    {"id": "S8", "publisher": "Giftsenda / Coresight Research", "title": "Holiday Gifting Report for Corporates", "date": "2025", "url": "https://www.giftsenda.com/blog/holiday-gifting-report-for-corporates/", "type": "vendor"}
+  ],
+  "assumptions": [
+    {"id": "A1", "text": "DTC AOV ~$47 (company-reported average order across channels)"},
+    {"id": "A2", "text": "DTC gross margin ~72% (company-reported gifting/DTC margin)"},
+    {"id": "A3", "text": "Baseline monthly DTC orders unknown; week-1 dashboard establishes it"},
+    {"id": "A4", "text": "Paid social benchmarks: 2.5M impressions at ~$2.60 CPM; 1.2% CTR; 4.5% landing conversion"},
+    {"id": "A5", "text": "tinyB is open to including a consumer insert card in corporate event kits (not yet confirmed)"},
+    {"id": "A6", "text": "Micro-creator rates $400-$900 per post for food/lifestyle creators"},
+    {"id": "A7", "text": "Brigadeiro Bar: partner cafe comp venue; product COGS ~$8/participant; 600 tastings"},
+    {"id": "A8", "text": "Content production via local Bay Area creators"},
+    {"id": "A9", "text": "Email/SMS platform ~$200/mo plus list-growth ads"},
+    {"id": "A10", "text": "PR = product seeding to 5 food/gifting writers; no cash retainers"},
+    {"id": "A11", "text": "Landing page + QR tooling ~$200 one-time"},
+    {"id": "A12", "text": "Contingency ~$1,000 (~5% of lines)"}
+  ],
+  "slides": [
+    {"n": 1, "section": "cover", "title": "", "bullets": [], "visual": {"type": "image", "desc": "Hero shot of assorted Brazilian brigadeiros on a warm tabletop; 'Borogodó, Delivered' lockup"}, "notes": ""},
+    {"n": 2, "section": "title", "title": "Integrated Marketing Campaign - Product", "bullets": ["tinyB chocolate", "Borogodó, Delivered", "45-day campaign: January 19 - March 4, 2027"], "visual": {"type": "none"}, "notes": ""},
+    {"n": 3, "section": "toc", "title": "Table of Contents", "bullets": ["I. Overview", "II. Product & Company", "III. Campaign Objectives", "IV. Target Market", "V. Research, Insights & Connection", "VI. Strategy, Activities & Schedule", "VII. Proposed Budget", "VIII. Impact & Measurement", "IX. Bibliography"], "visual": {"type": "none"}, "notes": ""},
+    {"n": 4, "section": "overview", "title": "Campaign Overview", "bullets": [
+      "Problem: ~57% of tinyB revenue comes from corporate events - a capacity-limited channel - while consumer DTC gifting is only ~14% [S5].",
+      "Business opportunity: kits reach 82,000+ participants yearly with no purchase path; Valentine's is a record $29.1B occasion where candy is the top gift [S2][S5].",
+      "Solution: 'Borogodó, Delivered' puts a consumer offer inside every corporate kit, samples at the flagship store, and launches a limited Valentine's Brigadeiro Box [O1].",
+      "45-day goal: 1,000 new DTC orders and 5,000 new email/SMS subscribers [O1][O2]."
+    ], "visual": {"type": "table", "desc": "Four boxes: Problem / Business opportunity / Solution / 45-day goal"}, "notes": "The key line: tinyB's best marketing already happens - inside corporate workshops - but it ends with a handshake, not a sale. We fix the last inch."},
+    {"n": 5, "section": "description", "title": "The Product", "bullets": [
+      "Handmade Brazilian brigadeiros - gluten-free bite-sized chocolates made in small batches in San Mateo [S5][S6].",
+      "Sold as singles, gift boxes, and experience kits; company average order ~$47 [S5].",
+      "Margins of 72-78% across channels - gifting and DTC carry the highest margins [S5].",
+      "4.8 Google / 5.0 Yelp ratings across 30,000+ customers served [S5]."
+    ], "visual": {"type": "image", "desc": "Assorted brigadeiro flavors in brand packaging on marble"}, "notes": "Brigadeiro is unknown in the US - that is the problem and the opportunity. A $29B chocolate category [S1] has never heard the word."},
+    {"n": 6, "section": "description", "title": "The Company & Its Position", "bullets": [
+      "Founded 2014 by Renata Stoica, a Brazilian former nurse; ~40 employees; profitable and bootstrapped, raising $1.5M [S5][S7].",
+      "Revenue ~$916K in 2025, +30% YoY; mix: 57% corporate events, 22% store, 14% DTC gifting, 7% wholesale [S5].",
+      "Clients include Google, Cisco, Meta, Salesforce, PwQ, Intuit - 3,200+ events in 52+ countries [S5].",
+      "Position: premium experiential chocolate - priced above mass-market, below luxury gifting [S5][S8]."
+    ], "visual": {"type": "chart", "desc": "Revenue mix donut (57/22/14/7) + timeline 2014-2027"}, "notes": "This is a healthy, growing company - which is exactly why the pitch works: they do not need a rescue, they need a bridge from B2B love to consumer revenue."},
+    {"n": 7, "section": "objectives", "title": "Campaign Objectives", "bullets": [
+      "O1 (primary, conversion): 1,000 new DTC orders in 45 days [O1].",
+      "O2 (consideration): +5,000 email/SMS subscribers and 10,000 campaign site sessions [O2].",
+      "O3 (awareness): 3M impressions, 350K engagements, 250 #ShareTheBorogodo posts [O3]."
+    ], "visual": {"type": "table", "desc": "O1-O3 rows with funnel stage, metric, target"}, "notes": "Orders are the primary objective. Every program below ties back to O1, O2, or O3 - nothing runs on vibes."},
+    {"n": 8, "section": "target_market", "title": "Target Market", "bullets": [
+      "P1 'The Gifter': 25-45 professionals who already ate brigadeiros at a tinyB corporate event; buys gifts 2-4x/year; reachable by email and office word-of-mouth [S5][S8].",
+      "P2 'The Sweet-Seeker': 18-28 Gen-Z dessert loyalists; discovers food brands on TikTok; values gluten-free and founder stories [S4][S6].",
+      "Shared truth: edible gifts are the most-appreciated corporate gift (81%) and recipients are 79% more likely to remember the giver [S8]."
+    ],"visual": {"type": "mockup", "desc": "Two persona cards with photos, demographics, psychographics, media habits"}, "notes": "P1 is the unfair advantage - we are not buying this audience, the brand already taught them what a borogodó is. P2 is the growth audience."},
+    {"n": 9, "section": "research", "title": "Research Method & Results", "bullets": [
+      "Secondary research (complete): company investor brief, GlobalData, NRF, NCA, Circana/State of Treating, Giftsenda/Coresight [S1][S2][S3][S4][S5][S8].",
+      "Key results: US chocolate market $29.2B and growing 5.7%/yr [S1]; Valentine's hits a record $29.1B with candy the top gift [S2][S3]; 99.8% of households buy confectionery, avg $352/yr [S4].",
+      "Primary research (in field): 8-question survey of chocolate/gift buyers + 3-5 interviews with past corporate-event attendees; results load into slides 10 and 17 before submission [R-pending].",
+      "Environmental scan: cocoa prices and tariffs are squeezing chocolate COGS - making tinyB's asset-light gifting model (no grocery slotting) strategically attractive [S4]."
+    ], "visual": {"type": "chart", "desc": "Methods table + key stats bar chart (Valentine's $29.1B, chocolate $29.2B, household penetration 99.8%)"}, "notes": "The chocolate category is huge but mature at 2.6% growth [S1] - tinyB's edge is not the category, it is the unclaimed brigadeiro niche and the owned audience."},
+    {"n": 10, "section": "research", "title": "Insights -> Campaign Decisions", "bullets": [
+      "Finding: 57% of revenue sits in corporate events that reach 82,000+ people with no purchase path [S5] -> therefore every kit gets a 'Take Borogodó Home' card with a QR offer (G1).",
+      "Finding: Valentine's is a record $29.1B occasion and 92% of Americans hope to receive chocolate [S2][S3] -> therefore the campaign anchors on Galentine's/Valentine's with a limited Brigadeiro Box (G4).",
+      "Finding: edible gifts are the most-appreciated corporate gift and drive 79% better recall [S8] -> therefore we pitch brigadeiros as the corporate-to-personal bridge, not just a consumer candy.",
+      "Finding: the brand already owns proof - 4.8 Google, 5.0 Yelp, founder story [S5][S6] -> therefore 'Renata's Kitchen' makes the founder the creative, not stock chocolate imagery.",
+      "Finding (pending survey): gift-buyer price sensitivity and channel data will re-weight paid vs. sampling spend in week 1 [R-pending]."
+    ], "visual": {"type": "table", "desc": "Finding -> therefore rows, each tagged with source IDs"}, "notes": "Same discipline as our other decks: every decision cites its evidence. The Corporate Bridge insight is the one that should make a judge lean forward."},
+    {"n": 11, "section": "strategy", "title": "Campaign Strategy", "bullets": [
+      "Big idea 'Borogodó, Delivered': the little extra that makes something special - tinyB's own word - now delivered from work event to home gift box.",
+      "IMC mix: Paid (TikTok/Meta) + Earned (founder story, PR) + Shared (UGC challenge) + Owned (kit inserts, email/SMS, POS).",
+      "Push-pull: corporate clients get a seamless gifting story (push); consumers get sampling, creator proof, and a limited box (pull); one QR code connects both.",
+      "Ownable element: only tinyB can put borogodó inside the kits it already runs - a competitor would have to buy an audience this brand already owns [S5]."
+    ], "visual": {"type": "image", "desc": "Key visual: brigadeiro box with 'Borogodó, Delivered' lockup and the word's translation card"}, "notes": "Theme check: 'Borogodó' appears on every activity slide. It is tinyB's own vocabulary - the campaign sounds like the brand, not like an agency."},
+    {"n": 12, "section": "strategy", "title": "45-Day Schedule", "bullets": [
+      "Weeks 1-2 (Jan 19-Feb 1): bridge launch - insert cards print and ship with kits, Brigadeiro Bar weekends begin, creator seeding starts [O1][O2].",
+      "Weeks 3-4 (Feb 2-15): gifting push - Valentine's Brigadeiro Box live for Galentine's/Valentine's, #ShareTheBorogodo challenge carries the Borogodó banner [O1][O3].",
+      "Weeks 5-6 (Feb 16-Mar 1): sustain - UGC weekly winners, retargeting, last-chance gift messaging [O1][O2].",
+      "Week 7 (Mar 2-4): close - results recap, winner announcement, retention offer for February gift buyers [O2]."
+    ], "visual": {"type": "chart", "desc": "Gantt chart: 7 weeks x channels (kits, sampling, TikTok, email, paid) with program labels"}, "notes": "45 days, timed so the gifting peak (Feb 13-14) lands mid-campaign when challenge and box are both live."},
+    {"n": 13, "section": "strategy", "title": "Program 1: The Corporate Bridge", "bullets": [
+      "Borogodó, Delivered starts inside the kits tinyB already ships: a 'Take Borogodó Home' card with QR code + 20% off first DTC order [O1][O2].",
+      "Mechanic: card goes into every corporate event kit from week 1; scan lands on a kit-specific page that captures email/SMS consent.",
+      "Why it works: 82,000+ participants already experienced the product - the warmest possible audience, at near-zero media cost [S5].",
+      "Measurement: per-kit QR codes attribute every order; target 800 scans and 150 redemptions [A5]."
+    ], "visual": {"type": "mockup", "desc": "Insert card mockup: 'You just made borogodó at work - take it home. Scan for 20% off' + QR"}, "notes": "This is the strategic centerpiece. Frame it as proposed: the client approves adding the card to kits - we are not claiming it already exists."},
+    {"n": 14, "section": "strategy", "title": "Program 2: Brigadeiro Bar", "bullets": [
+      "Borogodó, Delivered goes sensory: weekend tasting bars at the San Mateo flagship and 3 proposed Bay Area cafe partners [O1][O2].",
+      "Mechanic: guests taste 3 brigadeiros, get a stamped loyalty card, and leave with the gifting-box offer and a QR code.",
+      "Target: 600 tastings over 5 weeks at ~$8 product cost each [A7].",
+      "Why it works: brigadeiro is unknown in the US [S6] - tasting converts curiosity faster than any ad."
+    ], "visual": {"type": "mockup", "desc": "Pop-up bar mockup: tasting cups, branded napkins, 'Borogodó, Delivered' banner"}, "notes": "Sampling is the highest-trust channel for a novel food. The stamped card turns a one-time taste into a follow-up."},
+    {"n": 15, "section": "strategy", "title": "Program 3: #ShareTheBorogodo + Valentine's Box", "bullets": [
+      "Borogodó, Delivered gets its moment: limited Valentine's Brigadeiro Box launches week 3 for Galentine's and Valentine's Day [O1].",
+      "UGC challenge: post your gifting or tasting moment with #ShareTheBorogodo; 5 weekly winners get a box; entries capture email/SMS [O2][O3].",
+      "Named decision-maker: founder Renata Stoica fronts 'Renata's Kitchen' - the brigadeiro origin story and what borogodó means [S5][S6].",
+      "6 food/lifestyle micro-creators seed the unboxing format weeks 1-3 so the challenge has examples on day one [O3]."
+    ], "visual": {"type": "mockup", "desc": "Gift box mockup + TikTok phone frame showing unboxing with #ShareTheBorogodo caption"}, "notes": "Valentine's timing is deliberate: record $29.1B spending [S2] and candy is the most-planned gift [S3] - the box gives the campaign a reason to exist now."},
+    {"n": 16, "section": "strategy", "title": "Creative Samples", "bullets": [
+      "Email subject + preview: 'The little extra you just made at work - take it home' / '20% off your first borogodó box. Scan the card in your kit.' [O1][O2]",
+      "TikTok caption: 'POV: you finally learn what borogodó means (it's the best part). Valentine's box inside. #ShareTheBorogodo #ad' [O3]",
+      "SMS (opted-in): 'Borogodó, Delivered: your 20% off first box expires Sunday. Tap to claim. Reply STOP to opt out.' [O1]",
+      "Kit insert card: 'You made borogodó today. Now take it home - scan for 20% off + free shipping over $50.' [O1]"
+    ], "visual": {"type": "mockup", "desc": "Phone mockups: email inbox row, TikTok post, SMS thread, plus printed insert card"}, "notes": "Read the insert card copy aloud - it is the whole campaign in six words: the experience was good, now buy it."},
+    {"n": 17, "section": "budget", "title": "Proposed Budget & Financial Viability", "bullets": [
+      "Total campaign budget: $19,000 across media, creators, events, production, tools, PR, and contingency [A4][A6][A7][A9][A10][A11][A12].",
+      "Funnel math: 2.5M impressions x 1.2% CTR = 30K clicks x 4.5% conversion = 1,350 orders x $47 AOV = $63K revenue [A1][A4].",
+      "Gross profit at 72% margin = $45.7K; profit-based ROI = 140%; ROAS = 5.9x on $10.7K ad spend [A2].",
+      "Break-even = 561 orders; base case 1,350, conservative case (50%) 675 orders still clears break-even [O1].",
+      "CAC = $14.07 base / $28.15 conservative vs. $47 AOV with 72% margin - payback inside the window [A1][A2]."
+    ], "visual": {"type": "table", "desc": "Line-item budget table + funnel math + base/conservative case table"}, "notes": "The insert card costs ~$1K and reaches 82,000 warm prospects - the cheapest reach in the plan. Lead with that ratio."},
+    {"n": 18, "section": "impact", "title": "Impact & Measurement", "bullets": [
+      "O1 orders: Shopify + per-program QR/code attribution; target 1,000 orders; weekly review [O1].",
+      "O1 bridge metric: kit card scans and redemptions; target 800 scans / 150 redemptions [O1].",
+      "O2 list growth: Klaviyo/SMS dashboard; target +5,000 subscribers, 10,000 UTM sessions [O2].",
+      "O3 reach: Ads Manager + hashtag tracking; target 3M impressions, 350K engagements, 250 UGC posts [O3].",
+      "Optimization trigger: if kit-card scans < 200 by week 3, shift $1,000 from paid social to a second Brigadeiro Bar weekend; if UGC < 50 posts by week 4, add a creator prize boost [A4]."
+    ], "visual": {"type": "table", "desc": "KPI table: objective -> KPI -> baseline -> target -> tool -> cadence"}, "notes": "The kit-card scan metric is the one to highlight: it directly proves the corporate-to-consumer bridge works."},
+    {"n": 19, "section": "impact", "title": "Why It Matters", "bullets": [
+      "Mission metric: every brigadeiro carries 'borogodó' - the little extra; the campaign targets 1,000 new households discovering it [O1].",
+      "Founder thesis: Renata left nursing to share her mother's brigadeiro recipe with America - Borogodó, Delivered is how that story reaches the people who already loved the workshop [S6].",
+      "Projected result: $63K attributed revenue on a $19K budget; 675+ orders even in the conservative case [O1].",
+      "The lasting asset: a repeatable corporate-to-consumer bridge the brand can run for every holiday, not just Valentine's [O2]."
+    ], "visual": {"type": "image", "desc": "Renata Stoica portrait-style image + 'Borogodó' lockup + projected results callouts"}, "notes": "End where the strategy began: the brand does not need more awareness, it needs the last inch - from 'I loved that workshop' to 'I'll order the box.'"},
+    {"n": 20, "section": "bibliography", "title": "Bibliography", "bullets": [
+      "GlobalData. 'USA Chocolate (Confectionery) Market Analysis.' 2025. https://www.globaldata.com/store/report/usa-chocolate-market-analysis/",
+      "National Retail Federation / Prosper Insights. 'Valentine's Day Spending Expected to Reach New Records.' 2026-01. https://nrf.com/media-center/press-releases/valentine-s-day-spending-expected-to-reach-new-records",
+      "National Confectioners Association. 'Consumers Embrace Chocolate And Candy For Valentine's Day.' 2026. https://candyusa.com/news/consumers-embrace-chocolate-and-candy-to-elevate-their-valentines-day-celebrations/",
+      "Circana via The Shelby Report. 'State of Treating 2026.' 2026-05-21. https://theshelbyreport.com/2026/05/21/state-of-treating-2026-whats-driving-confectionery-consumers-now/",
+      "tinyB chocolate. 'Investor Brief, May 2026.' 2026-05. https://tinybchocolate.com/pages/investor-brief",
+      "Forbes Brasil. 'Brasileira fatura R$ 25 milhões vendendo brigadeiro no Vale do Silicio.' 2023-07-18. https://forbes.com.br/forbes-money/2023/07/brasileira-fatura-milhoes-vendendo-brigadeiro-no-vale-do-silicio/",
+      "PitchBook. 'TinyB Chocolate company profile.' 2026. https://pitchbook.com/profiles/company/439570-99",
+      "Giftsenda / Coresight Research. 'Holiday Gifting Report for Corporates.' 2025. https://www.giftsenda.com/blog/holiday-gifting-report-for-corporates/"
+    ], "visual": {"type": "none"}, "notes": ""}
+  ]
+}

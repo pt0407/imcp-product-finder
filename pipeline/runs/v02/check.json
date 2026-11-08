@@ -1,0 +1,63 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.school_address missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.participants missing (needed on title slide)"
+    },
+    {
+      "code": "W_TITLE",
+      "msg": "meta.date missing (needed on title slide)"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 10: 140 words (winners averaged 62-92)"
+    },
+    {
+      "code": "W_THEME",
+      "msg": "slide 12: theme 'Borogodó' not on strategy slide"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "findings_cited_on_strategy": 0,
+    "budget_lines": 9,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 6,
+    "body_slides_with_visual": 16,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 19000,
+    "ad_spend_usd": 10700,
+    "break_even_orders": 561,
+    "base_case": {
+      "orders": 1350,
+      "revenue_usd": 63450,
+      "gross_profit_usd": 45684,
+      "roi_profit_based": 1.404,
+      "roas": 5.93,
+      "cac_usd": 14.07
+    },
+    "conservative_case": {
+      "orders": 675,
+      "revenue_usd": 31725,
+      "gross_profit_usd": 22842,
+      "roi_profit_based": 0.202,
+      "roas": 2.96,
+      "cac_usd": 28.15
+    }
+  },
+  "penalty_points": 0
+}
