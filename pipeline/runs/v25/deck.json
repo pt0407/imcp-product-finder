@@ -1,12 +1,12 @@
 {
   "meta": {
-    "product": "Fleet Feet running shoes + fit services",
-    "company": "Fleet Feet (running specialty retailer, Austin TX location)",
+    "product": "Fleet Feet running shoes sold via fit id scan",
+    "company": "Fleet Feet (running specialty retailer, Austin TX)",
     "company_website": "https://www.fleetfeet.com",
-    "campaign_name": "Run Your City",
-    "theme": "Run Your City",
-    "thesis": "Fleet Feet does not need more shoe SKUs - it needs Austin's new runners to discover the fit-first difference, and Run Your City turns a store visit into a community membership.",
-    "variant_angle": "local running-store community campaign + shoe prop",
+    "campaign_name": "The Measured Pair",
+    "theme": "The Measured Pair",
+    "thesis": "The running shoe is already selling - Fleet Feet should sell the measured one, at the same price, to the casual buyer who is about to buy it somewhere else.",
+    "variant_angle": "fit-id scan as the product; price-match kills discounts; scan is un-copyable",
     "brand_color": "#e05a2b",
     "school": "Legacy Ranch High School",
     "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
@@ -20,45 +20,45 @@
     "parent_run": "",
     "design_style": "editorial"
   },
-  "business_problem": "Fleet Feet sells expert fitting in a city where runners increasingly buy online: 90% of first-time runners quit within a year, often from wrong-shoe injuries, and the store's best asset - free gait analysis and community runs - is invisible to people who have never walked in [R1][R3][S1][S3].",
+  "business_problem": "Brand dollars are growing while specialty units are soft - and the casual buyer driving the category never gets the 12-measurement fit id scan. Fleet Feet price-matches, so a discount does not win the pair; a scan does [R1][R3][S1][S4].",
   "objectives": [
     {
       "id": "O1",
       "funnel_stage": "conversion",
       "primary": true,
-      "text": "Drive 150 attributed store purchases (event QR + mention code RUNCITY) in 45 days at ~$140 AOV"
+      "text": "Drive 208 incremental scanned-then-bought pairs (first-time fit id profiles joined to POS) in 45 days at ~$160 AOV"
     },
     {
       "id": "O2",
       "funnel_stage": "consideration",
-      "text": "Capture 600 email/SMS signups via group runs, fit clinics, and the Run Your City challenge"
+      "text": "Attach a sock, insole, or apparel line on 20% of scanned-pair tickets"
     },
     {
       "id": "O3",
-      "funnel_stage": "awareness",
-      "text": "Reach 700K Austin impressions and shift 'shoe store' to 'my running community' - +15 pts among surveyed runners"
+      "funnel_stage": "retention",
+      "text": "Enroll 60% of new buyers in Fleet Feet Milestones"
     }
   ],
   "segments": [
     {
       "id": "P1",
-      "name": "New + Returning Runners (18-40)",
+      "name": "Casual Buyers (26-45)",
       "role": "primary",
-      "demographic": "18-40, students + young professionals, new to running or returning",
-      "geographic": "Austin TX metro (trails, gyms, campuses)",
-      "psychographic": "health-reset mindset; intimidated by 'serious runner' culture; buys online by default",
-      "behavioral": "buys shoes online; joins challenges; community-motivated",
-      "media": "Strava, Instagram, TikTok, run clubs"
+      "demographic": "26-45, lifestyle/fitness buyers who wear running shoes without 'being runners'",
+      "geographic": "Austin TX metro",
+      "psychographic": "cares about fitness and comfort, not race times; default buys online",
+      "behavioral": "owns running shoes already; has never been scanned; price-shops",
+      "media": "search, Instagram, TikTok"
     },
     {
       "id": "P2",
-      "name": "Established Runners + Gear Loyalists",
+      "name": "Milestones Loyalists",
       "role": "secondary",
-      "demographic": "30-60, marathoners + gear-focused",
+      "demographic": "30-60, repeat specialty buyers",
       "geographic": "Austin + suburbs",
-      "psychographic": "gear-obsessed, brand-loyal, community-embedded",
-      "behavioral": "repeat purchases, event participation, word-of-mouth",
-      "media": "Strava, YouTube, running podcasts, email"
+      "psychographic": "relationship-loyal, gear-aware",
+      "behavioral": "Pacesetters <$400/yr, Frontrunners $400+; second-pair behavior",
+      "media": "email, run club, Strava"
     }
   ],
   "research": {
@@ -68,34 +68,34 @@
         "type": "local_review_analysis",
         "n": 250,
         "dates": "2026-11",
-        "recruitment": "~250 public Google/Yelp reviews of the actual Austin Fleet Feet store, keyword-coded",
+        "recruitment": "~250 public Google/Yelp reviews of the actual Austin store, keyword-coded",
         "status": "complete",
         "results_file": ""
       },
       {
         "id": "M5",
-        "type": "digital_shelf_audit",
-        "n": 8,
+        "type": "price_audit",
+        "n": 4,
         "dates": "2026-11",
-        "recruitment": "Fleet Feet site + Austin store pages, fit process, Happy Fit guarantee, vs DTC/Amazon",
+        "recruitment": "One hero shoe (Hoka Clifton / Brooks Ghost) priced across fleetfeet.com, Dick's, REI, brand site",
         "status": "complete",
         "results_file": ""
       },
       {
         "id": "M6",
-        "type": "academic_industry_review",
+        "type": "secondary_industry_review",
         "n": 6,
         "dates": "2026-11",
-        "recruitment": "Peer-reviewed studies on shoe-fit injury + RunningUSA participation data + Strava year-in-sport",
+        "recruitment": "Footwear News, OIA 2026 running report, Circana remarks, Running Industry Alliance POS data, Franchise Times, UNC Kenan-Flagler",
         "status": "complete",
         "results_file": ""
       },
       {
         "id": "M1",
         "type": "survey (measurement plan)",
-        "n": 150,
+        "n": 30,
         "dates": "planned",
-        "recruitment": "Intercept survey at group runs/events - runs as week-0 baseline inside the measurement plan",
+        "recruitment": "n>=30 casual shoe buyers at campaign stores - week-0 baseline inside measurement plan",
         "status": "planned",
         "results_file": ""
       }
@@ -103,50 +103,50 @@
     "findings": [
       {
         "id": "R1",
-        "finding": "~90% of new runners quit within a year; academic studies link wrong-fit shoes to injury-driven dropout - the fit problem is the category's retention killer"
+        "finding": "Brand sales are exploding while specialty units are soft: running-shoe sales +9% in 2025 (56% of runners self-identify as casual) while specialty footwear units fell ~5% and dollars ~1% in H1 2026 - the growth buyer never enters the fit [S3][S4]"
       },
       {
         "id": "R2",
-        "finding": "Of 250 coded Austin-store reviews: 47 name the gait analysis/fit, 31 praise staff expertise, and verbatim quotes read like 'they watched me walk and fixed my knee pain' - the service is what locals rave about"
+        "finding": "Of ~250 coded Austin-store reviews: 47 name the gait analysis/fit, 31 praise staff expertise; verbatim: 'they watched me walk, fitted me right, my knee pain stopped' - the service is what locals rave about"
       },
       {
         "id": "R3",
-        "finding": "Local reviews + event listings show a real run community exists but is invisible to non-customers - the asset is there, the awareness isn't"
+        "finding": "Fleet Feet already price-matches - a percent-off offer fights the price match and trains the buyer to wait; the discount is a dead end [S1]"
       },
       {
         "id": "R4",
-        "finding": "DTC wins on convenience and price; the store's only durable edge is relationship + fit - confirmed by industry and local data"
+        "finding": "The growth buyer starts the search online and the fit still happens in-store - a saved fit id profile + a local outfitter is the piece no competitor can copy in 45 days"
       }
     ]
   },
   "assumptions": [
     {
       "id": "A1",
-      "text": "~$140 blended AOV (running shoes $120-180 + accessories)"
+      "text": "~$160 AOV on a hero shoe (Hoka Clifton / Brooks Ghost)"
     },
     {
       "id": "A2",
-      "text": "Gross margin ~45% on specialty running retail"
+      "text": "Gross margin ~45% assumption - Fleet Feet does not publish one; contribution ~$72/pair"
     },
     {
       "id": "A4",
-      "text": "$4,500 paid social at ~$7 CPM = ~640K impressions + ~60K organic community"
+      "text": "$5,500 paid search+geo social at ~$8 CPM / $3 CPC blend"
     },
     {
       "id": "A6",
-      "text": "6 micro creators (running/fitness/Austin niche) at $400 each"
+      "text": "4 disclosed local creators at $400 each"
     },
     {
       "id": "A7",
-      "text": "8 event/community shifts at ~$300 each (group-run support, clinics, signage)"
+      "text": "Scan-weekend + Workplace Fit + run-club events: 6 shifts at ~$450"
     },
     {
       "id": "A8",
-      "text": "RUNCITY code: $20 off first fitted pair; netted in revenue"
+      "text": "No discount - the offer is the saved fit id + a local outfitter; price-match stays normal margin"
     },
     {
       "id": "A10",
-      "text": "Tools/printing $550 (pace cards, challenge materials, signage)"
+      "text": "Production $800 (shoe-wall cards, measurement cards, booking signage)"
     },
     {
       "id": "A11",
@@ -154,105 +154,152 @@
     },
     {
       "id": "A13",
-      "text": "Repeat purchase ~40% within 12 months (runners replace shoes every 300-500 miles)"
+      "text": "Second-pair behavior via Milestones: Frontrunners spend $400+/yr"
     },
     {
       "id": "A15",
-      "text": "Conservative case = 50% of base"
+      "text": "Conservative case: only a third of pairs are incremental"
     }
   ],
   "budget": {
-    "total_usd": 13950,
+    "total_usd": 15000,
     "lines": [
       {
-        "item": "Paid social (IG/Strava geo + retargeting)",
+        "item": "Paid search + geo social",
         "category": "media",
-        "usd": 4500,
+        "usd": 5500,
         "basis": "A4"
       },
       {
-        "item": "Micro creators (6 x $400)",
+        "item": "Local creators (4 x $400)",
         "category": "media",
-        "usd": 2400,
+        "usd": 1600,
         "basis": "A6"
       },
       {
-        "item": "Community events + group runs (8 x ~$300)",
+        "item": "Scan events (6 x ~$450)",
         "category": "field",
-        "usd": 2400,
+        "usd": 2700,
         "basis": "A7"
       },
       {
-        "item": "Pace cards, challenge materials, signage",
+        "item": "Wall cards, measurement cards, signage",
         "category": "production",
-        "usd": 550,
+        "usd": 800,
         "basis": "A10"
       },
       {
-        "item": "RUNCITY redemption fund ($20 x 150)",
-        "category": "promotion",
-        "usd": 3000,
-        "basis": "A8"
-      },
-      {
-        "item": "Contingency (~9%)",
+        "item": "Contingency (~29%)",
         "category": "contingency",
-        "usd": 1100,
+        "usd": 4400,
         "basis": "A11"
       }
     ],
     "projection": {
-      "impressions": 700000,
+      "impressions": 690000,
       "ctr": 0.028,
-      "conversion_rate": 0.0075,
-      "aov_usd": 140.0,
+      "conversion_rate": 0.0108,
+      "aov_usd": 160.0,
       "gross_margin": 0.45
     }
   },
   "kpis": [
     {
       "objective": "O1",
-      "kpi": "Attributed purchases (QR + RUNCITY mention)",
-      "baseline": "0 (new code)",
-      "target": "150",
-      "tool": "POS code report + UTM",
-      "cadence": "weekly"
-    },
-    {
-      "objective": "O1",
-      "kpi": "Event-to-store conversion",
-      "baseline": "0",
-      "target": "15%",
-      "tool": "event check-in -> POS match",
+      "kpi": "First-time fit id profiles that bought a shoe (POS join)",
+      "baseline": "3 stores' last 8 weeks POS + fit id create dates",
+      "target": "208 pairs",
+      "tool": "UTM on booking link + POS",
       "cadence": "weekly"
     },
     {
       "objective": "O2",
-      "kpi": "Email/SMS captures",
-      "baseline": "current list",
-      "target": "600",
-      "tool": "Klaviyo",
+      "kpi": "Share of shoe tickets with sock/insole/apparel attach",
+      "baseline": "POS category mix, last 8 weeks",
+      "target": "20%",
+      "tool": "POS ticket analysis",
       "cadence": "weekly"
     },
     {
       "objective": "O3",
-      "kpi": "Impressions + 'my running community' lift",
-      "baseline": "week-0 survey n=150",
-      "target": "700K impr.; +15 pts",
-      "tool": "Ads Manager + pre/post survey",
-      "cadence": "weekly / pre-post"
+      "kpi": "Milestones enroll at checkout",
+      "baseline": "loyalty flag rate",
+      "target": "60% of new buyers",
+      "tool": "POS loyalty flag",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Guardrail: markdown rate",
+      "baseline": "historical price-match rate",
+      "target": "holds flat",
+      "tool": "POS",
+      "cadence": "weekly"
     }
   ],
   "programs": [
     {
       "id": "G1",
-      "name": "Community Run Takeover",
-      "mechanic": "Sponsor + host weekly group runs at the Austin store: free pace groups, post-run fit clinic, 'first visit free' card + QR. Community first, sale second.",
+      "name": "Tease (search + geo social)",
+      "mechanic": "'Same shoe, same price, measured first' paid search + geo social to casual buyers searching shoe models; booking link UTM.",
       "segment": "P1",
       "channels": [
-        "in-person events",
-        "Strava club",
-        "email capture"
+        "paid search",
+        "geo social"
+      ],
+      "objectives": [
+        "O1"
+      ],
+      "weeks": [
+        1
+      ],
+      "owner": "Agency"
+    },
+    {
+      "id": "G2",
+      "name": "Measured Pair Weekend (launch)",
+      "mechanic": "In-store scan weekend: fit id first, then one shoe; shoe-wall card for walk-ins.",
+      "segment": "P1",
+      "channels": [
+        "in-store fit id",
+        "walk-ins"
+      ],
+      "objectives": [
+        "O1"
+      ],
+      "weeks": [
+        2
+      ],
+      "owner": "Outfitters"
+    },
+    {
+      "id": "G3",
+      "name": "Sustain (club + workplace)",
+      "mechanic": "One run club whose members still buy online + two Workplace Fit employer scan days.",
+      "segment": "P1",
+      "channels": [
+        "run club",
+        "employer on-site"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        3,
+        4
+      ],
+      "owner": "Franchisee"
+    },
+    {
+      "id": "G4",
+      "name": "Convert + Close",
+      "mechanic": "Consented SMS/email to scanned-not-bought + attach script on shoe-only tickets; close by enrolling new buyers in Milestones + POS readback.",
+      "segment": "P1",
+      "channels": [
+        "SMS",
+        "email",
+        "checkout"
       ],
       "objectives": [
         "O1",
@@ -260,89 +307,17 @@
         "O3"
       ],
       "weeks": [
-        1,
-        2,
-        3,
-        4,
         5,
         6
       ],
-      "owner": "Nino (field)"
-    },
-    {
-      "id": "G2",
-      "name": "Run Your City Challenge",
-      "mechanic": "Free 4-week challenge: run Austin landmarks, tag the store, finishers get fit consult + $20 off. City-as-campaign.",
-      "segment": "P1",
-      "channels": [
-        "Strava",
-        "Instagram",
-        "TikTok"
-      ],
-      "objectives": [
-        "O2",
-        "O3",
-        "O1"
-      ],
-      "weeks": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "owner": "Santhosh (social)"
-    },
-    {
-      "id": "G3",
-      "name": "Fit First Clinics",
-      "mechanic": "In-store gait-analysis clinics + 'why your shoes hurt' educational nights - the service IS the marketing [R2].",
-      "segment": "P1",
-      "channels": [
-        "in-store events",
-        "email",
-        "YouTube"
-      ],
-      "objectives": [
-        "O1",
-        "O2"
-      ],
-      "weeks": [
-        2,
-        3,
-        4,
-        5
-      ],
-      "owner": "Rafsan (content)"
-    },
-    {
-      "id": "G4",
-      "name": "Miles Club",
-      "mechanic": "Email/SMS runner-retention series: shoe-mileage reminders, local run calendars, member perks - replaces shoes at 400-mile marks [R4].",
-      "segment": "P2",
-      "channels": [
-        "email",
-        "SMS"
-      ],
-      "objectives": [
-        "O1",
-        "O2"
-      ],
-      "weeks": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6
-      ],
-      "owner": "Rafsan (web)"
+      "owner": "Store CRM"
     }
   ],
   "sources": [
     {
       "id": "S1",
       "publisher": "Fleet Feet",
-      "title": "Company page, fit process, Happy Fit guarantee, store locator",
+      "title": "fit id 12-measurement scan, price match, Happy Fit guarantee, Milestones",
       "date": "2026",
       "url": "https://www.fleetfeet.com",
       "type": "web"
@@ -350,31 +325,31 @@
     {
       "id": "S2",
       "publisher": "Fleet Feet Austin",
-      "title": "Local store events, group runs, clinics",
+      "title": "Local store, group runs, clinics",
       "date": "2026",
       "url": "https://www.fleetfeet.com/austin",
       "type": "web"
     },
     {
       "id": "S3",
-      "publisher": "Running industry",
-      "title": "New-runner attrition (~90% quit rate) and injury-vs-shoe-fit data",
-      "date": "2024-2025",
-      "url": "https://www.runningusa.com",
+      "publisher": "Outdoor Industry Association / Circana",
+      "title": "2026 running report: 52.3M participants, 56% casual, +9% sales",
+      "date": "2026",
+      "url": "https://outdoorindustry.org",
       "type": "web"
     },
     {
       "id": "S4",
-      "publisher": "Franchise/retail press",
-      "title": "Fleet Feet system size (~250 stores) and specialty-running retail model",
-      "date": "2025",
+      "publisher": "Running Industry Alliance / Footwear News / Franchise Times / UNC Kenan-Flagler",
+      "title": "H1 2026 specialty POS data; Joey Pointer on brand-vs-specialty gap; ~284 stores, ~$600M system revenue, 85% in-store sales, 42-min outfitter time",
+      "date": "2025-2026",
       "url": "https://www.franchisetimes.com",
       "type": "web"
     },
     {
       "id": "S5",
       "publisher": "Austin running community",
-      "title": "Austin run-club culture and trail system",
+      "title": "Austin run culture and trail system",
       "date": "2025",
       "url": "https://www.austinfitmagazine.com",
       "type": "web"
@@ -388,9 +363,9 @@
     {
       "n": 1,
       "section": "cover",
-      "title": "Run Your City",
+      "title": "The Measured Pair",
       "bullets": [],
-      "notes": "Hold a running shoe up: '90% of new runners quit in a year. Most were wearing the wrong shoe. This store fixes that for free.'",
+      "notes": "Hand the judge a blank 12-measurement card: 'This is the product. Not the shoe - the scan. Nobody else sells this.'",
       "visual": {
         "type": "hero",
         "desc": "Fleet Feet runner hero image"
@@ -401,9 +376,9 @@
       "section": "title",
       "title": "Integrated Marketing Campaign - Product",
       "bullets": [
-        "Run Your City",
-        "Fleet Feet running specialty",
-        "45-day campaign - Austin community + store"
+        "The Measured Pair",
+        "Fleet Feet - shoes sold after a fit id scan",
+        "45-day campaign - Austin stores"
       ],
       "notes": "Title."
     },
@@ -429,10 +404,9 @@
       "section": "overview",
       "title": "Campaign Overview",
       "bullets": [
-        "Why now: campaign runs Jan 5-Feb 18 - peak resolution season when new-runner intent spikes and attrition is worst [S3].",
-        "Problem: new runners buy online, get hurt in the wrong shoe, and quit - while Fleet Feet's best asset (free fit + community) is invisible to them [R1][R3].",
-        "Solution: Run Your City - community runs, a city-wide challenge, fit-first clinics, and a retention club that turns a store visit into a membership.",
-        "45-day goal: 150 purchases, 600 captures, +15 pts 'my running community' [O1-O3]."
+        "Problem: brand dollars grow while specialty units soften - the casual buyer driving the category never gets the 12-measurement fit id scan; and a discount is a dead end because Fleet Feet already price-matches [R1][R3].",
+        "Solution: The Measured Pair - same shoe, same price, chosen after a free 12-point scan. Amazon, Dick's, and the brand site can sell the shoe; only Fleet Feet can hand back a saved fit profile and a local outfitter [R4].",
+        "45-day goal: 208 scanned pairs, 20% attach, 60% Milestones enroll [O1][O2][O3]."
       ],
       "notes": "Sell the fit, not the shoe."
     },
@@ -441,12 +415,12 @@
       "section": "description",
       "title": "The Product",
       "bullets": [
-        "Running-specialty franchise: ~250 stores nationally, free gait analysis + 60-day Happy Fit guarantee, real Austin location + run community [S1][S4][S2].",
-        "The product isn't the shoe - it's the fit: a service no website can copy [R2][R4].",
-        "The Austin store already runs weekly group runs + clinics - a real community asset [R3][S2].",
-        "Austin's trail/run culture is a local moat no national ad can buy [S5]."
+        "Hero shoe: Hoka Clifton / Brooks Ghost class, ~$160 - the shoes already sell [S1].",
+        "The differentiator is fit id: a 12-measurement, 3D-scan profile only Fleet Feet saves [S1][R4].",
+        "Backed by a price match and the 30-day Happy Fit Guarantee - full-margin pair, no discount needed [R3].",
+        "Judge-proof prop: a blank 12-measurement card + a live-SKU price card vs one competitor [S1]."
       ],
-      "notes": "The service IS the product.",
+      "notes": "The product is the scan, not the shoe.",
       "visual": {
         "type": "product",
         "desc": "Fleet Feet shoe/tech image"
@@ -457,22 +431,22 @@
       "section": "description",
       "title": "Company & Position",
       "bullets": [
-        "Running-specialty franchise with ~250 stores nationally + a real Austin location and run community [S1][S4][S2].",
-        "Competes against one-click DTC: the answer is relationship and fit, not price [R4].",
-        "Positioning gap: 'shoe store' is commoditized; 'your running community' is unclaimed locally.",
-        "Campaign claims the community."
+        "Founded 1976 Sacramento; HQ Carrboro NC; CEO Joey Pointer; ~284 Fleet Feet + 28 Marathon Sports doors, ~$600M system revenue [S4].",
+        "Position: largest U.S. specialty-run franchisor - between brand DTC and Dick's: more expertise than mass retail, same brands, matched price [S4].",
+        "85% of sales in-store; outfitters average 42 minutes per customer - the store model is the moat [S4].",
+        "Campaign claims the scan."
       ],
-      "notes": "Franchise retail - awareness is the gap."
+      "notes": "Largest US specialty-run franchisor - the facts are public."
     },
     {
       "n": 7,
       "section": "objectives",
       "title": "Campaign Objectives",
       "bullets": [
-        "O1 (primary): 150 attributed purchases via RUNCITY + event QR at ~$140 AOV [O1].",
-        "O2: 600 email/SMS captures from runs, clinics, challenge [O2].",
-        "O3: 700K impressions; +15 pts 'my running community' on pre/post survey (n=150 + holdout) [O3].",
-        "Baseline: current list; week-0 survey; POS code report."
+        "O1 (primary): 208 incremental scanned-then-bought pairs - first-time fit id profiles joined to POS [O1].",
+        "O2: 20% attach - sock, insole, or apparel on scanned-pair tickets [O2].",
+        "O3: 60% of new buyers enrolled in Milestones [O3].",
+        "Baselines: those stores' last 8 weeks of POS + fit id create dates."
       ],
       "notes": "Funnel-covered."
     },
@@ -481,9 +455,9 @@
       "section": "target_market",
       "title": "Target Market",
       "bullets": [
-        "P1: new + returning runners 18-40 - health-reset buyers who default to online; intimidated by 'serious runner' culture; Austin metro [S3][S5].",
-        "P2: established runners + gear loyalists 30-60 - repeat buyers, community-embedded [R4].",
-        "P1 is the growth the store needs; P2 is the revenue base."
+        "P1: casual buyers 26-45 - own running shoes, never scanned, default buys online; Austin metro [S3].",
+        "P2: Milestones loyalists 30-60 - Pacesetters <$400/yr, Frontrunners $400+; second-pair behavior [S4].",
+        "P1 is the growth the store is missing; P2 is the repeat base it feeds."
       ],
       "notes": "Trackers vs gifters."
     },
@@ -492,10 +466,10 @@
       "section": "research",
       "title": "Research Methodology & Results",
       "bullets": [
-        "Local review analysis: ~250 Google/Yelp reviews of the actual Austin store - 47 name the fit/gait analysis, 31 praise staff expertise [R2][R3].",
-        "Verbatim: 'they watched me walk, fitted me right, and my knee pain stopped' - the service is the praise [R2].",
-        "Academic + industry review: peer-reviewed shoe-fit injury studies + RunningUSA + Strava data [R1][S3].",
-        "Shelf audit: Fleet Feet site, Austin store, fit process, vs DTC/Amazon [S1][S2]."
+        "Local review analysis: ~250 coded Google/Yelp reviews of the actual Austin store - 47 name fit/gait analysis, 31 praise staff [R2].",
+        "Price audit: one hero shoe across fleetfeet.com, Dick's, REI, brand site - price-match confirmed [R3].",
+        "Secondary industry review: Footwear News, OIA 2026 report, Circana, RIA POS data, Franchise Times, UNC Kenan-Flagler [R1][S4].",
+        "Measurement plan: n>=30 casual-buyer survey at campaign stores as week-0 baseline [M1]."
       ],
       "notes": "What the data says."
     },
@@ -504,10 +478,10 @@
       "section": "research",
       "title": "Insights -> Campaign Decisions",
       "bullets": [
-        "[R1] New runners quit from wrong shoes -> sell fit, not shoes: 'get fitted, stay running'.",
-        "[R2] Fit service is the moat -> clinics and gait analysis ARE the marketing events.",
-        "[R3] Community already exists -> amplify the run group, don't invent it.",
-        "[R4] DTC wins on convenience -> win on relationship: challenge + club, not discounts alone."
+        "[R1] Growth buyer never enters the fit -> the ad leads with the scan, not the shoe.",
+        "[R2] Locals rave about the fit itself -> sell the 12-point measurement, not 'community'.",
+        "[R3] Price match already exists -> no discount; the offer is the saved profile + outfitter.",
+        "[R4] Search starts online, fit happens in-store -> paid search to booking, not awareness ads."
       ],
       "notes": "Findings map to programs."
     },
@@ -516,86 +490,89 @@
       "section": "strategy",
       "title": "Campaign Strategy",
       "bullets": [
-        "What's NEW: a branded takeover + city challenge IP + QR attribution on top of the store's existing runs - we amplify and measure, we don't just host [R3].",
-        "Weekly hosted group runs at the Austin store: pace groups, post-run fit clinic, 'first visit free' card + QR (P1, field, O1/O2/O3, Nino) [A7]."
+        "Theme: The Measured Pair - same shoe, same price, chosen after the scan.",
+        "Copy-proof: Dick's, Nike.com, and Amazon can sell the shoe; they cannot hand back a saved fit id profile and a local outfitter in 45 days [R4].",
+        "Scope discipline: three stores, one metro, 45 days - local enough to pay back.",
+        "PESO: paid search+geo social, earned run-club/employer scans, shared scan stories, owned SMS/email + Milestones."
       ],
       "notes": "Success guarantee across every touchpoint."
     },
     {
       "n": 12,
       "section": "strategy",
-      "title": "Program 1: Community Run Takeover \u2014 Run Your City",
+      "title": "Program 1: Tease \u2014 The Measured Pair",
       "bullets": [
-        "Weekly hosted group runs at the Austin store: pace groups, post-run fit clinic, 'first visit free' card + QR (P1, field, O1/O2/O3, Nino) [A7].",
-        "Community first, sale second - judges can literally join a run [A1]."
+        "'Same shoe, same price, measured first' - paid search + geo social to casual buyers searching shoe models; booking link UTM (P1, W1, O1, Agency) [A4].",
+        "The ad leads with the scan, not the shoe."
       ],
       "notes": "Signature program - judge-ready.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Community Run Takeover channel mockups",
+        "desc": "Creative board: Program 1 channel mockups",
         "file": "visuals/board_s12.png"
       }
     },
     {
       "n": 13,
       "section": "strategy",
-      "title": "Program 2: Run Your City Challenge \u2014 Run Your City",
+      "title": "Program 2: Measured Pair Weekend \u2014 The Measured Pair",
       "bullets": [
-        "Free 4-week city challenge: run Austin landmarks, tag the store, finishers get fit consult + $20 off (P1, Strava/IG/TikTok, O2/O3/O1, Santhosh) [A4].",
-        "City-as-campaign: Austin itself is the content."
+        "In-store scan weekend: fit id first, then one shoe; shoe-wall card for walk-ins (P1, W2, O1, Outfitters) [A7].",
+        "The scan is the product."
       ],
       "notes": "Online bridge.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Run Your City Challenge channel mockups",
+        "desc": "Creative board: Program 2 channel mockups",
         "file": "visuals/board_s13.png"
       }
     },
     {
       "n": 14,
       "section": "strategy",
-      "title": "Program 3: Fit First Clinics \u2014 Run Your City",
+      "title": "Program 3: Sustain \u2014 The Measured Pair",
       "bullets": [
-        "In-store gait-analysis clinics + 'why your shoes hurt' nights (P1, in-store/email/YouTube, O1/O2, Rafsan) [R2].",
-        "The service IS the marketing - no competitor can copy it."
+        "One run club whose members still buy online + two Workplace Fit employer scan days (P1, W3-4, O1/O3, Franchisee) [A7].",
+        "Take the scanner to where casual buyers already are."
       ],
       "notes": "UGC engine.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Fit First Clinics channel mockups",
+        "desc": "Creative board: Program 3 channel mockups",
         "file": "visuals/board_s14.png"
       }
     },
     {
       "n": 15,
       "section": "strategy",
-      "title": "45-Day Schedule: Run Your City",
+      "title": "Program 4: Convert + Close \u2014 The Measured Pair",
       "bullets": [
-        "W1: Run Takeover 1 + Miles Club + challenge launch | W2: Takeover 2, Fit Clinic 1, challenge W2.",
-        "W3: Takeover 3-4, Clinic 2, challenge W3 | W4: Takeover 5, challenge finish + finisher fitting week.",
-        "W5: Takeover 6-7, Clinics 3-4, retargeting on check-ins | W6: Takeover 8, last-chance SMS, post-survey + holdout read."
+        "Happy Fit reminder to scans who didn't buy + attach script on shoe-only tickets (P1, W5, O1/O2, Store CRM).",
+        "Close: enroll new buyers in Milestones; read POS back to the client (W6, O3).",
+        "The second pair is already in the margin model [A13]."
       ],
       "notes": "Revenue base program.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Miles Club channel mockups",
+        "desc": "Creative board: Program 4 channel mockups",
         "file": "visuals/board_s15.png"
       }
     },
     {
       "n": 16,
       "section": "strategy",
-      "title": "45-Day Schedule: Run Your City",
+      "title": "45-Day Schedule: The Measured Pair",
       "bullets": [
-        "Pre-work: group-run calendar, challenge routes, creator outreach | W1: Run Takeover + Miles Club live.",
-        "W2-W3: challenge weeks; Fit First clinics; retargeting on check-ins.",
-        "W4-W5: challenge finish; clinics continue; run takeover cadence.",
-        "W6 (day 45 close): last-chance SMS; post-survey; holdout read."
+        "W1 (Jan 4-10): tease - paid search/geo social, booking link.",
+        "W2 (Jan 11-17): launch - Measured Pair weekend, scan first then one shoe.",
+        "W3-4 (Jan 18-31): sustain - one run club + two Workplace Fit employer days.",
+        "W5 (Feb 1-7): convert - SMS/email to scanned-not-bought + attach script.",
+        "W6 (Feb 8-17): close - Milestones enroll + POS readback."
       ],
       "notes": "Tight, coherent.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Miles Club channel mockups",
+        "desc": "Creative board: Milestones channel mockups",
         "file": "visuals/board_s16.png"
       }
     },
@@ -604,10 +581,10 @@
       "section": "budget",
       "title": "Budget & Financial Viability",
       "bullets": [
-        "Total $13,950: paid social $4.5K [A4]; creators $2.4K [A6]; events $2.4K [A7]; production $550 [A10]; RUNCITY fund $3K [A8]; contingency ~9% [A11].",
-        "Funnel: 700K impressions x 2.8% CTR x 0.75% visit-to-purchase = ~150 purchases = $21K revenue [A1][A4].",
-        "GP 45% = $9.5K; direct ROI ~-32%; payback via ~60 repeat pairs at $140 = $8.4K -> 12-month LTV ROI ~+28% [A2][A13].",
-        "Conservative (50%): 75 purchases, ROI ~-66%; community asset persists past the spend [A15]."
+        "Total $15,000: paid media $5.5K [A4]; creators $1.6K [A6]; events $2.7K [A7]; production $800 [A10]; contingency $4.4K [A11].",
+        "Funnel: 690K impressions x 2.8% CTR x 1.08% scan-to-purchase = ~208 pairs x $160 = $33.3K revenue [A1][A4].",
+        "Contribution: $72/pair x 208 = $15.0K -> break-even ~208 pairs = ~11/week across 3 stores [A2].",
+        "Conservative: only a third of pairs incremental -> ~$5K contribution, but the campaign holds full margin via price match, never a discount [A15][R3]."
       ],
       "notes": "Honest economics."
     },
@@ -616,10 +593,10 @@
       "section": "impact",
       "title": "Impact & Measurement",
       "bullets": [
-        "O1: purchases via RUNCITY + QR UTMs; target 150; POS report; weekly [O1].",
-        "O2: captures; target 600; Klaviyo; weekly [O2].",
-        "O3: impressions 700K + perception +15 pts; pre/post survey w/ holdout [O3].",
-        "Trigger: <25 check-ins per event by week 3 -> shift spend to challenge + clinics."
+        "O1: first-time fit id profiles that bought - POS join + UTM; target 208; weekly [O1].",
+        "O2: shoe tickets with attach; target 20%; POS category mix; weekly [O2].",
+        "O3: Milestones enroll; target 60% of new buyers; POS loyalty flag; weekly [O3].",
+        "Guardrail: markdown rate holds at historical price-match rate - the campaign didn't train anyone to wait [R3]."
       ],
       "notes": "Kill-switch included."
     },
@@ -628,9 +605,9 @@
       "section": "impact",
       "title": "Why It Matters",
       "bullets": [
-        "Fleet Feet owns the two things online can't copy: a free expert fit and a real running community - the local reviews prove it.",
-        "Run Your City sells belonging, not shoes - and the judges can literally join the Saturday run.",
-        "A local store, local data, local prop - the deck the room already lives in."
+        "The running shoe is already selling - Fleet Feet just needs to sell the measured one, at the same price, to the buyer about to get it elsewhere.",
+        "The scan is the product nobody else can sell - and judges hold the 12-measurement card.",
+        "Same shoe, same price, measured first."
       ],
       "notes": "Close while judges hold the kit."
     },
@@ -641,137 +618,5 @@
       "bullets": [],
       "notes": "Sources."
     }
-  ],
-  "_creative": {
-    "boards": {
-      "G1": [
-        [
-          "tiktok",
-          "Free run club, no fee, no catch",
-          "Community Run Takeover - pace groups + post-run fit clinic. #runyourcity"
-        ],
-        [
-          "email",
-          "Your first run is on us",
-          "Join the Austin run crew - pace groups for every level."
-        ],
-        [
-          "sms",
-          "FLEET FEET: free group run this Sat - all paces welcome.",
-          "Reply STOP to opt out"
-        ],
-        [
-          "story",
-          "Run with the city",
-          "Swipe up - free group run + fit clinic."
-        ],
-        [
-          "shelf",
-          "RUN YOUR CITY",
-          "Free group runs - all paces, post-run fit check."
-        ],
-        [
-          "event",
-          "Community Run",
-          "Sat 7am - pace groups + fit clinic + first-visit card"
-        ]
-      ],
-      "G2": [
-        [
-          "tiktok",
-          "Run every Austin landmark in 4 weeks",
-          "Run Your City Challenge - free, tag us, finishers get fitted. #runyourcity"
-        ],
-        [
-          "email",
-          "The city is your course",
-          "4 weeks, Austin landmarks, finishers get a fit consult + $20 off."
-        ],
-        [
-          "sms",
-          "Run Your City Challenge is live - run Austin, get fitted free.",
-          "Reply STOP to opt out"
-        ],
-        [
-          "story",
-          "4 weeks. The whole city.",
-          "Swipe up - join the challenge."
-        ],
-        [
-          "shelf",
-          "RUN YOUR CITY CHALLENGE",
-          "Free 4-week challenge - finishers get fit + $20 off."
-        ],
-        [
-          "event",
-          "Challenge Week",
-          "Strava/IG challenge, weeks 1-4"
-        ]
-      ],
-      "G3": [
-        [
-          "tiktok",
-          "Why your shoes hurt (it's not the shoe)",
-          "Fit First Clinics - free gait analysis. #fitfirst"
-        ],
-        [
-          "email",
-          "Your feet have been telling you something",
-          "Free gait analysis clinic - find your real size."
-        ],
-        [
-          "sms",
-          "Free fit clinic this week - find out why your shoes hurt.",
-          "Reply STOP to opt out"
-        ],
-        [
-          "story",
-          "Free gait analysis",
-          "Swipe up - clinic signup."
-        ],
-        [
-          "shelf",
-          "FIT FIRST CLINICS",
-          "Free gait analysis - why your shoes hurt."
-        ],
-        [
-          "event",
-          "Fit Clinic",
-          "In-store nights, weeks 2-5"
-        ]
-      ],
-      "G4": [
-        [
-          "tiktok",
-          "Your shoes die at 400 miles. Not a joke.",
-          "Miles Club - reminders, run calendars, perks. #milesclub"
-        ],
-        [
-          "email",
-          "Your shoes have 100 miles left",
-          "Shoe-mileage reminders + local run calendar + member perks."
-        ],
-        [
-          "sms",
-          "Miles Club: shoe reminders + run calendar + perks.",
-          "Reply STOP to opt out"
-        ],
-        [
-          "story",
-          "When did you last replace your shoes?",
-          "Swipe up - join Miles Club."
-        ],
-        [
-          "shelf",
-          "MILES CLUB",
-          "Shoe-mileage reminders + run calendar + perks."
-        ],
-        [
-          "event",
-          "Club Launch",
-          "Email/SMS series, weeks 1-6"
-        ]
-      ]
-    }
-  }
+  ]
 }

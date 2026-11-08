@@ -31,10 +31,6 @@
       "msg": "slide 11: no visual"
     },
     {
-      "code": "W_THEME",
-      "msg": "slide 11: theme 'Run Your City' not on strategy slide"
-    },
-    {
       "code": "W_VISUAL",
       "msg": "slide 17: no visual"
     },
@@ -54,8 +50,8 @@
   "facts": {
     "primary_research_ok": false,
     "primary_lite_ok": false,
-    "findings_cited_on_strategy": 2,
-    "budget_lines": 6,
+    "findings_cited_on_strategy": 1,
+    "budget_lines": 5,
     "has_projection": true,
     "kpis_missing_target": 0,
     "kpis_with_baseline": 4,
@@ -64,24 +60,24 @@
     "campaign_days": 45
   },
   "finance": {
-    "campaign_cost_usd": 13950,
-    "ad_spend_usd": 6900,
-    "break_even_orders": 221,
+    "campaign_cost_usd": 15000,
+    "ad_spend_usd": 7100,
+    "break_even_orders": 208,
     "base_case": {
-      "orders": 147,
-      "revenue_usd": 20580,
-      "gross_profit_usd": 9261,
-      "roi_profit_based": -0.336,
-      "roas": 2.98,
-      "cac_usd": 94.9
+      "orders": 209,
+      "revenue_usd": 33385,
+      "gross_profit_usd": 15023,
+      "roi_profit_based": 0.002,
+      "roas": 4.7,
+      "cac_usd": 71.89
     },
     "conservative_case": {
-      "orders": 74,
-      "revenue_usd": 10290,
-      "gross_profit_usd": 4630,
-      "roi_profit_based": -0.668,
-      "roas": 1.49,
-      "cac_usd": 189.8
+      "orders": 104,
+      "revenue_usd": 16692,
+      "gross_profit_usd": 7512,
+      "roi_profit_based": -0.499,
+      "roas": 2.35,
+      "cac_usd": 143.78
     }
   },
   "penalty_points": 0
