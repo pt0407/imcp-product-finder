@@ -2,13 +2,28 @@
 """Render deck.json -> full-slide designed PNGs -> deck_poster.pdf (and optional .pptx of full-slide images).
 Each slide is a 1600x900 designed poster: brand header band, real typography, embedded visuals/photos.
 Usage: python3 render_poster.py ../runs/vNN/deck.json"""
-import html, json, re, subprocess, sys
+import html, json, re, subprocess, sys, hashlib, urllib.request, urllib.parse
 from pathlib import Path
 from PIL import Image
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 TAG = re.compile(r"\s*\[(?:[SAROMG]\d+)(?:\]\[|,\s*|[SARO]\d+)*\]")
 W, H = 1600, 900
+AI_CACHE = {}  # prompt-key -> local path
+
+def ai_image(run, prompt, key):
+    """Generate (or reuse cached) AI hero image via pollinations.ai. Returns Path or None."""
+    gdir = run / "posters" / "gen"; gdir.mkdir(parents=True, exist_ok=True)
+    out = gdir / f"{key}.jpg"
+    if out.exists() and out.stat().st_size > 5000: return out
+    url = ("https://image.pollinations.ai/prompt/" + urllib.parse.quote(prompt[:400]) +
+           "?width=1400&height=900&nologo=true&seed=" + hashlib.md5(prompt.encode()).hexdigest()[:8])
+    try:
+        urllib.request.urlretrieve(url, out)
+        if out.stat().st_size < 5000: out.unlink(); return None
+        return out
+    except Exception:
+        return None
 
 def e(t): return html.escape(TAG.sub("", str(t)).strip())
 
@@ -35,6 +50,37 @@ def visual_path(run, s):
     if p.exists(): return p
     return None
 
+def load_review_data(deck, run):
+    """Find review_analysis method -> its results dir -> summary stats + verbatim quotes."""
+    repo = run.parents[2]
+    for m in deck.get("research", {}).get("methods", []):
+        if m.get("type") == "review_analysis" and m.get("results_file"):
+            p = repo / m["results_file"]
+            summ = p / "review_summary.md" if p.is_dir() else p
+            if summ.exists():
+                txt = summ.read_text()
+                chips = []
+                mn = re.search(r"n = (\d[\d,]*)", txt)
+                ma = re.search(r"Average rating:\s*([\d.]+)", txt)
+                m1 = re.search(r"1★\s*(\d+)\s*\((\d+)%\)", txt)
+                if mn: chips.append(f"{mn.group(1)} reviews analyzed")
+                if ma: chips.append(f"{ma.group(1)}/5 avg rating")
+                if m1: chips.append(f"{m1.group(2)}% 1-star")
+                quotes = []
+                for line in txt.splitlines():
+                    mm = re.match(r"-\s*\[[^\]]+\]\s*[\"“]([^\"”]{20,300})[\"”]", line.strip())
+                    if mm: quotes.append(mm.group(1))
+                    if len(quotes) >= 3: break
+                return chips, quotes
+    return [], []
+
+def photo_collage(run, s):
+    """All real photos for this deck -> collage URIs (max 4)."""
+    pdir = run / "photos"
+    if not pdir.exists(): return []
+    files = sorted([p for p in pdir.iterdir() if p.suffix.lower() in (".jpg",".jpeg",".png")])
+    return [p.resolve().as_uri() for p in files[:4]]
+
 def slide_html(deck, s, run, idx, total):
     meta = deck["meta"]; brand = meta.get("brand_color","#1f4e79")
     sec = s["section"]; n = s["n"]
@@ -44,8 +90,9 @@ def slide_html(deck, s, run, idx, total):
     if sec == "bibliography" and not bullets:
         bullets = [f"{x['publisher']}. {x['title']} ({x.get('date','')})" for x in deck.get("sources",[])]
     img = visual_path(run, s)
+    v = s.get("visual") or {}
     img_uri = img.resolve().as_uri() if img else ""
-    vdesc = (s.get("visual") or {}).get("desc","")
+    vdesc = v.get("desc","")
 
     head = f"""<div class="topbar" style="background:{brand}"></div>
 <div class="head"><div class="kicker">{html.escape(sec.upper())}</div>
@@ -69,10 +116,21 @@ def slide_html(deck, s, run, idx, total):
 
     # standard slide
     bl = "".join(f"<li>{esc(b)}</li>" for b in bullets)
+    stats, quotes = load_review_data(deck, run) if sec == "research" else ([], [])
+    collage = photo_collage(run, s) if sec in ("description", "overview", "target_market") else []
     right = ""
-    if img_uri:
+    if collage:
+        cells = "".join(f'<img src="{u}">' for u in collage)
+        right = f'<div class="collage">{cells}</div>'
+    elif sec == "research" and (quotes or stats):
+        chips = ""
+        if stats:
+            chips = '<div class="statrow">' + "".join(f'<div class="stat"><div class="statn">{html.escape(t)}</div></div>' for t in stats[:3]) + '</div>'
+        qs = "".join(f'<div class="qcard"><div class="qtext">“{html.escape(q)}”</div><div class="qsrc">Verified customer review</div></div>' for q in quotes[:2])
+        right = f'<div class="viscol">{chips}{qs}</div>'
+    elif img_uri:
         right = f'<div class="vis"><img src="{img_uri}"></div>'
-    elif vdesc and (s.get("visual") or {}).get("type") not in (None,"none"):
+    elif vdesc and v.get("type") not in (None,"none"):
         right = f'<div class="vis ph" style="border-color:{brand}"><div class="phcap">{html.escape(vdesc)}</div></div>'
     if sec == "bibliography":
         return f"""<div class="slide"><div class="pad bib">{head}
@@ -100,6 +158,16 @@ CSS = """
 .vis img{max-width:100%;max-height:640px;border-radius:24px;box-shadow:0 18px 50px rgba(0,0,0,.18);object-fit:contain}
 .vis.ph{border:3px dashed #c9c0b4;border-radius:24px;align-items:center;justify-content:center}
 .phcap{font-size:20px;color:#8a8378;text-align:center;padding:30px;line-height:1.5}
+/* real-business extras */
+.collage{flex:1;display:grid;grid-template-columns:1fr 1fr;gap:18px;align-content:center}
+.collage img{width:100%;height:300px;object-fit:cover;border-radius:20px;box-shadow:0 12px 34px rgba(0,0,0,.16)}
+.viscol{flex:1;display:flex;flex-direction:column;gap:22px;justify-content:center}
+.statrow{display:flex;gap:14px}
+.stat{flex:1;background:var(--brand);color:#fff;border-radius:18px;padding:20px 16px;text-align:center;box-shadow:0 10px 26px rgba(0,0,0,.15)}
+.statn{font-size:30px;font-weight:900;line-height:1.15}
+.qcard{background:#fff;border:1px solid #e9e2d6;border-left:8px solid var(--brand);border-radius:16px;padding:22px 24px;box-shadow:0 8px 22px rgba(0,0,0,.07)}
+.qtext{font-size:23px;font-weight:600;line-height:1.35;color:#2a2a2a}
+.qsrc{font-size:15px;color:#8a8378;margin-top:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
 .footw{position:absolute;bottom:26px;right:44px;font-size:16px;color:rgba(255,255,255,.75)}
 .footw.dark{color:#a89f92}
 /* cover */
