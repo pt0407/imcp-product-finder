@@ -1,0 +1,24 @@
+{
+  "site": "https://www.puckipuppy.com",
+  "primary": "#FFBC00",
+  "secondary": "#0b0704",
+  "accent": "#ff6e0d",
+  "palette": [
+    "#FFBC00",
+    "#0b0704",
+    "#ff6e0d",
+    "#1c1c1c",
+    "#000000",
+    "#18181e",
+    "#231F20",
+    "#fd5000"
+  ],
+  "site_fonts": [
+    "oke-widget-icons",
+    "sans-serif)"
+  ],
+  "logo_url": "https://www.puckipuppy.com/cdn/shop/files/PuppyLogo_black.png?v=1736497268",
+  "display_font": "Poppins",
+  "body_font": "Poppins",
+  "logo_file": "brand.png"
+}

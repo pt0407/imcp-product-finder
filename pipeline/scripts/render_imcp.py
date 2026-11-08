@@ -20,7 +20,7 @@ def make_charts(deck, run):
     CHART_DIR = run / "imcp" / "charts"; CHART_DIR.mkdir(parents=True, exist_ok=True)
     brand = deck["meta"].get("brand_color","#3d5a80"); c = brand_rgb(brand)
     out = {}
-    plt.rcParams.update({"font.family":"-apple-system","font.size":13,"axes.edgecolor":"#ddd","axes.labelcolor":"#444"})
+    plt.rcParams.update({"font.family":"Helvetica","font.size":13,"axes.edgecolor":"#ddd","axes.labelcolor":"#444"})
     # 1) budget horizontal bars
     lines = deck.get("budget",{}).get("lines",[])
     if lines:
@@ -66,6 +66,10 @@ def bullets_html(bs, cls=""):
         out += f'<li class="{cls}">{inner}</li>'
     return out
 
+def b64(p):
+    import base64
+    return base64.b64encode(p.read_bytes()).decode()
+
 def visual_uri(run, s):
     v = s.get("visual") or {}; f = v.get("file")
     cands = []
@@ -82,17 +86,27 @@ def visual_uri(run, s):
 def kicker(txt): return f'<div class="kick">{html.escape(txt)}</div>'
 def h1(txt): return f'<div class="h1">{html.escape(txt)}</div>'
 
+def fonts(meta):
+    d = meta.get("display_font","Archivo").replace(" ","+")
+    b = meta.get("body_font","Inter").replace(" ","+")
+    fams = f"family={d}:wght@600;700;800;900" if d==b else f"family={d}:wght@600;700;800;900&family={b}:wght@400;500;600;700"
+    return (f"""<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?{fams}&display=swap" rel="stylesheet">""")
+
 def page(meta, idx, total, body, bg="#ffffff"):
-    return f"""<!doctype html><html><head><meta charset='utf-8'><style>{CSS.replace('__BRAND__',meta.get('brand_color','#1f4e79'))}</style></head>
+    css = (CSS.replace('__BRAND__',meta.get('brand_color','#1f4e79'))
+              .replace('__DISP__',meta.get('display_font','Archivo'))
+              .replace('__BODY__',meta.get('body_font','Inter')))
+    return f"""<!doctype html><html><head><meta charset='utf-8'>{fonts(meta)}<style>{css}</style></head>
 <body><div class="page" style="background:{bg}">{body}
 <div class="pfoot"><span>{html.escape(meta.get('theme') or meta.get('campaign_name',''))}</span><span>{idx+1} / {total}</span></div></div></body></html>"""
 
 CSS = """
 *{box-sizing:border-box;margin:0;padding:0}
-.page{width:1600px;height:900px;font-family:-apple-system,'Helvetica Neue',Arial,sans-serif;color:#1c1c1e;position:relative;padding:64px 76px;display:flex;flex-direction:column}
-.kick{font-size:19px;letter-spacing:.32em;font-weight:800;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
+.page{width:1600px;height:900px;font-family:'__BODY__','Helvetica Neue',Helvetica,Arial,sans-serif;color:#1c1c1e;position:relative;padding:64px 76px;display:flex;flex-direction:column}
+.kick{font-family:'__DISP__','__BODY__',sans-serif;font-size:19px;letter-spacing:.32em;font-weight:800;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
 .kick.grey{color:#9a917f}
-.h1{font-size:54px;font-weight:900;letter-spacing:-1px;line-height:1.05;margin-bottom:8px}
+.h1{font-family:'__DISP__','__BODY__',sans-serif;font-size:54px;font-weight:900;letter-spacing:-1.5px;line-height:1.03;margin-bottom:8px}
 .sub{font-size:21px;color:#6d675e;margin-bottom:26px}
 .pfoot{position:absolute;bottom:30px;left:76px;right:76px;display:flex;justify-content:space-between;font-size:15px;color:#b3aa99;border-top:1px solid #ece5d8;padding-top:14px}
 .card{background:#fff;border:1px solid #e8e1d4;border-radius:18px;padding:26px 28px;box-shadow:0 6px 20px rgba(60,50,30,.05)}
@@ -131,15 +145,20 @@ def slide_html(deck, s, run, idx, total, charts=None):
 
     # ---------- cover ----------
     if sec == "cover":
+        logo = ""
+        lf = run / meta.get("logo_file","")
+        if meta.get("logo_file") and lf.exists() and lf.suffix != ".svg":
+            logo = f'<img src="data:image/png;base64,{b64(lf)}" style="height:64px;filter:brightness(0) invert(1);margin-bottom:60px">'
+        kicker_txt = re.sub(r"[^A-Z&\s]","", meta.get("product","IMCP")).upper()[:18] or "PRODUCT"
         body = f"""
-<div style="margin-top:150px">
-<div style="font-size:24px;letter-spacing:.4em;font-weight:800;color:#fff;opacity:.85">BILTONG</div>
-<div style="font-size:120px;font-weight:900;color:#fff;letter-spacing:-3px;line-height:1.02;margin:10px 0">{html.escape(meta.get('campaign_name',''))}</div>
-<div style="font-size:34px;color:#fff;opacity:.95;font-weight:600">{html.escape(meta.get('thesis',''))}</div>
-<div style="margin-top:56px;font-size:24px;color:#fff;opacity:.8">{html.escape(meta.get('product',''))} · {html.escape(meta.get('company','').split('(')[0].strip())}</div>
+<div style="margin-top:110px">{logo}
+<div style="font-size:24px;letter-spacing:.4em;font-weight:800;color:#fff;opacity:.85">{kicker_txt}</div>
+<div style="font-size:110px;font-family:'{meta.get('display_font','Archivo')}',sans-serif;font-weight:900;color:#fff;letter-spacing:-3px;line-height:1.02;margin:10px 0">{html.escape(meta.get('campaign_name',''))}</div>
+<div style="font-size:32px;color:#fff;opacity:.95;font-weight:600">{html.escape(meta.get('thesis',''))}</div>
+<div style="margin-top:50px;font-size:24px;color:#fff;opacity:.8">{html.escape(meta.get('product',''))} · {html.escape(meta.get('company','').split('(')[0].strip())}</div>
 <div style="margin-top:14px;font-size:22px;color:#fff;opacity:.65">Integrated Marketing Campaign · {html.escape(meta.get('date',''))}</div>
 </div>"""
-        return page(meta, idx, total, body, bg=meta.get("brand_color","#8a2f2f"))
+        return page(meta, idx, total, body, bg=meta.get("cover_bg") or meta.get("brand_color","#8a2f2f"))
 
     # ---------- title ----------
     if sec == "title":
@@ -300,6 +319,20 @@ def slide_html(deck, s, run, idx, total, charts=None):
 
 def main(deck_path):
     deck = json.load(open(deck_path)); run = Path(deck_path).parent
+    # per-brand identity: real palette/fonts/logo scraped by brandkit.py
+    bj = run / "brand.json"
+    if bj.exists():
+        b = json.loads(bj.read_text()); m = deck["meta"]
+        m["brand_color"] = b.get("primary") or m.get("brand_color")
+        m["accent_color"] = b.get("accent") or m.get("brand_color")
+        if b.get("display_font"): m["display_font"] = b["display_font"]
+        if b.get("body_font"):    m["body_font"]    = b["body_font"]
+        # dark cover bg: if primary is light (e.g. PUCKIPUPPY gold), use darkest palette color
+        def lum(c):
+            r,g,bl = int(c[1:3],16),int(c[3:5],16),int(c[5:7],16)
+            return (0.299*r+0.587*g+0.114*bl)/255
+        m["cover_bg"] = min(b.get("palette",[]) or [m["brand_color"]], key=lum)
+        if b.get("logo_file"): m["logo_file"] = b["logo_file"]
     outdir = run / "imcp"; outdir.mkdir(exist_ok=True)
     slides = deck["slides"]; total = len(slides); pngs = []
     charts = make_charts(deck, run)

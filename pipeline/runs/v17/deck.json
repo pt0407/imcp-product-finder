@@ -16,7 +16,8 @@
     ],
     "date": "April 2027 (ICDC - confirm)",
     "assurances_signed": false,
-    "parent_run": ""
+    "parent_run": "",
+    "company_website": "https://www.stryve.com"
   },
   "campaign_window": {
     "start": "2027-01-05",

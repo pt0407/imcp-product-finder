@@ -16,7 +16,8 @@
     ],
     "date": "April 2027 (ICDC - confirm)",
     "assurances_signed": false,
-    "parent_run": "v17"
+    "parent_run": "v17",
+    "company_website": "https://www.puckipuppy.com"
   },
   "campaign_window": {
     "start": "2027-01-05",

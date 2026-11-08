@@ -1,0 +1,27 @@
+{
+  "site": "https://www.stryve.com",
+  "primary": "#26174c",
+  "secondary": "#323232",
+  "accent": "#132F2D",
+  "palette": [
+    "#26174c",
+    "#323232",
+    "#132F2D",
+    "#3B2562",
+    "#37275f",
+    "#132f2d",
+    "#f69323",
+    "#f04c2f"
+  ],
+  "site_fonts": [
+    "Inter",
+    "Stryve",
+    "Vacadillos",
+    "Stryve Fallback",
+    "Vacadillos Fallback"
+  ],
+  "logo_url": "https://www.stryve.com/_next/static/media/logo.92114fb4.png",
+  "display_font": "Archivo Black",
+  "body_font": "Inter",
+  "logo_file": "brand.png"
+}
