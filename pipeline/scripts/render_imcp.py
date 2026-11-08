@@ -412,10 +412,18 @@ def slide_html(deck, s, run, idx, total, charts=None):
     if sec == "strategy":
         chans = sorted({c for p in deck.get("programs",[]) for c in p.get("channels",[])})
         chips = "".join(f'<span class="navp" style="background:var(--brand);color:#fff;font-size:18px;padding:12px 24px">{html.escape(c)}</span>' for c in chans[:7])
-        body = (kicker("CAMPAIGN STRATEGY") + h1(s.get("title","Campaign Strategy"))
-                + f'<div class="themep">Theme: {html.escape(meta.get("theme",""))}</div>'
-                + f'<div class="body" style="font-size:23px;max-width:1250px">{B(s)}</div>'
-                + f'<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:26px">{chips}</div>')
+        if uri:
+            body = (kicker("CAMPAIGN STRATEGY") + h1(s.get("title","Campaign Strategy"))
+                    + f'<div class="cols2" style="margin-top:6px"><div class="col">'
+                    + f'<div class="themep" style="font-size:22px;padding:12px 30px">Theme: {html.escape(meta.get("theme",""))}</div>'
+                    + f'<div class="body" style="font-size:20px">{B(s)}</div>'
+                    + f'<div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:20px">{chips}</div></div>'
+                    + f'<div class="col"><img class="vis" src="{uri}" style="max-height:540px;width:100%;object-fit:contain"></div></div>')
+        else:
+            body = (kicker("CAMPAIGN STRATEGY") + h1(s.get("title","Campaign Strategy"))
+                    + f'<div class="themep">Theme: {html.escape(meta.get("theme",""))}</div>'
+                    + f'<div class="body" style="font-size:23px;max-width:1250px">{B(s)}</div>'
+                    + f'<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:26px">{chips}</div>')
         return page(meta, idx, total, body, sec=sec)
 
     # ---------- fallback: creative / anything else ----------

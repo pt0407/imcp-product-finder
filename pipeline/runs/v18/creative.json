@@ -1,8 +1,153 @@
 {
-  "6": {"treatment":"photo_bg","photo":"photos/labrador_2.jpg","overlay":0.72},
-  "9": {"quotes":[
-    {"text":"FedEx damaged the bike in transit. The protection plan needed pictures which I don't have so they would not accept my claim.","attrib":"1-star · Judge.me verified buyer"},
-    {"text":"How many bad reviews can I write before this company gets it right. I would be happy to pay more and support a local bicycle shop!","attrib":"1-star · Judge.me verified buyer"},
-    {"text":"Loving this bike! The shipping was amazing, arrived within 4 days and the packing of the bike was amazing.","attrib":"5-star · Judge.me verified buyer"}
-  ]}
+  "6": {
+    "treatment": "photo_bg",
+    "photo": "photos/labrador_2.jpg",
+    "overlay": 0.72
+  },
+  "9": {
+    "quotes": [
+      {
+        "text": "FedEx damaged the bike in transit. The protection plan needed pictures which I don't have so they would not accept my claim.",
+        "attrib": "1-star \u00b7 Judge.me verified buyer"
+      },
+      {
+        "text": "How many bad reviews can I write before this company gets it right. I would be happy to pay more and support a local bicycle shop!",
+        "attrib": "1-star \u00b7 Judge.me verified buyer"
+      },
+      {
+        "text": "Loving this bike! The shipping was amazing, arrived within 4 days and the packing of the bike was amazing.",
+        "attrib": "5-star \u00b7 Judge.me verified buyer"
+      }
+    ]
+  },
+  "boards": {
+    "G1": [
+      [
+        "tiktok",
+        "POV: your e-bike has a name. Meet the Labrador Pro",
+        "Test Ride the Dog \u2014 free rides this Saturday. #puckipuppy"
+      ],
+      [
+        "email",
+        "Come ride the Labrador (it's a bike)",
+        "Free test rides Saturday. RSVP for a priority slot + a free helmet-fit check."
+      ],
+      [
+        "sms",
+        "Test ride a Labrador Pro this Sat \u2014 20-min slots, free. RSVP: puckipuppy.com/ride",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Ride the Dog",
+        "Swipe up to book a free test ride."
+      ],
+      [
+        "shelf",
+        "MEET THE PACK",
+        "Labrador Pro \u00b7 Boxer \u00b7 Corgi \u2014 every ride has a name."
+      ],
+      [
+        "event",
+        "Test Ride the Dog",
+        "Sat 9am\u20131pm \u00b7 demo course + app walkthrough + $100-off QR"
+      ]
+    ],
+    "G2": [
+      [
+        "tiktok",
+        "Your $1,400 bike deserves a better delivery day",
+        "The Arrive Ready kit \u2014 what every Puckipuppy owner now gets. #arriveready"
+      ],
+      [
+        "email",
+        "Your bike ships ready \u2014 here's the proof",
+        "Unboxing checklist, pre-ride safety card, 45-min assembly video + your Arrive Ready promise."
+      ],
+      [
+        "sms",
+        "Bike on the way? Your Arrive Ready kit: setup video + pre-ride checklist \u2192 puckipuppy.com/ready",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Unbox. Assemble. Ride. 45 min.",
+        "The Arrive Ready kit, in 3 cards \u2014 swipe up."
+      ],
+      [
+        "shelf",
+        "ARRIVE READY",
+        "QC-inspected. Damage-free promise. 45-minute setup."
+      ],
+      [
+        "event",
+        "Arrive Ready Drop",
+        "Packaging insert redesign launch \u2014 every box gets the kit"
+      ]
+    ],
+    "G3": [
+      [
+        "tiktok",
+        "Which Puckipuppy are you?",
+        "Labrador = range. Boxer = torque. Corgi = city. Take the quiz. #dogpack"
+      ],
+      [
+        "email",
+        "Join the Dog Pack",
+        "Rider features, local group rides + referral perks for Puckipuppy owners."
+      ],
+      [
+        "sms",
+        "Dog Pack rides are live \u2014 first group ride + photo drop this month. Join: puckipuppy.com/pack",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Dog Pack riders",
+        "Real owners, real miles \u2014 swipe for the pack."
+      ],
+      [
+        "shelf",
+        "THE DOG PACK",
+        "Thousands of riders. One pack. Follow @puckipuppy."
+      ],
+      [
+        "event",
+        "Dog Pack Meetup",
+        "Monthly community ride \u2014 bring your pup"
+      ]
+    ],
+    "G4": [
+      [
+        "tiktok",
+        "We publish our delivery damage rate now",
+        "The Ready Ledger \u2014 real numbers, monthly. Accountability, but make it content."
+      ],
+      [
+        "email",
+        "Our delivery report card, public",
+        "Damage rate, support response time, resolution stats \u2014 published monthly at puckipuppy.com/ledger."
+      ],
+      [
+        "sms",
+        "New: the Ready Ledger \u2014 our delivery numbers, public every month. See it: puckipuppy.com/ledger",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "We show our numbers",
+        "Delivery report card \u2014 swipe to see this month."
+      ],
+      [
+        "shelf",
+        "THE READY LEDGER",
+        "Public delivery stats. Because trust is earned."
+      ],
+      [
+        "event",
+        "Ready Ledger Launch",
+        "PR push + support-metrics transparency page goes live"
+      ]
+    ]
+  }
 }

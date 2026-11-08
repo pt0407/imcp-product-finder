@@ -856,5 +856,158 @@
       },
       "notes": ""
     }
-  ]
+  ],
+  "_creative": {
+    "6": {
+      "treatment": "photo_bg",
+      "photo": "imcp/sliced_slab_small.jpg",
+      "overlay": 0.78
+    },
+    "9": {
+      "quotes": [
+        {
+          "text": "I love the taste and texture of this! It's so nice to have a snack like this available that isn't packed with added sugars and ingredients I can hardly pronounce.",
+          "attrib": "Verified buyer \u00b7 Stamped.io"
+        },
+        {
+          "text": "Honestly, it's my favorite snack. The overall experience was 10/10. Love Stryve. Love biltong.",
+          "attrib": "Verified buyer \u00b7 Stamped.io"
+        },
+        {
+          "text": "Tried others and the meat was low quality with a large percentage of fat and gristle. Not Stryve, though \u2014 the slabs are delicious.",
+          "attrib": "Verified buyer \u00b7 Stamped.io"
+        }
+      ]
+    },
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "POV: You find out jerky is sugar's best-kept secret",
+          "Biltong 101 Demo Days \u2014 free taste at 6 DFW H-E-Bs this weekend. It's not jerky. #biltong #heb"
+        ],
+        [
+          "email",
+          "You're invited: taste what jerky wishes it was",
+          "Free samples this Sat\u2013Sun at 6 DFW H-E-B stores. Air-dried beef, 0g sugar, 32g protein. Scan at the demo table for $2 off 2 bags."
+        ],
+        [
+          "sms",
+          "STRYVE: This weekend only \u2014 free biltong taste + $2 OFF 2 bags at your H-E-B.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Wait\u2026 this isn't jerky?",
+          "Swipe up for $2 off your first taste \u2014 demo stores inside."
+        ],
+        [
+          "shelf",
+          "NOT JERKY.",
+          "Air-dried beef. 0g sugar. 32g protein. Taste it free this Saturday \u2014 demo table at the end of this aisle."
+        ],
+        [
+          "event",
+          "Biltong 101 Demo Days",
+          "Sat\u2013Sun 11am\u20133pm \u00b7 6 DFW H-E-B stores \u00b7 free sample cups + $2-off QR"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "The jerky aisle has been lying to you",
+          "Same protein. Zero sugar. Find us next to the jerky \u2014 look for the purple. #notjerky"
+        ],
+        [
+          "email",
+          "New spot, same impossible snack",
+          "Stryve now sits beside the jerky set at H-E-B \u2014 clip the $2 coupon in the H-E-B app."
+        ],
+        [
+          "sms",
+          "Your H-E-B app has a $2-off Stryve coupon this week. We're in the jerky aisle \u2014 can't miss the purple.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Find the purple pack",
+          "Next to the jerky, not in it. Swipe for your coupon."
+        ],
+        [
+          "shelf",
+          "IT'S NOT JERKY",
+          "Air-dried beef. Zero sugar. 32g protein. $2 off with the H-E-B app coupon."
+        ],
+        [
+          "event",
+          "Jerky Aisle Takeover",
+          "Clip strips + shelf talkers in the meat-snack set, all 6 weeks"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "Blind taste test: jerky vs biltong",
+          "Jerky or Biltong? Vote in comments \u2014 losers buy lunch. #jerkyorbiltong"
+        ],
+        [
+          "email",
+          "Settle the debate: jerky or biltong?",
+          "Watch real shoppers pick a side. Enter the taste-off + win a year of biltong."
+        ],
+        [
+          "sms",
+          "JERKY or BILTONG? Reply with your pick \u2014 we'll send the taste-off video + a $2 coupon.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Blind taste-off",
+          "Which wins? Swipe to watch real shoppers choose."
+        ],
+        [
+          "shelf",
+          "JERKY OR BILTONG?",
+          "Scan to watch the taste-off \u2014 then taste it yourself at the demo table."
+        ],
+        [
+          "event",
+          "Taste-Off Tour",
+          "Live jerky-vs-biltong blind taste at demo stores, weekends 1\u20134"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "Why South Africans dry their beef in air",
+          "200-year-old biltong craft, made in Plano TX. #biltongstory"
+        ],
+        [
+          "email",
+          "The 200-year-old secret behind your new snack",
+          "From South African farms to a Plano drying room \u2014 the biltong story + $2 off."
+        ],
+        [
+          "sms",
+          "Ever heard of biltong? 200 yrs of South African craft, 0g sugar, made in Texas. Story + coupon: puckipuppy.co/biltong",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "200 years of air-dried beef",
+          "The story most Texans never heard \u2014 swipe up."
+        ],
+        [
+          "shelf",
+          "SINCE 1830s SOUTH AFRICA",
+          "Air-dried, never cooked, never smoked. That's biltong."
+        ],
+        [
+          "event",
+          "Meet the Makers",
+          "Founder story reels + tasting notes at demo weekends"
+        ]
+      ]
+    }
+  }
 }

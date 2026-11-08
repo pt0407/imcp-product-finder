@@ -35,7 +35,7 @@ def board_html(brand, theme, title, tiles):
         elif k=="email":
             inner=f"<div class='em'><div class='emh'>{e(h)}</div><div class='emb'>{e(b)}</div><div class='embtn'>Shop now →</div></div>"
         elif k=="sms":
-            inner=f"<div class='ph'><div class='bub'>{e(h)} {e(b)}</div><div class='bub me'>READY150</div></div>"
+            inner=f"<div class='ph'><div class='bub'>{e(h)}</div><div class='bub me'>{e(b)}</div></div>"
         elif k=="story":
             inner=f"<div class='st'><div class='stt'>{e(h)}</div><div class='stb'>{e(b)}</div><div class='stswipe'>Swipe up</div></div>"
         elif k=="shelf":
@@ -50,6 +50,8 @@ def board_html(brand, theme, title, tiles):
 
 def main(deck_path):
     deck = json.load(open(deck_path)); run = Path(deck_path).parent
+    cj = run / "creative.json"
+    if cj.exists(): deck["_creative"] = json.loads(cj.read_text())
     out = run / "visuals"; out.mkdir(exist_ok=True)
     meta = deck["meta"]; brand = meta.get("brand_color","#1f6f8b"); theme = meta.get("theme") or meta.get("campaign_name","")
     progs = {p["id"]:p for p in deck.get("programs",[])}
@@ -73,8 +75,10 @@ def main(deck_path):
         ids=[g for g in progs if g in " ".join(s["bullets"])]
         prog = progs.get(ids[0]) if ids else (list(progs.values())[min(n-12,len(progs)-1)] if progs else None)
         if not prog: continue
+        # bespoke copy wins: creative.json boards {pid: [[kind,headline,body],...]}
+        copy = ((deck.get("_creative") or {}).get("boards") or {}).get(prog["id"])
+        tiles = [(t[0],t[1],t[2]) for t in copy] if copy else tiles_for(prog)
         title = s.get("title","")
-        tiles = tiles_for(prog)
         html_doc = board_html(brand, theme, title, tiles)
         hf = (out/f"board_s{n:02d}.html").resolve(); hf.write_text(html_doc)
         png = out/f"board_s{n:02d}.png"
