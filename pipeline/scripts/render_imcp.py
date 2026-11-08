@@ -358,7 +358,20 @@ def slide_html(deck, s, run, idx, total, charts=None):
                 rows += f'<tr><td><span class="tag">{k["objective"]}</span></td><td style="font-weight:700">{html.escape(k["kpi"][:80])}</td><td>{html.escape(str(k.get("baseline",""))[:60])}</td><td style="font-weight:800;color:var(--brand)">{html.escape(str(k.get("target",""))[:60])}</td><td style="font-size:16px">{html.escape(k.get("tool",""))} · {html.escape(k.get("cadence",""))}</td></tr>'
             body = kicker("IMPACT & MEASUREMENT") + h1(s.get("title","")) + f'<table class="tb" style="margin-top:20px;font-size:18px"><tr><th style="width:80px">OBJ</th><th>KPI</th><th>BASELINE</th><th>TARGET</th><th>TOOL · CADENCE</th></tr>{rows}</table><div class="body" style="margin-top:18px;font-size:19px">{B(s)}</div>'
         else:
-            body = kicker("WHY IT MATTERS") + h1(s.get("title","")) + f'<div class="body" style="font-size:26px;max-width:1200px">{B(s)}</div>' + (f'<img class="vis" src="{uri}" style="margin-top:24px;max-height:340px">' if uri else "")
+            # breathing slide: dark full-bleed, big-number hero (UUPM pattern break)
+            big = ""
+            try:
+                f_ = json.load(open(run/"check.json")).get("finance",{})
+                bc = f_.get("base_case",{})
+                if bc.get("orders"): big = f'<div style="font-size:150px;font-family:{chr(39)}{meta.get("display_font","Archivo")}{chr(39)},sans-serif;font-weight:900;color:#fff;line-height:1">{bc["orders"]:,}</div><div style="font-size:28px;color:#fff;opacity:.85;font-weight:600">attributed purchases in 45 days · ROI {bc.get("roi_profit_based",0)*100:.0f}%</div>'
+            except Exception: pass
+            bl = "".join(f'<div style="font-size:22px;color:#fff;opacity:.92;line-height:1.5;margin-bottom:14px">{html.escape(clean(b_))}</div>' for b_ in s.get("bullets",[])[:3])
+            body = f"""<div style="margin-top:40px">
+<div style="font-size:19px;letter-spacing:.32em;font-weight:800;color:#fff;opacity:.7;margin-bottom:16px">WHY IT MATTERS</div>
+<div class="themep" style="opacity:.95">{html.escape(meta.get('theme',''))}</div>
+<div class="h1" style="color:#fff;font-size:52px">{html.escape(s.get("title","Why This Campaign"))}</div>
+{big}<div style="margin-top:34px;max-width:1150px">{bl}</div></div>"""
+            return page(meta, idx, total, body, bg=meta.get("cover_bg") or meta.get("brand_color","#222"), sec=sec)
         return page(meta, idx, total, body, sec=sec)
 
     # ---------- bibliography ----------
