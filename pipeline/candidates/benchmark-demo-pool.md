@@ -11,3 +11,11 @@ User criterion: "NVIDIA play" — run benchmarks/live numbers as the demo. Minim
 
 ## Insight
 Tech products with quantified specs let you "show, not tell" — the demo is a number going up on a screen. xTool adds the gift mechanic (judge leaves with an engraved object) = benchmark + leave-behind.
+
+## Round 3 — affordable props (<$60)
+| Candidate | Prop cost | Live demo | Corpus | Verdict |
+|---|---|---|---|---|
+| **hidratespark.com** | ~$60 smart bottle | Bottle glows when you're dehydrated; app shows quantified intake live | 150 Judge.me (saved) | buildable — numbers-on-bottle demo |
+| lifestraw.com | ~$20 straw | DRINK DIRTY WATER LIVE — the ultimate show-don't-tell | Stamped, unfetched | insane demo if corpus verifies |
+| torras.com | ~$30 neck fan | airflow/battery numbers | no app | skip |
+| temtopus.com | ~$40 AQI meter | number moves in real-time vs dust/vape | no app | demo strong, no data |
