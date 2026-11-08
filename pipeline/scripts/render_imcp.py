@@ -154,12 +154,12 @@ CSS = """
 .catband{background:var(--acc);color:#fff;font-weight:800;font-size:19px;padding:10px 18px;letter-spacing:.04em}
 .strip{position:absolute;left:0;right:0;bottom:0;height:230px;display:flex;overflow:hidden;gap:4px}
 .strip img{flex:1;object-fit:cover;min-width:0;height:230px}
-.kick{font-family:'__DISP__','__BODY__',sans-serif;font-size:19px;letter-spacing:.32em;font-weight:800;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
+.kick{font-family:'__BODY__','Helvetica Neue',sans-serif;font-size:16px;letter-spacing:.24em;font-weight:700;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
 .kick.grey{color:#9a917f}
-.h1{font-family:'__DISP__','__BODY__',sans-serif;font-size:54px;font-weight:900;letter-spacing:-1.5px;line-height:1.03;margin-bottom:8px}
+.h1{font-family:'__DISP__','__BODY__',sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.2px;line-height:1.04;margin-bottom:8px}
 .sub{font-size:21px;color:#6d675e;margin-bottom:26px}
 .pfoot{position:absolute;bottom:30px;left:76px;right:76px;display:flex;justify-content:space-between;font-size:15px;color:#b3aa99;border-top:1px solid #ece5d8;padding-top:14px}
-.card{background:#fff;border:1px solid #e8e1d4;border-radius:18px;padding:26px 28px;box-shadow:0 6px 20px rgba(60,50,30,.05)}
+.card{background:#fff;border:1px solid #e8e1d4;border-radius:16px;padding:26px 28px;box-shadow:0 4px 14px rgba(60,50,30,.04)}
 .card .cl{font-size:15px;letter-spacing:.22em;font-weight:800;color:var(--brand);margin-bottom:12px}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
 .grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
@@ -247,21 +247,14 @@ def slide_html(deck, s, run, idx, total, charts=None):
     # ---------- description: product then company (alternate by title) ----------
     if sec == "description":
         if "Product" in s.get("title","") or n <= 5:
-            attrs = s.get("bullets",[])
-            cards = ""
-            for b in attrs[:4]:
-                t = clean(b); lab,_,rest = t.partition(":")
-                lab = lab if len(lab)<30 else t[:28]
-                cards += f'<div class="card"><div class="cl">{html.escape(lab.upper())}</div><div class="body" style="font-size:19px">{html.escape(rest or t)}</div></div>'
             pics = []
             for d in ("photos","webimg"):
                 pdir = run/d
                 if pdir.exists(): pics += sorted(pdir.glob("*"))
-            pics = pics[:6]
             picrow = ""
             if pics:
-                picrow = '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px">' + "".join(f'<img src="{p.resolve().as_uri()}" style="width:100%;height:190px;object-fit:cover;border-radius:14px">' for p in pics) + '</div>'
-            body = kicker("PRODUCT PROFILE") + h1(s.get("title","The Product")) + f'<div class="body" style="font-size:24px;max-width:1100px">{B(s)}</div>' + f'<div class="grid4" style="margin-top:22px">{cards}</div>' + picrow
+                picrow = '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:auto">' + "".join(f'<img src="{p.resolve().as_uri()}" style="width:100%;height:180px;object-fit:cover;border-radius:14px">' for p in pics[:4]) + '</div>'
+            body = kicker("PRODUCT PROFILE") + h1(s.get("title","The Product")) + f'<div class="body" style="font-size:25px;max-width:1200px">{B(s)}</div>' + picrow
         else:
             bgd, ok = photo_bg(run, creative(deck, n))
             if ok:
@@ -314,9 +307,10 @@ def slide_html(deck, s, run, idx, total, charts=None):
             body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>{qband}'
         else:
             rows = ""
-            for f in deck.get("research",{}).get("findings",[]):
-                dec = next((clean(b) for b in slides.get(11,{}).get("bullets",[]) if f["id"] in b), "→ campaign decision")
-                rows += f'<div class="card" style="margin-bottom:18px;display:flex;gap:24px;align-items:center"><div class="body" style="flex:1.4;font-size:20px"><b>[{f["id"]}]</b> {html.escape(f["finding"][:200])}</div><div class="arrow">→</div><div class="body" style="flex:1;font-size:19px;color:var(--brand);font-weight:700">{html.escape(dec[:140])}</div></div>'
+            for f in deck.get("research",{}).get("findings",[])[:5]:
+                dec = next((clean(b) for b in slides.get(11,{}).get("bullets",[]) if f["id"] in b), "")
+                dec_html = f'<div class="body" style="flex:1;font-size:18px;color:var(--brand);font-weight:700">{html.escape(dec[:140])}</div>' if dec else ""
+                rows += f'<div class="card" style="margin-bottom:14px;padding:18px 24px;display:flex;gap:24px;align-items:center"><div class="body" style="flex:1.4;font-size:19px"><b>[{f["id"]}]</b> {html.escape(f["finding"][:180])}</div><div class="arrow">→</div>{dec_html}</div>'
             if not rows:
                 for b_ in slides.get(11,{}).get("bullets",[])[:5]:
                     rows += f'<div class="card" style="margin-bottom:14px"><div class="body" style="font-size:20px">{html.escape(clean(b_))}</div></div>'
@@ -383,7 +377,7 @@ def slide_html(deck, s, run, idx, total, charts=None):
             rows = ""
             for k in deck.get("kpis",[]):
                 rows += f'<tr><td><span class="tag">{k["objective"]}</span></td><td style="font-weight:700">{html.escape(k["kpi"][:80])}</td><td>{html.escape(str(k.get("baseline",""))[:60])}</td><td style="font-weight:800;color:var(--brand)">{html.escape(str(k.get("target",""))[:60])}</td><td style="font-size:16px">{html.escape(k.get("tool",""))} · {html.escape(k.get("cadence",""))}</td></tr>'
-            body = kicker("IMPACT & MEASUREMENT") + h1(s.get("title","")) + f'<table class="tb" style="margin-top:20px;font-size:18px"><tr><th style="width:80px">OBJ</th><th>KPI</th><th>BASELINE</th><th>TARGET</th><th>TOOL · CADENCE</th></tr>{rows}</table><div class="body" style="margin-top:18px;font-size:19px">{B(s)}</div>'
+            body = kicker("IMPACT & MEASUREMENT") + h1(s.get("title","")) + f'<table class="tb" style="margin-top:20px;font-size:18px"><tr><th style="width:80px">OBJ</th><th>KPI</th><th>BASELINE</th><th>TARGET</th><th>TOOL · CADENCE</th></tr>{rows}</table>'
         else:
             # breathing slide: dark full-bleed, big-number hero (UUPM pattern break)
             big = ""
