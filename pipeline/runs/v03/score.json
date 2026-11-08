@@ -1,0 +1,62 @@
+{
+  "run": "v03",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 5,
+    "strategy": 10,
+    "activities": 12,
+    "budget": 9,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 5,
+    "strategy": 10,
+    "activities": 12,
+    "budget": 9,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 1,
+    "business_opportunity": 1,
+    "research": 0,
+    "strategy": 3,
+    "activities": 2,
+    "budget": 0,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 1,
+    "delivery": 0,
+    "design": 0,
+    "overall": 1
+  },
+  "noisy_categories": [],
+  "raw_total": 72,
+  "capped_total": 72,
+  "penalty_points": 0,
+  "final": 72,
+  "top_fixes": [
+    "Complete the primary research (survey n>=30 plus 3-5 interviews), report n/dates/results, and retag findings [R1]-[R#] cited on strategy slides — unlocks up to +10 points on the 15-point research criterion.",
+    "Add required title-slide meta (school, address, participants, date) and trim Slides 12/17 under 110 words — cheap compliance fixes protecting design, delivery, and overall scores.",
+    "Rework O3 measurement (add brand-lift or search-lift KPI with printed baselines) and split the $6,500 media line into channel-level assumptions — gains ~2 points across impact and budget for under an hour of work.",
+    "Complete the primary research before submission: field the survey (n>=30) and 3-5 interviews, then replace every [R-pending] on Slides 9-10 with real findings cited on strategy slides — this alone unlocks up to ~10 points in research.",
+    "Add a named-competitor/category comparison (3-4 brands, price vs. channel vs. positioning) so the 'unclaimed brigadeiro niche' claim on Slides 6 and 11 is proven rather than asserted — lifts industry_knowledge toward 4-5.",
+    "Proofread and fix submission blockers: 'PwQ' typo on Slide 6, missing title-slide school/participants/date metadata, and trim Slides 12 and 17 under 110 words — cheap fixes that protect professionalism and design points."
+  ],
+  "scored_at": "2026-11-07T19:34:02"
+}

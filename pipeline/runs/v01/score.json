@@ -1,0 +1,62 @@
+{
+  "run": "v01",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 12,
+    "activities": 8,
+    "budget": 8,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 12,
+    "activities": 8,
+    "budget": 8,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 1,
+    "research": 1,
+    "strategy": 1,
+    "activities": 0,
+    "budget": 1,
+    "impact": 1,
+    "organization": 1,
+    "effectiveness": 0,
+    "delivery": 1,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 68,
+  "capped_total": 68,
+  "penalty_points": 0,
+  "final": 68,
+  "top_fixes": [
+    "Complete the primary research now: field the n>=30 survey and 3+ interviews, publish real results on Slides 9-10, and replace all [R-pending] tags — this is the only path off the 5-point research cap and the single biggest point swing on the board.",
+    "Show the itemized $20K budget on-slide with per-line quantity x unit cost and a labeled source/assumption for each line — converts the budget from 'totals that sum' to 'costs that justify themselves' and pushes toward the 10-point band.",
+    "Add segment, channel, and owner columns to the Slide 12 schedule (and per-program owner lines) so every activity visibly maps persona -> channel -> objective -> week — closes the segment-channel alignment gap capping activities at 10.",
+    "Complete the primary research (n>=30 survey or 3+ interviews) and cite its results on Slides 10 and 17 — this alone lifts the research auto-cap of 5 and can add up to ~10 points, the largest single gain available.",
+    "Add segment/owner/week granularity to the three programs (a per-activity matrix on Slides 13-15) — moves activities from the 10-cap toward 13+ and makes the schedule auditable.",
+    "Two cheap edits with combined upside: state numeric KPI baselines on Slide 18 and put an explicit thesis sentence on Slides 4 and 19 — roughly +2 points for under an hour of work."
+  ],
+  "scored_at": "2026-11-07T19:31:48"
+}

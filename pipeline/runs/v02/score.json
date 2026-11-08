@@ -1,0 +1,62 @@
+{
+  "run": "v02",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 12,
+    "activities": 10,
+    "budget": 8,
+    "impact": 9,
+    "organization": 5,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 12,
+    "activities": 10,
+    "budget": 8,
+    "impact": 9,
+    "organization": 5,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 1,
+    "research": 1,
+    "strategy": 2,
+    "activities": 1,
+    "budget": 1,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 72,
+  "capped_total": 72,
+  "penalty_points": 0,
+  "final": 72,
+  "top_fixes": [
+    "Run the promised primary research (survey n>=30 + 3-5 interviews) or strip every '[R-pending]'/'in field' claim and re-tag strategy decisions to the secondary findings - this is the single largest point swing available (research is capped at 5/15).",
+    "Print the full budget line-item table with cost bases and totals on Slide 17 so the $19,000 is verifiable, and add a week-by-week activity table with segment/channel/objective/owner on Slide 12 - together these recover ~4-6 points across budget and activities.",
+    "Fix submission completeness: add title-slide metadata (school, address, participants, date), split the 140-word Slide 10, and state the thesis sentence verbatim at open and close - cheap fixes that protect effectiveness, design, and overall scores.",
+    "Complete and report the promised primary research (survey n>=30 or 3+ interviews with dates and results), then cite it as [R#] on strategy slides — currently research is capped at 5/15 and the whole 'findings inform decisions' story rests on secondary data.",
+    "Print the full budget line-item table with per-line cost basis on Slide 17 — the funnel math and conservative case are excellent, but a judge cannot verify a single expense's cost basis from what is shown.",
+    "Add a week-by-week activity matrix naming segment, channel, objective, and owner for every program (Slides 12-15), and put the one-sentence thesis as slide text on Slides 4 and 19 — this lifts activities, effectiveness, and delivery simultaneously for minimal effort."
+  ],
+  "scored_at": "2026-11-07T19:31:43"
+}
