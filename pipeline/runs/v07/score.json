@@ -1,0 +1,62 @@
+{
+  "run": "v07",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 11,
+    "budget": 7,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 3,
+    "overall": 3
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 11,
+    "budget": 7,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 3,
+    "overall": 3
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 0,
+    "research": 0,
+    "strategy": 1,
+    "activities": 0,
+    "budget": 0,
+    "impact": 1,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 66,
+  "capped_total": 66,
+  "penalty_points": 0,
+  "final": 66,
+  "top_fixes": [
+    "Complete and show primary research (survey n>=100 with dates, 3+ interviews/taste tests, 3-store shelf audit) and trace at least three Slide 10-13 decisions to [R#] findings — unlocks the research cap (up to +6-10) and lifts strategy",
+    "Polish visuals: remove 'replace bags with product photos' and 'see deck.json' notes, fix the broken QR glyph and negative-bar chart, add real product photos and persona photos, fill the half-empty canvases, and complete the title slide (+2-3 across design/overall/organization)",
+    "Source the budget drivers (sampling-agency quote, CPM/CTR and conversion benchmarks), fix the $700 vs $800 production mismatch, show funnel math on the budget visual, and quantify shelf-retention value so the conservative case is defensible (+2-3 budget/effectiveness)",
+    "Complete and report primary research (survey n>=100 with dates, 3+ interviews, shelf audit numbers) on Slide 9 and trace those results into Slide 10/11 decisions - lifts the research auto-cap from 5 toward 11-14 (+6-10 pts).",
+    "Upgrade the visuals: real product/shelf photos, persona photos, fill the empty half-canvas on every slide, fix the Slide 9 negative bars and the Slide 6 store-count series, and complete the Slide 2 title page (+2-3 pts across design/overall/organization).",
+    "Harden the budget and measurement: real quotes for demos and creators, add coupon clearing/brand-lift survey/slotting lines, reconcile production $700 vs $800, show a conservative case that doesn't depend on repeat buys, and state how H-E-B store data is obtained and how the 6-vs-6 test is significance-tested (+2-4 pts across budget/impact)."
+  ],
+  "scored_at": "2026-11-07T19:55:28"
+}

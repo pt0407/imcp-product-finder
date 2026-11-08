@@ -38,11 +38,20 @@ def shot(name, body, foot="Mockup created by the agency team; illustrative."):
                     "--window-size=1000,760", f.as_uri()], capture_output=True, timeout=60)
     return f"visuals/{name}.png"
 
+def bar(n, v):
+    w = int(abs(v) * 5 + 4)
+    neg = f"<div style='height:22px;width:{w}px;background:#999;border-radius:4px'></div>" if v < 0 else ""
+    pos = f"<div style='height:22px;width:{w}px;background:{O};border-radius:4px'></div>" if v > 0 else ""
+    sign = "+" if v > 0 else ""
+    return (f"<div style='display:flex;align-items:center;gap:8px;margin:6px 0'><div style='width:190px'>{n}</div>"
+            f"<div style='width:60px;display:flex;justify-content:flex-end'>{neg}</div><div style='width:2px;height:26px;background:#333'></div>"
+            f"{pos}<b>{sign}{v}%</b></div>")
+
 V = {}
 V[1] = shot("cover", f"""<div style='height:100%;display:flex;align-items:center;gap:40px;background:{O};margin:-28px;padding:60px;color:#fff'>
 <div><div style='font-size:22px;letter-spacing:.2em'>PAN'S MUSHROOM JERKY</div><div style='font-size:72px;font-weight:900;line-height:1'>Switch to<br>Mushroom Mode</div>
 <div style='font-size:22px;margin-top:18px'>A 45-day H-E-B velocity campaign</div></div>
-<div style='display:flex;gap:14px'><div class='bag' style='background:#fff;color:{O}'>PAN'S<br>Original</div><div class='bag' style='background:{D}'>PAN'S<br>Zesty Thai</div></div></div>""", "Illustrative cover; replace bags with product photos.")
+<div style='display:flex;gap:14px'><div class='bag' style='background:#fff;color:{O}'>PAN'S<br>Original</div><div class='bag' style='background:{D}'>PAN'S<br>Zesty Thai</div></div></div>""", "Illustrative cover concept.")
 V[4] = shot("overview", f"""<div class='h'>Campaign at a glance</div><div class='grid' style='grid-template-columns:1fr 1fr'>
 <div class='card'><span class='tag'>PROBLEM</span><p style='font-size:20px;margin-top:10px'>Stores up from ~750 to 2,500+.<br>Revenue down from $3.15M.<br><b>&le; ~6 bags per store per week.</b></p></div>
 <div class='card'><span class='tag'>OPPORTUNITY</span><p style='font-size:20px;margin-top:10px'>Meat snacks <b>+11.3%</b> ($6.4B)<br>Plant-based meat <b>-10%</b><br>Pan's is in the wrong mental aisle.</p></div>
@@ -51,9 +60,9 @@ V[4] = shot("overview", f"""<div class='h'>Campaign at a glance</div><div class=
 V[5] = shot("product", f"""<div class='h'>Pan's Mushroom Jerky</div><div style='display:flex;gap:22px;align-items:flex-end;margin:30px 0'>
 {''.join(f"<div class='bag' style='width:150px;height:210px;font-size:20px;background:{c}'>PAN'S<br>{n}</div>" for n,c in [('Original',O),('Zesty Thai','#b5451b'),('Applewood BBQ',D),('Salt &amp; Pepper','#7a5c3e')])}</div>
 <div class='grid' style='grid-template-columns:repeat(4,1fr)'>{''.join(f"<div class='card' style='text-align:center;font-weight:800'>{t}</div>" for t in ['Shiitake','Vegan','Gluten-free','No allergens'])}</div>
-<p class='sub' style='margin-top:16px'>$7.99-$8.99 per 2.2 oz bag &middot; family recipe from Malaysia</p>""", "Illustrative packaging; replace with product photos.")
+<p class='sub' style='margin-top:16px'>$7.99-$8.99 per 2.2 oz bag &middot; family recipe from Malaysia</p>""", "Illustrative packaging concept.")
 V[6] = shot("company", f"""<div class='h'>More stores, fewer bags per store</div><div style='display:flex;gap:24px'>
-<div class='card' style='flex:1'><div class='sub'>Revenue (SEC filing)</div><div style='display:flex;align-items:flex-end;gap:22px;height:300px'>
+<div class='card' style='flex:1'><div class='sub'>Revenue (SEC filing) vs. store count</div><div style='font-weight:800;color:#2b2118;margin-bottom:6px'>Stores: ~750 (2020) &rarr; 2,500+ (2026) &uarr;</div><div style='display:flex;align-items:flex-end;gap:22px;height:300px'>
 {''.join(f"<div style='text-align:center'><div style='font-weight:800'>${v}M</div><div style='width:70px;height:{int(v*85)}px;background:{O};border-radius:8px 8px 0 0'></div><div>{y}</div></div>" for y,v in [('FY22',3.15),('FY23',2.88),('FY24*',2.78)])}
 </div><div class='sub' style='margin-top:8px'>*11 months. Stores: ~750 (2020) &rarr; 2,500+ today</div></div>
 <div class='card' style='flex:1;position:relative;height:430px'><div class='sub'>Positioning map</div>
@@ -77,7 +86,7 @@ V[8] = shot("personas", f"""<div class='h'>Who we're talking to</div><div class=
 V[9] = shot("research", f"""<div class='h'>Research methods &amp; key results</div><table style='margin-bottom:18px'><tr><th>Method</th><th>Status</th></tr>
 <tr><td>Secondary: SEC filing, GFI/SPINS, Circana, company pages (11 sources)</td><td>Complete</td></tr>
 <tr><td>Survey: Central Texas snack buyers, 10 questions</td><td>In field</td></tr><tr><td>Interviews + taste test (3-5)</td><td>In field</td></tr><tr><td>H-E-B shelf audit (3 stores)</td><td>In field</td></tr></table>
-<div class='card'><div class='sub'>Category growth, 2025</div>{''.join(f"<div style='display:flex;align-items:center;gap:10px;margin:6px 0'><div style='width:190px'>{n}</div><div style='height:22px;width:{abs(v)*5+4}px;background:{O if v>0 else '#999'};border-radius:4px'></div><b>{'+' if v>0 else ''}{v}%</b></div>" for n,v in [('Chomps',61.5),('Dried meat snacks',11.5),('Meat snacks (total)',11.3),('Jerky subcategory',-0.5),('Plant-based meat',-10)])}</div>""", "Sources: Circana via trade press; GFI/SPINS.")
+<div class='card'><div class='sub'>Category growth, 2025</div>{''.join(bar(n,v) for n,v in [('Chomps',61.5),('Dried meat snacks',11.5),('Meat snacks (total)',11.3),('Jerky subcategory',-0.5),('Plant-based meat',-10)])}</div>""", "Sources: Circana via trade press; GFI/SPINS.")
 V[10] = shot("insights", f"""<div class='h'>Finding &rarr; therefore</div><table><tr><th>Finding</th><th>Therefore we will...</th></tr>
 <tr><td>Stores up, revenue down</td><td>Fund trial at the shelf, not more distribution</td></tr>
 <tr><td>Meat snacks +11.3%, plant-based meat -10%</td><td>Place and message Pan's next to jerky</td></tr>
@@ -96,7 +105,7 @@ V[13] = shot("shelf", f"""<div class='h'>The Aisle Switch (proposed)</div><div s
 {''.join(f"<div style='display:flex;gap:10px;border-bottom:8px solid #8a7a6a;padding:10px 0;align-items:flex-end'>{row}</div>" for row in [
 "".join("<div class='bag' style='background:#5a4030;width:70px;height:95px;font-size:11px'>JACK LINK'S</div>" for _ in range(4)) + "<div class='bag' style='width:70px;height:95px'>PAN'S</div><div class='bag' style='width:70px;height:95px'>PAN'S</div>",
 "".join("<div class='bag' style='background:#3d5a3a;width:70px;height:95px;font-size:12px'>CHOMPS</div>" for _ in range(5))])}
-<div style='background:{O};color:#fff;padding:12px 16px;border-radius:8px;margin-top:10px;font-size:20px;font-weight:800'>Love jerky? Switch to Mushroom Mode. Scan: $2 off 2 bags &#9635;</div></div>
+<div style='background:{O};color:#fff;padding:12px 16px;border-radius:8px;margin-top:10px;font-size:20px;font-weight:800'>Love jerky? Switch to Mushroom Mode. Scan: $2 off 2 bags</div></div>
 <p class='sub' style='margin-top:12px'>Clip strip inside the meat-snack set at 6 test stores + shelf talker</p>""")
 V[14] = shot("tiktok", f"""<div style='display:flex;gap:40px;align-items:center'><div class='phone'><div class='screen' style='background:#000;color:#fff;position:relative'>
 <div style='display:flex;height:60%;gap:4px'><div style='flex:1;background:#5a4030;border-radius:10px;display:flex;align-items:center;justify-content:center'>A</div><div style='flex:1;background:{O};border-radius:10px;display:flex;align-items:center;justify-content:center'>B</div></div>
@@ -114,7 +123,7 @@ V[16] = shot("gantt", f"""<div class='h'>45-day schedule</div><table><tr><th>Pro
 V[17] = shot("budget", f"""<div class='h'>Budget: $10,000</div><div style='display:flex;gap:20px'><table style='flex:1'><tr><th>Line</th><th>$</th></tr>
 {''.join(f'<tr><td>{a}</td><td>{b}</td></tr>' for a,b in [('Paid social','4,000'),('Creators (3 x $750)','2,250'),('Demo Days (12 x $200)','2,400'),('Production','700'),('Tools','300'),('Contingency','350'),('<b>Total</b>','<b>10,000</b>')])}</table>
 <div style='flex:1'><table><tr><th>Case</th><th>Purchases</th><th>Gross profit</th><th>ROI</th></tr><tr><td>Base</td><td>1,500</td><td>$15.1K</td><td><b>+51%</b></td></tr><tr><td>Conservative</td><td>750</td><td>$7.6K</td><td>-24%</td></tr></table>
-<div class='card' style='margin-top:14px'>Break-even: <b>993 purchases</b><br>ROAS: <b>4.6x</b><br>Upside: ~480 demo-day purchases</div></div></div>""", "All costs are labeled assumptions (see deck.json A1-A17).")
+<div class='card' style='margin-top:14px'>Break-even: <b>993 purchases</b><br>ROAS: <b>4.6x</b><br>Upside: ~480 demo-day purchases</div></div></div>""", "Costs are labeled agency estimates; see notes.")
 V[18] = shot("kpi", f"""<div class='h'>KPI dashboard</div><table><tr><th>Obj</th><th>KPI</th><th>Baseline</th><th>Target</th><th>Tool</th><th>Cadence</th></tr>
 <tr><td>O1</td><td>Attributed purchases</td><td>0</td><td>1,500</td><td>Coupon + Shopify codes</td><td>Weekly</td></tr>
 <tr><td>O1</td><td>Units/store/week vs. control</td><td>&le; ~6</td><td>+25%</td><td>Retailer data</td><td>Weekly</td></tr>
