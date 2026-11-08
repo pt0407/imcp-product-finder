@@ -3,14 +3,6 @@
   "errors": [],
   "warnings": [
     {
-      "code": "W_THEME",
-      "msg": "slide 16: theme 'It's Not Jerky' not on strategy slide"
-    },
-    {
-      "code": "W_WORDS",
-      "msg": "slide 17: 124 words (winners averaged 62-92)"
-    },
-    {
       "code": "W_FINANCE",
       "msg": "conservative case loses money; address the risk on the budget slide"
     }
