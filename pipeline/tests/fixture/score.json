@@ -1,0 +1,72 @@
+{
+  "run": "fixture",
+  "passes_valid": 2,
+  "passes_rejected": [
+    {
+      "file": "pass3.json",
+      "problems": [
+        "strategy: evidence must cite 'Slide N' and quote text",
+        "budget: score 12 not an integer in 0..10"
+      ]
+    }
+  ],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 13,
+    "strategy": 8,
+    "activities": 10,
+    "budget": 8,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 13,
+    "strategy": 8,
+    "activities": 10,
+    "budget": 8,
+    "impact": 8,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 1,
+    "business_opportunity": 0,
+    "research": 2,
+    "strategy": 4,
+    "activities": 1,
+    "budget": 1,
+    "impact": 1,
+    "organization": 0,
+    "effectiveness": 1,
+    "delivery": 0,
+    "design": 1,
+    "overall": 0
+  },
+  "noisy_categories": [
+    "strategy"
+  ],
+  "raw_total": 75,
+  "capped_total": 75,
+  "penalty_points": 0,
+  "final": 75,
+  "top_fixes": [
+    "Add baselines",
+    "Add competitor map",
+    "Sharpen big idea",
+    "Add baselines",
+    "Add competitor map",
+    "Sharpen big idea"
+  ],
+  "scored_at": "2026-11-07T19:19:32"
+}

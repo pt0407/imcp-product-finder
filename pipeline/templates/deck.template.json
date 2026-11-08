@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "product": "",
+    "company": "",
+    "campaign_name": "",
+    "theme": "",
+    "thesis": "",
+    "variant_angle": "",
+    "brand_color": "#0a66c2",
+    "school": "",
+    "school_address": "",
+    "participants": [],
+    "date": "",
+    "assurances_signed": false
+  },
+  "campaign_window": {"start": "", "end": ""},
+  "business_problem": "",
+  "objectives": [
+    {"id": "O1", "text": "", "funnel_stage": "conversion", "primary": true}
+  ],
+  "segments": [
+    {"id": "P1", "name": "", "role": "primary", "demographic": "", "geographic": "", "psychographic": "", "behavioral": "", "media": "", "evidence": []},
+    {"id": "P2", "name": "", "role": "secondary", "demographic": "", "geographic": "", "psychographic": "", "behavioral": "", "media": "", "evidence": []}
+  ],
+  "research": {
+    "methods": [
+      {"id": "M1", "type": "survey", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M2", "type": "interview", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M3", "type": "competitor_audit", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""},
+      {"id": "M4", "type": "secondary", "n": null, "dates": "", "recruitment": "", "status": "pending", "results_file": ""}
+    ],
+    "findings": []
+  },
+  "programs": [],
+  "budget": {
+    "lines": [],
+    "total_usd": 0,
+    "projection": {"impressions": null, "ctr": null, "conversion_rate": null, "aov_usd": null, "gross_margin": null},
+    "conservative_factor": 0.5
+  },
+  "kpis": [],
+  "sources": [],
+  "assumptions": [],
+  "slides": [
+    {"n": 1, "section": "cover", "title": "", "bullets": [], "visual": {"type": "image", "desc": "Hero product image + campaign name"}, "notes": ""},
+    {"n": 2, "section": "title", "title": "Integrated Marketing Campaign–Product", "bullets": [], "visual": {"type": "none"}, "notes": ""},
+    {"n": 3, "section": "toc", "title": "Table of Contents", "bullets": [], "visual": {"type": "none"}, "notes": ""},
+    {"n": 4, "section": "overview", "title": "Campaign Overview", "bullets": [], "visual": {"type": "table", "desc": "Four boxes: Problem / Business opportunity / Solution / 45-day goal"}, "notes": ""},
+    {"n": 5, "section": "description", "title": "The Product", "bullets": [], "visual": {"type": "image", "desc": ""}, "notes": ""},
+    {"n": 6, "section": "description", "title": "The Company & Its Position", "bullets": [], "visual": {"type": "chart", "desc": "Timeline + competitor positioning map"}, "notes": ""},
+    {"n": 7, "section": "objectives", "title": "Campaign Objectives", "bullets": [], "visual": {"type": "table", "desc": "O1-O3 with funnel stage"}, "notes": ""},
+    {"n": 8, "section": "target_market", "title": "Target Market", "bullets": [], "visual": {"type": "mockup", "desc": "Two persona cards built from survey data"}, "notes": ""},
+    {"n": 9, "section": "research", "title": "Research Method & Results", "bullets": [], "visual": {"type": "chart", "desc": "Methods table + top survey charts"}, "notes": ""},
+    {"n": 10, "section": "research", "title": "Insights → Campaign Decisions", "bullets": [], "visual": {"type": "table", "desc": "Finding → therefore rows"}, "notes": ""},
+    {"n": 11, "section": "strategy", "title": "Campaign Strategy", "bullets": [], "visual": {"type": "image", "desc": "Big idea key visual"}, "notes": ""},
+    {"n": 12, "section": "strategy", "title": "45-Day Schedule", "bullets": [], "visual": {"type": "chart", "desc": "Gantt: weeks x channels x programs"}, "notes": ""},
+    {"n": 13, "section": "strategy", "title": "", "bullets": [], "visual": {"type": "mockup", "desc": "Program 1 mockup"}, "notes": ""},
+    {"n": 14, "section": "strategy", "title": "", "bullets": [], "visual": {"type": "mockup", "desc": "Program 2 mockup"}, "notes": ""},
+    {"n": 15, "section": "strategy", "title": "", "bullets": [], "visual": {"type": "mockup", "desc": "Program 3 mockup (partner or named decision-maker)"}, "notes": ""},
+    {"n": 16, "section": "strategy", "title": "Creative Samples", "bullets": [], "visual": {"type": "mockup", "desc": "Phone mockups: SMS thread, social post, email"}, "notes": ""},
+    {"n": 17, "section": "budget", "title": "Proposed Budget & Financial Viability", "bullets": [], "visual": {"type": "table", "desc": "Itemized lines + funnel math + base/conservative case"}, "notes": ""},
+    {"n": 18, "section": "impact", "title": "Impact & Measurement", "bullets": [], "visual": {"type": "table", "desc": "Objective → KPI → baseline → target → tool → cadence"}, "notes": ""},
+    {"n": 19, "section": "impact", "title": "Why It Matters", "bullets": [], "visual": {"type": "image", "desc": "Mission metric + projected results"}, "notes": ""},
+    {"n": 20, "section": "bibliography", "title": "Bibliography", "bullets": [], "visual": {"type": "none"}, "notes": ""}
+  ]
+}

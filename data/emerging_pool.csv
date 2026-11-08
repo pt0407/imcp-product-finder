@@ -1,0 +1,951 @@
+domain,merchant_name,status,estimated_monthly_sales,estimated_yearly_sales,estimated_monthly_visits,average_product_price,products_sold,employee_count_bucket,instagram_followers,tiktok_followers,tags,demo_fit,creative,score_viability,score_whitespace,score_demo,score_creative,score_sweetspot,stage1_score,v,nkey
+pennycandy.com,The Penny Candy Store,Active,,,246078.0,,1211,1,,,,18,14,11.0,2.3062922203468155,20.0,15.0,7,55.3,246078.0,thepennycandystore
+www.vervecoffee.com,Verve Coffee Roasters,Active,,,244144.0,,159,51-200,,,,18,14,11.0,2.2651798141879578,20.0,15.0,7,55.3,244144.0,vervecoffeeroasters
+chachamatcha.com,Cha Cha Matcha,Active,,,244467.0,,29,51-200,,,,18,14,11.0,2.272068653018918,20.0,15.0,7,55.3,244467.0,chachamatcha
+coffeebros.com,Coffee Bros.,Active,,,248149.0,,87,2-10,,,,18,14,11.0,2.349960276562202,20.0,15.0,7,55.3,248149.0,coffeebros
+www.blackwhiteroasters.com,Black & White Coffee Roasters,Active,,,239722.0,,348,11-50,,,,18,14,11.0,2.169941538218257,20.0,15.0,7,55.2,239722.0,blackwhitecoffeeroasters
+www.plumdeluxe.com,Plum Deluxe Tea,Active,,,242121.0,,298,2-10,,2479.0,,18,14,11.0,2.221825569356037,20.0,15.0,7,55.2,242121.0,plumdeluxetea
+badasscoffee.com,Bad Ass Coffee of Hawaii,Active,,,236858.0,,165,51-200,,,,18,14,11.0,2.107316664679429,20.0,15.0,7,55.1,236858.0,badasscoffeeofhawaii
+wisesnacks.com,Wise Snacks,Active,,,237676.0,,32,201-500,,,,18,14,11.0,2.125280143297015,20.0,15.0,7,55.1,237676.0,wisesnacks
+www.myteadrop.com,Tea Drops,Active,,,238153.0,,117,11-50,,,,18,14,11.0,2.1357266697611834,20.0,15.0,7,55.1,238153.0,teadrops
+www.snackhawaii.com,Snack Hawaii,Active,,,230055.0,,465,2-10,,460.0,,18,14,11.0,1.9554726157368467,20.0,15.0,7,55.0,230055.0,snackhawaii
+www.sweetcandy.com,Sweet Candy Company,Active,,,231815.0,,109,51-200,,,,18,14,11.0,1.99518231045667,20.0,15.0,7,55.0,231815.0,sweetcandycompany
+numitea.com,Numi Tea,Active,,,230395.0,,91,11-50,,,,18,14,11.0,1.9631674232846503,20.0,15.0,7,55.0,230395.0,numitea
+www.saratogateaandhoney.com,Saratoga Tea & Honey Co.,Active,,,218305.0,,342,2-10,,,,18,14,11.0,1.6823176406817826,20.0,15.0,7,54.7,218305.0,saratogateahoneyco
+www.klatchcoffee.com,Klatch Coffee,Active,,,215071.0,,78,51-200,,1930.0,,18,14,11.0,1.604553644664838,20.0,15.0,7,54.6,215071.0,klatchcoffee
+kauaicoffee.com,Kauai Coffee,Active,,,214426.0,,172,51-200,,,,18,14,11.0,1.5889043649177914,20.0,15.0,7,54.6,214426.0,kauaicoffee
+desnudocoffee.com,Desnudo Coffee,Active,,,210100.0,,30,2-10,,,,18,14,11.0,1.4827126800652444,20.0,15.0,7,54.5,210100.0,desnudocoffee
+www.gloskinbeauty.com,Glo Skin Beauty,Active,,,249754.0,,216,51-200,,,,18,13,11.0,2.383552607058606,20.0,13.928571428571429,7,54.3,249754.0,gloskinbeauty
+kbeautyworld.com,K Beauty World,Active,,,242826.0,,901,2-10,,7.0,,18,13,11.0,2.2369751688966506,20.0,13.928571428571429,7,54.2,242826.0,kbeautyworld
+presscoffee.com,Press Coffee Roasters,Active,,,199310.0,,212,51-200,,,,18,14,11.0,1.2080162477166816,20.0,15.0,7,54.2,199310.0,presscoffeeroasters
+www.coffeebeandirect.com,Coffee Bean Direct,Active,,,198343.0,,229,11-50,,,,18,14,11.0,1.1826760838620205,20.0,15.0,7,54.2,198343.0,coffeebeandirect
+www.perfumedirect.com,Perfume Direct,Active,,,242223.0,,2361,2-10,,91.0,,18,13,11.0,2.224020153059019,20.0,13.928571428571429,7,54.2,242223.0,perfumedirect
+www.marucoffee.com,MARU COFFEE,Active,,,196553.0,,47,11-50,,,,18,14,11.0,1.1354416342449944,20.0,15.0,7,54.1,196553.0,marucoffee
+www.birdrockcoffee.com,Bird Rock Coffee Roasters,Active,,,196028.0,,70,51-200,,,,18,14,11.0,1.1215063694056011,20.0,15.0,7,54.1,196028.0,birdrockcoffeeroasters
+upcirclebeauty.com,UpCircle Beauty,Active,,,241053.0,,136,11-50,,,,18,13,11.0,2.198791319050841,20.0,13.928571428571429,7,54.1,241053.0,upcirclebeauty
+volcanicacoffee.com,Volcanica Coffee,Active,,,196213.0,,163,2-10,,,Dropshipper:Print on Demand,18,14,11.0,1.1264211441616467,20.0,15.0,7,54.1,196213.0,volcanicacoffee
+www.whimsyclips.com,www.whimsyclips.com,Active,,,226451.0,,2107,micro_no_linkedin,,,,18,13,11.0,1.8732014330823663,20.0,13.928571428571429,7,53.8,226451.0,wwwwhimsyclipscom
+bazancoffee.com,Bazan Coffee,Active,,,241495.0,,8,micro_no_linkedin,,,,18,14,9.5,2.2083365718063153,20.0,15.0,7,53.7,241495.0,bazancoffee
+www.kulturafilipino.com,Kultura Filipino– Kultura Filipino,Active,,,220817.0,,1016,11-50,,,Print on Demand,18,13,11.0,1.74192993515606,20.0,13.928571428571429,7,53.7,220817.0,kulturafilipinokulturafilipino
+www.seycoffee.com,SEY Coffee,Active,,,181765.0,,822,2-10,,,,18,14,11.0,0.7279164713976236,20.0,15.0,7,53.7,181765.0,seycoffee
+juicebeauty.com,Juice Beauty,Active,,,219236.0,,51,51-200,,,,18,13,11.0,1.704490815822762,20.0,13.928571428571429,7,53.6,219236.0,juicebeauty
+www.darkmattercoffee.com,Dark Matter Coffee,Active,,,178036.0,,68,11-50,,,,18,14,11.0,0.6199172996582476,20.0,15.0,7,53.6,178036.0,darkmattercoffee
+www.chriscoffee.com,Chris' Coffee,Active,,,173691.0,,1294,11-50,,,Print on Demand,18,14,11.0,0.4911877501705017,20.0,15.0,7,53.5,173691.0,chriscoffee
+www.stashtea.com,Stash Tea,Active,,,174646.0,,73,51-200,,,,18,14,11.0,0.51975548106698,20.0,15.0,7,53.5,174646.0,stashtea
+afnan.com,Afnan Perfumes,Active,,,211735.0,,96,51-200,,,,18,13,11.0,1.5231023153602177,20.0,13.928571428571429,7,53.5,211735.0,afnanperfumes
+mozartscoffee.com,Mozart's Coffee Roasters,Active,,,170272.0,,73,11-50,,,,18,14,11.0,0.3876089257395261,20.0,15.0,7,53.4,170272.0,mozartscoffeeroasters
+www.mybeautyexchange.com,Beauty Exchange Beauty Supply,Active,,,209318.0,,7141,51-200,,,Dropshipper,18,13,11.0,1.46328360127281,20.0,13.928571428571429,7,53.4,209318.0,beautyexchangebeautysupply
+blacksheepcoffee.co.uk,Black Sheep Coffee,Active,,,168655.0,,24,micro_no_linkedin,,,,18,14,11.0,0.3378953983305059,20.0,15.0,7,53.3,168655.0,blacksheepcoffee
+colipsecoffee.com,Colipse Coffee,Active,,,167974.0,,76,1,,7.0,,18,14,11.0,0.3168157803303941,20.0,15.0,7,53.3,167974.0,colipsecoffee
+sightglasscoffee.com,Sightglass Coffee,Active,,,167461.0,,54,51-200,,322.0,,18,14,11.0,0.3008799231843415,20.0,15.0,7,53.3,167461.0,sightglasscoffee
+tulipcolor.com,Tulip Color Crafts,Active,,,229440.0,,306,1,,4509.0,,18,13,11.0,1.3248189719057848,20.0,13.928571428571429,7,53.3,229440.0,tulipcolorcrafts
+angelinos.com,Angelino's Coffee,Active,,,163069.0,,168,2-10,,908.0,,18,14,11.0,0.162414552031743,20.0,15.0,7,53.2,163069.0,angelinoscoffee
+stellarsnacks.com,Stellar Snacks,Active,,,163350.0,,22,11-50,,,,18,14,11.0,0.1713845743245361,20.0,15.0,7,53.2,163350.0,stellarsnacks
+www.coffeebeanery.com,Coffee Beanery,Active,,,165223.0,,595,51-200,,1027.0,,18,14,11.0,0.2307828725840917,20.0,15.0,7,53.2,165223.0,coffeebeanery
+www.simpleskincare.in,Simple Skincare,Active,,,200193.0,,68,micro_no_linkedin,,,,18,13,11.0,1.231048065896459,20.0,13.928571428571429,7,53.2,200193.0,simpleskincare
+peopleschoicebeefjerky.com,People's Choice Beef Jerky,Active,,,214480.0,,49,2-10,,7511.0,,18,14,11.0,0.0871940240619384,20.0,15.0,7,53.1,214480.0,peopleschoicebeefjerky
+libertypuzzles.com,Liberty Puzzles,Active,,,244962.0,,591,11-50,,,Dropshipper:Print on Demand,16,14,11.0,2.2826082128886576,17.77777777777778,15.0,7,53.1,244962.0,libertypuzzles
+torronecandy.com,Torrone Candy,Active,,,36121.0,,530,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36121.0,torronecandy
+torque.coffee,Torque Coffees,Active,,,18105.0,,68,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18105.0,torquecoffees
+topofthemornincoffee.com,Top of the Mornin Coffee,Active,,,68352.0,,118,2-10,,292400.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,68352.0,topofthemornincoffee
+topecacoffee.com,Topeca Coffee Roasters,Active,,,56751.0,,58,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,56751.0,topecacoffeeroasters
+timwendelboe.no,Tim Wendelboe Coffee,Active,,,33997.0,,34,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,33997.0,timwendelboecoffee
+todd-holland.com,Todd & Holland Tea Merchants,Active,,,19096.0,,1510,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19096.0,toddhollandteamerchants
+toakchocolate.com,To'ak Chocolate,Active,,,58935.0,,79,11-50,,1981.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,58935.0,toakchocolate
+tmwardcoffee.com,T.M. Ward Coffee Company,Active,,,34420.0,,1141,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34420.0,tmwardcoffeecompany
+tinybchocolate.com,tinyB chocolate,Active,,,15306.0,,30,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15306.0,tinybchocolate
+timelesscoffee.com,Timeless Coffee & Bakery,Active,,,42327.0,,49,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,42327.0,timelesscoffeebakery
+tiestatea.com,Tiesta Tea,Active,,,149881.0,,382,11-50,,14000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,149881.0,tiestatea
+threeleaftea.com,3 Leaf Tea,Active,,,53200.0,,27,2-10,,827.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,53200.0,3leaftea
+transcendencecoffee.com,transcendencecoffee,Active,,,69754.0,,34,1,,34800.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,69754.0,transcendencecoffee
+thinkcoffee.com,Think Coffee NYC,Active,,,100654.0,,316,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,100654.0,thinkcoffeenyc
+theuklooseleafteacompany.co.uk,The UK Loose Leaf Tea Company Ltd,Active,,,23338.0,,405,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23338.0,theuklooseleafteacompanyltd
+treelinecoffee.com,Treeline Coffee Roasters,Active,,,23989.0,,148,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23989.0,treelinecoffeeroasters
+tridentcoffee.com,Trident Coffee,Active,,,22569.0,,20,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,22569.0,tridentcoffee
+unionroasted.com,Union Coffee,Active,,,15784.0,,57,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15784.0,unioncoffee
+uk.ahmadtea.com,Ahmad Tea,Active,,,25362.0,,215,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25362.0,ahmadtea
+ujichamatcha.com,Ujicha Matcha,Active,,,32696.0,,344,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32696.0,ujichamatcha
+twistedgoatcoffee.com,Twisted Goat Coffee Roasters,Active,,,17783.0,,47,1,,79.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17783.0,twistedgoatcoffeeroasters
+tucsontea.com,Tucson Tea Company,Active,,,92950.0,,220,1,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,92950.0,tucsonteacompany
+theteahouseonlosrios.com,The Tea House On Los Rios,Active,,,155645.0,,87,2-10,,4663.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,155645.0,theteahouseonlosrios
+truetreatscandy.com,True Treats Candy,Active,,,79320.0,,263,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,79320.0,truetreatscandy
+thelocca.com,Locca Boba Tea,Active,,,23016.0,,27,1,,,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,23016.0,loccabobatea
+theteacentre.com.au,The Tea Centre,Active,,,18761.0,,325,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18761.0,theteacentre
+tenfoldcoffee.com,Tenfold Coffee,Active,,,29276.0,,33,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29276.0,tenfoldcoffee
+templecoffee.com,Temple Coffee Roasters,Active,,,131047.0,,124,11-50,,1165.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,131047.0,templecoffeeroasters
+teashop.com,Tea Shop,Active,,,105136.0,,703,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,105136.0,teashop
+tea-shirt.co.uk,Tea Shirt Tailored Refreshments,Active,,,74391.0,,87,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,74391.0,teashirttailoredrefreshments
+tearunners.com,Tea Runners,Active,,,19054.0,,258,1,,1308.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,19054.0,tearunners
+teapeople.co.uk,Tea People,Active,,,18385.0,,219,2-10,,99.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,18385.0,teapeople
+teamastermatcha.com,Tea Master of Little Tokyo,Active,,,15897.0,,32,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15897.0,teamasteroflittletokyo
+teaindia.com,Tea India,Active,,,18624.0,,31,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18624.0,teaindia
+teacultureoftheworld.com,Tea Culture of the World,Active,,,53141.0,,149,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,53141.0,teacultureoftheworld
+teacozyyarn.com,Tea Cozy Yarn Shop,Active,,,24568.0,,178,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24568.0,teacozyyarnshop
+tenzotea.co,Tenzo Matcha,Active,,,49112.0,,24,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,49112.0,tenzomatcha
+thecoffeemonsterzco.com,TheCoffeeMonsterzCo,Active,,,125509.0,,2093,1,,155500.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,125509.0,thecoffeemonsterzco
+thescentedleaf.com,Scented Leaf Tea House,Active,,,58141.0,,140,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,58141.0,scentedleafteahouse
+themusecoffee.co,The Muse Coffee Co,Active,,,26591.0,,79,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26591.0,themusecoffeeco
+uptownteashop.com,Uptown Tea Shop LLC,Active,,,21680.0,,251,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21680.0,uptownteashopllc
+thejerkyco.com.au,The Jerky Co,Active,,,18099.0,,72,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18099.0,thejerkyco
+thefabriccandyshoppe.com,The Fabric Candy Shoppe,Active,,,18218.0,,11220,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18218.0,thefabriccandyshoppe
+thecoffeelab.ae,The Coffee Lab UAE,Active,,,18278.0,,316,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18278.0,thecoffeelabuae
+thechineseteashop.com,The Chinese Tea Shop,Active,,,56620.0,,372,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,56620.0,thechineseteashop
+thecandybaron.com,Candy Baron,Active,,,19316.0,,226,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19316.0,candybaron
+theboyandthebear.com,The Boy & The Bear - Coffee Roastery,Active,,,25445.0,,55,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25445.0,theboythebearcoffeeroastery
+thebeancoffeecompany.com,The Bean Coffee Company,Active,,,19686.0,,49,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19686.0,thebeancoffeecompany
+thebarn.de,THE BARN Coffee Roasters,Active,,,18039.0,,175,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18039.0,thebarncoffeeroasters
+thankyoucoffee.com,Thank You Coffee,Active,,,21972.0,,28,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,21972.0,thankyoucoffee
+thanksgivingcoffee.com,Thanksgiving Coffee Company,Active,,,18290.0,,68,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18290.0,thanksgivingcoffeecompany
+urbansailorcoffee.com,URBAN SAILOR COFFEE,Active,,,15640.0,,29,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,15640.0,urbansailorcoffee
+www.arakucoffee.in,ARAKU Coffee,Active,,,49870.0,,87,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,49870.0,arakucoffee
+www.alienfreshjerky.com,Alien Fresh Jerky,Active,,,56172.0,,65,2-10,,,Print on Demand:Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,56172.0,alienfreshjerky
+www.aldeacoffee.com,Aldea Coffee,Active,,,16392.0,,51,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16392.0,aldeacoffee
+www.alchemistcoffee.com,Alchemist Coffee,Active,,,20981.0,,42,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,20981.0,alchemistcoffee
+www.8thandroast.com,8&R Coffee Co,Active,,,27719.0,,36,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27719.0,8rcoffeeco
+wrcoffee.com,White Rock Coffee,Active,,,75943.0,,62,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,75943.0,whiterockcoffee
+woodcatcoffee.com,Woodcat Coffee Roasters,Active,,,28286.0,,20,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28286.0,woodcatcoffeeroasters
+wonderstate.com,Wonderstate Coffee,Active,,,45240.0,,96,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,45240.0,wonderstatecoffee
+www.artiscoffee.com,Artís Coffee,Active,,,15992.0,,25,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15992.0,artscoffee
+www.auntiekcandy.com,Auntie K Candy,Active,,,31413.0,,249,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31413.0,auntiekcandy
+www.awfullychocolate.com,Awfully Chocolate,Active,,,49333.0,,141,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,49333.0,awfullychocolate
+teaandwhisk.com,Tea and Whisk,Active,,,42733.0,,550,1,,1795.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,42733.0,teaandwhisk
+www.boldsnacks.com.br,BOLD Snacks,Active,,,94878.0,,47,51-200,,219200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,94878.0,boldsnacks
+www.bluewillowtea.com,Blue Willow Tea,Active,,,23727.0,,239,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23727.0,bluewillowtea
+www.blackoutcoffee.com,Blackout Coffee Co,Active,,,101824.0,,193,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,101824.0,blackoutcoffeeco
+www.bizarrecoffee.com,Bizarre Coffee,Active,,,50754.0,,46,11-50,,86100.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,50754.0,bizarrecoffee
+www.birdandblendtea.com,Bird & Blend Tea Co.,Active,,,93977.0,,347,51-200,,34800.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,93977.0,birdblendteaco
+www.birchcoffee.com,Birch Coffee,Active,,,83933.0,,37,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,83933.0,birchcoffee
+www.bigrockcandymountaineering.com,Big Rock Candy Mountaineering,Active,,,21029.0,,139,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21029.0,bigrockcandymountaineering
+www.bigcatcoffees.com,www.bigcatcoffees.com,Active,,,17556.0,,200,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17556.0,wwwbigcatcoffeescom
+www.berresbrothers.com,Berres Brothers Coffee Roasters,Active,,,56566.0,,72,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,56566.0,berresbrotherscoffeeroasters
+www.belltowercoffee.com,Belltower Coffee,Active,,,19991.0,,90,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19991.0,belltowercoffee
+www.barrettscoffee.com,Barretts Coffee,Active,,,25833.0,,47,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25833.0,barrettscoffee
+www.barniescoffee.com,Barnies Coffee & Tea Co.,Active,,,88170.0,,89,51-200,,544.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,88170.0,barniescoffeeteaco
+www.barefootcoffee.com,Barefoot Coffee Roasters,Active,,,35781.0,,44,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35781.0,barefootcoffeeroasters
+www.bardcoffee.com,Bard Coffee,Active,,,37064.0,,30,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,37064.0,bardcoffee
+winanschocolate.com,Winans Coffee & Chocolate,Active,,,54477.0,,143,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,54477.0,winanscoffeechocolate
+uticacoffeeroasting.com,Utica Coffee Roasting Co.,Active,,,51118.0,,121,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,51118.0,uticacoffeeroastingco
+vestacoffee.com,VESTA Coffee Roasters,Active,,,45866.0,,65,11-50,,489.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,45866.0,vestacoffeeroasters
+wallhousecoffee.com,"Wall House Coffee Co., LLC",Active,,,16929.0,,23,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,16929.0,wallhousecoffeecollc
+vitaltealeaf.net,Vital Tea Leaf,Active,,,26448.0,,116,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26448.0,vitaltealeaf
+vintagecandyco.com,Vintage Candy Co.,Active,,,28238.0,,478,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28238.0,vintagecandyco
+vietfive.com,VietFive Coffee,Active,,,17037.0,,30,2-10,,1215.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17037.0,vietfivecoffee
+victorallen.com,Victor Allen's Coffee,Active,,,95152.0,,64,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,95152.0,victorallenscoffee
+wilsoncandy.com,Wilson Candy,Active,,,15706.0,,233,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15706.0,wilsoncandy
+varietycoffeeroasters.com,Variety Coffee,Active,,,87299.0,,29,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,87299.0,varietycoffee
+valor.coffee,Valor Coffee,Active,,,60194.0,,39,11-50,,1055.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,60194.0,valorcoffee
+valeriocoffee.com,Valerio Coffee,Active,,,18940.0,,78,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18940.0,valeriocoffee
+wanderingbearcoffee.com,Wandering Bear Coffee,Active,,,70775.0,,86,11-50,,4607.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,70775.0,wanderingbearcoffee
+wanderinggoat.com,Wandering Goat Coffee,Active,,,38508.0,,38,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38508.0,wanderinggoatcoffee
+warpath.coffee,WARPATH COFFEE,Active,,,28512.0,,30,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28512.0,warpathcoffee
+wilmarchocolates.com,Wilmar Chocolates,Active,,,20283.0,,181,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20283.0,wilmarchocolates
+williamdeanchocolates.com,William Dean Chocolates,Active,,,19275.0,,36,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19275.0,williamdeanchocolates
+wildcalf.com,Wild Calf Coffee,Active,,,38908.0,,27,unknown,,364.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,38908.0,wildcalfcoffee
+whiterhinocoffee.com,White Rhino Coffee,Active,,,56387.0,,52,11-50,,448.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,56387.0,whiterhinocoffee
+white2tea.com,white2tea,Active,,,23088.0,,1052,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23088.0,white2tea
+wernerjerky.com,Werner Gourmet Meat Snacks,Active,,,64192.0,,154,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,64192.0,wernergourmetmeatsnacks
+wellcoffeeroasters.com,The Well Coffee Roasters,Active,,,43700.0,,245,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,43700.0,thewellcoffeeroasters
+weirdbrothers.com,Weird Brothers Coffee,Active,,,50742.0,,106,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,50742.0,weirdbrotherscoffee
+weaverscoffee.com,Weaver's Coffee & Tea,Active,,,24413.0,,56,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24413.0,weaverscoffeetea
+weareupshotcoffee.com,Upshot Coffee,Active,,,28142.0,,36,micro_no_linkedin,,142.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,28142.0,upshotcoffee
+wearelittles.com,Little's Coffee,Active,,,16321.0,,58,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16321.0,littlescoffee
+watsonschocolates.com,Watson's Chocolates,Active,,,82883.0,,85,2-10,,52200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,82883.0,watsonschocolates
+waterstreetcoffee.com,Water Street Coffee,Active,,,26847.0,,88,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26847.0,waterstreetcoffee
+wateravenuecoffee.com,Water Avenue Coffee,Active,,,31830.0,,31,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31830.0,wateravenuecoffee
+scandycandy.store,ScandyCandy,Active,,,34391.0,,431,2-10,,39900.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,34391.0,scandycandy
+scandicandyshop.com,Scandi Candy,Active,,,16106.0,,472,micro_no_linkedin,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,16106.0,scandicandy
+savoytea.com,Savoy Tea Co.,Active,,,15873.0,,124,2-10,,54.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,15873.0,savoyteaco
+savannahcoffee.com,Savannah Coffee Roasters,Active,,,58147.0,,36,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,58147.0,savannahcoffeeroasters
+savannahcandy.com,Savannah’s Candy Kitchen,Active,,,155866.0,,122,51-200,,241500.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,155866.0,savannahscandykitchen
+salty-savory-sweet.com,THE SPICE & TEA SHOPPE,Active,,,22503.0,,636,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22503.0,thespiceteashoppe
+sagebrushcoffee.com,Sagebrush Coffee,Active,,,33668.0,,45,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,33668.0,sagebrushcoffee
+rubycoffeeroasters.com,Ruby Coffee Roasters,Active,,,41993.0,,120,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,41993.0,rubycoffeeroasters
+rowancoffee.com,RowanCoffee,Active,,,24980.0,,83,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24980.0,rowancoffee
+roostercoffeehouse.com,roostercoffeehouse.com,Active,,,25821.0,,52,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25821.0,roostercoffeehousecom
+rookcoffee.com,Rook Coffee,Active,,,59031.0,,171,51-200,,26600.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,59031.0,rookcoffee
+schoolyardsnacks.com,Schoolyard Snacks,Active,,,27629.0,,27,1,,,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,27629.0,schoolyardsnacks
+schuilcoffee.com,Schuil Coffee Co.,Active,,,34516.0,,264,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,34516.0,schuilcoffeeco
+sconza.com,Sconza Chocolate,Active,,,45407.0,,27,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,45407.0,sconzachocolate
+shop.calicoffee.com,Cali Coffee Merch,Active,,,20259.0,,25,11-50,,1582.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,20259.0,calicoffeemerch
+shop.bluestonelane.com,Bluestone Lane Coffee,Active,,,57921.0,,35,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,57921.0,bluestonelanecoffee
+shipmesnacks.com,Ship Me Snacks,Active,,,49733.0,,94,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,49733.0,shipmesnacks
+shelburnefallscoffee.com,Shelburne Falls Coffee Roasters,Active,,,41134.0,,57,11-50,,885.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,41134.0,shelburnefallscoffeeroasters
+www.bootlegger.coffee,Bootlegger Coffee Company,Active,,,27385.0,,169,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27385.0,bootleggercoffeecompany
+sfbaycoffee.com,SF Bay Coffee,Active,,,156738.0,,66,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,156738.0,sfbaycoffee
+sevenweekscoffee.com,Seven Weeks Coffee,Active,,,57694.0,,32,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,57694.0,sevenweekscoffee
+sevenseeds.com.au,Seven Seeds Coffee Roasters,Active,,,25171.0,,79,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25171.0,sevenseedscoffeeroasters
+sevencoffeeroasters.com,Seven Coffee Roasters,Active,,,42477.0,,32,1,,,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,42477.0,sevencoffeeroasters
+senbirdtea.com,Senbird Tea,Active,,,82101.0,,76,11-50,,583.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,82101.0,senbirdtea
+seedscoffee.com,Seeds Coffee Co,Active,,,28482.0,,29,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28482.0,seedscoffeeco
+secondstatecoffee.com,Second State Coffee,Active,,,28823.0,,41,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28823.0,secondstatecoffee
+scripturecandy.com,scripturecandy.com,Active,,,22813.0,,112,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22813.0,scripturecandycom
+roastingplant.com,Roasting Plant Coffee,Active,,,34647.0,,20,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34647.0,roastingplantcoffee
+tcho.com,TCHO Chocolate,Active,,,85348.0,,52,11-50,,1007.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,85348.0,tchochocolate
+raisedbylionscoffeeroasters.com,Raised By Lions Coffee,Active,,,15133.0,,22,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15133.0,raisedbylionscoffee
+reborncoffee.com,Reborn Coffee,Active,,,75119.0,,24,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,75119.0,reborncoffee
+rebeldogcoffeeco.com,Rebel Dog Coffee Co.,Active,,,65082.0,,41,2-10,,66.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,65082.0,rebeldogcoffeeco
+rebeccaruthonline.com,Rebecca Ruth® Chocolates,Active,,,48235.0,,23,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,48235.0,rebeccaruthchocolates
+rawmanticchocolate.com,Rawmantic Chocolate,Active,,,59138.0,,67,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,59138.0,rawmanticchocolate
+rawcoffeecompany.com,RAW Coffee Company,Active,,,18469.0,,145,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18469.0,rawcoffeecompany
+ravensbrewcoffee.com,Raven's Brew Coffee®,Active,,,19782.0,,84,11-50,,226.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,19782.0,ravensbrewcoffee
+ravecoffee.co.uk,RAVE Coffee,Active,,,42506.0,,196,11-50,,4442.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,42506.0,ravecoffee
+rareteacompany.com,Rare Tea Company,Active,,,92664.0,,312,11-50,,982.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,92664.0,rareteacompany
+rareteacellar.com,Rare Tea Cellar,Active,,,73466.0,,836,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,73466.0,rareteacellar
+rivalbros.com,Rival Bros Coffee,Active,,,51016.0,,174,11-50,,382.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,51016.0,rivalbroscoffee
+ragamuffinroasters.com,Ragamuffin Coffee Roasters,Active,,,15837.0,,50,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15837.0,ragamuffincoffeeroasters
+rad.coffee,Rad Coffee,Active,,,68412.0,,58,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,68412.0,radcoffee
+rabbitislandcoffee.co.nz,Rabbit Island Coffee Co.,Active,,,16392.0,,35,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16392.0,rabbitislandcoffeeco
+quillscoffee.com,Quills Coffee,Active,,,59550.0,,28,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,59550.0,quillscoffee
+queenmarytea.com,Queen Mary Tea,Active,,,66054.0,,1248,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,66054.0,queenmarytea
+queencitycollectivecoffee.com,Queen City Collective Coffee,Active,,,23213.0,,28,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23213.0,queencitycollectivecoffee
+queenbeecoffee.com,Queen Bee Coffee Cafe & Roastery,Active,,,20218.0,,61,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20218.0,queenbeecoffeecaferoastery
+puroast.com,Puroast Coffee,Active,,,115436.0,,31,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,115436.0,puroastcoffee
+rec-coffee.com,REC COFFEE,Active,,,32475.0,,102,micro_no_linkedin,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,32475.0,reccoffee
+redblossomtea.com,Red Blossom Tea Company,Active,,,104671.0,,160,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,104671.0,redblossomteacompany
+ritualchocolate.com,Ritual Chocolate,Active,,,23010.0,,48,11-50,,1025.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23010.0,ritualchocolate
+riseupcoffee.com,Rise Up Coffee Roasters,Active,,,126201.0,,99,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,126201.0,riseupcoffeeroasters
+rickeysjerky.com,Rickey's Jerky,Active,,,16762.0,,37,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16762.0,rickeysjerky
+rewyndsnacks.com,Rewynd Snacks,Active,,,32087.0,,30,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32087.0,rewyndsnacks
+revocup.com,Revocup Coffee Roasters,Active,,,28345.0,,45,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28345.0,revocupcoffeeroasters
+revcoffee.com,Rev Coffee,Active,,,47776.0,,33,11-50,,271.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,47776.0,revcoffee
+redrosetea.com,Red Rose Tea,Active,,,97062.0,,70,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,97062.0,redrosetea
+redhornbrew.com,Red Horn Coffee House and Brewing Co.,Active,,,38287.0,,21,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38287.0,redhorncoffeehouseandbrewingco
+redhawkcoffee.com,Redhawk Coffee Roasters,Active,,,17049.0,,22,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17049.0,redhawkcoffeeroasters
+redeyecoffee.com,RedEye Coffee,Active,,,15306.0,,82,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15306.0,redeyecoffee
+shop.coffeeculture.co.nz,Coffee Culture | Store,Active,,,34767.0,,129,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34767.0,coffeeculturestore
+shop-cottoncandyla.com,Cotton Candy LA,Active,,,16088.0,,883,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16088.0,cottoncandyla
+spirittea.co,Spirit Tea,Active,,,34331.0,,84,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34331.0,spirittea
+stellabluecoffee.com,Stella Blue Coffee,Active,,,24651.0,,41,1,,5047.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,24651.0,stellabluecoffee
+stagestopcandy.com,Stage Stop Candy,Active,,,52777.0,,941,2-10,,95.0,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,52777.0,stagestopcandy
+spyhousecoffee.com,spyhousecoffee.com,Active,,,92192.0,,47,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,92192.0,spyhousecoffeecom
+sportcoffee.com,Throne SPORT COFFEE,Active,,,18934.0,,26,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,18934.0,thronesportcoffee
+spinnakerchocolate.com,Spinnaker Chocolate,Active,,,53904.0,,44,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,53904.0,spinnakerchocolate
+sparrowcoffee.com,Sparrow Coffee,Active,,,46308.0,,22,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46308.0,sparrowcoffee
+southerncandymakers.com,southerncandymakers.com,Active,,,20802.0,,149,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20802.0,southerncandymakerscom
+southernbreezesweettea.com,Southern Breeze Sweet Tea,Active,,,43115.0,,66,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,43115.0,southernbreezesweettea
+south40snacks.com,South 40 Snacks,Active,,,22169.0,,32,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22169.0,south40snacks
+songtea.com,Song Tea & Ceramics,Active,,,29778.0,,212,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29778.0,songteaceramics
+solowaycoffee.com,Soloway Coffee,Active,,,15085.0,,112,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15085.0,solowaycoffee
+solarroast.com,Solar Roast Coffee,Active,,,51875.0,,76,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,51875.0,solarroastcoffee
+tastysnack.id,Tasty Snack Indonesia,Active,,,21930.0,,4855,2-10,,2658.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,21930.0,tastysnackindonesia
+tasteoftea.com,Taste Of Tea,Active,,,22390.0,,2074,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22390.0,tasteoftea
+syra.coffee,Syra Coffee,Active,,,61829.0,,135,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,61829.0,syracoffee
+swissbeauty.in,Swiss Beauty,Active,,,192555.0,,394,201-500,,,,18,13,11.0,1.0283706339049576,20.0,13.928571428571429,7,53.0,192555.0,swissbeauty
+sweetvintagetees.com,Sweet Memories Vintage Tees & Candy,Active,,,49638.0,,4049,2-10,,1021.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,49638.0,sweetmemoriesvintageteescandy
+sweetkaramcoffee.in,Sweet Karam Coffee,Active,,,78885.0,,124,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,78885.0,sweetkaramcoffee
+sweetbloomcoffee.com,Sweet Bloom Coffee,Active,,,94639.0,,78,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,94639.0,sweetbloomcoffee
+swedishcandystore.com,Swedish Candy Store,Active,,,46236.0,,434,1,,2874.0,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,46236.0,swedishcandystore
+swedishcandy.com,SwedishCandy.com,Active,,,33746.0,,66,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,33746.0,swedishcandycom
+sulalat.com,Sulalat Coffee  سلالات القهوة,Active,,,22342.0,,598,11-50,,820.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,22342.0,sulalatcoffee
+sugarlifecandy.com,Sugar Life Candy,Active,,,38156.0,,648,11-50,,716.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,38156.0,sugarlifecandy
+sugarbearcandystore.com,Sugar Bear Candy,Active,,,79690.0,,806,2-10,,10900.0,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,79690.0,sugarbearcandy
+storyville.com,Storyville Coffee,Active,,,69999.0,,60,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,69999.0,storyvillecoffee
+store.driftaway.coffee,Driftaway Coffee,Active,,,24866.0,,52,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24866.0,driftawaycoffee
+stonestreetcoffee.com,Stone Street Coffee,Active,,,117405.0,,339,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,117405.0,stonestreetcoffee
+socoffee.co,Snowy Owl Coffee Roasters,Active,,,28888.0,,50,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28888.0,snowyowlcoffeeroasters
+sockcandy.com,Sock Candy,Active,,,125139.0,,145,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,125139.0,sockcandy
+simplygoodcoffee.com,Simply Good Coffee,Active,,,138328.0,,26,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,138328.0,simplygoodcoffee
+shop.wecoffee.com.br,shop.wecoffee.com.br,Active,,,27450.0,,25,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27450.0,shopwecoffeecombr
+shop.twistedtea.com,Twisted Tea,Active,,,47065.0,,76,unknown,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,47065.0,twistedtea
+shop.theneonteaparty.com,The Neon Tea Party,Active,,,18642.0,,364,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18642.0,theneonteaparty
+shopsweetiescandyaz.com,Sweeties Candy of Arizona,Active,,,17890.0,,1818,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17890.0,sweetiescandyofarizona
+shop.justlovecoffee.com,Just Love Coffee Roasters,Active,,,22020.0,,56,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22020.0,justlovecoffeeroasters
+shop.insomnia.ie,Insomnia Coffee Company,Active,,,31395.0,,35,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31395.0,insomniacoffeecompany
+shop.galatea.com,Galatea Books,Active,,,43849.0,,78,51-200,,197800.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,43849.0,galateabooks
+shop.foxtailcoffee.com,Foxtail Coffee Co,Active,,,53194.0,,100,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,53194.0,foxtailcoffeeco
+shop.forfivecoffee.com,For Five Coffee Roasters,Active,,,21053.0,,30,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21053.0,forfivecoffeeroasters
+shop.dunnbrothers.com,Dunn Brothers Coffee,Active,,,29551.0,,96,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29551.0,dunnbrotherscoffee
+societytea.com,Choose Society Tea,Active,,,15778.0,,159,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15778.0,choosesocietytea
+sippingstreams.com,Sipping Streams Tea Company,Active,,,26197.0,,568,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26197.0,sippingstreamsteacompany
+snookscandies.com,Snooks Candies & Chocolate Factory,Active,,,18636.0,,113,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18636.0,snookscandieschocolatefactory
+snackstar.in,Star Snack,Active,,,25523.0,,392,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25523.0,starsnack
+snackje.com,Snackje,Active,,,51470.0,,112,1,,15700.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,51470.0,snackje
+snackible.com,Snackible,Active,,,24186.0,,77,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24186.0,snackible
+snackfully.co.uk,Snackfully,Active,,,17837.0,,782,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17837.0,snackfully
+snackever.com,Snackever,Active,,,17031.0,,274,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17031.0,snackever
+snackboxusa.com,SnackBOX,Active,,,27271.0,,157,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27271.0,snackbox
+snackathonfoods.com,Snackathon Foods,Active,,,20468.0,,2030,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20468.0,snackathonfoods
+smartiesstore.com,Smarties Candy Company,Active,,,58887.0,,24,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,58887.0,smartiescandycompany
+sleepyowl.co,Sleepy Owl Coffee,Active,,,104450.0,,74,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,104450.0,sleepyowlcoffee
+skullcandy.co.nz,Skullcandy NZ,Active,,,21238.0,,29,201-500,,363200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,21238.0,skullcandynz
+sisterscoffee.com,Sisters Coffee Company,Active,,,80448.0,,59,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,80448.0,sisterscoffeecompany
+www.booskerdoo.com,Booskerdoo Coffee Co.,Active,,,28662.0,,20,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28662.0,booskerdoocoffeeco
+www.empirecoffeetea.com,Empire Coffee & Tea Co. Inc.,Active,,,17025.0,,390,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17025.0,empirecoffeeteacoinc
+www.boscoffee.com,Bo's Coffee,Active,,,28542.0,,24,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28542.0,boscoffee
+www.muellerschocolate.com,Mueller Chocolate Co,Active,,,40107.0,,347,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40107.0,muellerchocolateco
+www.noblecoffeeandtea.com,Noble Coffee and Tea,Active,,,19030.0,,41,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19030.0,noblecoffeeandtea
+www.nandyscandy.com,Nandy's Candy,Active,,,16416.0,,312,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16416.0,nandyscandy
+www.nanasgreentea.com,nana's green tea,Active,,,98870.0,,219,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,98870.0,nanasgreentea
+www.mysticmonkcoffee.com,Mystic Monk Coffee,Active,,,137522.0,,153,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,137522.0,mysticmonkcoffee
+www.mushroomjerky.com,Pan's Mushroom Jerky,Active,,,49632.0,,23,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,49632.0,pansmushroomjerky
+www.montezumas.co.uk,Montezuma's Chocolate,Active,,,19848.0,,101,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19848.0,montezumaschocolate
+www.mayanachocolate.com,Mayana Chocolate,Active,,,15927.0,,29,2-10,,105.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,15927.0,mayanachocolate
+www.mokshachocolate.com,Moksha Chocolate,Active,,,22080.0,,39,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22080.0,mokshachocolate
+www.modcup.com,modcup coffee,Active,,,21739.0,,29,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,21739.0,modcupcoffee
+www.minguabeefjerky.com,Mingua Beef Jerky,Active,,,26525.0,,27,2-10,,468.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,26525.0,minguabeefjerky
+www.millcreekcoffee.com,Millcreek Coffee,Active,,,15437.0,,32,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15437.0,millcreekcoffee
+www.northerncoffeeworks.com,northerncoffeeworks,Active,,,31634.0,,32,2-10,,70.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,31634.0,northerncoffeeworks
+www.nossacoffee.com,Nossa Familia Coffee,Active,,,35626.0,,250,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35626.0,nossafamiliacoffee
+www.oceancitycoffee.com,Ocean City Coffee Company,Active,,,57354.0,,211,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,57354.0,oceancitycoffeecompany
+www.petracoffee.com,www.petracoffee.com,Active,,,23583.0,,101,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23583.0,wwwpetracoffeecom
+www.perkatoryroasters.com,Perkatory Coffee Roasters,Active,,,67212.0,,59,2-10,,,Print on Demand:Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,67212.0,perkatorycoffeeroasters
+www.peachcoffeeroasters.com,Peach Coffee Roasters,Active,,,18135.0,,67,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18135.0,peachcoffeeroasters
+www.peacecoffee.com,Peace Coffee,Active,,,34462.0,,50,51-200,,3389.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,34462.0,peacecoffee
+www.patagoniachocolates.co.nz,Patagonia Chocolates,Active,,,15336.0,,139,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15336.0,patagoniachocolates
+www.passportcoffeeshop.com,Passport Coffee & Tea - Shop,Active,,,21877.0,,486,micro_no_linkedin,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,21877.0,passportcoffeeteashop
+www.partnerscoffee.com,Partners Coffee,Active,,,112130.0,,35,51-200,,4349.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,112130.0,partnerscoffee
+www.paperplanecoffee.com,Paper Plane Coffee Co.,Active,,,34098.0,,42,2-10,,1096.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,34098.0,paperplanecoffeeco
+www.papanicholas.com,PapaNicholas Coffee®,Active,,,20552.0,,72,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20552.0,papanicholascoffee
+www.pangeacoffee.us,Pangea Coffee Co.,Active,,,48975.0,,57,micro_no_linkedin,,1659.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,48975.0,pangeacoffeeco
+www.pandatea.fr,Panda Tea,Active,,,81117.0,,243,11-50,,200900.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,81117.0,pandatea
+www.origincoffee.co.uk,Origin Coffee,Active,,,40782.0,,224,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40782.0,origincoffee
+www.oneillcoffee.com,O'Neill Coffee Company,Active,,,22055.0,,111,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22055.0,oneillcoffeecompany
+www.olympiacoffee.com,Olympia Coffee Roasting Company,Active,,,84906.0,,93,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,84906.0,olympiacoffeeroastingcompany
+www.mayatea.com,Maya Tea Retail,Active,,,23327.0,,94,2-10,,3.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23327.0,mayatearetail
+www.maxjerky.com,maxjerky,Active,,,28011.0,,22,1,,93300.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,28011.0,maxjerky
+www.kumacoffee.com,Kuma Coffee,Active,,,16828.0,,42,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16828.0,kumacoffee
+www.krauseschocolates.com,www.krauseschocolates.com,Active,,,27635.0,,1244,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27635.0,wwwkrauseschocolatescom
+www.konamountaincoffee.com,Kona Mountain Coffee,Active,,,29873.0,,112,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29873.0,konamountaincoffee
+www.konajoe.com,Kona Joe Coffee,Active,,,40430.0,,91,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40430.0,konajoecoffee
+www.konacoffeeandtea.com,Kona Coffee & Tea,Active,,,49852.0,,33,2-10,,120.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,49852.0,konacoffeetea
+www.kokoblack.com,Koko Black Chocolate,Active,,,45061.0,,342,51-200,,842.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,45061.0,kokoblackchocolate
+www.kittytowncoffee.com,Kitty Town Coffee,Active,,,36193.0,,156,unknown,,1120.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,36193.0,kittytowncoffee
+www.kingscoastcoffee.com,Kings Coast Coffee Company,Active,,,23022.0,,34,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,23022.0,kingscoastcoffeecompany
+www.kimbocoffee.com,Kimbo Coffee USA,Active,,,79458.0,,56,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,79458.0,kimbocoffeeusa
+www.kiddcoffee.com,The Kidd Coffee Co.,Active,,,19472.0,,64,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19472.0,thekiddcoffeeco
+www.jporganiccoffee.com,www.jporganiccoffee.com,Active,,,38657.0,,39,2-10,,226.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,38657.0,wwwjporganiccoffeecom
+www.jonescoffeeroasters.com,Jones Coffee Roasters,Active,,,58243.0,,46,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,58243.0,jonescoffeeroasters
+www.jimsorganiccoffee.com,Jim's Organic Coffee,Active,,,42578.0,,35,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,42578.0,jimsorganiccoffee
+www.laddercoffee.com,Ladder Coffee & Toast,Active,,,17795.0,,47,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,17795.0,laddercoffeetoast
+www.lalschocolates.com,www.lalschocolates.com,Active,,,25433.0,,346,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25433.0,wwwlalschocolatescom
+www.lamillcoffee.com,LAMILL COFFEE,Active,,,57652.0,,74,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,57652.0,lamillcoffee
+www.matchajp.net,MatchaJP,Active,,,52860.0,,342,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,52860.0,matchajp
+www.matchaful.com,Matchaful,Active,,,97002.0,,37,11-50,,1924.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,97002.0,matchaful
+www.matchaeologist.com,Matchaeologist USA,Active,,,43951.0,,36,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,43951.0,matchaeologistusa
+www.madtea.com,Mad Tea,Active,,,23154.0,,25,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23154.0,madtea
+www.madgoatcoffee.com,Mad Goat Coffee,Active,,,33651.0,,136,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,33651.0,madgoatcoffee
+www.madcapcoffee.com,Madcap Coffee Company,Active,,,96925.0,,114,11-50,,1150.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,96925.0,madcapcoffeecompany
+www.lvjco.com,Louisville Jerky Co.,Active,,,41534.0,,48,11-50,,478.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,41534.0,louisvillejerkyco
+www.loadedteaflavors.com,Loaded Tea Flavors,Active,,,15617.0,,499,micro_no_linkedin,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,15617.0,loadedteaflavors
+www.linsmarkethawaii.com,Lin's Hawaiian Snacks,Active,,,55164.0,,364,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,55164.0,linshawaiiansnacks
+www.lineageroasting.com,Lineage Coffee Roasting,Active,,,41862.0,,22,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,41862.0,lineagecoffeeroasting
+www.limacoffeeroasters.com,Lima Coffee Roasters,Active,,,31478.0,,36,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31478.0,limacoffeeroasters
+www.li-lacchocolates.com,Li-Lac Chocolates,Active,,,130391.0,,474,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,130391.0,lilacchocolates
+www.leesmarketjerky.com,Lee's Market Jerky,Active,,,18188.0,,134,unknown,,3387.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,18188.0,leesmarketjerky
+www.lancastercountycoffee.com,Lancaster County Coffee,Active,,,54042.0,,94,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,54042.0,lancastercountycoffee
+www.phillipschocolate.com,Phillips Chocolates,Active,,,46851.0,,317,2-10,,70.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,46851.0,phillipschocolates
+www.boyercandies.com,Boyer Candy Company,Active,,,91357.0,,50,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,91357.0,boyercandycompany
+www.sublimecoffeeroasters.co.nz,Sublime Coffee Roasters,Active,,,19889.0,,57,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19889.0,sublimecoffeeroasters
+www.subko.coffee,www.subko.coffee,Active,,,23112.0,,66,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23112.0,wwwsubkocoffee
+www.stonecreekcoffee.com,Stone Creek Coffee,Active,,,150812.0,,217,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,150812.0,stonecreekcoffee
+www.steampunkcoffee.co.uk,Steampunk Coffee Roasters,Active,,,22664.0,,50,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22664.0,steampunkcoffeeroasters
+www.speederandearls.com,Speeder & Earl's Coffee,Active,,,24526.0,,49,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24526.0,speederearlscoffee
+www.snarkytea.com,Snarky Tea,Active,,,88117.0,,152,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,88117.0,snarkytea
+www.snacksonline.co.uk,Snacks Online,Active,,,17072.0,,1001,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17072.0,snacksonline
+www.smockcandy.com,Smock Candy,Active,,,38049.0,,6291,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38049.0,smockcandy
+www.sleepymonkcoffee.com,Sleepy Monk Coffee,Active,,,57127.0,,38,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,57127.0,sleepymonkcoffee
+www.simpalosnacks.com,Simpalo Snacks,Active,,,123635.0,,1047,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,123635.0,simpalosnacks
+www.sumpcoffee.com,SUMP COFFEE,Active,,,42142.0,,42,2-10,,205.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,42142.0,sumpcoffee
+www.teadealers.com,Tea Dealers,Active,,,21465.0,,460,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21465.0,teadealers
+www.tazachocolate.com,Taza Chocolate,Active,,,72810.0,,68,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,72810.0,tazachocolate
+www.tandemcoffee.com,Tandem Coffee Roasters,Active,,,158325.0,,286,2-10,,,,18,14,11.0,0.0085994826657476,20.0,15.0,7,53.0,158325.0,tandemcoffeeroasters
+www.taftcoffee.com,TAFT Coffee Co.,Active,,,75585.0,,52,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,75585.0,taftcoffeeco
+www.t2tea.com,T2 Tea,Active,,,181378.0,,533,201-500,,7063.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,181378.0,t2tea
+www.swingscoffee.com,Swing's Coffee Roasters,Active,,,38407.0,,29,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38407.0,swingscoffeeroasters
+www.sweetleafcoffee.com,Sweetleaf Coffee Roasters,Active,,,24896.0,,36,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24896.0,sweetleafcoffeeroasters
+www.sweetishcandy.com,Sweetish Candy- A Swedish Candy Store,Active,,,121081.0,,673,11-50,,21000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,121081.0,sweetishcandyaswedishcandystore
+www.sweetiescandycottage.com,Sweeties Candy Cottage,Active,,,25928.0,,158,2-10,,604.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,25928.0,sweetiescandycottage
+www.swedishcandyland.com,Swedish Candy Land,Active,,,36980.0,,598,micro_no_linkedin,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,36980.0,swedishcandyland
+www.sunergoscoffee.com,Sunergos Coffee,Active,,,46970.0,,43,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46970.0,sunergoscoffee
+www.silkygem.com,Silky Gem Crystal Candy,Active,,,241501.0,,60,micro_no_linkedin,,997300.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,241501.0,silkygemcrystalcandy
+www.shadrachscoffee.com,Shadrachs Coffee Roasting Company,Active,,,79577.0,,37,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,79577.0,shadrachscoffeeroastingcompany
+www.pipsnacks.com,Pip's Heirloom Snacks,Active,,,30923.0,,35,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,30923.0,pipsheirloomsnacks
+www.revolutiontea.com,Revolution Tea,Active,,,24467.0,,227,11-50,,21.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,24467.0,revolutiontea
+www.redroostercoffee.com,Red Rooster Coffee,Active,,,50885.0,,178,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,50885.0,redroostercoffee
+www.redber.co.uk,Redber Coffee,Active,,,17574.0,,3836,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17574.0,redbercoffee
+www.redbaycoffee.com,Red Bay Coffee,Active,,,59878.0,,25,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,59878.0,redbaycoffee
+www.reanimatorcoffee.com,ReAnimator Coffee,Active,,,58529.0,,38,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,58529.0,reanimatorcoffee
+www.readingcoffee.com,Reading Coffee Company,Active,,,23410.0,,226,2-10,,1113.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23410.0,readingcoffeecompany
+www.rapsnacks.net,OFFICIAL RAP SNACKS,Active,,,205570.0,,98,11-50,,34300.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,205570.0,officialrapsnacks
+www.raakachocolate.com,Raaka Chocolate,Active,,,82394.0,,88,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,82394.0,raakachocolate
+www.sevenmiles.com.au,Seven Miles Coffee Roasters,Active,,,41349.0,,58,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,41349.0,sevenmilescoffeeroasters
+www.puresugarcandy.com,Pure Sugar Candy,Active,,,21178.0,,222,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21178.0,puresugarcandy
+www.punkbunnycoffee.com,Punk Bunny Coffee,Active,,,26281.0,,47,2-10,,1391.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,26281.0,punkbunnycoffee
+www.proudhoundcoffee.com,Proud Hound Coffee,Active,,,20116.0,,80,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20116.0,proudhoundcoffee
+www.poptimesnacks.com,Poptime Snacks,Active,,,25582.0,,25,11-50,,675.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,25582.0,poptimesnacks
+www.planetbeauty.com,Planet Beauty,Active,,,194602.0,,4887,51-200,,,,18,13,11.0,1.083466392082716,20.0,13.928571428571429,7,53.0,194602.0,planetbeauty
+www.righteousfelon.com,Righteous Felon Craft Jerky,Active,,,171889.0,,114,11-50,,10300.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,171889.0,righteousfeloncraftjerky
+www.secretcandyshop.com,Secret Candy Shop,Active,,,32785.0,,531,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32785.0,secretcandyshop
+www.santacruzcoffee.com,Santa Cruz Coffee Roasting Co.,Active,,,27778.0,,42,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27778.0,santacruzcoffeeroastingco
+www.sanfranciscocoffeeroastingco.com,San Francisco Coffee Roasting Co,Active,,,17037.0,,40,2-10,,85.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17037.0,sanfranciscocoffeeroastingco
+www.saltcitycoffee.com,Salt City Coffee,Active,,,23858.0,,23,1,,1037.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23858.0,saltcitycoffee
+www.saintfrankcoffee.com,Saint Frank Coffee,Active,,,97253.0,,51,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,97253.0,saintfrankcoffee
+www.rustydogcoffee.com,Rusty Dog Coffee,Active,,,17425.0,,235,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17425.0,rustydogcoffee
+www.rossocoffeeroasters.com,Rosso Coffee,Active,,,21793.0,,127,11-50,,738.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,21793.0,rossocoffee
+www.rosalindcandy.com,Rosalind Candy Castle,Active,,,38890.0,,289,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38890.0,rosalindcandycastle
+www.ronnoco.com,Ronnoco Coffee,Active,,,16392.0,,105,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16392.0,ronnococoffee
+www.rockysmatcha.com,rocky's matcha,Active,,,186188.0,,55,2-10,,22200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,186188.0,rockysmatcha
+www.japanesegreenteashops.com,Japanese Green Tea Shops,Active,,,15282.0,,526,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15282.0,japanesegreenteashops
+www.coffeemachinedepot.com,Coffee Machine Depot,Active,,,157889.0,,795,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,157889.0,coffeemachinedepot
+www.coffeelabs.com,Coffee Labs Roasters,Active,,,40740.0,,33,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40740.0,coffeelabsroasters
+www.coffee-direct.co.uk,Coffee-Direct.co.uk,Active,,,31234.0,,580,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31234.0,coffeedirectcouk
+www.coffeecircle.com,Coffee Circle,Active,,,133374.0,,167,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,133374.0,coffeecircle
+www.coffeeb.de,www.coffeeb.de,Active,,,24878.0,,36,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24878.0,wwwcoffeebde
+www.coffeeb.ch,www.coffeeb.ch,Active,,,30273.0,,40,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,30273.0,wwwcoffeebch
+www.coffeeam.com,CoffeeAM,Active,,,80591.0,,983,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,80591.0,coffeeam
+www.cloudcitycoffee.com,Cloud City Coffee Roasting,Active,,,23547.0,,30,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23547.0,cloudcitycoffeeroasting
+www.chromaticcoffee.com,Chromatic Coffee,Active,,,20307.0,,23,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20307.0,chromaticcoffee
+www.chocolatemoonshine.com,Chocolate Moonshine Co.,Active,,,32171.0,,75,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32171.0,chocolatemoonshineco
+www.chocolatemaven.com,www.chocolatemaven.com,Active,,,34599.0,,109,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34599.0,wwwchocolatemavencom
+www.chocolateman.com,Chocolate Man,Active,,,17651.0,,153,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17651.0,chocolateman
+www.domacoffee.com,DOMA Coffee Roasting Company,Active,,,37112.0,,82,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,37112.0,domacoffeeroastingcompany
+www.dogwoodcoffee.com,Dogwood Coffee,Active,,,60898.0,,36,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,60898.0,dogwoodcoffee
+www.divinechocolateusa.com,Divine Chocolate,Active,,,36527.0,,60,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36527.0,divinechocolate
+www.dilworthcoffee.com,Dilworth Coffee,Active,,,16177.0,,196,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,16177.0,dilworthcoffee
+www.dillanos.com,Dillanos Coffee Roasters,Active,,,32535.0,,237,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32535.0,dillanoscoffeeroasters
+www.denimcoffeecompany.com,Denim Coffee,Active,,,40316.0,,173,11-50,,,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,40316.0,denimcoffee
+www.decadentdecaf.com,Decadent Decaf Coffee Company,Active,,,62462.0,,25,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,62462.0,decadentdecafcoffeecompany
+www.davescoffee.com,www.davescoffee.com,Active,,,70238.0,,50,2-10,,5022.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,70238.0,wwwdavescoffeecom
+www.dancinggoats.com,Dancing Goats® Coffee,Active,,,103489.0,,64,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,103489.0,dancinggoatscoffee
+www.cupofpipers.com,Pipers Tea and Coffee,Active,,,29831.0,,81,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29831.0,pipersteaandcoffee
+www.corvuscoffee.com,Corvus Coffee,Active,,,79255.0,,100,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,79255.0,corvuscoffee
+www.coppermooncoffee.com,Copper Moon Coffee,Active,,,46057.0,,89,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46057.0,coppermooncoffee
+www.chocolatefactory.com.au,The Margaret River Chocolate Company,Active,,,15843.0,,171,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15843.0,themargaretriverchocolatecompany
+www.japanesegreenteain.com,Japanese Green Tea Co.,Active,,,46314.0,,45,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46314.0,japanesegreenteaco
+www.cakepops.com,Candy's Cake Pops,Active,,,46081.0,,138,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46081.0,candyscakepops
+www.caffevita.com,Caffe Vita Coffee Roasting Co.,Active,,,113968.0,,51,51-200,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,113968.0,caffevitacoffeeroastingco
+www.caffeibis.com,Caffe Ibis Coffee Roasters,Active,,,22682.0,,150,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22682.0,caffeibiscoffeeroasters
+www.cacaoandcardamom.com,Gourmet Artisan Chocolates,Active,,,145710.0,,241,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,145710.0,gourmetartisanchocolates
+www.cabotscandy.com,Cabot's Candy,Active,,,28990.0,,176,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28990.0,cabotscandy
+www.buunnicoffee.com,Buunni Coffee,Active,,,23923.0,,44,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23923.0,buunnicoffee
+www.bulkecandy.com,BulkECandy – BulkECandy.com,Active,,,29664.0,,1671,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29664.0,bulkecandybulkecandycom
+www.bulkbeefjerky.com,Bulk Jerky,Active,,,28554.0,,24,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28554.0,bulkjerky
+www.brucescandy.com,Bruce's Candy Kitchen,Active,,,28035.0,,836,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28035.0,brucescandykitchen
+www.chocolatedelicacy.com,The Chocolate Delicacy,Active,,,15503.0,,184,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15503.0,thechocolatedelicacy
+www.bridgewaterchocolate.com,Bridgewater Chocolate,Active,,,74164.0,,47,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,74164.0,bridgewaterchocolate
+www.breastfeedingteaco.com,The Breastfeeding Tea Co.,Active,,,15491.0,,23,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15491.0,thebreastfeedingteaco
+www.brandywinecoffeeroasters.com,Brandywine Coffee Roasters,Active,,,16702.0,,74,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16702.0,brandywinecoffeeroasters
+www.boyerscoffee.com,Boyer's Coffee,Active,,,19275.0,,93,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19275.0,boyerscoffee
+www.cameronscoffee.com,Cameron's Coffee,Active,,,88838.0,,100,51-200,,2878.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,88838.0,cameronscoffee
+www.candycarrollton.com,Blooms Candy & Soda Pop Shop,Active,,,136782.0,,855,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,136782.0,bloomscandysodapopshop
+www.candydirect.com,CandyDirect.com,Active,,,51702.0,,5723,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,51702.0,candydirectcom
+www.candydistrict.com,Candy District,Active,,,15533.0,,2745,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15533.0,candydistrict
+www.chocolatecoveredcompany.com,Chocolate Covered Company®,Active,,,16840.0,,428,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16840.0,chocolatecoveredcompany
+www.chocolatechocolate.com,Chocolate Chocolate Chocolate Company,Active,,,107010.0,,36,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,107010.0,chocolatechocolatechocolatecompany
+www.chocolateandmoredelights.com,Chocolate & More Delights,Active,,,68471.0,,831,micro_no_linkedin,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,68471.0,chocolatemoredelights
+www.chocolatachocolate.com,Chocolatá Chocolate,Active,,,17413.0,,60,unknown,,23.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17413.0,chocolatchocolate
+www.chococraft.in,Chocolate Gifts Online,Active,,,26549.0,,532,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26549.0,chocolategiftsonline
+www.charleschocolates.com,Charles Chocolates,Active,,,154231.0,,62,2-10,,1166.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,154231.0,charleschocolates
+www.chamberlainschocolate.com,Chamberlains Chocolate Factory & Cafe,Active,,,16177.0,,188,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16177.0,chamberlainschocolatefactorycafe
+www.chadotea.com,Chado Tea,Active,,,49089.0,,186,2-10,,236.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,49089.0,chadotea
+www.cerinicoffee.com,Cerini Coffee & Gifts,Active,,,52753.0,,15143,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,52753.0,cerinicoffeegifts
+www.catholiccoffee.com,Catholic Coffee,Active,,,46242.0,,215,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46242.0,catholiccoffee
+www.casestudycoffee.com,CASE STUDY COFFEE ROASTERS,Active,,,21304.0,,22,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21304.0,casestudycoffeeroasters
+www.casecoffeeroasters.com,Case Coffee Roasters,Active,,,18188.0,,239,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18188.0,casecoffeeroasters
+www.carabellocoffee.com,Carabello Coffee,Active,,,33895.0,,114,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,33895.0,carabellocoffee
+www.candymanfashion.com,CandyMan Fashion,Active,,,65511.0,,1696,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,65511.0,candymanfashion
+www.candylabtoys.com,Candylab,Active,,,32564.0,,230,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32564.0,candylab
+www.doubleshotcoffee.com,DoubleShot Coffee Company,Active,,,32911.0,,110,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32911.0,doubleshotcoffeecompany
+www.haymancoffee.com,Hayman Coffee®,Active,,,24962.0,,23,2-10,,60.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,24962.0,haymancoffee
+www.hillcountrychocolate.com,Hill Country Chocolate,Active,,,46630.0,,84,2-10,,2110.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,46630.0,hillcountrychocolate
+www.highwirecoffee.com,Highwire Coffee Roasters,Active,,,39982.0,,70,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,39982.0,highwirecoffeeroasters
+www.herculescandy.com,Hercules Candy and Chocolate Shop,Active,,,220543.0,,329,2-10,,1100000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,220543.0,herculescandyandchocolateshop
+www.heavenlytealeaves.com,Heavenly Tea Leaves,Active,,,72422.0,,147,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,72422.0,heavenlytealeaves
+www.heartroasters.com,Heart Coffee Roasters,Active,,,51583.0,,35,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,51583.0,heartcoffeeroasters
+www.headcountcoffee.com,Headcount Coffee,Active,,,49799.0,,43,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,49799.0,headcountcoffee
+www.hardycoffee.com,Hardy Coffee Co.,Active,,,32010.0,,48,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32010.0,hardycoffeeco
+www.hansacoffee.com,Hansa Coffee Roasters,Active,,,24335.0,,38,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24335.0,hansacoffeeroasters
+www.hackberrytea.com,Hackberry Tea,Active,,,30016.0,,107,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,30016.0,hackberrytea
+www.groundworkcoffee.com,Groundwork Coffee Co.,Active,,,87275.0,,84,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,87275.0,groundworkcoffeeco
+www.greenworldcoffeefarm.com,Green World Coffee Farm,Active,,,84858.0,,79,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,84858.0,greenworldcoffeefarm
+www.hilliardscandy.com,Hilliards Chocolates,Active,,,75328.0,,500,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,75328.0,hilliardschocolates
+www.homecoffeesolutions.com,Home Coffee Solutions,Active,,,18207.0,,3119,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18207.0,homecoffeesolutions
+www.jaho.com,Jaho Coffee Roaster,Active,,,63130.0,,38,1,,118.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,63130.0,jahocoffeeroaster
+www.jadeleafmatcha.com,Jade Leaf Matcha US,Active,,,162812.0,,29,1,,8551.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,162812.0,jadeleafmatchaus
+www.ithacacoffee.com,Ithaca Coffee Company,Active,,,16506.0,,105,11-50,,4.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,16506.0,ithacacoffeecompany
+www.istheteainyou.com,Jolie Tea Company,Active,,,26919.0,,451,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26919.0,jolieteacompany
+www.indigo-tea.com,Indigo Tea Co.,Active,,,15969.0,,381,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15969.0,indigoteaco
+www.indiansnackhouse.com,Indian Snack House,Active,,,16434.0,,30,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16434.0,indiansnackhouse
+www.impulsecoffees.com,Impulse Coffees,Active,,,24645.0,,57,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24645.0,impulsecoffees
+www.idahospud.com,Idaho Candy Company,Active,,,28930.0,,51,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28930.0,idahocandycompany
+www.icandyworld.com,iCandy World,Active,,,114929.0,,1158,51-200,,12900.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,114929.0,icandyworld
+www.hugotea.com,Hugo Tea Company,Active,,,45902.0,,93,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,45902.0,hugoteacompany
+www.hrhiggins.co.uk,H.R.Higgins (Coffee-man) Ltd.,Active,,,18755.0,,169,11-50,,57.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,18755.0,hrhigginscoffeemanltd
+www.hotchocolatedesign.com,Hot Chocolate Design,Active,,,70321.0,,177,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,70321.0,hotchocolatedesign
+www.honolulucoffee.com,Honolulu Coffee,Active,,,71998.0,,57,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,71998.0,honolulucoffee
+www.grandcoffeesf.com,Grand Coffee,Active,,,20605.0,,23,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20605.0,grandcoffee
+www.gourmesso.com,Gourmesso Coffee,Active,,,16040.0,,85,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16040.0,gourmessocoffee
+www.firebellytea.com,Firebelly Tea,Active,,,53212.0,,49,1,,8063.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,53212.0,firebellytea
+www.fashiontofigure.com,www.fashiontofigure.com,Active,,,242503.0,,173,51-200,,,,16,14,11.0,2.2300397544064356,17.77777777777778,15.0,7,53.0,242503.0,wwwfashiontofigurecom
+www.farmersunioncoffee.com,Farmers Union Coffee Roasters,Active,,,16708.0,,27,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16708.0,farmersunioncoffeeroasters
+www.faracoffee.com,Fara Coffee,Active,,,17956.0,,32,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17956.0,faracoffee
+www.eyecandyla.com,Eye Candy Los Angeles,Active,,,95916.0,,3061,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,95916.0,eyecandylosangeles
+www.exquisitochocolates.com,Exquisito Chocolates,Active,,,23165.0,,69,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23165.0,exquisitochocolates
+www.everydaypeoplecoffeeandtea.com,Everyday People Coffee & Tea,Active,,,63644.0,,230,1,,120.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,63644.0,everydaypeoplecoffeetea
+www.eliteabar.com,ELITEA | Loose Leaf | Chai | Bubble Tea | Kombucha,Active,,,23702.0,,92,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23702.0,elitealooseleafchaibubbleteakombucha
+www.elegycoffee.com,Elegy Coffee,Active,,,38323.0,,119,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38323.0,elegycoffee
+www.eightoclock.com,Eight O'Clock Coffee,Active,,,132360.0,,32,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,132360.0,eightoclockcoffee
+www.dutchcolony.sg,Dutch Colony Coffee Co.,Active,,,26651.0,,118,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26651.0,dutchcolonycoffeeco
+www.dunecoffee.com,DUNE COFFEE ROASTERS,Active,,,43294.0,,54,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,43294.0,dunecoffeeroasters
+www.dtowncoffee.com,Dtowncoffee,Active,,,15008.0,,20,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15008.0,dtowncoffee
+www.drivencoffee.com,Driven Coffee,Active,,,121433.0,,98,2-10,,96.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,121433.0,drivencoffee
+www.firedeptcoffee.com,Fire Department Coffee,Active,,,93434.0,,138,51-200,,1100000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,93434.0,firedepartmentcoffee
+www.goodlifetea.com,Good Life Tea,Active,,,28721.0,,314,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28721.0,goodlifetea
+www.goodasgold.com,Good as Gold Coffee,Active,,,48241.0,,402,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,48241.0,goodasgoldcoffee
+www.goldentipstea.com,Golden Tips Tea,Active,,,30858.0,,234,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,30858.0,goldentipstea
+www.goldenmoontea.com,Golden Moon Tea,Active,,,48235.0,,44,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,48235.0,goldenmoontea
+www.gocoffeego.com,GoCoffeeGo,Active,,,16553.0,,466,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16553.0,gocoffeego
+www.ghosttowncoffee.com,Ghost Town Coffee Roasters,Active,,,15605.0,,76,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15605.0,ghosttowncoffeeroasters
+www.genuinetea.ca,Genuine Tea,Active,,,19388.0,,142,2-10,,732.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,19388.0,genuinetea
+www.gearhartschocolates.com,Gearharts Fine Chocolates,Active,,,32200.0,,42,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32200.0,gearhartsfinechocolates
+www.fruitionchocolateworks.com,Fruition Chocolate,Active,,,18290.0,,58,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18290.0,fruitionchocolate
+www.frockcandy.com,Frock Candy,Active,,,86565.0,,1756,1,,27100.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,86565.0,frockcandy
+www.freshroastedcoffee.com,Fresh Roasted Coffee,Active,,,152877.0,,964,11-50,,452.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,152877.0,freshroastedcoffee
+www.frenchtruckcoffee.com,French Truck Coffee,Active,,,114869.0,,90,51-200,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,114869.0,frenchtruckcoffee
+www.frenchpresscoffee.com,FrenchPressCoffee.com,Active,,,36736.0,,167,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36736.0,frenchpresscoffeecom
+www.frankfordcandy.com,Frankford Candy,Active,,,101502.0,,71,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,101502.0,frankfordcandy
+www.fourbarrelcoffee.com,Four Barrel Coffee,Active,,,45096.0,,171,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,45096.0,fourbarrelcoffee
+puritycoffee.com,Purity Coffee,Active,,,197048.0,,85,11-50,,12000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,197048.0,puritycoffee
+colombiancoffee.us,colombiancoffeeus,Active,,,43909.0,,88,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,43909.0,colombiancoffeeus
+conservatorycoffeeandtea.com,conservatorycoffeeandtea.com,Active,,,36002.0,,83,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36002.0,conservatorycoffeeandteacom
+component.coffee,Component Coffee,Active,,,20062.0,,24,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20062.0,componentcoffee
+commonwealthjoe.com,Commonwealth Joe Coffee Roasters,Active,,,23309.0,,26,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23309.0,commonwealthjoecoffeeroasters
+commonplacecoffee.com,Commonplace Coffee,Active,,,51010.0,,66,11-50,,1048.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,51010.0,commonplacecoffee
+commonmancoffeeroasters.com,Common Man Coffee Roasters SG,Active,,,35530.0,,148,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35530.0,commonmancoffeeroasterssg
+comisocoffee.com,Comiso Coffee,Active,,,15539.0,,594,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15539.0,comisocoffee
+comandantegrinder.com,Comandante® Coffee Grinder,Active,,,35494.0,,127,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35494.0,comandantecoffeegrinder
+colorroasters.com,Color Coffee | Restoring Clarity to Coffee,Active,,,16201.0,,55,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16201.0,colorcoffeerestoringclaritytocoffee
+colorfulcandy.jp,COLORFUL CANDY STYLE,Active,,,25296.0,,6071,micro_no_linkedin,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,25296.0,colorfulcandystyle
+coletticoffee.com,COLETTI Coffee,Active,,,125187.0,,24,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,125187.0,coletticoffee
+coffeehousepress.org,Coffee House Press,Active,,,28650.0,,513,11-50,,1280.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,28650.0,coffeehousepress
+coffeetraders.com,Montana Coffee Traders,Active,,,47555.0,,97,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,47555.0,montanacoffeetraders
+coffeetec.com,CoffeeTec,Active,,,23398.0,,1365,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23398.0,coffeetec
+coffeesupreme.com,Coffee Supreme,Active,,,17067.0,,90,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17067.0,coffeesupreme
+coffeeroastco.com,CoffeeRoast Co.,Active,,,56327.0,,279,1,,,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,56327.0,coffeeroastco
+coffeemais.com,Coffee Mais,Active,,,30380.0,,234,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,30380.0,coffeemais
+coppercowcoffee.com,Copper Cow Coffee,Active,,,68585.0,,47,11-50,,11800.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,68585.0,coppercowcoffee
+copperdoorcoffee.com,Copper Door Coffee,Active,,,33794.0,,24,11-50,,67.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,33794.0,copperdoorcoffee
+dailyrisecoffee.com,Daily Rise Coffee,Active,,,48074.0,,71,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,48074.0,dailyrisecoffee
+cuzenmatcha.com,Cuzen Matcha,Active,,,45782.0,,32,11-50,,845.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,45782.0,cuzenmatcha
+cuveecoffee.com,Cuvée Coffee,Active,,,31281.0,,33,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31281.0,cuvecoffee
+crockettcoffee.com,Crockett Coffee,Active,,,37488.0,,33,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,37488.0,crockettcoffee
+creochocolate.com,Creo Chocolate,Active,,,29384.0,,56,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29384.0,creochocolate
+cremacoffeeproducts.com,Crema Coffee Products,Active,,,49554.0,,41,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,49554.0,cremacoffeeproducts
+crema-coffee.com,Crema Coffee Roasters,Active,,,48134.0,,60,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,48134.0,cremacoffeeroasters
+crazyoutletcandy.com,Crazy Outlet Candy Store,Active,,,17705.0,,208,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17705.0,crazyoutletcandystore
+coupletcoffee.com,Couplet Coffee,Active,,,22127.0,,32,2-10,,13400.0,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,22127.0,coupletcoffee
+coffeemachinewarehouse.com.au,Coffee Machine Warehouse,Active,,,19066.0,,1774,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19066.0,coffeemachinewarehouse
+chocolatescacep.com,CACEP Chocolates,Active,,,15652.0,,152,11-50,,16400.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,15652.0,cacepchocolates
+chocolatemonkeyshop.com,Chocolate Monkey,Active,,,36891.0,,184,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36891.0,chocolatemonkey
+chocolatelabdenver.com,Chocolate Lab,Active,,,42065.0,,77,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,42065.0,chocolatelab
+chocolate.com.mx,chocolate.com.mx,Active,,,86863.0,,121,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,86863.0,chocolatecommx
+chocolate.com,Chocolate.com,Active,,,55038.0,,196,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,55038.0,chocolatecom
+chocolatecarousel.com,Chocolate Carousel,Active,,,31281.0,,70,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31281.0,chocolatecarousel
+chocolatebar.com,Endangered Species Chocolate,Active,,,52359.0,,22,11-50,,218.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,52359.0,endangeredspecieschocolate
+coffeeequipmentpros.com,Used Coffee Equipment,Active,,,18338.0,,444,2-10,,53.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,18338.0,usedcoffeeequipment
+charlestonteagarden.com,Charleston Tea Garden,Active,,,150824.0,,143,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,150824.0,charlestonteagarden
+chapon.com,Chocolaterie Chapon,Active,,,31234.0,,161,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31234.0,chocolateriechapon
+ceremonycoffee.com,Ceremony Coffee Roasters,Active,,,86702.0,,87,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,86702.0,ceremonycoffeeroasters
+castbrew.com,Cast Brew Coffee,Active,,,16667.0,,44,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16667.0,castbrewcoffee
+chocolateskateboards.com,Chocolate Skateboards,Active,,,44798.0,,358,2-10,,10900.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,44798.0,chocolateskateboards
+coffeedose.cafe,Coffee Dose,Active,,,78485.0,,25,11-50,,62200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,78485.0,coffeedose
+coffeedealers.dk,Copenhagen Coffee Dealers,Active,,,16088.0,,45,2-10,,27.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,16088.0,copenhagencoffeedealers
+coffeecollective.dk,Coffee Collective,Active,,,59908.0,,83,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,59908.0,coffeecollective
+coffeebydesign.com,Coffee By Design,Active,,,43175.0,,115,11-50,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,43175.0,coffeebydesign
+coffeebrandcoffee.com,coffee brand coffee,Active,,,20719.0,,48,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20719.0,coffeebrandcoffee
+coffeebeanshop.co.uk,Coffee Bean Shop,Active,,,25177.0,,78,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25177.0,coffeebeanshop
+coffeeangel.com,Coffeeangel,Active,,,15557.0,,94,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15557.0,coffeeangel
+coffeealchemy.com.au,Coffee Alchemy,Active,,,22378.0,,51,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22378.0,coffeealchemy
+codeblackcoffee.com.au,Code Black Coffee,Active,,,15658.0,,83,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15658.0,codeblackcoffee
+civilcoffee.com,Civil Coffee Store,Active,,,53039.0,,38,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,53039.0,civilcoffeestore
+citybrew.com,City Brew Coffee,Active,,,100171.0,,28,201-500,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,100171.0,citybrewcoffee
+chowpattysweetsandsnacks.com,Chowpatty Sweets & Snacks,Active,,,18994.0,,253,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18994.0,chowpattysweetssnacks
+punachocolate.com,Puna Chocolate Company,Active,,,23870.0,,46,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23870.0,punachocolatecompany
+fastcandy.no,Fast Candy,Active,,,23905.0,,203,2-10,,251000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23905.0,fastcandy
+fabulacoffee.com,Fabula Coffee,Active,,,44362.0,,77,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,44362.0,fabulacoffee
+fabricacoffeeroasters.com,Fábrica Coffee Roasters,Active,,,42095.0,,53,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,42095.0,fbricacoffeeroasters
+eyecandypigments.com,Eye Candy Pigments,Active,,,51249.0,,650,micro_no_linkedin,,5833.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,51249.0,eyecandypigments
+extremesnacks.ca,Extreme Snacks,Active,,,15527.0,,3266,micro_no_linkedin,,504.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,15527.0,extremesnacks
+exhalecoffee.com,Exhale Healthy Coffee,Active,,,22109.0,,36,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,22109.0,exhalehealthycoffee
+everythingtea.net,Everything Tea,Active,,,32284.0,,307,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32284.0,everythingtea
+evansbrotherscoffee.com,Evans Brothers Coffee Roasters,Active,,,22497.0,,55,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22497.0,evansbrotherscoffeeroasters
+euphoriachocolate.com,Euphoria Chocolate Company,Active,,,25696.0,,114,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25696.0,euphoriachocolatecompany
+enjoybettercoffee.com,Enjoy Better Coffee & Tea,Active,,,32373.0,,334,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32373.0,enjoybettercoffeetea
+empireteaandcoffee.com,Empire Tea & Coffee,Active,,,24502.0,,33,11-50,,574.0,Print on Demand:Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,24502.0,empireteacoffee
+embercoffee.co,Ember Coffee Co.,Active,,,31586.0,,84,1,,414.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,31586.0,embercoffeeco
+ferriscoffee.com,Ferris Coffee & Nut Co.,Active,,,64181.0,,144,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,64181.0,ferriscoffeenutco
+fevechocolates.com,Feve Chocolates,Active,,,25117.0,,21,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25117.0,fevechocolates
+flowerheadtea.com,Flowerhead Tea,Active,,,18994.0,,92,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18994.0,flowerheadtea
+florencecoffeeco.com,Florence Coffee Co.,Active,,,57771.0,,20,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,57771.0,florencecoffeeco
+floatingleaves.com,Floating Leaves Tea,Active,,,19734.0,,38,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19734.0,floatingleavestea
+flipcoffee.com,Flip Coffee,Active,,,26346.0,,33,micro_no_linkedin,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,26346.0,flipcoffee
+fixicoffee.cz,Fixi Coffee,Active,,,34665.0,,132,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34665.0,fixicoffee
+fiveandhoek.com,Five & Hoek Coffee Co.,Active,,,17890.0,,29,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,17890.0,fivehoekcoffeeco
+firstcup.com,First Cup Coffee Co,Active,,,31264.0,,48,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31264.0,firstcupcoffeeco
+firesidecoffee.com,Fireside Coffee Co.,Active,,,28685.0,,65,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28685.0,firesidecoffeeco
+firehousecoffee.com,Firehouse Coffee,Active,,,15760.0,,155,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,15760.0,firehousecoffee
+fingerlakescoffee.com,Finger Lakes Coffee Roasters,Active,,,41528.0,,145,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,41528.0,fingerlakescoffeeroasters
+fikacoffee.com,Fika Coffee,Active,,,24634.0,,28,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24634.0,fikacoffee
+fidel.coffee,Fidel & Co Coffee Roasters,Active,,,15217.0,,21,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15217.0,fidelcocoffeeroasters
+eldoradocoffee.com,Eldorado Coffee Roasters,Active,,,31890.0,,69,11-50,,38.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,31890.0,eldoradocoffeeroasters
+danfetea.com,Danfe Tea,Active,,,36521.0,,42,2-10,,56.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,36521.0,danfetea
+doscherscandies.com,Doscher's Candy Co.,Active,,,36455.0,,79,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36455.0,doscherscandyco
+donpablocoffee.com,Don Pablo Coffee,Active,,,41020.0,,67,2-10,,251.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,41020.0,donpablocoffee
+donfranciscos.com,Don Francisco's Coffee,Active,,,77441.0,,95,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,77441.0,donfranciscoscoffee
+docr.coffee,Dessert Oasis Coffee Roasters,Active,,,27462.0,,54,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27462.0,dessertoasiscoffeeroasters
+dobrateapgh.com,Dobra Tea Pittsburgh,Active,,,41253.0,,126,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,41253.0,dobrateapittsburgh
+distefano.com.au,Di Stefano Coffee,Active,,,15366.0,,57,1,,43.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,15366.0,distefanocoffee
+edelweisschocolates.com,Edelweiss Chocolates,Active,,,31084.0,,460,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31084.0,edelweisschocolates
+dicktaylorchocolate.com,Dick Taylor Craft Chocolate,Active,,,23398.0,,57,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,23398.0,dicktaylorcraftchocolate
+df64coffee.com,DF64 COFFEE GRINDER,Active,,,35429.0,,73,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35429.0,df64coffeegrinder
+detourcoffee.com,Detour Coffee Roasters,Active,,,32200.0,,38,2-10,,651.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,32200.0,detourcoffeeroasters
+denstea.com,Den's Tea,Active,,,36622.0,,174,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36622.0,denstea
+deansbeans.com,Dean's Beans Organic Coffee Company,Active,,,34820.0,,93,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34820.0,deansbeansorganiccoffeecompany
+daytonchocolate.com,Dayton Homemade Chocolates & Gift Baskets,Active,,,24108.0,,270,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24108.0,daytonhomemadechocolatesgiftbaskets
+dawsontaylor.com,Dawson Taylor Coffee Roasters,Active,,,23332.0,,60,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23332.0,dawsontaylorcoffeeroasters
+dangercoffee.com,Danger Coffee,Active,,,27778.0,,23,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27778.0,dangercoffee
+dragonflytea.com,Dragonfly Tea,Active,,,35095.0,,37,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35095.0,dragonflytea
+dragupcoffee.com,Drag Up Coffee,Active,,,23177.0,,71,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,23177.0,dragupcoffee
+ecscoffee.com,ECS Coffee,Active,,,30631.0,,4848,11-50,,1408.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,30631.0,ecscoffee
+eclatchocolate.com,Éclat Chocolate,Active,,,25547.0,,93,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25547.0,clatchocolate
+ebrucoffeeco.com,Ebru Coffee Co.,Active,,,18194.0,,27,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18194.0,ebrucoffeeco
+eatshameless.com,Shameless Snacks,Active,,,36461.0,,54,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36461.0,shamelesssnacks
+eastviewcoffee.com,East View Coffee Company,Active,,,17747.0,,28,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17747.0,eastviewcoffeecompany
+durangojoes.com,Durango Joes Coffee,Active,,,42620.0,,135,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,42620.0,durangojoescoffee
+duluthcoffeecompany.com,Duluth Coffee Company,Active,,,21518.0,,39,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21518.0,duluthcoffeecompany
+dubaichocolate.co.uk,Dubai Chocolate Co.,Active,,,37040.0,,22,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,37040.0,dubaichocolateco
+dubai-chocolatebar.com,Dubai Chocolate Bar,Active,,,26645.0,,24,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26645.0,dubaichocolatebar
+dripp.coffee,Dripp® Coffee Bars,Active,,,16428.0,,45,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16428.0,drippcoffeebars
+drinkhalfday.com,Halfday Iced Tea,Active,,,36909.0,,76,11-50,,10900.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,36909.0,halfdayicedtea
+drinkcoffeeman.com,Coffee Man,Active,,,34092.0,,49,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34092.0,coffeeman
+drinkcoffeedostuff.com,DRINK COFFEE DO STUFF ROASTERY,Active,,,35482.0,,40,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35482.0,drinkcoffeedostuffroastery
+drinkarchetype.com,Archetype Coffee,Active,,,22724.0,,34,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,22724.0,archetypecoffee
+casadechocolates.com,casadechocolates.com,Active,,,18928.0,,93,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,18928.0,casadechocolatescom
+carmelcoffeeroasters.com,Carmel Valley Coffee Roasting Co.,Active,,,18254.0,,55,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18254.0,carmelvalleycoffeeroastingco
+atomicroastery.com,Atomic Coffee Roasters,Active,,,31968.0,,136,11-50,,42700.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,31968.0,atomiccoffeeroasters
+balancecoffee.co.uk,Balance Coffee,Active,,,33173.0,,98,2-10,,114.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,33173.0,balancecoffee
+backyardbeans.com,Backyard Beans Coffee Company,Active,,,41587.0,,49,11-50,,143.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,41587.0,backyardbeanscoffeecompany
+backstory.coffee,Backstory Coffee Roasters,Active,,,21805.0,,31,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21805.0,backstorycoffeeroasters
+axilcoffee.com.au,Axil Coffee,Active,,,19191.0,,86,51-200,,934.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,19191.0,axilcoffee
+aurochocolate.com,aurochocolate.com,Active,,,15652.0,,188,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15652.0,aurochocolatecom
+august.la,August Uncommon Tea,Active,,,28930.0,,93,51-200,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,28930.0,augustuncommontea
+atkinsoncandy.com,atkinsoncandy.com,Active,,,99640.0,,110,51-200,,5173.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,99640.0,atkinsoncandycom
+astorchocolate.com,Astor Chocolate,Active,,,47561.0,,81,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,47561.0,astorchocolate
+askinosie.com,Askinosie Chocolate,Active,,,35709.0,,100,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35709.0,askinosiechocolate
+ashateahouse.com,Asha Tea House,Active,,,44392.0,,107,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,44392.0,ashateahouse
+artizancoffee.com,Artizan Coffee,Active,,,36968.0,,655,1,,57.0,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,36968.0,artizancoffee
+biblesandcoffee.com,Bibles and Coffee,Active,,,35524.0,,346,2-10,,6925.0,Print on Demand:Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,35524.0,biblesandcoffee
+bellwoodcoffee.com,Bellwood Coffee,Active,,,32338.0,,25,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32338.0,bellwoodcoffee
+beernuts.com,BEER NUTS® Brand Snacks,Active,,,39152.0,,125,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,39152.0,beernutsbrandsnacks
+beefcakejerky.com,BeefCake Jerky,Active,,,66896.0,,27,2-10,,142500.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,66896.0,beefcakejerky
+bebrightcoffee.com,Be Bright Coffee,Active,,,23458.0,,23,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23458.0,bebrightcoffee
+bearcoastcoffee.com,Bear Coast Coffee,Active,,,25731.0,,52,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,25731.0,bearcoastcoffee
+beannbeancoffee.com,Bean & Bean Coffee Roasters,Active,,,155807.0,,143,11-50,,1122.0,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,155807.0,beanbeancoffeeroasters
+beachcandyswimwear.com,BeachCandy Organics,Active,,,24795.0,,130,2-10,,7333.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,24795.0,beachcandyorganics
+basoncoffee.com,Bason Coffee Roasting,Active,,,15097.0,,128,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15097.0,basoncoffeeroasting
+adalbertstea.com,Adalbert's Tea,Active,,,17628.0,,256,2-10,,3174.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17628.0,adalbertstea
+actualcoffee.com,Actual Coffee,Active,,,15169.0,,35,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15169.0,actualcoffee
+achillescoffeeroasters.com,Achilles Coffee Roasters,Active,,,38914.0,,44,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38914.0,achillescoffeeroasters
+5starcoffeeroasters.com,Five Star Coffee Roasters,Active,,,19561.0,,51,2-10,,3.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,19561.0,fivestarcoffeeroasters
+44northcoffee.com,44 North Coffee,Active,,,15450.0,,73,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15450.0,44northcoffee
+archerjerky.com,Archer Jerky,Active,,,127353.0,,22,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,127353.0,archerjerky
+27coffee.jp,27 COFFEE ROASTERS,Active,,,21930.0,,150,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21930.0,27coffeeroasters
+27clubcoffee.com,27 Club Coffee LLC,Active,,,47794.0,,46,2-10,,65099.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,47794.0,27clubcoffeellc
+20below.coffee,Twenty Below Coffee Co.,Active,,,16541.0,,109,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,16541.0,twentybelowcoffeeco
+200degs.com,200 Degrees Coffee,Active,,,19907.0,,126,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19907.0,200degreescoffee
+1951coffee.com,1951 Coffee Company,Active,,,45544.0,,23,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,45544.0,1951coffeecompany
+1775coffee.com,1775 Coffee,Active,,,17371.0,,26,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17371.0,1775coffee
+11thstreetcoffee.com,11th Street Coffee,Active,,,120407.0,,383,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,120407.0,11thstreetcoffee
+1000facescoffee.com,1000 Faces Coffee,Active,,,28118.0,,33,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28118.0,1000facescoffee
+aerialresupplycoffee.com,Aerial Resupply Coffee,Active,,,45484.0,,169,2-10,,30200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,45484.0,aerialresupplycoffee
+ahmadteausa.com,AHMAD TEA USA,Active,,,66299.0,,116,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,66299.0,ahmadteausa
+arcaychocolates.com,Arcay Chocolates,Active,,,17067.0,,32,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17067.0,arcaychocolates
+arbucklecoffee.com,Arbuckle Coffee,Active,,,21226.0,,126,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21226.0,arbucklecoffee
+apocalypsecoffee.com,Apocalypse Coffee Roasters,Active,,,23243.0,,33,2-10,,135.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23243.0,apocalypsecoffeeroasters
+anthony-thomas.com,Anthony-Thomas Chocolates,Active,,,80180.0,,108,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,80180.0,anthonythomaschocolates
+anodynecoffee.com,Anodyne Coffee Roasting Co.,Active,,,66108.0,,91,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,66108.0,anodynecoffeeroastingco
+anisahcoffee.com,anisahcoffee.com,Active,,,25200.0,,103,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25200.0,anisahcoffeecom
+angelcandyshop.com,Angel Candy Shop,Active,,,16995.0,,379,1,,2319.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,16995.0,angelcandyshop
+andytownsf.com,Andytown Coffee Roasters,Active,,,109295.0,,33,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,109295.0,andytowncoffeeroasters
+anchorheadcoffee.com,Anchorhead Coffee,Active,,,62707.0,,34,11-50,,8170.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,62707.0,anchorheadcoffee
+amyscoffeemugs.com,Amy's Coffee Mugs,Active,,,15103.0,,1027,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15103.0,amyscoffeemugs
+amyscandybar.com,Amy's Candy Bar,Active,,,16440.0,,138,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16440.0,amyscandybar
+alpha.coffee,Alpha Coffee,Active,,,38299.0,,126,11-50,,49.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,38299.0,alphacoffee
+algeriancoffeestores.com,Algerian Coffee Stores,Active,,,26424.0,,447,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26424.0,algeriancoffeestores
+aldoscoffee.com,Aldo's Coffee Company,Active,,,16362.0,,33,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16362.0,aldoscoffeecompany
+airshipcoffee.com,Airship Coffee,Active,,,41987.0,,88,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,41987.0,airshipcoffee
+bienasnacks.com,Biena Snacks,Active,,,46367.0,,20,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46367.0,bienasnacks
+candyfunhouse.ca,Candy Funhouse CA,Active,,,91369.0,,11741,51-200,,3300000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,91369.0,candyfunhouseca
+candyenvy.com,Candy Envy,Active,,,19710.0,,160,2-10,,1815.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,19710.0,candyenvy
+candycrave.com,candycrave.com,Active,,,17281.0,,1839,micro_no_linkedin,,63.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17281.0,candycravecom
+candyclub.com,CandyClub,Active,,,101460.0,,36,51-200,,2414.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,101460.0,candyclub
+candyclaws.com.au,Candy Claws,Active,,,16929.0,,79,2-10,,2337.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,16929.0,candyclaws
+candycatz.com,Candy Catz,Active,,,43765.0,,5462,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,43765.0,candycatz
+campers.coffee,camperscoffee,Active,,,23744.0,,286,unknown,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,23744.0,camperscoffee
+calacoffeeco.com,Cala Coffee Roasters,Active,,,23679.0,,37,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,23679.0,calacoffeeroasters
+cakeandcandysupply.com,Cake and Candy Supply,Active,,,15193.0,,3526,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15193.0,cakeandcandysupply
+buysnacksonline.com,Galactic Snacks,Active,,,73568.0,,218,2-10,,2621.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,73568.0,galacticsnacks
+butlerschocolates.com,Butlers Chocolates,Active,,,107905.0,,113,201-500,,5267.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,107905.0,butlerschocolates
+candyhouse.co,CANDY HOUSE,Active,,,19066.0,,42,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19066.0,candyhouse
+candyjewelersla.com,Candy Jewelers,Active,,,33800.0,,2287,micro_no_linkedin,,1334.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,33800.0,candyjewelers
+candykitchen.com,Candy Kitchen Shoppes,Active,,,102200.0,,304,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,102200.0,candykitchenshoppes
+candykittens.co.uk,Candy Kittens,Active,,,29784.0,,52,11-50,,35200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,29784.0,candykittens
+carcandy.com,Car Candy,Active,,,35674.0,,216,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35674.0,carcandy
+candywrapperstore.com,Candy Wrapper Store,Active,,,68083.0,,3106,2-10,,60.0,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,68083.0,candywrapperstore
+candywithatwist.com,Candy With A Twist,Active,,,27032.0,,103,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,27032.0,candywithatwist
+candypet.es,candyPet®,Active,,,38920.0,,121,1,,1918.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,38920.0,candypet
+candypeak.de,CandyPeak,Active,,,15545.0,,328,1,,109800.0,Print on Demand:Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,15545.0,candypeak
+candymix.fr,CandyMix,Active,,,56972.0,,2063,11-50,,1100000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,56972.0,candymix
+candymanor.com,Chatham Candy Manor,Active,,,57121.0,,156,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,57121.0,chathamcandymanor
+candymail.co.uk,Candymail UK,Active,,,72648.0,,3439,1,,16400.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,72648.0,candymailuk
+candylandcrafts.com,Cakewalk @Candyland Crafts,Active,,,49291.0,,2938,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,49291.0,cakewalkcandylandcrafts
+bussinsnacks.com,BussinSnacks,Active,,,16190.0,,177,micro_no_linkedin,,1900000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,16190.0,bussinsnacks
+bullybrewcoffeehouse.com,Bully Brew Coffee,Active,,,15742.0,,35,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,15742.0,bullybrewcoffee
+boldbeancoffee.com,Bold Bean Coffee Roasters,Active,,,32618.0,,68,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32618.0,boldbeancoffeeroasters
+bobateaprotein.com,Boba Tea Protein,Active,,,132837.0,,69,2-10,,59200.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,132837.0,bobateaprotein
+bluetokaicoffee.com,Blue Tokai Coffee Roasters,Active,,,146181.0,,142,501-1000,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,146181.0,bluetokaicoffeeroasters
+bluetea.co.in,Buy Blue Tea Online,Active,,,20510.0,,140,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20510.0,buyblueteaonline
+bluebeardcoffee.com,Bluebeard Coffee Roasters,Active,,,24114.0,,20,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24114.0,bluebeardcoffeeroasters
+blanchardscoffee.com,Blanchard's Coffee,Active,,,72977.0,,40,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,72977.0,blanchardscoffee
+blackoakcoffee.com,Black Oak Coffee Roasters,Active,,,58410.0,,58,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,58410.0,blackoakcoffeeroasters
+blackinsomnia.us,Black Insomnia Coffee,Active,,,15820.0,,39,micro_no_linkedin,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,15820.0,blackinsomniacoffee
+blackgoldroasters.com,Black Gold Coffee Roasters,Active,,,16416.0,,33,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16416.0,blackgoldcoffeeroasters
+blackfoxcoffee.com,Black Fox Coffee Co.,Active,,,82024.0,,34,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,82024.0,blackfoxcoffeeco
+blackdrop.cl,Blackdrop Coffee,Active,,,25302.0,,147,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25302.0,blackdropcoffee
+bixbychocolate.com,Bixby Chocolate,Active,,,44332.0,,97,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,44332.0,bixbychocolate
+biodynamic.coffee,Biodynamic Coffee,Active,,,15241.0,,39,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15241.0,biodynamiccoffee
+bigislandcoffeeroasters.com,Big Island Coffee Roasters,Active,,,96871.0,,103,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,96871.0,bigislandcoffeeroasters
+bighearttea.com,Big Heart Tea Co.,Active,,,24001.0,,65,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,24001.0,bigheartteaco
+brooklyntea.com,Brooklyn Tea,Active,,,53976.0,,190,2-10,,1971.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,53976.0,brooklyntea
+broadsheetcoffee.com,Broadsheet Coffee Roasters,Active,,,25350.0,,28,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25350.0,broadsheetcoffeeroasters
+britishtea.com,British Tea Centre,Active,,,24604.0,,280,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24604.0,britishteacentre
+briosocoffee.com,Brioso Coffee,Active,,,15987.0,,44,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15987.0,briosocoffee
+breakroasters.com,Break Coffee Roasters,Active,,,21047.0,,35,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21047.0,breakcoffeeroasters
+breakawaymatcha.com,Breakaway Matcha,Active,,,40185.0,,80,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40185.0,breakawaymatcha
+brashcoffee.com,BRASH Coffee Roasters,Active,,,46982.0,,20,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46982.0,brashcoffeeroasters
+boxxcoffee.la,Boxx Coffee Roasters,Active,,,17299.0,,47,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17299.0,boxxcoffeeroasters
+bouchardchocolate.com,Bouchard Chocolate,Active,,,38890.0,,33,11-50,,24000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,38890.0,bouchardchocolate
+boontoncoffee.com,Boonton Coffee,Active,,,15957.0,,104,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15957.0,boontoncoffee
+bongen-shirafushi-coffee.com,BONGENCOFFEE,Active,,,72278.0,,121,micro_no_linkedin,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,72278.0,bongencoffee
+mistereds.com,Mister Ed's Elephant Museum & Candy Emporium,Active,,,70608.0,,854,2-10,,336.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,70608.0,misteredselephantmuseumcandyemporium
+mississippimudcoffee.com,Mississippi Mud Coffee,Active,,,25182.0,,26,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25182.0,mississippimudcoffee
+mirzam.com,Mirzam Chocolate,Active,,,20003.0,,223,51-200,,454.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,20003.0,mirzamchocolate
+mirotea.com,Miro Tea,Active,,,70315.0,,196,1,,31.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,70315.0,mirotea
+mini-mal.tokyo,Minimal - Bean to Bar Chocolate -,Active,,,33937.0,,201,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,33937.0,minimalbeantobarchocolate
+millcoffee.com,Mill Coffee & Tea,Active,,,120168.0,,443,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,120168.0,millcoffeetea
+milkhousechocolates.net,"Thorncrest Farm, LLC & Milk House Chocolates",Active,,,36748.0,,125,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36748.0,thorncrestfarmllcmilkhousechocolates
+miicoffee.shop,MiiCoffee,Active,,,46164.0,,61,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46164.0,miicoffee
+mightymissouri.com,Mighty Missouri Coffee Co.,Active,,,18696.0,,44,2-10,,,Print on Demand:Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,18696.0,mightymissouricoffeeco
+meritcoffee.com,Merit Coffee,Active,,,28417.0,,36,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28417.0,meritcoffee
+mercurys.com,Mercurys Coffee Co.,Active,,,118754.0,,81,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,118754.0,mercuryscoffeeco
+memteaimports.com,Mem Tea,Active,,,83390.0,,185,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,83390.0,memtea
+melvillecandy.com,Melville Candy,Active,,,32815.0,,457,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32815.0,melvillecandy
+mizubatea.com,Mizuba Tea Co.,Active,,,107260.0,,140,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,107260.0,mizubateaco
+mocacocoffee.com,Mocaco Coffee,Active,,,16595.0,,66,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16595.0,mocacocoffee
+nanajoes.com,Nana Joes Granola,Active,,,22479.0,,34,2-10,,176.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,22479.0,nanajoesgranola
+myalmacoffee.com,Alma Coffee,Active,,,34361.0,,73,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34361.0,almacoffee
+mudhouse.com,Mudhouse Coffee Roasters,Active,,,24114.0,,47,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24114.0,mudhousecoffeeroasters
+mtcomfortcoffee.com,Mt. Comfort Coffee,Active,,,19436.0,,24,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19436.0,mtcomfortcoffee
+moxiecoffeeco.com,Moxie Coffee Co.,Active,,,28101.0,,80,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28101.0,moxiecoffeeco
+mothershipcoffee.com,Mothership Coffee Roasters,Active,,,75668.0,,38,11-50,,362.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,75668.0,mothershipcoffeeroasters
+mostracoffee.com,MostraCoffee,Active,,,72362.0,,79,11-50,,443.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,72362.0,mostracoffee
+mositea.com,Mosi Tea,Active,,,15933.0,,55,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15933.0,mositea
+morkeschocolates.com,Morkes Chocolates,Active,,,53367.0,,439,2-10,,27.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,53367.0,morkeschocolates
+moonwakecoffeeroasters.com,Moonwake Coffee Roasters,Active,,,61465.0,,130,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,61465.0,moonwakecoffeeroasters
+monsoonchocolate.com,Monsoon Chocolate,Active,,,18212.0,,24,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18212.0,monsoonchocolate
+momnemcoffee.com,Mom 'n 'em Coffee,Active,,,26490.0,,65,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26490.0,momnemcoffee
+meadowridgecoffee.com,Meadow Ridge Coffee,Active,,,27748.0,,777,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27748.0,meadowridgecoffee
+longjohnsnacks.com,Long John Snacks,Active,,,15945.0,,85,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15945.0,longjohnsnacks
+madiscoffee.com,Madis Coffee Roasters,Active,,,24043.0,,26,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24043.0,madiscoffeeroasters
+majestycoffee.com,Majesty Coffee,Active,,,40841.0,,768,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40841.0,majestycoffee
+magnoliacoffeeco.com,Magnolia Coffee,Active,,,16804.0,,145,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16804.0,magnoliacoffee
+maevechocolate.com,Maeve Chocolate,Active,,,88015.0,,76,micro_no_linkedin,,2319.0,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,88015.0,maevechocolate
+madpriestcoffee.com,Mad Priest Coffee,Active,,,20975.0,,35,1,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,20975.0,madpriestcoffee
+mcnultys.com,"McNulty's Tea & Coffee Co., Inc",Active,,,86278.0,,291,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,86278.0,mcnultysteacoffeecoinc
+lynnscakeandcandy.com,"Lynn's Cake, Candy & Chocolate Supplies",Active,,,93529.0,,7121,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,93529.0,lynnscakecandychocolatesupplies
+lowacidcoffee.com,Alex's Low-Acid Organic Coffee,Active,,,32797.0,,44,1,,43.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,32797.0,alexslowacidorganiccoffee
+loreschocolates.com,Lore's Chocolates,Active,,,24783.0,,180,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,24783.0,loreschocolates
+looseleafteamarket.com,Loose Leaf Tea Market,Active,,,113431.0,,58,2-10,,104000.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,113431.0,looseleafteamarket
+mameyacoffee.com,mameyacoffee.com,Active,,,23231.0,,21,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23231.0,mameyacoffeecom
+manamchocolate.com,Manam Chocolate,Active,,,29688.0,,81,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29688.0,manamchocolate
+manoachocolate.com,Manoa Chocolate Hawaii,Active,,,74988.0,,81,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,74988.0,manoachocolatehawaii
+mayorgacoffee.com,Mayorga Coffee,Active,,,95063.0,,36,11-50,,228.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,95063.0,mayorgacoffee
+maverickscoffee.com,Mavericks coffee,Active,,,22044.0,,71,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22044.0,maverickscoffee
+mauichocolate.com,Maui Kuʻia Estate Chocolate,Active,,,27516.0,,171,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27516.0,mauikuiaestatechocolate
+matriarchcoffee.com,Matriarch Coffee,Active,,,15646.0,,76,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,15646.0,matriarchcoffee
+matchaoutlet.com,Matcha Outlet,Active,,,36091.0,,57,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36091.0,matchaoutlet
+matchaoishii.com,Matcha Oishii,Active,,,15306.0,,23,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15306.0,matchaoishii
+matcha-karu.com,Matcha Kāru,Active,,,22121.0,,74,2-10,,7381.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,22121.0,matchakru
+matchaflix.com,Matchaflix – MATCHAFLIX,Active,,,20241.0,,116,2-10,,621800.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,20241.0,matchaflixmatchaflix
+matchadirect.kyoto,MATCHA DIRECT,Active,,,81749.0,,147,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,81749.0,matchadirect
+marveltea.com,Marvel Tea,Active,,,16327.0,,23,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16327.0,marveltea
+marktwendell.com,Mark T. Wendell Tea Company,Active,,,31634.0,,318,2-10,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,31634.0,marktwendellteacompany
+marketlane.com.au,Market Lane Coffee,Active,,,21644.0,,98,11-50,,306.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,21644.0,marketlanecoffee
+narateacompany.com,Nara Tea Co.,Active,,,21315.0,,646,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21315.0,narateaco
+naturepuretea.com,Curated Chinese Tea,Active,,,56339.0,,132,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,56339.0,curatedchinesetea
+piperandleaf.com,Piper and Leaf Tea Co.,Active,,,53857.0,,318,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,53857.0,piperandleafteaco
+pilotcoffeeroasters.com,Pilot Coffee Roasters,Active,,,22235.0,,85,51-200,,586.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,22235.0,pilotcoffeeroasters
+perkyjerky.com,Perky Jerky,Active,,,19472.0,,44,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19472.0,perkyjerky
+perkolatorcoffee.com,Perkolator Coffee,Active,,,18027.0,,82,2-10,,232.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,18027.0,perkolatorcoffee
+perennialtearoom.com,Perennial Tea Room,Active,,,16583.0,,169,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16583.0,perennialtearoom
+perccoffee.com,PERC COFFEE,Active,,,125330.0,,144,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,125330.0,perccoffee
+pegasuscoffee.com,Pegasus Coffee,Active,,,20898.0,,41,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20898.0,pegasuscoffee
+peakstatecoffee.com,Peak State Coffee,Active,,,42745.0,,54,1,,,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,42745.0,peakstatecoffee
+nepalteacollective.com,Nepal Tea,Active,,,16249.0,,77,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16249.0,nepaltea
+peakflavorcoffee.com,Peak Flavor Coffee,Active,,,23995.0,,247,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23995.0,peakflavorcoffee
+peacebychocolate.ca,Peace by Chocolate,Active,,,24872.0,,199,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24872.0,peacebychocolate
+pavementcoffeehouse.com,Pavement Coffeehouse,Active,,,147685.0,,50,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,147685.0,pavementcoffeehouse
+pasquini.com,Pasquini Coffee Co.,Active,,,18994.0,,376,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18994.0,pasquinicoffeeco
+paschachocolate.com,Pascha Chocolate Co,Active,,,45204.0,,835,2-10,,1552.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,45204.0,paschachocolateco
+parlorcoffee.com,Parlor Coffee,Active,,,40209.0,,52,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40209.0,parlorcoffee
+parkavenuecoffee.com,Park Avenue Coffee,Active,,,26722.0,,142,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26722.0,parkavenuecoffee
+parisicoffee.com,Parisi Coffee,Active,,,20325.0,,33,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20325.0,parisicoffee
+ptscoffee.com,PT's Coffee,Active,,,29151.0,,274,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29151.0,ptscoffee
+prymal.com,Prymal Coffee Creamer,Active,,,19955.0,,30,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19955.0,prymalcoffeecreamer
+proudmarycoffee.com,Proud Mary Coffee USA,Active,,,105828.0,,714,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,105828.0,proudmarycoffeeusa
+prestocoffee.com,Presto Coffee Roasters,Active,,,37977.0,,32,2-10,,4372.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,37977.0,prestocoffeeroasters
+prestacoffee.com,Presta Coffee,Active,,,41265.0,,24,11-50,,123.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,41265.0,prestacoffee
+posterncoffee.com,Postern Coffee,Active,,,17114.0,,20,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17114.0,posterncoffee
+postcoffeecompany.com,Post Coffee Co,Active,,,20725.0,,84,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,20725.0,postcoffeeco
+portrait.coffee,Portrait Coffee,Active,,,32332.0,,52,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32332.0,portraitcoffee
+popdaddysnacks.com,Pop Daddy Snacks,Active,,,180644.0,,88,11-50,,138500.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,180644.0,popdaddysnacks
+poolcandy.store,PoolCandy,Active,,,30464.0,,322,11-50,,78.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,30464.0,poolcandy
+politecoffee.com,Polite Coffee,Active,,,24693.0,,51,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24693.0,politecoffee
+paramountcoffee.com,Paramount Coffee,Active,,,24472.0,,179,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24472.0,paramountcoffee
+paragontearoom.com,Paragon Tea Room,Active,,,19060.0,,73,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19060.0,paragontearoom
+paradiseroasters.com,Paradise Coffee Roasters,Active,,,20731.0,,266,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20731.0,paradisecoffeeroasters
+oldbarreltea.com,Old Barrel Tea Co,Active,,,31126.0,,200,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31126.0,oldbarrelteaco
+ohoriscoffee.com,Ohori's Coffee Roasters,Active,,,15772.0,,61,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15772.0,ohoriscoffeeroasters
+octavecoffee.com,Octave Coffee Co.,Active,,,21912.0,,25,micro_no_linkedin,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,21912.0,octavecoffeeco
+oasissnacks.com,Oasis Snacks,Active,,,39547.0,,2364,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,39547.0,oasissnacks
+northeastteahouse.com,Northeast Tea House,Active,,,29873.0,,264,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29873.0,northeastteahouse
+nordqvisttea.com,Nordqvist Tea,Active,,,39714.0,,109,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,39714.0,nordqvisttea
+nomadcoffee.es,Nomad Coffee,Active,,,42721.0,,112,51-200,,1544.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,42721.0,nomadcoffee
+nobilitea.us,NobiliTea,Active,,,30064.0,,83,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,30064.0,nobilitea
+nmpinoncoffee.com,New Mexico Piñon Coffee,Active,,,95272.0,,41,11-50,,6672.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,95272.0,newmexicopioncoffee
+nightswimcoffee.com,Night Swim Coffee,Active,,,51141.0,,27,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,51141.0,nightswimcoffee
+nguyencoffeesupply.com,Nguyen Coffee Supply,Active,,,158695.0,,60,2-10,,,,18,14,11.0,0.0207606101546442,20.0,15.0,7,53.0,158695.0,nguyencoffeesupply
+oldcitycoffee.com,Old City Coffee,Active,,,58165.0,,73,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,58165.0,oldcitycoffee
+oldworldcoffeeroasters.com,Old World Coffee Roasters,Active,,,21315.0,,66,2-10,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,21315.0,oldworldcoffeeroasters
+panthercoffee.com,PantherCoffee,Active,,,88815.0,,36,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,88815.0,panthercoffee
+pannikincoffeeandtea.com,Pannikin Coffee & Tea,Active,,,58464.0,,105,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,58464.0,pannikincoffeetea
+palacecoffee.co,Palace Coffee Co.,Active,,,22843.0,,54,2-10,,539.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,22843.0,palacecoffeeco
+pacificcrestcoffee.com,Pacific Crest Coffee,Active,,,44780.0,,68,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,44780.0,pacificcrestcoffee
+pachamamacoffee.com,Pachamama Coffee,Active,,,64270.0,,50,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,64270.0,pachamamacoffee
+ozonecoffee.co.uk,Ozone Coffee UK,Active,,,31275.0,,36,51-200,,1952.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,31275.0,ozonecoffeeuk
+ozocoffee.com,OZO Coffee Roasters,Active,,,55426.0,,113,51-200,,32.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,55426.0,ozocoffeeroasters
+originalcoffee.dk,Original Coffee,Active,,,36742.0,,64,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,36742.0,originalcoffee
+opendoortea.com,Open Door Tea CT,Active,,,27211.0,,153,2-10,,50.0,Dropshipper,18,14,11.0,0.0,20.0,15.0,7,53.0,27211.0,opendoorteact
+onsullivan.com,Sullivan Street Tea & Spice Company,Active,,,55175.0,,690,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,55175.0,sullivanstreetteaspicecompany
+onibuscoffee.com,ONIBUS COFFEE,Active,,,32367.0,,51,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,32367.0,onibuscoffee
+onegreatcoffee.com,One Great Coffee | Fresh Roasted Gourmet Coffee & Tea,Active,,,35644.0,,224,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35644.0,onegreatcoffeefreshroastedgourmetcoffeetea
+onacoffee.com.au,ONA Coffee,Active,,,16374.0,,78,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16374.0,onacoffee
+omsweets.in,Om Sweets & Snacks,Active,,,103238.0,,82,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,103238.0,omsweetssnacks
+longbottomcoffee.com,longbottomcoffee.com,Active,,,60594.0,,267,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,60594.0,longbottomcoffeecom
+fostercoffee.co,Foster Coffee,Active,,,36598.0,,92,11-50,,653.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,36598.0,fostercoffee
+hermanoscoffeeroasters.com,Hermanos Colombian Coffee Roasters,Active,,,50205.0,,47,11-50,,906.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,50205.0,hermanoscolombiancoffeeroasters
+henryshouseofcoffee.com,Henry’s House Of Coffee,Active,,,25147.0,,113,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25147.0,henryshouseofcoffee
+hellosweetscandy.com,Hello Sweets Candy,Active,,,106222.0,,2863,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,106222.0,hellosweetscandy
+hellochocolate.com,Hello Chocolate,Active,,,69975.0,,550,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,69975.0,hellochocolate
+heirloomcoffeeroasters.com,Heirloom Coffee Roasters,Active,,,83504.0,,54,2-10,,279.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,83504.0,heirloomcoffeeroasters
+heinebroscoffee.com,Heine Brothers Coffee,Active,,,98405.0,,20,51-200,,1043.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,98405.0,heinebrotherscoffee
+havana.co.nz,Havana Coffee NZ,Active,,,20647.0,,117,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20647.0,havanacoffeenz
+hatchetcoffee.com,Hatchet Coffee,Active,,,15927.0,,32,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15927.0,hatchetcoffee
+guentercoffee.com,Günter Coffee Roasters,Active,,,15038.0,,50,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15038.0,gntercoffeeroasters
+hardcandy.com,Hard Candy,Active,,,147118.0,,56,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,147118.0,hardcandy
+happymugcoffee.com,Happy Mug Coffee Roasters,Active,,,50575.0,,787,1,,305.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,50575.0,happymugcoffeeroasters
+happyearthtea.com,Happy Earth Tea,Active,,,27767.0,,153,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27767.0,happyearthtea
+happycandy.co.uk,Happy Candy UK LTD,Active,,,25433.0,,1211,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25433.0,happycandyukltd
+hammercoffee.com,Thomas Hammer Coffee Roasting Company,Active,,,37643.0,,64,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,37643.0,thomashammercoffeeroastingcompany
+haancoffee.com,Haan Coffee,Active,,,35608.0,,36,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35608.0,haancoffee
+gympluscoffee.com,Gym+Coffee IE,Active,,,32594.0,,208,51-200,,110400.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,32594.0,gymcoffeeie
+hicohawaiiancoffee.com,HiCO Hawaiian Coffee,Active,,,27880.0,,76,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27880.0,hicohawaiiancoffee
+hiddenhousecoffee.com,Hidden House Coffee,Active,,,58273.0,,26,11-50,,25500.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,58273.0,hiddenhousecoffee
+indichocolate.com,indi chocolate,Active,,,27086.0,,73,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27086.0,indichocolate
+idrinkcoffee.com,iDrinkCoffee.com,Active,,,20552.0,,294,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20552.0,idrinkcoffeecom
+iconiccandy.com,Iconic Candy,Active,,,88874.0,,51,2-10,,2512.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,88874.0,iconiccandy
+ichateashop.com,ICHA TEA,Active,,,21859.0,,110,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21859.0,ichatea
+icandyworldusa.com,iCandy Peach 7 Stroller,Active,,,21894.0,,67,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21894.0,icandypeach7stroller
+hydrangea.coffee,Hydrangea Coffee Roasters,Active,,,26680.0,,310,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26680.0,hydrangeacoffeeroasters
+huladaddy.com,Hula Daddy Kona Coffee,Active,,,29497.0,,48,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29497.0,huladaddykonacoffee
+hotchocolatesparrow.com,Hot Chocolate Sparrow,Active,,,22718.0,,84,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22718.0,hotchocolatesparrow
+hillsbros.com,Hills Bros.® Coffee & Cappuccino,Active,,,38645.0,,34,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,38645.0,hillsbroscoffeecappuccino
+hightidecoffee.com,High Tide Coffee,Active,,,16864.0,,75,11-50,,167.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,16864.0,hightidecoffee
+highgardentea.com,High Garden Tea,Active,,,19716.0,,191,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19716.0,highgardentea
+groundsandhoundscoffee.com,Grounds & Hounds Coffee Co.,Active,,,144349.0,,279,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,144349.0,groundshoundscoffeeco
+gimmecoffee.com,Gimme! Coffee,Active,,,47358.0,,83,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,47358.0,gimmecoffee
+getprodigal.com,Prodigal Coffee,Active,,,35363.0,,50,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35363.0,prodigalcoffee
+getdowncoffee.com,Get Down Coffee Co.,Active,,,16100.0,,22,micro_no_linkedin,,1024.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,16100.0,getdowncoffeeco
+georgioscoffee.com,Georgio's Coffee Roasters,Active,,,18648.0,,34,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18648.0,georgioscoffeeroasters
+georgehowellcoffee.com,George Howell Coffee,Active,,,114660.0,,109,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,114660.0,georgehowellcoffee
+fuglencoffee.jp,FUGLEN COFFEE ROASTERS TOKYO,Active,,,68626.0,,41,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,68626.0,fuglencoffeeroasterstokyo
+gritcoffee.com,Grit Coffee,Active,,,74868.0,,45,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,74868.0,gritcoffee
+frenchbroadchocolates.com,French Broad Chocolate,Active,,,46260.0,,56,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,46260.0,frenchbroadchocolate
+frasertea.com,Fraser Tea,Active,,,71175.0,,153,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,71175.0,frasertea
+franscakeandcandy.com,Frans Cake and Candy,Active,,,67618.0,,10605,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,67618.0,franscakeandcandy
+fowlerschocolates.com,Fowler's Chocolates,Active,,,101454.0,,91,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,101454.0,fowlerschocolates
+gingerelizabeth.com,Ginger Elizabeth Chocolates,Active,,,81576.0,,43,11-50,,2295.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,81576.0,gingerelizabethchocolates
+glowskincaregt.com,Glow Skincare,Active,,,195366.0,,3771,micro_no_linkedin,,737.0,Dropshipper:Print on Demand,18,13,11.0,1.1038813807594483,20.0,13.928571428571429,7,53.0,195366.0,glowskincare
+greyhousecoffee.com,Greyhouse Coffee,Active,,,45078.0,,69,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,45078.0,greyhousecoffee
+gretelscandy.com,Gretel's Candy,Active,,,25153.0,,470,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25153.0,gretelscandy
+greatdanecoffeecompany.com,Great Dane Coffee Company,Active,,,31055.0,,776,11-50,,,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,31055.0,greatdanecoffeecompany
+granitestatecandyshoppe.com,Granite State Candy Shoppe,Active,,,18033.0,,325,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18033.0,granitestatecandyshoppe
+gota.coffee,GOTA Coffee Experts,Active,,,20701.0,,209,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,20701.0,gotacoffeeexperts
+goshencoffee.com,Goshen Coffee,Active,,,34904.0,,105,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,34904.0,goshencoffee
+goodwith.us,Good Coffee,Active,,,61107.0,,33,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,61107.0,goodcoffee
+goodboybob.com,goodboybobcoffee,Active,,,24490.0,,35,11-50,,138.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,24490.0,goodboybobcoffee
+godivachocolates.co.uk,GODIVA Chocolates UK,Active,,,24102.0,,55,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24102.0,godivachocolatesuk
+kunjaninaples.com,Kunjani Craft Coffee,Active,,,15599.0,,45,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15599.0,kunjanicraftcoffee
+kumikomatcha.fr,Kumiko Matcha,Active,,,21996.0,,63,1,,2382.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,21996.0,kumikomatcha
+kringlecandle.com,Kringle Candle Company,Active,,,194112.0,,850,11-50,,,Dropshipper,18,13,11.0,1.0703307904556905,20.0,13.928571428571429,7,53.0,194112.0,kringlecandlecompany
+kr.bluebottlecoffee.com,Blue Bottle Coffee,Active,,,122955.0,,89,501-1000,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,122955.0,bluebottlecoffee
+konacoffee.nyc,Kona Coffee Roasters,Active,,,25809.0,,32,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,25809.0,konacoffeeroasters
+kitasandocoffee.com,KITASANDO COFFEE online store,Active,,,18201.0,,54,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18201.0,kitasandocoffeeonlinestore
+kimikuratea.com,Japanese Tea KIMIKURA,Active,,,19728.0,,123,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19728.0,japaneseteakimikura
+keepercoffee.com,Keeper Coffee,Active,,,23357.0,,33,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23357.0,keepercoffee
+kavatcoffee.com,kavatcoffee,Active,,,22282.0,,31,micro_no_linkedin,,7983.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,22282.0,kavatcoffee
+kaucoffeemill.com,Kaʻū Coffee Mill,Active,,,15372.0,,35,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,15372.0,kacoffeemill
+labarbacoffee.com,La Barba Coffee,Active,,,31448.0,,30,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,31448.0,labarbacoffee
+loftycoffee.com,Lofty Coffee,Active,,,55856.0,,21,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,55856.0,loftycoffee
+littlewolf.coffee,Little Wolf Coffee,Active,,,35858.0,,46,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,35858.0,littlewolfcoffee
+littlewaves.coffee,Little Waves Coffee Roasters,Active,,,37875.0,,150,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,37875.0,littlewavescoffeeroasters
+littleredcuptea.com,Little Red Cup Tea Co.,Active,,,22515.0,,90,1,,,Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,22515.0,littleredcupteaco
+littlebearcoffee.com,Little Bear Coffee,Active,,,64741.0,,27,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,64741.0,littlebearcoffee
+lightupcoffee.com,LIGHT UP COFFEE,Active,,,65714.0,,52,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,65714.0,lightupcoffee
+levista.in,Levista Coffee,Active,,,22121.0,,29,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22121.0,levistacoffee
+levelground.com,Level Ground Coffee Roasters,Active,,,22730.0,,20,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22730.0,levelgroundcoffeeroasters
+leonidas-chocolate.com,Leonidas Chocolates,Active,,,78270.0,,23,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,78270.0,leonidaschocolates
+legacychocolates.com,Legacy Chocolates,Active,,,23780.0,,47,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,23780.0,legacychocolates
+leavescoffee.jp,Leaves Coffee,Active,,,17347.0,,26,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17347.0,leavescoffee
+larryscoffee.com,Larry's Coffee,Active,,,29628.0,,51,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,29628.0,larryscoffee
+landofathousandhills.com,Land of a Thousand Hills Coffee,Active,,,70375.0,,44,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,70375.0,landofathousandhillscoffee
+lakemissoulateacompany.com,Lake Missoula Tea Company,Active,,,59747.0,,236,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,59747.0,lakemissoulateacompany
+karolcoffeeco.com,Karol Coffee Co.,Active,,,22998.0,,22,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,22998.0,karolcoffeeco
+kakawachocolates.com,Kakawa Chocolate House SF,Active,,,73102.0,,71,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,73102.0,kakawachocolatehousesf
+kajunloadedtea.com,Kajun Loaded Tea,Active,,,26794.0,,70,micro_no_linkedin,,22900.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,26794.0,kajunloadedtea
+jerkydynasty.com,Jerky Dynasty,Active,,,16351.0,,124,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,16351.0,jerkydynasty
+jeppi.com,Jeppi Nut & Candy Company,Active,,,17956.0,,319,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,17956.0,jeppinutcandycompany
+javaloveroasters.com,Java Love Coffee Roasting Co.,Active,,,18117.0,,102,11-50,,7758.0,Dropshipper:Print on Demand,18,14,11.0,0.0,20.0,15.0,7,53.0,18117.0,javalovecoffeeroastingco
+jauntcoffee.com,Jaunt Coffee Roasters,Active,,,19465.0,,31,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,19465.0,jauntcoffeeroasters
+jandbcoffee.com,J&B Coffee,Active,,,18934.0,,55,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,18934.0,jbcoffee
+jamescoffeeco.com,James Coffee Co,Active,,,59221.0,,90,11-50,,1277.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,59221.0,jamescoffeeco
+jamescandy.com,James Candy / Fralinger's,Active,,,21101.0,,126,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,21101.0,jamescandyfralingers
+italybestcoffee.com,Italy Best Coffee,Active,,,24228.0,,240,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24228.0,italybestcoffee
+isshikimatcha.com,isshiki matcha,Active,,,49310.0,,30,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,49310.0,isshikimatcha
+ironcladcoffee.com,Ironclad Coffee Roasters,Active,,,81976.0,,23,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,81976.0,ironcladcoffeeroasters
+in-tea.net,iN-TEA,Active,,,24347.0,,218,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24347.0,intea
+inpursuitoftea.com,In Pursuit of Tea,Active,,,88779.0,,355,1,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,88779.0,inpursuitoftea
+jerkygent.com,JerkyGent,Active,,,67170.0,,519,1,,1368.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,67170.0,jerkygent
+kaimanajerky.com,Kaimana Jerky,Active,,,66538.0,,97,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,66538.0,kaimanajerky
+kahwacoffee.com,Kahwa Coffee,Active,,,84810.0,,52,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,84810.0,kahwacoffee
+justicetea.com,Just Ice Tea,Active,,,23929.0,,31,51-200,,1531.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,23929.0,justicetea
+justcoffee.coop,Just Coffee Cooperative,Active,,,27951.0,,27,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,27951.0,justcoffeecooperative
+justaddhoney.net,Just Add Honey Tea Company,Active,,,28369.0,,89,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,28369.0,justaddhoneyteacompany
+jtcoffee.com,Joshua Tree Coffee Company,Active,,,40758.0,,101,2-10,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,40758.0,joshuatreecoffeecompany
+joffreys.com,Joffrey's Coffee & Tea Company,Active,,,115937.0,,253,51-200,,6340.0,Trending on TikTok,18,14,11.0,0.0,20.0,15.0,7,53.0,115937.0,joffreyscoffeeteacompany
+joecoffeecompany.com,Joe Coffee Company,Active,,,121780.0,,76,51-200,,242.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,121780.0,joecoffeecompany
+jitterz.co,Jitterz Coffee Roasters,Active,,,26036.0,,43,micro_no_linkedin,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,26036.0,jitterzcoffeeroasters
+jitteryjoes.com,Jittery Joe's Coffee,Active,,,64067.0,,65,51-200,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,64067.0,jitteryjoescoffee
+jingtea.com,Jing Tea,Active,,,24264.0,,92,11-50,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,24264.0,jingtea
+jerzeyjerky.com,Jerzey Jerky,Active,,,55205.0,,67,unknown,,,,18,14,11.0,0.0,20.0,15.0,7,53.0,55205.0,jerzeyjerky
+www.teadrunk.com,Tea Drunk,Active,,,17723.0,,112,2-10,,1208.0,,18,14,11.0,0.0,20.0,15.0,7,53.0,17723.0,teadrunk

@@ -1,0 +1,75 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_WORDS",
+      "msg": "slide 5: only 24 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 6: only 23 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 7: only 23 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 9: only 24 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 13: only 24 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 14: only 21 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 15: only 21 words"
+    },
+    {
+      "code": "W_WORDS",
+      "msg": "slide 19: only 22 words"
+    },
+    {
+      "code": "W_FINANCE",
+      "msg": "conservative case loses money; address the risk on the budget slide"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": true,
+    "findings_cited_on_strategy": 3,
+    "budget_lines": 8,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 2,
+    "body_slides_with_visual": 16,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 14000,
+    "ad_spend_usd": 9000,
+    "break_even_orders": 795,
+    "base_case": {
+      "orders": 1152,
+      "revenue_usd": 36864,
+      "gross_profit_usd": 20275,
+      "roi_profit_based": 0.448,
+      "roas": 4.1,
+      "cac_usd": 12.15
+    },
+    "conservative_case": {
+      "orders": 576,
+      "revenue_usd": 18432,
+      "gross_profit_usd": 10138,
+      "roi_profit_based": -0.276,
+      "roas": 2.05,
+      "cac_usd": 24.31
+    }
+  },
+  "penalty_points": 0
+}

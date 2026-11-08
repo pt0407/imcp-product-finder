@@ -1,0 +1,7 @@
+data/shopify_master_list.csv
+data/shopify_master_list.csv.gz
+*.pdf
+.DS_Store
+pipeline/runs/calibration/*.txt
+pipeline/**/grades/*.json
+__pycache__/
