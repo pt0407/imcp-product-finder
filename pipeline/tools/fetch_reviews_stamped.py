@@ -25,7 +25,8 @@ def fetch(shop, page):
 def main():
     if len(sys.argv) < 3:
         sys.exit("usage: fetch_reviews_stamped.py <store-domain> <out.csv> [max_pages=40]")
-    shop, out = sys.argv[1].replace("https://", "").replace("http://", "").strip("/")
+    shop = sys.argv[1].replace("https://", "").replace("http://", "").strip("/")
+    out = sys.argv[2]
     max_pages = int(sys.argv[3]) if len(sys.argv) > 3 else 40
     rows = []
     for page in range(1, max_pages + 1):

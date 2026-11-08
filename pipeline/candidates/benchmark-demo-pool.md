@@ -19,3 +19,8 @@ Tech products with quantified specs let you "show, not tell" — the demo is a n
 | lifestraw.com | ~$20 straw | DRINK DIRTY WATER LIVE — the ultimate show-don't-tell | Stamped, unfetched | insane demo if corpus verifies |
 | torras.com | ~$30 neck fan | airflow/battery numbers | no app | skip |
 | temtopus.com | ~$40 AQI meter | number moves in real-time vs dust/vape | no app | demo strong, no data |
+
+## LifeStraw corpus status
+Stamped API not publicly fetchable (store blocks it) — corpus unverified.
+Best-in-class cheap demo (~$20, drink dirty water live, DECA-compliant: pocketable, no power)
+but data would come from Amazon reviews/Trustpilot instead. Score cap ~80 without corpus.
