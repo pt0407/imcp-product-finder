@@ -4,6 +4,53 @@ Section-specific layouts driven by deck.json structured data. Usage: render_imcp
 import html, json, re, subprocess, sys
 from pathlib import Path
 from PIL import Image
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+CHART_DIR = None
+def brand_rgb(hexstr, default=(0.24,0.36,0.55)):
+    h = (hexstr or "#3d5a80").lstrip("#")
+    try: return tuple(int(h[i:i+2],16)/255 for i in (0,2,4))
+    except Exception: return default
+
+def make_charts(deck, run):
+    """Generate data-driven PNG charts into run/imcp/charts/. Returns {key: path}."""
+    global CHART_DIR
+    CHART_DIR = run / "imcp" / "charts"; CHART_DIR.mkdir(parents=True, exist_ok=True)
+    brand = deck["meta"].get("brand_color","#3d5a80"); c = brand_rgb(brand)
+    out = {}
+    plt.rcParams.update({"font.family":"-apple-system","font.size":13,"axes.edgecolor":"#ddd","axes.labelcolor":"#444"})
+    # 1) budget horizontal bars
+    lines = deck.get("budget",{}).get("lines",[])
+    if lines:
+        fig,ax = plt.subplots(figsize=(6.4,3.6),dpi=200)
+        items=[l["item"][:34] for l in lines][::-1]; vals=[l["usd"] for l in lines][::-1]
+        ax.barh(items,vals,color=c,height=.62)
+        for i,v in enumerate(vals): ax.text(v+max(vals)*.01,i,f"${v:,}",va="center",fontsize=12,fontweight="bold")
+        ax.set_xlim(0,max(vals)*1.22); ax.set_xticks([]); ax.spines[["top","right","bottom"]].set_visible(False)
+        ax.set_title("Campaign Budget Allocation",fontsize=15,fontweight="bold",loc="left")
+        fig.tight_layout(); p=CHART_DIR/"budget.png"; fig.savefig(p,bbox_inches="tight",facecolor="white"); plt.close(fig); out["budget"]=p
+    # 2) review theme frequency (real coded data)
+    repo = run.parents[2]
+    for m in deck.get("research",{}).get("methods",[]):
+        if m.get("type")=="review_analysis" and m.get("results_file"):
+            summ = repo/m["results_file"]/"review_summary.md"
+            if summ.exists():
+                themes=[]
+                for line in summ.read_text().splitlines():
+                    mm=re.match(r"\|\s*([a-z_]+)\s*\|\s*(\d+)\s*\|\s*(\d+)%",line)
+                    if mm and mm.group(1) not in ("theme",): themes.append((mm.group(1).replace("_"," "),int(mm.group(3))))
+                if themes:
+                    fig,ax=plt.subplots(figsize=(6.4,3.4),dpi=200)
+                    themes=themes[::-1]
+                    ax.barh([t[0] for t in themes],[t[1] for t in themes],color=c,height=.6)
+                    for i,(_,v) in enumerate(themes): ax.text(v+.3,i,f"{v}%",va="center",fontsize=11,fontweight="bold")
+                    ax.set_xlim(0,max(t[1] for t in themes)*1.3); ax.set_xticks([]); ax.spines[["top","right","bottom"]].set_visible(False)
+                    ax.set_title("What 500 Verified Reviews Mention",fontsize=15,fontweight="bold",loc="left")
+                    fig.tight_layout(); p=CHART_DIR/"themes.png"; fig.savefig(p,bbox_inches="tight",facecolor="white"); plt.close(fig); out["themes"]=p
+            break
+    return out
 
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 TAG = re.compile(r"\s*\[(?:[SAROMG]\d+)(?:\]\[|,\s*|[SARO]\d+)*\]")
@@ -26,6 +73,10 @@ def visual_uri(run, s):
     cands += [run/"visuals"/f"s{s['n']:02d}.png", run/"visuals"/f"board_s{s['n']:02d}.png"]
     for p in cands:
         if p.exists(): return p.resolve().as_uri()
+    # real business imagery harvested from the brand's own site
+    web = sorted((run/"webimg").glob("*")) if (run/"webimg").exists() else []
+    if web:
+        return web[(s["n"]-1) % len(web)].resolve().as_uri()
     return ""
 
 def kicker(txt): return f'<div class="kick">{html.escape(txt)}</div>'
@@ -71,7 +122,8 @@ img.vis{max-width:100%;max-height:560px;border-radius:16px;object-fit:contain;bo
 
 def find(deck, sid): return next((p for p in deck.get("programs",[]) if p["id"]==sid), None)
 
-def slide_html(deck, s, run, idx, total):
+def slide_html(deck, s, run, idx, total, charts=None):
+    charts = charts or {}
     meta = deck["meta"]; sec = s["section"]; n = s["n"]
     slides = {x["n"]: x for x in deck["slides"]}
     B = lambda x: bullets_html(x.get("bullets",[]))
@@ -132,7 +184,11 @@ def slide_html(deck, s, run, idx, total):
                 t = clean(b); lab,_,rest = t.partition(":")
                 lab = lab if len(lab)<30 else t[:28]
                 cards += f'<div class="card"><div class="cl">{html.escape(lab.upper())}</div><div class="body" style="font-size:19px">{html.escape(rest or t)}</div></div>'
-            pics = sorted((run/"photos").glob("*"))[:4] if (run/"photos").exists() else []
+            pics = []
+            for d in ("photos","webimg"):
+                pdir = run/d
+                if pdir.exists(): pics += sorted(pdir.glob("*"))
+            pics = pics[:6]
             picrow = ""
             if pics:
                 picrow = '<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px">' + "".join(f'<img src="{p.resolve().as_uri()}" style="width:100%;height:190px;object-fit:cover;border-radius:14px">' for p in pics) + '</div>'
@@ -166,7 +222,8 @@ def slide_html(deck, s, run, idx, total):
         if "Method" in s.get("title","") or "Results" in s.get("title",""):
             meth = "".join(f'<div class="q"><div class="body" style="font-size:20px">{html.escape(m["type"].replace("_"," ").title())} (n={m.get("n") or "—"}): {html.escape(m.get("recruitment","")[:180])} — {html.escape(m.get("status",""))}</div></div>' for m in deck.get("research",{}).get("methods",[]) if m.get("status")=="complete")
             finds = "".join(f'<div class="q"><div class="body" style="font-size:20px">{html.escape(f["finding"][:240])}</div></div>' for f in deck.get("research",{}).get("findings",[]))
-            body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>'
+            tchart = f'<img src="{charts["themes"].resolve().as_uri()}" style="width:100%;border-radius:12px;margin-top:14px">' if "themes" in charts else ""
+            body = kicker("METHODOLOGY & FINDINGS") + h1(s.get("title","Research")) + f'<div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div>{meth}</div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div>{finds}</div></div>{tchart}'
         else:
             rows = ""
             for f in deck.get("research",{}).get("findings",[]):
@@ -214,7 +271,8 @@ def slide_html(deck, s, run, idx, total):
                 fin = f'<div class="grid4" style="margin-top:18px"><div class="card"><div class="cl">BASE ROI</div><div class="statn">{bc.get("roi_profit_based",0)*100:.0f}%</div><div class="statl">{bc.get("orders",0)} orders · ${bc.get("revenue_usd",0):,.0f} rev</div></div><div class="card"><div class="cl">CONSERVATIVE</div><div class="statn">{cc.get("roi_profit_based",0)*100:.0f}%</div><div class="statl">{cc.get("orders",0)} orders · mitigations on-slide</div></div><div class="card"><div class="cl">BREAK-EVEN</div><div class="statn">{f.get("break_even_orders",0)}</div><div class="statl">orders to cover ${b.get("total_usd",0):,}</div></div><div class="card"><div class="cl">CAC</div><div class="statn">${bc.get("cac_usd",0):.0f}</div><div class="statl">vs ~90-day accessory attach</div></div></div>'
         except Exception: pass
         bimg = f'<img class="vis" src="{uri}" style="margin-top:16px;max-height:280px">' if uri else ""
-        body = kicker("BUDGET & FINANCIAL VIABILITY") + h1(s.get("title","")) + f'<div class="cols2"><div class="col"><table class="tb"><tr><th>LINE ITEM</th><th style="text-align:right">COST</th></tr>{rows}<tr><td style="font-weight:900">TOTAL</td><td style="text-align:right;font-weight:900">${b.get("total_usd",0):,}</td></tr></table><div class="body" style="margin-top:16px;font-size:19px">{B(s)}</div></div><div class="col">{fin}{bimg}</div></div>'
+        bchart = f'<img src="{charts["budget"].resolve().as_uri()}" style="width:100%;border-radius:12px;margin-top:14px">' if "budget" in charts else ""
+        body = kicker("BUDGET & FINANCIAL VIABILITY") + h1(s.get("title","")) + f'<div class="cols2"><div class="col"><table class="tb"><tr><th>LINE ITEM</th><th style="text-align:right">COST</th></tr>{rows}<tr><td style="font-weight:900">TOTAL</td><td style="text-align:right;font-weight:900">${b.get("total_usd",0):,}</td></tr></table>{bchart}<div class="body" style="margin-top:16px;font-size:19px">{B(s)}</div></div><div class="col">{fin}{bimg}</div></div>'
         return page(meta, idx, total, body)
 
     # ---------- impact ----------
@@ -244,8 +302,9 @@ def main(deck_path):
     deck = json.load(open(deck_path)); run = Path(deck_path).parent
     outdir = run / "imcp"; outdir.mkdir(exist_ok=True)
     slides = deck["slides"]; total = len(slides); pngs = []
+    charts = make_charts(deck, run)
     for i, s in enumerate(slides):
-        doc = slide_html(deck, s, run, i, total)
+        doc = slide_html(deck, s, run, i, total, charts)
         hf = outdir / f"p{i+1:02d}.html"; hf.write_text(doc)
         png = outdir / f"p{i+1:02d}.png"
         if not (png.exists() and png.stat().st_size > 10000):
