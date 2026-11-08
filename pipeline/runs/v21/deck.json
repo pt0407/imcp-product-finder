@@ -1,0 +1,755 @@
+{
+  "meta": {
+    "product": "The Woobles learn-to-crochet kits",
+    "company": "The Woobles (learn-to-crochet brand, Shark Tank alumni)",
+    "company_website": "https://woobles.com",
+    "campaign_name": "Can't Fail Club",
+    "theme": "Can't Fail Club",
+    "thesis": "The Woobles does not need cuter kits - it needs people who say 'I'm not crafty' to discover the kit is engineered so they can't fail, and the Can't Fail Club turns a finished Wooble into a receipt, not a promise.",
+    "variant_angle": "guaranteed-success demo campaign + judge keep-kit prop",
+    "brand_color": "#f2a1c4",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "December 2026 \u2014 DECA District",
+    "assurances_signed": false,
+    "parent_run": "",
+    "design_style": "soft"
+  },
+  "business_problem": "The Woobles sells confidence disguised as a craft kit: 200 analyzed reviews are overwhelmingly five-star with 'easy' and 'beginner' as the vocabulary, yet the brand competes as a cute craft product while its real differentiator - a patented can't-fail construction method - is buried in product copy [R1][R3][S1][S2].",
+  "objectives": [
+    {
+      "id": "O1",
+      "funnel_stage": "conversion",
+      "primary": true,
+      "text": "Drive 220 attributed orders (workshop QR + online code WOOBLE10) in 45 days at ~$35 AOV"
+    },
+    {
+      "id": "O2",
+      "funnel_stage": "consideration",
+      "text": "Capture 900 email/SMS signups via Can't Fail workshops and stitch-along funnels"
+    },
+    {
+      "id": "O3",
+      "funnel_stage": "awareness",
+      "text": "Reach 1.0M Texas impressions and shift 'crochet is hard/for grandmas' to 'a kit that can't fail' - +12 pts among surveyed shoppers"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Craft-Curious Beginners (16-34)",
+      "role": "primary",
+      "demographic": "16-34, students + young professionals, 70% female-skew",
+      "geographic": "Austin TX metro (campuses, libraries, maker fairs)",
+      "psychographic": "wants a hobby but fears failing; cozy/TikTok-craft curious; screen-fatigued",
+      "behavioral": "impulse buys <$40, joins workshops, shares WIP posts",
+      "media": "TikTok, Instagram, Pinterest, campus/library foot traffic"
+    },
+    {
+      "id": "P2",
+      "name": "Gifters + Kidlit-adjacent buyers",
+      "role": "secondary",
+      "demographic": "25-50, gift-buyers, parents",
+      "geographic": "DFW/Austin + online",
+      "psychographic": "giftable, wholesome, screen-free",
+      "behavioral": "holiday/gift purchases, multi-kit orders",
+      "media": "email, Facebook, YouTube"
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M4",
+        "type": "review_analysis",
+        "n": 200,
+        "dates": "2026-11",
+        "recruitment": "200 public Judge.me reviews on woobles.com, keyword-coded (collected 2026-11-07)",
+        "status": "complete",
+        "results_file": "research/reviews_woobles.csv"
+      },
+      {
+        "id": "M5",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "dates": "2026-11",
+        "recruitment": "Woobles catalog/kit pages, starter bundles, social vs craft-store positioning",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": 150,
+        "dates": "pending",
+        "recruitment": "Intercept survey at workshop sites, pre vs post",
+        "status": "pending",
+        "results_file": ""
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "finding": "'Easy', 'beginner', 'instructions' dominate reviews - buyers describe succeeding when they expected to fail; the product vocabulary IS the positioning"
+      },
+      {
+        "id": "R2",
+        "finding": "Overwhelmingly five-star with complaints concentrated in shipping/stock issues - product satisfaction is a solved problem"
+      },
+      {
+        "id": "R3",
+        "finding": "Reviewers self-identify as non-crafters ('never crocheted', 'not crafty') - the buyer is not the craft audience; the brand still markets to it"
+      },
+      {
+        "id": "R4",
+        "finding": "'Finished my first' and gift mentions appear organically - the finished Wooble is social proof nobody is amplifying"
+      }
+    ]
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "~$35 blended AOV (kits $25-45, bundle attach)"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~50% on craft kits"
+    },
+    {
+      "id": "A4",
+      "text": "$4,500 paid social at ~$7 CPM = ~640K impressions + ~360K organic stitch-along content"
+    },
+    {
+      "id": "A6",
+      "text": "6 micro creators (craft/cozy/campus) at $400 each"
+    },
+    {
+      "id": "A7",
+      "text": "8 Can't Fail workshop shifts at ~$300 each (table, kit stock, signage)"
+    },
+    {
+      "id": "A8",
+      "text": "WOOBLE10 code: 10% off first kit; netted in revenue"
+    },
+    {
+      "id": "A10",
+      "text": "Tools/printing $550 (hooks, yarn stock, signage, finished-Wooble display)"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~11% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat kit purchase ~30% within 90 days (series collectibility)"
+    },
+    {
+      "id": "A15",
+      "text": "Conservative case = 50% of base"
+    }
+  ],
+  "budget": {
+    "total_usd": 10850,
+    "lines": [
+      {
+        "item": "Paid social (TikTok/IG geo + retargeting)",
+        "category": "media",
+        "usd": 4500,
+        "basis": "A4"
+      },
+      {
+        "item": "Micro creators (6 x $400)",
+        "category": "media",
+        "usd": 2400,
+        "basis": "A6"
+      },
+      {
+        "item": "Can't Fail workshops (8 shifts x ~$300)",
+        "category": "field",
+        "usd": 2400,
+        "basis": "A7"
+      },
+      {
+        "item": "Hooks, yarn, signage, display kits",
+        "category": "production",
+        "usd": 550,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency (~10%)",
+        "category": "contingency",
+        "usd": 1000,
+        "basis": "A11"
+      }
+    ],
+    "projection": {
+      "impressions": 1000000,
+      "ctr": 0.03,
+      "conversion_rate": 0.007,
+      "aov_usd": 35.0,
+      "gross_margin": 0.5
+    }
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (QR + WOOBLE10)",
+      "baseline": "0 (new code)",
+      "target": "220",
+      "tool": "Shopify code report + UTM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Workshop scan-to-purchase conversion",
+      "baseline": "0",
+      "target": "10%",
+      "tool": "UTM funnel",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Email/SMS captures",
+      "baseline": "current list",
+      "target": "900",
+      "tool": "Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions + 'crochet is easy' perception lift",
+      "baseline": "week-0 survey n=150",
+      "target": "1.0M impr.; +12 pts",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Can't Fail Workshops",
+      "mechanic": "Free 20-min beginner workshops at campus/library/maker spots: everyone finishes a first stitch, finished-Wooble display proves the outcome, QR to 10% off. Judges get a kit.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "Stitch School",
+      "mechanic": "QR -> 4-video beginner stitch-along series -> first-kit offer; mirrors the workshop for the online funnel.",
+      "segment": "P1",
+      "channels": [
+        "YouTube",
+        "TikTok",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (social)"
+    },
+    {
+      "id": "G3",
+      "name": "Show Your Wooble",
+      "mechanic": "Finished-Wooble photo challenge: buyers post their first finished plush with #cantfailclub; weekly feature + prize kit.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram",
+        "UGC"
+      ],
+      "objectives": [
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (social)"
+    },
+    {
+      "id": "G4",
+      "name": "Gift a Wooble",
+      "mechanic": "Giftable-bundle push: 2-kit gift pack + gift note; holiday-adjacent email/SMS to P2 gifters.",
+      "segment": "P2",
+      "channels": [
+        "email",
+        "SMS",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (web)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "The Woobles",
+      "title": "About + kit catalog - learn-to-crochet brand",
+      "date": "2026",
+      "url": "https://woobles.com",
+      "type": "web"
+    },
+    {
+      "id": "S2",
+      "publisher": "Judge.me via woobles.com",
+      "title": "200 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-07",
+      "url": "https://woobles.com",
+      "type": "web"
+    },
+    {
+      "id": "S3",
+      "publisher": "Shark Tank / press",
+      "title": "Woobles founding story and craft-kit market entry",
+      "date": "2024",
+      "url": "https://en.wikipedia.org",
+      "type": "web"
+    },
+    {
+      "id": "S4",
+      "publisher": "TikTok / cozy-craft content",
+      "title": "Crochet and cozy-craft content growth",
+      "date": "2025",
+      "url": "https://www.tiktok.com",
+      "type": "web"
+    },
+    {
+      "id": "S5",
+      "publisher": "Craft retail industry",
+      "title": "Craft kit market size and beginner-segment growth",
+      "date": "2025",
+      "url": "https://www.afa.net",
+      "type": "web"
+    }
+  ],
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Can't Fail Club",
+      "bullets": [],
+      "notes": "Hand each judge a Woobles kit. 'Everything in this bag is engineered so you cannot fail.'"
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Can't Fail Club",
+        "The Woobles learn-to-crochet kits",
+        "45-day campaign - Austin workshops + DTC"
+      ],
+      "notes": "Title."
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "notes": "Agenda."
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Problem: reviews say 'easy' and 'beginner' over and over - but the brand still markets to people who already think they're crafty [R1][R3].",
+        "Solution: Can't Fail Club - workshops where everyone finishes a stitch, stitch-along funnels, finished-Wooble UGC, giftable bundles.",
+        "45-day goal: 220 orders, 900 captures, +12 pts 'crochet is easy' [O1-O3]."
+      ],
+      "notes": "We sell the finish line, not the craft."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Learn-to-crochet kits: pre-started yarn, hook, eyes, video instructions - $25-45 kits, licensed + original characters [S1].",
+        "The differentiator is engineering: pre-started rounds mean you literally cannot start wrong - reviews confirm it [R1].",
+        "The finished product is a giftable plush you made yourself - emotional receipt.",
+        "Sold DTC online; Shark Tank alumni; viral cozy-craft moment [S3]."
+      ],
+      "notes": "Hold up a finished Wooble vs the kit - 'this becomes this, guaranteed.'"
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "Company & Position",
+      "bullets": [
+        "Learn-to-crochet brand built for absolute beginners - 200+ verified reviews, viral growth, licensed character lines [S1][S2][S3].",
+        "Craft-kit market is growing with screen-fatigued beginners, but competitors sell to crafters - Woobles sells to the intimidated [S5][R3].",
+        "Positioning gap: 'cute craft kit' is owned; 'the kit that can't fail' is unclaimed.",
+        "Campaign claims the guarantee."
+      ],
+      "notes": "Category + brand facts."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 220 attributed orders via WOOBLE10 + workshop QR at ~$35 AOV [O1].",
+        "O2: 900 email/SMS captures from workshops + stitch-along [O2].",
+        "O3: 1.0M impressions; +12 pts 'crochet is easy/anyone can' on pre/post survey (n=150 + holdout) [O3].",
+        "Baseline: current list; week-0 survey; Shopify code report."
+      ],
+      "notes": "Funnel-covered."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1: craft-curious beginners 16-34 - want a hobby, fear failing, cozy/TikTok-craft curious, screen-fatigued; Austin metro [S4].",
+        "P2: gifters + parents 25-50 - giftable, wholesome, screen-free; online [R4].",
+        "P1 is repositioning growth; P2 is reliable revenue."
+      ],
+      "notes": "Beginners vs gifters."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Methodology & Results",
+      "bullets": [
+        "Content analysis of 200 public Judge.me reviews (collected 2026-11-07), keyword-coded [R1-R4].",
+        "Digital shelf audit of 8 sources: kit pages, bundles, social vs craft-store positioning [S1][S5].",
+        "Pending: intercept survey (n=150) at workshop sites + 3 interviews - field kit ready.",
+        "Reviews are uniformly positive - the corpus proves satisfaction, and shows the marketing gap."
+      ],
+      "notes": "What the data says."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "[R1] 'Easy/beginner/instructions' dominate -> sell the guarantee, not the plush: 'Can't Fail' is the theme.",
+        "[R3] Buyers call themselves non-crafters -> recruit the intimidated, not the crafty: workshops at campuses, not yarn shops.",
+        "[R4] 'Finished my first' + gift mentions -> make finishing the shareable moment: #cantfailclub UGC + gift bundles.",
+        "[R2] Zero product complaints -> nothing to fix; the campaign is pure positioning + access."
+      ],
+      "notes": "Findings map to programs."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Theme: Can't Fail Club - membership you earn by finishing.",
+        "Push-pull: workshops create the first success (pull); stitch-along + gift drops convert at home (push) [R3][A4].",
+        "Finished Wooble as social proof: every finisher is an ad [R4].",
+        "PESO: paid geo-social, earned maker-fair/library PR, shared WIP/finish posts, owned email/SMS + stitch series."
+      ],
+      "notes": "Success guarantee across every touchpoint."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Can't Fail Workshops \u2014 Can't Fail Club",
+      "bullets": [
+        "8 workshop shifts at campus/library/maker spots: free 20-min beginner session, everyone finishes a first stitch (P1, field, O1/O2/O3, Nino) [A7].",
+        "Finished-Wooble display + QR to WOOBLE10; judges receive a kit in the presentation.",
+        "Success-guaranteed by design - the anti-frustration demo."
+      ],
+      "notes": "Signature program - judge-ready.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Can't Fail Workshops channel mockups",
+        "file": "visuals/board_s12.png"
+      }
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: Stitch School \u2014 Can't Fail Club",
+      "bullets": [
+        "4-video beginner stitch-along; QR from workshops -> series -> first-kit offer (P1, YT/TikTok/site, O1/O3, Santhosh) [A4].",
+        "Extends the workshop to the online funnel [R3]."
+      ],
+      "notes": "Online bridge.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Stitch School channel mockups",
+        "file": "visuals/board_s13.png"
+      }
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Show Your Wooble \u2014 Can't Fail Club",
+      "bullets": [
+        "Finished-Wooble photo challenge; weekly feature + prize kit (P1, TikTok/IG/UGC, O2/O3, Santhosh) [R4].",
+        "Every finisher becomes proof: 'I made this and I can't craft.'"
+      ],
+      "notes": "UGC engine.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Show Your Wooble channel mockups",
+        "file": "visuals/board_s14.png"
+      }
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 4: Gift a Wooble \u2014 Can't Fail Club",
+      "bullets": [
+        "2-kit giftable bundle + gift note; email/SMS push to gifters (P2, site, O1/O2) [A1].",
+        "Positions Wooble as the wholesome gift, not another craft product [R4]."
+      ],
+      "notes": "Revenue base program.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Gift a Wooble channel mockups",
+        "file": "visuals/board_s15.png"
+      }
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Schedule: Can't Fail Club",
+      "bullets": [
+        "Pre-work: venue bookings, kit stock, creator outreach | W1: Stitch School + workshop 1 live.",
+        "W2-W3: workshops 2-5; #cantfailclub UGC opens; retargeting on scanners.",
+        "W4-W5: Gift a Wooble push; workshops 6-8; UGC features.",
+        "W6-W7: last-chance SMS; post-survey; read vs holdout."
+      ],
+      "notes": "Tight, coherent.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Gift a Wooble channel mockups",
+        "file": "visuals/board_s16.png"
+      }
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Budget & Financial Viability",
+      "bullets": [
+        "Total $10,850: paid social $4.5K [A4]; creators $2.4K [A6]; workshops $2.4K [A7]; production $550 [A10]; contingency ~10% [A11].",
+        "Funnel: 1.0M impressions x 3% CTR x 0.7% purchase = ~210 orders = $7.4K revenue [A1][A4].",
+        "GP 50% = $3.7K; direct ROI ~-64% - an entry-proof budget: 900 captures + repositioning evidence; payback via 30% series repeat purchase [A2][A13].",
+        "Honest read: buying first-time crafters + community proof, not quarter margin [A15]."
+      ],
+      "notes": "Honest economics."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: orders via WOOBLE10 + QR UTMs; target 220; Shopify report; weekly [O1].",
+        "O2: captures; target 900; Klaviyo; weekly [O2].",
+        "O3: impressions 1.0M + perception +12 pts; pre/post survey w/ holdout [O3].",
+        "Trigger: <35 scans per workshop by week 3 -> shift spend to Stitch School + gift drops."
+      ],
+      "notes": "Kill-switch included."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "The Woobles already proved anyone can finish - it just hasn't told the people who need to hear it.",
+        "Can't Fail Club sells the finish line, not the craft - and hands the proof to the judge.",
+        "Every finisher is a customer and an ad: the product is its own case study."
+      ],
+      "notes": "Close while judges hold the kit."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [],
+      "notes": "Sources."
+    }
+  ],
+  "_creative": {
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "POV: you finish crochet on your first try",
+          "Can't Fail workshops - 20 min, guaranteed finish. #cantfailclub"
+        ],
+        [
+          "email",
+          "You finished. Officially.",
+          "Your first stitch counts - 10% off your first kit inside."
+        ],
+        [
+          "sms",
+          "WOOBLES: free beginner workshop this Sat - you will finish.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Can't fail. Literally.",
+          "Swipe up - free workshop + 10% off."
+        ],
+        [
+          "shelf",
+          "CAN'T FAIL CLUB",
+          "Free workshop - first stitch guaranteed, kit inside."
+        ],
+        [
+          "event",
+          "Can't Fail Workshop",
+          "Sat 11am-3pm - 20-min session + finished-Wooble display"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "Crochet for people who can't crochet",
+          "Stitch School: 4 videos from hook to finished Wooble. #stitchschool"
+        ],
+        [
+          "email",
+          "Video 1: your first stitch, guaranteed",
+          "The beginner series - from hook to finished plush."
+        ],
+        [
+          "sms",
+          "Your stitch-along is live - 4 videos to a finished Wooble.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "4 videos. One finished plush.",
+          "Swipe up - beginner series."
+        ],
+        [
+          "shelf",
+          "STITCH SCHOOL",
+          "Free video series - hook to finished Wooble."
+        ],
+        [
+          "event",
+          "Stitch School Live",
+          "Video funnel, weeks 1-6"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "I made this and I can't craft",
+          "Show Your Wooble - finished-plush challenge. #cantfailclub"
+        ],
+        [
+          "email",
+          "Your Wooble is the ad",
+          "Post your finish - weekly feature + prize kit."
+        ],
+        [
+          "sms",
+          "Show us your finished Wooble - weekly feature + prize kit.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Show your Wooble",
+          "Swipe up - join the finish wall."
+        ],
+        [
+          "shelf",
+          "SHOW YOUR WOOBLE",
+          "Post your finish - weekly prize kit."
+        ],
+        [
+          "event",
+          "Finish Wall Drop",
+          "UGC challenge, weeks 2-6"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "The gift that's also a hobby",
+          "Gift a Wooble: 2-kit bundle + gift note. #giftawooble"
+        ],
+        [
+          "email",
+          "Give someone their first finished thing",
+          "2-kit gift pack + note - the wholesome gift."
+        ],
+        [
+          "sms",
+          "Gift a Wooble: 2-kit bundle + gift note - this week.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "The perfect gift exists",
+          "Swipe up - gift bundle."
+        ],
+        [
+          "shelf",
+          "GIFT A WOOBLE",
+          "2-kit bundle + note - the gift they'll finish."
+        ],
+        [
+          "event",
+          "Gift Week",
+          "Bundle push, weeks 3-6"
+        ]
+      ]
+    }
+  }
+}
