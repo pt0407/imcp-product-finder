@@ -1,0 +1,62 @@
+{
+  "run": "v11",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 5,
+    "business_opportunity": 5,
+    "research": 10,
+    "strategy": 12,
+    "activities": 14,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 5,
+    "delivery": 5,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 5,
+    "business_opportunity": 5,
+    "research": 10,
+    "strategy": 12,
+    "activities": 14,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 5,
+    "delivery": 5,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 0,
+    "research": 0,
+    "strategy": 1,
+    "activities": 0,
+    "budget": 2,
+    "impact": 0,
+    "organization": 1,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 85,
+  "capped_total": 85,
+  "penalty_points": 0,
+  "final": 85,
+  "top_fixes": [
+    "Fix the budget math: line items on Slide 17 sum to $13,000 against a claimed $15,000 total — add the missing line or correct the total and show the gap explicitly (points: budget 7->9, ~1 hour).",
+    "Add a real primary research component (even n=30 survey of H-E-B shoppers or 3 store-manager interviews) to unlock research scores above the 10-point no-survey cap (points: research 10->13+, ~4-6 hours).",
+    "Complete title-slide metadata (school, address, participants, date) and trim Slide 17 to <=110 words — cheap professionalism/compliance fixes that protect overall and design scores (~30 minutes).",
+    "Run a real survey (n>=30) or 3 interviews with jerky buyers to unlock Research 10->15 - the single biggest point gain for modest effort.",
+    "Fix the title-slide metadata (school, address, participants, date) flagged by check.json - required for a complete client pitch.",
+    "Quantify the conservative-case mitigation on Slide 17 (repeat-rate math or break-even sensitivity) so the -40% ROI downside is defensible to a client."
+  ],
+  "scored_at": "2026-11-07T20:37:45"
+}

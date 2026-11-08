@@ -1,0 +1,73 @@
+{
+  "run": "v15",
+  "grader_session": "fresh",
+  "pass": 1,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: 'Stryve Foods Corp (NASDAQ: SNAX), Plano TX; founded by Ted Casey (Dymatize), ex-NFL player Gabe Carimi, and South African native Warren Pala' plus 'Net sales $29.9M -> $17.7M (-41%) in FY2023' and a named competitor set (Brooklyn Biltong, Shaka's, Billi Tong's, Lowfeld Soul Food) with a positioning map placing Braav alone in the premium-clean quadrant",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: 'net sales fell 41% (10-K) while ~1,400 public reviews show only 4% discovered Braav in-store - distribution without velocity' is a specific structural problem, and Slide 7 gives SMART O1-O3 ('2,000 attributed purchases... +25% units per store at 6 demo stores vs. 6 control')",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: 'keyword-coded analysis of 1,400 public Stamped.io reviews [R1][R4] and a public distribution/digital-shelf audit of 8 sources [R5][R6]; survey/interviews not run - published reviews skew positive' - two no-survey primary methods with n and dates, findings traced to decisions on Slide 10, auto-capped at 10 (primary_lite_ok)",
+      "fix": "Run the deferred survey/interviews (n>=30 or 3+ interviews, e.g., H-E-B category managers or demo-day intercepts) to unlock 11-15; the deck already budgets a 150-shopper awareness survey that could be expanded into a real primary instrument."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: 'Big idea: It's Not Jerky - biltong is air-dried, never cooked' built on cited findings, and Slide 7/12 add a test-vs-control velocity design ('6 demo stores vs. 6 control stores') that is genuinely hard for a jerky competitor to copy",
+      "fix": "Sharpen the moat further: state explicitly that the controlled-store velocity readout is the deliverable Stryve takes to its retail buyers (Slide 19 hints at this) rather than burying it; the PESO-style IMC mix line on Slide 11 is still the weakest, most copyable element."
+    },
+    "activities": {
+      "score": 14,
+      "evidence": "Slide 16: 'W2-W3 (Jan 12-25): Biltong 101 demos begin (P1, field, O1/O2, field lead); Taste-Off videos 1-2 (P1, TikTok, O3, social lead)' - every block names segment, channel, objective, and owner within the 45-day window, with pre-work sell-in on Oct-Nov",
+      "fix": "Replace role labels ('field lead', 'social lead', 'CRM lead') with named team members and add a Gantt/timeline visual; the current bullets compress four activities per row and depend on the judge parsing dense text."
+    },
+    "budget": {
+      "score": 9,
+      "evidence": "Slide 17: 'Total $15,000: social $5,500 ($5.5 CPM x ~1M paid) [A4]; creators 3 x $1,000 [A6]; demos 12 x $250... contingency $2,200 [A11]' - lines now sum exactly to $15,000 with unit-cost bases, funnel math, 45% GP, profit ROI 21%, CAC $6.67 vs CLV ~$23, and an honest conservative case ('ROI ~-40%... breakeven ~wk 10-12')",
+      "fix": "The conservative case still loses ~40% in-window; justify the upside assumptions (A13 30% repeat, A15 ~720 demo purchases) with at least one external benchmark or company data point, since both are self-labeled assumptions."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: 'O1: units per store per week, demo vs. control; baseline week-0 audit [A3]; target +25%; retailer data; weekly' plus a pre/post aided-awareness design ('baseline at week 0, post-campaign survey of 150 shoppers; target +12 pts') and trigger thresholds for reallocation",
+      "fix": "The +12pt awareness lift has no control group - add a holdout region or matched non-exposed shoppers to the survey design so the lift is attributable like the velocity metric is."
+    },
+    "organization": {
+      "score": 5,
+      "evidence": "Slide 3 TOC matches official order (Overview -> Product & Company -> Objectives -> Target Market -> Research -> Strategy -> Budget -> Impact -> Bibliography) and Slide 14 is now a single program ('Program 3: Jerky or Biltong? Taste-Off Tour'), one idea per slide throughout",
+      "fix": ""
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 19: 'Thesis: Stryve does not need more doors - it needs shoppers who try it once to come back. It's Not Jerky turns H-E-B shelf space into repeat buyers' restates the Slide 4 thesis nearly verbatim - a clear open/close through-line",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk track on all 16 body slides with planned interactions: Slide 8 'Interactive moment: show the two persona cards printed side by side', Slide 12 'hand the judge the printed shelf talker and sample-cup sleeve', Slide 14 'Walk the judge through the phone mockup of the taste-off'",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "check.json: 'body_slides_with_visual: 16' - every body slide has a visual incl. mockups on Slides 8, 12, 14, 15; but Slide 17 still runs ~112 words ('Conservative (50%): ~1,125 purchases, ROI ~-40%; ~720 demo purchases add ~$5.8K GP...'), over the 62-92 winner band",
+      "fix": "Trim Slide 17 to <=110 words - move the conservative-case arithmetic into the speaker notes or an appendix; the budget slide is the densest on the deck."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "check.json still warns 'meta.date missing (needed on title slide)' and deck.json has 'assurances_signed: false' - school/address/participants are now filled in meta but the competition date is blank on Slide 2, and Slide 17's word count exceeds the winner band",
+      "fix": "Enter the DECA District competition date in meta.date so it renders on Slide 2, and sign/complete the assurances before submission."
+    }
+  },
+  "top_fixes": [
+    "Add a real survey/interview component (even n=30 intercepts at demo days or 3 H-E-B category-manager interviews) to unlock research scores above the 10-point no-survey cap - the deck already promises a 150-shopper survey that could be expanded (points: research 10->13+, ~4-6 hours).",
+    "Justify the conservative-case upside assumptions (A13 repeat rate, A15 demo purchases) with external benchmarks or company data - the -40% in-window ROI currently rests entirely on self-labeled assumptions (points: budget 9->10, ~1 hour).",
+    "Fill meta.date for the title slide, trim Slide 17 under 110 words, and add a control/holdout group to the aided-awareness survey - cheap fixes protecting overall, design, and impact (~1 hour total)."
+  ],
+  "total": 88
+}

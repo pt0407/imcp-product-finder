@@ -1,0 +1,852 @@
+{
+  "meta": {
+    "product": "Stryve - Braav Biltong",
+    "company": "Stryve Foods Corp (NASDAQ: SNAX), Plano, TX",
+    "campaign_name": "It's Not Jerky",
+    "theme": "It's Not Jerky",
+    "thesis": "Stryve does not need more doors - it needs shoppers who understand what biltong is and come back for it, and It's Not Jerky turns H-E-B shelf space into repeat buyers.",
+    "variant_angle": "It's Not Jerky rev2 (metadata + cost basis + CAC:CLV + slide-14 fix)",
+    "brand_color": "#8a2f2f",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "",
+    "assurances_signed": false,
+    "parent_run": ""
+  },
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "business_problem": "Stryve's net sales fell ~41% to $17.7M in FY2023 while its own 10-K cites 'discontinuation of non-profitable accounts' - distribution grew to H-E-B, Walmart, Whole Foods and more, but the shelf is not turning browsers into buyers, and biltong is still an unfamiliar word to most Texas shoppers.",
+  "objectives": [
+    {
+      "id": "O1",
+      "text": "Drive 2,000 attributed purchases (H-E-B coupon + online code) in 45 days, and lift units per store 25% at 6 demo stores vs. 6 control stores",
+      "funnel_stage": "conversion",
+      "primary": true
+    },
+    {
+      "id": "O2",
+      "text": "Hand out 3,600 in-store samples and generate 9,000 coupon claims",
+      "funnel_stage": "consideration",
+      "primary": false
+    },
+    {
+      "id": "O3",
+      "text": "Reach 1.5M Texas impressions and lift aided awareness of 'biltong' by 12 points among surveyed shoppers",
+      "funnel_stage": "awareness",
+      "primary": false
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Performance Snackers (18-34)",
+      "role": "primary",
+      "demographic": "18-34, college students, young professionals, and fitness-focused shoppers, DFW and Texas",
+      "geographic": "Dallas-Fort Worth, Plano, Austin, Houston corridors",
+      "psychographic": "Buys high-protein snacks for macros; keto/paleo/whole30-curious; values clean labels (sugar-free, grass-fed)",
+      "behavioral": "Buys jerky/meat snacks weekly at H-E-B, Walmart, c-stores, gyms; discovers products through TikTok and creator content",
+      "media": "TikTok and Instagram Reels daily; YouTube fitness content; Amazon app; low email use",
+      "evidence": [
+        "S6",
+        "S8",
+        "S12"
+      ]
+    },
+    {
+      "id": "P2",
+      "name": "Clean-Label H-E-B Parents (30-50)",
+      "role": "secondary",
+      "demographic": "30-50, household income $60K+, parents buying lunchbox and after-school snacks",
+      "geographic": "DFW suburbs served by H-E-B",
+      "psychographic": "Wants snacks with recognizable ingredients - no sugar, no fillers; will pay for quality but not for confusion",
+      "behavioral": "Weekly H-E-B shopper; uses the H-E-B app and digital coupons; reads ingredient panels",
+      "media": "Facebook, Instagram, H-E-B app, email newsletters",
+      "evidence": [
+        "S6",
+        "S9",
+        "S12"
+      ]
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will not run this method; replaced by no-survey primary methods (see M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M2",
+        "type": "interview",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will not run this method; replaced by no-survey primary methods (see M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M3",
+        "type": "competitor_audit",
+        "n": null,
+        "dates": "2026-11-07",
+        "recruitment": "team will not run this method; replaced by no-survey primary methods (see M5, M6)",
+        "status": "not_applicable",
+        "results_file": ""
+      },
+      {
+        "id": "M4",
+        "type": "secondary",
+        "n": 10,
+        "dates": "2026-11-07",
+        "recruitment": "10-K via last10k, company site/stores page, Walmart/Sprouts listings, trade press, founder bios",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_stryve.md"
+      },
+      {
+        "id": "M5",
+        "type": "review_analysis",
+        "n": 1400,
+        "dates": "2026-11-07",
+        "recruitment": "public Stamped.io review API on stryve.com; keyword-coded content analysis (analyze_reviews.py)",
+        "status": "complete",
+        "results_file": "pipeline/research/reviews_stryve/review_summary.md"
+      },
+      {
+        "id": "M6",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "dates": "2026-11-07",
+        "recruitment": "public web audit: store locator, H-E-B/Walmart/Sprouts listings, category press",
+        "status": "complete",
+        "results_file": "pipeline/research/digital_shelf_audit_stryve.md"
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "method": "M5",
+        "finding": "Content analysis of 1,400 public reviews (collected 2026-11-07): 29% mention taste/flavor unprompted, 20% mention repeat/bulk orders, complaints only 4%",
+        "therefore": "Demo Days and creator taste content lead - product experience converts; the gap is reaching new shoppers"
+      },
+      {
+        "id": "R2",
+        "method": "M5",
+        "finding": "12% of 1,400 reviews mention health/clean-label benefits (sugar-free, high protein, keto) and 5% explicitly compare it to jerky or other meat snacks",
+        "therefore": "Position biltong as the premium upgrade to jerky - clean-label proof is the hook for performance and parent segments"
+      },
+      {
+        "id": "R3",
+        "method": "M5",
+        "finding": "Only 4% of 1,400 reviews mention discovering Stryve in a store; the review base is overwhelmingly DTC/repeat buyers",
+        "therefore": "Retail trial must be manufactured at the shelf (demos, education, coupons) because organic retail discovery is weak"
+      },
+      {
+        "id": "R4",
+        "method": "M5",
+        "finding": "20% of 1,400 reviews mention repeat purchase or bulk orders - the strongest loyalty signal in the dataset",
+        "therefore": "Campaign ends with a repeat/bundle offer; the product already earns reorders when people try it"
+      },
+      {
+        "id": "R5",
+        "method": "M6",
+        "finding": "Audit (8 public sources, 2026-11-07): 10-K reports net sales $17.7M FY2023 vs $29.9M prior year (~-41%) while distribution spans H-E-B, Walmart, Whole Foods, Sprouts, CVS, Circle K, Love's",
+        "therefore": "This is a velocity problem, not a distribution problem - fund trial at the shelf in stores already carrying it"
+      },
+      {
+        "id": "R6",
+        "method": "M6",
+        "finding": "Biltong is a nascent category in Texas - H-E-B carries it in the jerky aisle store-by-store, and few shoppers know the word; competitors are fragmented regional brands",
+        "therefore": "Own the education moment: 'It's not jerky - it's biltong' becomes the memorable, ownable line"
+      }
+    ]
+  },
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Biltong 101 Demo Days",
+      "mechanic": "12 weekend demo shifts at 6 DFW H-E-B test stores; 'What is biltong?' sample cups beside the jerky/meat-snack set; QR to the '$2 off 2 bags' coupon. 6 matched control stores get the coupon but no demos or clip strip, isolating the in-store effect.",
+      "segment": "P1",
+      "channels": [
+        "in-store sampling",
+        "QR coupon"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Field marketing lead"
+    },
+    {
+      "id": "G2",
+      "name": "The Jerky Aisle Upgrade",
+      "mechanic": "Pitched to H-E-B's snack buyer in October-November: clip strip inside the meat-snack set at 6 test stores, shelf talker ('It's not jerky - it's biltong'), and '$2 off 2 bags' app coupon at DFW H-E-B stores carrying Braav. Fallback if declined: demos + brand's own printable coupon.",
+      "segment": "P2",
+      "channels": [
+        "shelf talker",
+        "H-E-B app coupon",
+        "secondary placement"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "owner": "Retail/trade lead"
+    },
+    {
+      "id": "G3",
+      "name": "Jerky or Biltong?",
+      "mechanic": "3 DFW food/fitness creators run blind taste-offs: Braav biltong vs. the beef jerky they actually buy, with macros on screen. Link goes to a store finder + coupon, or the online starter pack with code BILTONG. #ad disclosure on every post.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Social lead"
+    },
+    {
+      "id": "G4",
+      "name": "The Biltong Story",
+      "mechanic": "Plano HQ + South African heritage (Warren Pala) + ex-NFL founder (Gabe Carimi) in 3 short videos and 3 emails/SMS to the existing list, each ending with the store finder and starter pack code - converting the 20% repeat-buyer base into bulk/reorder buyers.",
+      "segment": "P1",
+      "channels": [
+        "email",
+        "SMS",
+        "TikTok"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "owner": "Content lead"
+    }
+  ],
+  "budget": {
+    "lines": [
+      {
+        "item": "Paid social (TikTok, Meta) geo-targeted to Texas",
+        "category": "media",
+        "usd": 5500,
+        "basis": "A4"
+      },
+      {
+        "item": "Creators: 3 x $1,000 taste-off videos (fitness/food niche)",
+        "category": "creators",
+        "usd": 3000,
+        "basis": "A6"
+      },
+      {
+        "item": "Demo Days: 12 shifts x $250 (staff + product)",
+        "category": "events",
+        "usd": 3000,
+        "basis": "A7"
+      },
+      {
+        "item": "Shelf talkers, clip strips, sample cups, design",
+        "category": "production",
+        "usd": 900,
+        "basis": "A9"
+      },
+      {
+        "item": "Email/SMS + landing page",
+        "category": "tools",
+        "usd": 400,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency",
+        "category": "contingency",
+        "usd": 2200,
+        "basis": "A11"
+      }
+    ],
+    "total_usd": 15000,
+    "projection": {
+      "impressions": 1500000,
+      "ctr": 0.015,
+      "conversion_rate": 0.1,
+      "aov_usd": 18.0,
+      "gross_margin": 0.45
+    },
+    "conservative_factor": 0.5
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed purchases (coupon redemptions + online code orders)",
+      "baseline": "0 (new coupon and code)",
+      "target": "2,000 (1,000 retail + 1,000 online)",
+      "tool": "H-E-B coupon report + Shopify code report + UTMs",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Units per store per week, 6 demo vs. 6 control stores",
+      "baseline": "Week-0 shelf count via audit + company sell-through data",
+      "target": "+25% vs. control",
+      "tool": "Retailer sales data via Stryve",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Samples and coupon claims",
+      "baseline": "0 (new program)",
+      "target": "3,600 samples; 9,000 claims",
+      "tool": "Demo tally sheets + coupon platform",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions and aided awareness of 'biltong'",
+      "baseline": "Week-0 survey (same questions, 150 Texas shoppers)",
+      "target": "1.5M impressions; +12 pts aided awareness",
+      "tool": "Ads Manager + pre/post brand-lift survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "Stryve Foods Corp (NASDAQ: SNAX)",
+      "title": "FY2023 Form 10-K (net sales $17.7M vs $29.9M; 'low-quality revenue' rationalization)",
+      "date": "2024",
+      "url": "https://last10k.com/sec-filings/snax/0000950170-24-039516.htm",
+      "type": "company"
+    },
+    {
+      "id": "S2",
+      "publisher": "Stryve Protein Snacks",
+      "title": "Where to find Stryve - store locator (H-E-B, Walmart, Hy-Vee, Cub, Dierbergs, ACE, AAFES, HelloFresh)",
+      "date": "2026",
+      "url": "https://stryve.com/stores",
+      "type": "company"
+    },
+    {
+      "id": "S3",
+      "publisher": "Walmart",
+      "title": "Stryve Snacks brand storefront - multipacks $46.99-$72.87",
+      "date": "2026",
+      "url": "https://business.walmart.com/browse/food-grocery/snacks-meats-jerky/stryve/4143521_5238190_4277991_3648286/YnJhbmQ6U3RyeXZl",
+      "type": "secondary"
+    },
+    {
+      "id": "S4",
+      "publisher": "Sprouts Farmers Market",
+      "title": "Stryve Original Biltong 2.25oz listing ($7.99, ~4-8 reviews)",
+      "date": "2026",
+      "url": "https://shop.sprouts.com/store/sprouts/products/18629245-stryve-beef-biltong-original-2-25-oz",
+      "type": "secondary"
+    },
+    {
+      "id": "S5",
+      "publisher": "Billi Tong's Biltong",
+      "title": "Biltong in San Antonio / Texas guides (H-E-B jerky-aisle placement; fragmented TX biltong category)",
+      "date": "2026",
+      "url": "https://btbiltong.com/blogs/biltong/texas-biltong",
+      "type": "secondary"
+    },
+    {
+      "id": "S6",
+      "publisher": "Snack Food & Wholesale Bakery (Circana data)",
+      "title": "Meat snack makers play with bold flavors, on-the-go portions",
+      "date": "2025",
+      "url": "https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+      "type": "secondary"
+    },
+    {
+      "id": "S7",
+      "publisher": "Food Business News (Circana / Power of Meat)",
+      "title": "Consumers recalibrating meat purchasing patterns",
+      "date": "2026",
+      "url": "https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+      "type": "secondary"
+    },
+    {
+      "id": "S8",
+      "publisher": "The Good Food Institute (SPINS data)",
+      "title": "Plant-based retail market overview",
+      "date": "2026",
+      "url": "https://gfi.org/marketresearch/",
+      "type": "secondary"
+    },
+    {
+      "id": "S9",
+      "publisher": "Progressive Grocer",
+      "title": "H-E-B Opens in San Antonio's Far East Side",
+      "date": "2026",
+      "url": "https://progressivegrocer.com/h-e-b-opens-san-antonios-far-east-side",
+      "type": "secondary"
+    },
+    {
+      "id": "S10",
+      "publisher": "Stryve Protein Snacks",
+      "title": "Homepage - Braav biltong products, Texas HQ",
+      "date": "2026",
+      "url": "https://stryve.com/",
+      "type": "company"
+    },
+    {
+      "id": "S11",
+      "publisher": "Stryve Protein Snacks (Stamped.io public reviews)",
+      "title": "1,400 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-07",
+      "url": "https://stryve.com/",
+      "type": "primary"
+    },
+    {
+      "id": "S12",
+      "publisher": "Stryve Protein Snacks (Stamped.io public reviews)",
+      "title": "Review corpus: 1,400 reviews, avg 5.0, themes: taste 29%, repeat 20%, health 12%",
+      "date": "2026-11-07",
+      "url": "https://stryve.com/",
+      "type": "primary"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "Blended net revenue per purchase $18: 50% retail coupon purchases at ~$8 net (1-2 bags x ~$5 wholesale minus $2 coupon) + 50% online starter packs at ~$28 (4 bags at ~$9 with code discount); confirm wholesale price with company"
+    },
+    {
+      "id": "A2",
+      "text": "Blended gross margin 45%: meat-snack COGS higher than plant jerky; 10-K margins historically 25-40% - confirm with company financials"
+    },
+    {
+      "id": "A3",
+      "text": "H-E-B store-level baseline velocity unknown; measured week 0 via shelf audit + company sell-through data"
+    },
+    {
+      "id": "A4",
+      "text": "Impressions 1.5M = ~1.0M paid at ~$5.5 CPM ($5,500) + ~500K creator views (3 creators); 1.5% click rate; 10% click-to-purchase (validate week 1). In-store exposure not counted"
+    },
+    {
+      "id": "A5",
+      "text": "Stryve and H-E-B would approve in-store demos and a digital coupon (proposed, not confirmed)"
+    },
+    {
+      "id": "A6",
+      "text": "DFW fitness/food micro-creators (10K-80K followers): ~$1,000 per video incl. product"
+    },
+    {
+      "id": "A7",
+      "text": "In-store demo shift ~$250 (4-hr demo staff via sampling agency + product for ~300 samples)"
+    },
+    {
+      "id": "A8",
+      "text": "$2 off 2 bags manufacturer coupon; its cost is netted out of revenue per purchase (A1), not a separate line"
+    },
+    {
+      "id": "A9",
+      "text": "Production (shelf talkers, clip strips, sample cups, design) ~$900 via local print shop quotes"
+    },
+    {
+      "id": "A10",
+      "text": "Email/SMS + landing page tools ~$400 for the campaign window"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~1.3% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat: 30% of campaign buyers buy once more within 90 days at the same blended gross profit (~$8); confirm with company data"
+    },
+    {
+      "id": "A14",
+      "text": "Velocity baseline unknown at store level; 10-K revenue decline suggests low single-digit units/store/week at many doors - measured week 0"
+    },
+    {
+      "id": "A15",
+      "text": "Demo-day purchases (~20% of 3,600 sampled shoppers = ~720) are upside not counted in the funnel"
+    },
+    {
+      "id": "A16",
+      "text": "DFW H-E-B stores carrying Braav biltong exist (locator lists H-E-B; third-party retail guides confirm H-E-B jerky-aisle placement); exact door count confirmed in week-0 shelf audit"
+    },
+    {
+      "id": "A17",
+      "text": "Online offer: 4-bag starter pack at ~$35 with 20% off code BILTONG"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "It's Not Jerky",
+      "bullets": [],
+      "visual": {
+        "type": "image",
+        "desc": "Braav biltong bag on an H-E-B shelf beside beef jerky; 'It's Not Jerky' lockup",
+        "file": "visuals/s01.png"
+      },
+      "notes": ""
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Stryve - Braav Biltong",
+        "It's Not Jerky",
+        "45-day campaign: January 5 - February 18, 2027"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Thesis: Stryve does not need more doors - it needs shoppers who understand what biltong is and come back for it; It's Not Jerky turns H-E-B shelf space into repeat buyers [O1].",
+        "Problem: net sales fell 41% (10-K) while ~1,400 public reviews show only 4% discovered Braav in-store - distribution without velocity [S1][R3].",
+        "Opportunity: meat snacks +11.3% to $6.4B; biltong is the air-dried upgrade sitting in the same set [S6][R2].",
+        "Solution: DFW H-E-B demo days + shelf upgrade + taste-off creators, measured test-vs-control [O1][O2].",
+        "45-day goal: 2,000 attributed purchases and a velocity readout Stryve can take to buyers [O1]."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s04.png"
+      },
+      "notes": "Open with the paradox: the brand is on more shelves than ever while sales fell 41%. The problem is not distribution - it is what happens at the shelf."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Braav biltong: South African air-dried beef - cured and air-dried, never cooked like jerky; thick, tender, intensely beefy [S10].",
+        "Clean label: sugar-free, gluten-free, keto/paleo/whole30-friendly, 30g+ protein per serving; Original, Steak Bites, and Zero Sugar Hickory lines [S10][S4].",
+        "Retail ~$8-9 per 2.25oz bag (Sprouts $7.99, Walmart multipacks); Plano, TX HQ [S4][S1].",
+        "Sold DTC, on Amazon, and in H-E-B, Walmart, Whole Foods, Sprouts, CVS, Circle K and Love's [S2][S3]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Flat-lay of Braav biltong bags and a torn-open bag showing the thick air-dried texture",
+        "file": "visuals/s05.png"
+      },
+      "notes": "The key sensory difference: jerky is cooked and shredded; biltong is air-dried whole muscle - denser, richer, chewier in a different way."
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "The Company & Its Position",
+      "bullets": [
+        "Stryve Foods Corp (NASDAQ: SNAX), Plano TX; founded by Ted Casey (Dymatize), ex-NFL player Gabe Carimi, and South African native Warren Pala [S1][S10].",
+        "Net sales $29.9M -> $17.7M (-41%) in FY2023; 10-K cites discontinuing 'non-profitable accounts' and rationalizing 'low-quality revenue' [S1].",
+        "Competitors in Texas biltong are fragmented regional players (Brooklyn Biltong, Shaka's, Billi Tong's, Lowfeld Soul Food); Stryve is the only national brand with H-E-B scale [S5].",
+        "Position: premium air-dried beef for performance and clean-label shoppers - the jerky upgrade, not another jerky [S10][R2]."
+      ],
+      "visual": {
+        "type": "chart",
+        "desc": "Left: net sales FY2022 $29.9M vs FY2023 $17.7M falling while banner count grows. Right: positioning map (x = commodity jerky to premium air-dried, y = mass-market to clean-label performance) with Jack Link's, Chomps, regional biltong brands, and Braav alone in the premium-clean quadrant",
+        "file": "visuals/s06.png"
+      },
+      "notes": "This is the credibility slide: the 10-K's own words - 'low-quality revenue' - hand judges the problem statement."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 2,000 attributed purchases (1,000 H-E-B coupon + 1,000 online) and +25% units per store at 6 demo stores vs. 6 control [O1].",
+        "Baseline: week-0 shelf count via audit + company sell-through data [A3].",
+        "O2 (consideration): 3,600 in-store samples and 9,000 coupon claims [O2].",
+        "O3 (awareness): 1.5M Texas impressions and +12 points aided awareness of 'biltong' [O3]."
+      ],
+      "visual": {
+        "type": "table",
+        "desc": "O1-O3 with funnel stage, metric, target, and test-vs-control design",
+        "file": "visuals/s07.png"
+      },
+      "notes": "One primary objective - bags sold - measured against control stores, so the client sees lift, not noise."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1 Performance Snackers, 18-34: DFW/Texas jerky buyers focused on macros; keto/paleo/whole30-curious; buy on protein and clean labels [S6][R2].",
+        "P2 Clean-Label H-E-B Parents, 30-50: weekly H-E-B shoppers wanting no-sugar, recognizable-ingredient snacks for lunchboxes [S6][S9].",
+        "Both share one need: a meat snack that is clearly better than jerky - the reason 12% of reviewers cite clean-label benefits and 5% compare it directly [R2].",
+        "Market: meat snacks +11.3% to $6.4B; high-protein snack positioning is the fastest-growing claim set in the aisle [S6][S8]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Two persona cards (P1, P2) with photo, demographics, psychographics, and media habits",
+        "file": "visuals/s08.png"
+      },
+      "notes": "Interactive moment: show the two persona cards printed side by side."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Method & Results",
+      "bullets": [
+        "Secondary (complete): 10-K via last10k, company site/stores, Walmart/Sprouts listings, trade press - 10 sources [S1][S2][S3][S4][S5].",
+        "Primary, no-survey (complete): keyword-coded analysis of 1,400 public Stamped.io reviews [R1][R4] and a public distribution/digital-shelf audit of 8 sources [R5][R6] [S11][S12]; survey/interviews not run - published reviews skew positive.",
+        "Key results: sales -41% while doors multiplied [S1][R5]; taste and reorder dominate reviews [R1][R4]; only 4% discovered it in a store [R3]; biltong is an unfamiliar word in Texas [R6].",
+        "Influences: protein-snack boom (social), clean-label/keto trend (cultural), meat-snack growth +11.3% (market), retail app coupons (technological) [S6][S7][S9]."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s09.png"
+      },
+      "notes": "Name the methods and sample sizes out loud. The 10-K's 'low-quality revenue' line is the finding judges will remember."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "Finding: 1,400-review analysis - taste/flavor 29%, repeat/bulk 20%, only 4% found in store [R1][R3] -> in-store education, not more awareness ads.",
+        "Finding: SEC 10-K documents -41% sales and 'low-quality revenue' rationalization [S1] -> the campaign must produce sell-through proof, not impressions.",
+        "Finding: meat-snack category +11.3% while Stryve declines [S6] -> ride the tailwind with the air-dried upgrade positioning [R2].",
+        "Finding: reviews skew 5-star but 'found in store' is near-zero [R1][R3] -> demos + shelf talkers at the point of trial.",
+        "Finding: Texas HQ + DFW H-E-B doors [S2][S9] -> the test market is walkable and measurable."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s10.png"
+      },
+      "notes": "Every decision traces to evidence. Point at the arrows, not the text."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Big idea: It's Not Jerky - biltong is air-dried, never cooked; a different product for a different shopper. Message: 'Love jerky? Try biltong.'",
+        "Positioning: for performance and clean-label shoppers who want more from a meat snack, Braav is the air-dried beef upgrade [S10][R2].",
+        "IMC mix: Paid (geo social) + Earned (Plano founder story + ex-NFL credibility) + Shared (#ItsNotJerky taste-off duets) + Owned (email/SMS, shelf talkers).",
+        "Push-pull: H-E-B gets a measurable velocity test (push); shoppers get samples and a coupon (pull) [O1][O2]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Key visual: split frame - cooked jerky strips on left, thick air-dried biltong slab on right, 'It's Not Jerky' lockup",
+        "file": "visuals/s11.png"
+      },
+      "notes": "Point to the positioning statement. 'Air-dried, not cooked' is a factual difference no jerky brand can claim."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Biltong 101 Demo Days",
+      "bullets": [
+        "It's Not Jerky in person: 12 weekend Biltong 101 demo shifts at 6 DFW H-E-B test stores; 6 control stores get the coupon only [O1][O2].",
+        "Mechanic: 'What is biltong?' sample cups at the jerky/meat-snack set; QR to '$2 off 2 bags'; 300 samples per shift = 3,600 total [A7][A8].",
+        "Why: biltong is an unfamiliar word in Texas [R6] and only 4% of reviewers found it in a store [R3] - the shelf is where education must happen.",
+        "Measured: QR scans per store and units per store vs. control stores [O1]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Demo table mockup: dark red tablecloth, 'It's Not Jerky - It's Biltong' banner, sample cups, QR sign",
+        "file": "visuals/s12.png"
+      },
+      "notes": "Interactive moment: hand the judge the printed shelf talker and sample-cup sleeve."
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: The Jerky Aisle Upgrade",
+      "bullets": [
+        "It's Not Jerky on the shelf: proposed clip strip inside the H-E-B meat-snack set at 6 test stores [O1].",
+        "Sell-in: pitched to H-E-B's snack buyer Oct-Nov as a 6-week velocity test; if the clip strip is declined, demos + brand's printable coupon still run the test - the leg shrinks, not collapses [O1].",
+        "App coupon at DFW H-E-B stores carrying Braav: 'Love jerky? Try biltong. $2 off 2 bags.' [A8][A16][O2]",
+        "Why: meat snacks are growing 11.3% - put the air-dried upgrade where those shoppers already are [S6]."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s13.png"
+      },
+      "notes": "This is a proposal to H-E-B's buyer, framed as a 6-week velocity test with control stores; the fallback keeps the campaign alive if they say no."
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Jerky or Biltong? Taste-Off Tour",
+      "bullets": [
+        "It's Not Jerky online: 3 DFW food/fitness creators run blind Braav vs. beef jerky taste-offs with macros on screen; fans duet with #ItsNotJerky [O1][O3].",
+        "Every video links to the store finder + coupon or the online starter pack (code BILTONG) with #ad disclosure [A17].",
+        "Story fuel for the tour: Plano HQ + South African heritage + ex-NFL founder in 3 short videos and 3 emails/SMS - converting the 20% repeat base into bulk buyers [S10][R4].",
+        "Named credibility: Ted Casey (Dymatize), Gabe Carimi (ex-NFL), Warren Pala (SA native) - the H-E-B pitch's proof points [S1]."
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "TikTok phone mockup: split-screen taste-off with score cards; email mockup from the Stryve team",
+        "file": "visuals/s14.png"
+      },
+      "notes": "Walk the judge through the phone mockup of the taste-off. The reveal - 'you can't tell it's not jerky' - is the whole campaign."
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Creative Samples",
+      "bullets": [
+        "Shelf talker: 'It's not jerky - it's biltong. Air-dried beef. $2 off 2 bags.' [O1]",
+        "TikTok caption: 'Blind taste-off: beef jerky vs. biltong with 36g protein. I did not expect this. #ItsNotJerky #ad' [O3]",
+        "SMS (opted-in): 'Stryve: Braav biltong is at your H-E-B. Save $2 on 2 bags this week: [link]. Reply STOP to opt out.' [O1]",
+        "Email subject/preview: 'We took beef snacks public. Then sales fell 41%.' / 'Here's the fix - The Stryve Team' [O1]"
+      ],
+      "visual": {
+        "type": "mockup",
+        "desc": "Phone mockups (SMS, TikTok, email) plus printed shelf talker",
+        "file": "visuals/s15.png"
+      },
+      "notes": "Read the shelf talker aloud: six words do the whole job - permission to try something new."
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Week-by-Week Schedule",
+      "bullets": [
+        "It's Not Jerky pre-work (Oct-Nov): H-E-B buyer sell-in + DFW store selection | W1 (Jan 5): talkers + coupon live (P2, retail, O1/O2, retail lead); founder email 1 (P1, email, O3, CRM lead)",
+        "W2-W3 (Jan 12-25): Biltong 101 demos begin (P1, field, O1/O2, field lead); Taste-Off videos 1-2 (P1, TikTok, O3, social lead)",
+        "W4-W5 (Jan 26-Feb 8): demos continue; Taste-Off 3 + duets (P1, TikTok, O1/O3); founder emails 2-3 (P1, email, O1); retargeting (P1/P2, paid, O1)",
+        "W6-W7 (Feb 9-18): final demos; last-chance SMS (P1/P2, O1); read test vs. control + aided-awareness survey (O1/O3, analytics/research leads)"
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s16.png"
+      },
+      "notes": "Read the grid left to right: sell-in first, then shelf, then demos, then social proof, then conversion."
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Proposed Budget & Financial Viability",
+      "bullets": [
+        "Total $15,000: social $5,500 ($5.5 CPM x ~1M paid) [A4]; creators 3 x $1,000 [A6]; demos 12 x $250 (4-hr staff + ~300 samples) [A7]; production $900 [A9]; tools $400 [A10]; contingency $2,200 [A11].",
+        "Funnel: 1.5M x 1.5% x 10% = 2,250 purchases at $18 avg = $40.5K [A1][A4].",
+        "The $2 coupon is manufacturer-funded, netted in revenue [A1][A8].",
+        "GP 45% = $18.2K; ROI 21%; ROAS 4.8x; CAC $6.67 vs 90-day CLV ~$23 = 1:3.5 [A2][A13].",
+        "Conservative (50%): ~1,125 purchases, ROI ~-40%; ~720 demo purchases add ~$5.8K GP [A15] + repeat tail [A13] -> breakeven ~wk 10-12."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s17.png"
+      },
+      "notes": "Lead with honesty: conservative case loses in-window; the return comes from repeat buyers and from keeping shelf space the 10-K is rationalizing. Then show the test-vs-control design."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: attributed purchases; baseline 0; target 2,000; H-E-B coupon + Shopify code reports; weekly [O1].",
+        "O1: units per store per week, demo vs. control; baseline week-0 audit [A3]; target +25%; retailer data; weekly [O1].",
+        "O2: samples and claims; baseline 0; target 3,600 and 9,000; tally sheets + coupon platform; weekly [O2].",
+        "O3: 1.5M impressions; aided awareness of 'biltong' baseline at week 0, post-campaign survey of 150 shoppers; target +12 pts [O3].",
+        "Trigger: under 30 QR scans per shift by week 3, move demos to the top 3 stores; creator click rate under 1%, shift spend to Meta [A4]."
+      ],
+      "visual": {
+        "type": "image",
+        "file": "visuals/s18.png"
+      },
+      "notes": "Test vs. control is what a CPG buyer wants: proof the lift came from the campaign."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Thesis: Stryve does not need more doors - it needs shoppers who try it once to come back. It's Not Jerky turns H-E-B shelf space into repeat buyers [O1].",
+        "Projected: 2,000 purchases and $18.2K gross profit on $15K (21% ROI), plus a test-vs-control result Stryve can take to every retailer [A1][O1].",
+        "Mission: South African air-dried beef, made in Plano - kept on Texas shelves because Texans tried it [S1][S10].",
+        "Next: if test stores beat control by 25%, roll It's Not Jerky to more H-E-B stores and feed the velocity data the 10-K says is missing [O1][S1]."
+      ],
+      "visual": {
+        "type": "image",
+        "desc": "Braav biltong bag + 'It's Not Jerky' lockup + projected results callouts",
+        "file": "visuals/s19.png"
+      },
+      "notes": "Close on the thesis, word for word, as we opened."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [
+        "Stryve Foods Corp. 'FY2023 Form 10-K.' 2024. https://last10k.com/sec-filings/snax/0000950170-24-039516.htm",
+        "Stryve Protein Snacks. 'Where to find Stryve - store locator.' 2026. https://stryve.com/stores",
+        "Walmart. 'Stryve Snacks brand storefront.' 2026. https://business.walmart.com/browse/food-grocery/snacks-meats-jerky/stryve/4143521_5238190_4277991_3648286/YnJhbmQ6U3RyeXZl",
+        "Sprouts Farmers Market. 'Stryve Original Biltong listing.' 2026. https://shop.sprouts.com/store/sprouts/products/18629245-stryve-beef-biltong-original-2-25-oz",
+        "Billi Tong's Biltong. 'Biltong in Texas guides.' 2026. https://btbiltong.com/blogs/biltong/texas-biltong",
+        "Stryve Protein Snacks. 'Homepage - Braav biltong products.' 2026. https://stryve.com/",
+        "Snack Food & Wholesale Bakery / Circana. 'Meat snack makers play with bold flavors.' 2025. https://www.snackandbakery.com/articles/116408-meat-snack-makers-play-with-bold-flavors-on-the-go-portions",
+        "Food Business News / Circana. 'Consumers recalibrating meat purchasing patterns.' 2026. https://www.foodbusinessnews.net/articles/30165-consumers-recalibrating-meat-purchasing-patterns",
+        "The Good Food Institute / SPINS. 'Plant-based retail market overview.' 2026. https://gfi.org/marketresearch/",
+        "Stryve Protein Snacks (Stamped.io). '1,400 public customer reviews - keyword-coded content analysis.' 2026-11-07. https://stryve.com/"
+      ],
+      "visual": {
+        "type": "none"
+      },
+      "notes": ""
+    }
+  ]
+}

@@ -1,7 +1,11 @@
 {
-  "school": "",
-  "school_address": "",
-  "participants": [],
+  "school": "Legacy Ranch High School",
+  "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+  "participants": [
+    "Nino Nguyen",
+    "Santhosh Subburaj",
+    "Rafsan Haque"
+  ],
   "date": "",
   "assurances_signed": false
 }
