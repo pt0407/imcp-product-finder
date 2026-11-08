@@ -24,3 +24,9 @@ Tech products with quantified specs let you "show, not tell" — the demo is a n
 Stamped API not publicly fetchable (store blocks it) — corpus unverified.
 Best-in-class cheap demo (~$20, drink dirty water live, DECA-compliant: pocketable, no power)
 but data would come from Amazon reviews/Trustpilot instead. Score cap ~80 without corpus.
+
+## Round 4 — socks lane (cheap universal gift prop, ~$12)
+| Candidate | Prop | Corpus | Verdict |
+|---|---|---|---|
+| **sockittome.com** | judges keep fun socks — instant goodwill, zero barrier | 150 Judge.me (saved) | buildable — best pure-gift prop |
+| **footcardigan.com** | sock subscription — same prop + subscription business model angle | 150 Judge.me (saved) | buildable — subscription story adds business depth |
