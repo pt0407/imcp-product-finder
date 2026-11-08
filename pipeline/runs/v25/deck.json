@@ -393,8 +393,7 @@
       "notes": "Hold a running shoe up: '90% of new runners quit in a year. Most were wearing the wrong shoe. This store fixes that for free.'",
       "visual": {
         "type": "hero",
-        "desc": "Fleet Feet runner hero image",
-        "src": "webimg/hero.jpg"
+        "desc": "Fleet Feet runner hero image"
       }
     },
     {
@@ -430,6 +429,7 @@
       "section": "overview",
       "title": "Campaign Overview",
       "bullets": [
+        "Why now: campaign runs Jan 5-Feb 18 - peak resolution season when new-runner intent spikes and attrition is worst [S3].",
         "Problem: new runners buy online, get hurt in the wrong shoe, and quit - while Fleet Feet's best asset (free fit + community) is invisible to them [R1][R3].",
         "Solution: Run Your City - community runs, a city-wide challenge, fit-first clinics, and a retention club that turns a store visit into a membership.",
         "45-day goal: 150 purchases, 600 captures, +15 pts 'my running community' [O1-O3]."
@@ -441,7 +441,7 @@
       "section": "description",
       "title": "The Product",
       "bullets": [
-        "Running shoes + expert fitting: $120-180 shoes, free in-store gait analysis, 60-day Happy Fit guarantee [S1][R2].",
+        "Running-specialty franchise: ~250 stores nationally, free gait analysis + 60-day Happy Fit guarantee, real Austin location + run community [S1][S4][S2].",
         "The product isn't the shoe - it's the fit: a service no website can copy [R2][R4].",
         "The Austin store already runs weekly group runs + clinics - a real community asset [R3][S2].",
         "Austin's trail/run culture is a local moat no national ad can buy [S5]."
@@ -449,8 +449,7 @@
       "notes": "The service IS the product.",
       "visual": {
         "type": "product",
-        "desc": "Fleet Feet shoe/tech image",
-        "src": "webimg/tech.jpg"
+        "desc": "Fleet Feet shoe/tech image"
       }
     },
     {
