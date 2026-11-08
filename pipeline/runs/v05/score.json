@@ -1,0 +1,62 @@
+{
+  "run": "v05",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 10,
+    "budget": 6,
+    "impact": 6,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 3,
+    "design": 4,
+    "overall": 3
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 10,
+    "budget": 6,
+    "impact": 6,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 3,
+    "design": 4,
+    "overall": 3
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 0,
+    "research": 0,
+    "strategy": 0,
+    "activities": 0,
+    "budget": 0,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 62,
+  "capped_total": 62,
+  "penalty_points": 0,
+  "final": 62,
+  "top_fixes": [
+    "Complete primary research (survey n>=100 with dates + 3 interviews/taste tests), show results on Slide 9, and add R1-R3 finding->therefore rows to Slides 10-11 - lifts the research auto-cap from 5 toward 11+ (largest points per hour).",
+    "Rebuild the Slide 17 funnel at wholesale (net-to-brand) price with a sourced conversion benchmark, size the coupon line to projected redemptions, budget the $500/week prize boost, and show a conservative case that pays back via subscriber LTV - budget 6 -> 8-9.",
+    "Put real baselines on the Slide 18 KPI table (current units/store at demo vs. control stores, list size, survey awareness) and convert Slide 12 into a true week-by-week Gantt with named owners per row - impact 6 -> 8 and activities 10 -> 12.",
+    "Complete primary research (survey n>=30 with dates, >=3 interviews), show R1-R3 results on Slide 9, and cite them on Slides 10-15 — lifts research from capped 5 toward 11+ and supports strategy",
+    "Fix Slide 17 finance: use wholesale net price instead of $8 retail, reconcile 42% margin with $1.67 COGS, size the coupon line to redemptions, and make the conservative case defensible",
+    "Add real baseline values to every KPI on Slide 18 and break Slide 12 into a 7-row week-by-week schedule with named owners per activity"
+  ],
+  "scored_at": "2026-11-07T19:46:27"
+}

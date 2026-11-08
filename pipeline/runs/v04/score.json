@@ -1,0 +1,62 @@
+{
+  "run": "v04",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 9,
+    "budget": 6,
+    "impact": 7,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 3,
+    "design": 4,
+    "overall": 3
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 4,
+    "strategy": 10,
+    "activities": 9,
+    "budget": 6,
+    "impact": 7,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 3,
+    "design": 4,
+    "overall": 3
+  },
+  "spread": {
+    "industry_knowledge": 0,
+    "business_opportunity": 0,
+    "research": 0,
+    "strategy": 0,
+    "activities": 0,
+    "budget": 0,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 1,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 62,
+  "capped_total": 62,
+  "penalty_points": 0,
+  "final": 62,
+  "top_fixes": [
+    "Complete primary research (survey n>=30 + 3 interviews with taste test), show R1-R3 results with n/dates on Slide 9, and cite them on Slides 10-15 -- unlocks research cap from 5 to 15 (+6-9 pts)",
+    "Repair Slide 17 finance: coupon line ($1,500 vs 1,000 x $3 = $3,000), wholesale not shelf price for brand revenue, sourced CPM for 3.5M impressions, and a conservative case that breaks even or has sourced repeat value (+2-3 pts budget, +1 effectiveness)",
+    "Fill title slide fields and rebuild Slide 12 as a true W1-W7 grid with segment/channel/objective/owner per row; show numeric baselines on Slide 18 (+3-4 pts across overall, activities, impact)",
+    "Complete primary research (survey n>=30 with dates + 3 interviews), publish R1-R3 results on Slide 9, and cite them on Slides 11-15 — lifts the research cap from 5 and boosts strategy (+6 to +10 pts)",
+    "Fix the Slide 17 financials: use wholesale (not $8 retail) brand revenue, reconcile the $1,500 coupon line with 1,000 x $3 redemptions and the 15,000-claim target, cost the 4,000 samples, and model repeat purchases in the conservative case (+2 to +3 pts)",
+    "Rebuild Slide 12 as a true week-by-week W1-W7 Gantt with segment/channel/objective/owner on every row plus an H-E-B approval milestone, and add real baselines to Slides 7 and 18 (+3 to +4 pts)"
+  ],
+  "scored_at": "2026-11-07T19:46:27"
+}
