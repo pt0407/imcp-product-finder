@@ -23,5 +23,6 @@
   "logo_url": "https://www.stryve.com/_next/static/media/logo_bare.f99daf53.png",
   "display_font": "Fraunces",
   "body_font": "Work Sans",
-  "logo_file": "brand.png"
+  "logo_file": "brand.png",
+  "design_style": "editorial"
 }

@@ -15,6 +15,30 @@
 .catband{background:var(--acc);color:#fff;font-weight:800;font-size:19px;padding:10px 18px;letter-spacing:.04em}
 .strip{position:absolute;left:0;right:0;bottom:0;height:230px;display:flex;overflow:hidden;gap:4px}
 .strip img{flex:1;object-fit:cover;min-width:0;height:230px}
+
+/* ---- design languages ---------------------------------------------------
+   soft     (playful brands): no frame, blob radius, sticker kickers, big pills
+   tech     (hardware/spec brands): hairline frame, square corners, mono accents
+   editorial(food/heritage):   default — accent frame + underline bars ------- */
+.style-soft .frame{display:none}
+.style-soft .card{border-radius:30px;border:2px solid #f2dcea;box-shadow:0 8px 24px rgba(232,84,138,.08)}
+.style-soft .kick{color:var(--brand);background:#fbe3ee;display:inline-block;padding:8px 22px;border-radius:999px;letter-spacing:.14em;font-size:15px}
+.style-soft .tbar{display:none}
+.style-soft .navp{border-radius:999px}
+.style-soft .pgcirc{border-radius:50%;background:var(--acc)}
+.style-soft .themep,.style-soft .statp{border-radius:999px}
+.style-soft .q{border-radius:0 24px 24px 0;border-left-width:8px}
+.style-soft img.vis{border-radius:28px}
+.style-soft .h1{letter-spacing:-2px}
+.style-tech .frame{border-width:2px;border-radius:4px;inset:34px}
+.style-tech .card{border-radius:6px;border:1px solid #d8d8dc;box-shadow:none}
+.style-tech .kick{letter-spacing:.3em}
+.style-tech .navp{border-radius:4px}
+.style-tech .pgcirc{border-radius:4px;background:#1c1c1e}
+.style-tech .themep,.style-tech .statp{border-radius:4px}
+.style-tech .tbar{height:4px;border-radius:0;width:64px}
+.style-tech img.vis{border-radius:6px}
+.style-tech .q{border-radius:0;border-left-width:3px}
 .kick{font-family:'Quicksand','Helvetica Neue',sans-serif;font-size:16px;letter-spacing:.24em;font-weight:700;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
 .kick.grey{color:#9a917f}
 .h1{font-family:'Quicksand','Quicksand',sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.2px;line-height:1.04;margin-bottom:8px}
@@ -44,4 +68,4 @@ img.vis{max-width:100%;max-height:560px;border-radius:16px;object-fit:contain;bo
 .tag{display:inline-block;background:var(--brand);color:#fff;border-radius:999px;padding:5px 14px;font-size:14px;font-weight:800;letter-spacing:.06em}
 .mono{font-family:'SF Mono',Menlo,monospace}
 </style></head>
-<body><div class="page" style="background:#ffffff"><div class="frame"></div><div class="kick">METHODOLOGY &amp; FINDINGS</div><div class="h1">Research Methodology &amp; Results</div><div class="tbar"></div><div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div><div class="q"><div class="body" style="font-size:20px">Review Analysis (n=125): All public Judge.me reviews on squishable.com, keyword-coded (collected 2026-11-07) — complete</div></div><div class="q"><div class="body" style="font-size:20px">Digital Shelf Audit (n=8): Squishable.com product/pricing pages, drop calendar, social bios vs Squishmallows/Gund positioning — complete</div></div></div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">&#x27;Cute&#x27; and &#x27;love&#x27; dominate reviews (44 and 43 of 125 mentions) - buyers describe emotional attachment, but almost none describe a reason they bought *for themselves*</div></div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">96% five-star across 125 reviews with essentially zero product complaints - the product is not the problem, discovery and self-purchase permission are</div></div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">Gift mentions outnumber self-purchase mentions ~3:1; &#x27;hug&#x27;, &#x27;squish&#x27;, &#x27;soft&#x27; appear organically - the squeeze IS the product demo, and it is entirely offline-inaccessible</div></div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">Collector/drop language is nearly absent from reviews while Squishmallows built a billion-dollar brand on collector drops - the model exists, Squishable under-uses it</div></div></div></div><div class="navbar"><div class="navpills"><span class="navp">Product</span><span class="navp">Objectives</span><span class="navp">Target Market</span><span class="navp">Proposed Plan</span><span class="navp">Expenses</span><span class="navp">Key Metrics</span></div><div class="pgcirc">9</div></div></div></body></html>
+<body class="style-soft"><div class="page" style="background:#fdf7fb"><div class="frame"></div><div class="kick">METHODOLOGY &amp; FINDINGS</div><div class="h1">Research Methodology &amp; Results</div><div class="tbar"></div><div class="cols2"><div class="col"><div class="kick grey" style="font-size:16px">METHODS</div><div class="q"><div class="body" style="font-size:20px">Review Analysis (n=125): All public Judge.me reviews on squishable.com, keyword-coded (collected 2026-11-07) — complete</div></div><div class="q"><div class="body" style="font-size:20px">Digital Shelf Audit (n=8): Squishable.com product/pricing pages, drop calendar, social bios vs Squishmallows/Gund positioning — complete</div></div></div><div class="col"><div class="kick grey" style="font-size:16px">KEY RESULTS</div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">&#x27;Cute&#x27; and &#x27;love&#x27; dominate reviews (44 and 43 of 125 mentions) - buyers describe emotional attachment, but almost none describe a reason they bought *for themselves*</div></div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">96% five-star across 125 reviews with essentially zero product complaints - the product is not the problem, discovery and self-purchase permission are</div></div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">Gift mentions outnumber self-purchase mentions ~3:1; &#x27;hug&#x27;, &#x27;squish&#x27;, &#x27;soft&#x27; appear organically - the squeeze IS the product demo, and it is entirely offline-inaccessible</div></div><div class="q" style="margin-bottom:10px;padding:14px 18px"><div class="body" style="font-size:18px">Collector/drop language is nearly absent from reviews while Squishmallows built a billion-dollar brand on collector drops - the model exists, Squishable under-uses it</div></div></div></div><div class="navbar"><div class="navpills"><span class="navp">Product</span><span class="navp">Objectives</span><span class="navp">Target Market</span><span class="navp">Proposed Plan</span><span class="navp">Expenses</span><span class="navp">Key Metrics</span></div><div class="pgcirc">9</div></div></div></body></html>

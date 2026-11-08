@@ -17,7 +17,8 @@
     "date": "December 2026 \u2014 DECA District",
     "assurances_signed": false,
     "parent_run": "v17",
-    "company_website": "https://www.puckipuppy.com"
+    "company_website": "https://www.puckipuppy.com",
+    "design_style": "tech"
   },
   "campaign_window": {
     "start": "2027-01-05",

@@ -133,10 +133,12 @@ def page(meta, idx, total, body, bg="#ffffff", sec=""):
               .replace('__ACC__',meta.get('accent_color') or meta.get('brand_color','#1f4e79'))
               .replace('__DISP__',meta.get('display_font','Archivo'))
               .replace('__BODY__',meta.get('body_font','Inter')))
+    style = meta.get("design_style","editorial")
     chrome = "" if sec in ("cover","title") else nav_html(meta, idx, sec)
     frame  = "" if sec in ("cover","title") else '<div class="frame"></div>'
+    if style == "soft" and bg == "#ffffff": bg = "#fdf7fb"
     return f"""<!doctype html><html><head><meta charset='utf-8'>{fonts(meta)}<style>{css}</style></head>
-<body><div class="page" style="background:{bg}">{frame}{body}{chrome}</div></body></html>"""
+<body class="style-{style}"><div class="page" style="background:{bg}">{frame}{body}{chrome}</div></body></html>"""
 
 CSS = """
 :root{--brand:__BRAND__;--acc:__ACC__}
@@ -154,6 +156,30 @@ CSS = """
 .catband{background:var(--acc);color:#fff;font-weight:800;font-size:19px;padding:10px 18px;letter-spacing:.04em}
 .strip{position:absolute;left:0;right:0;bottom:0;height:230px;display:flex;overflow:hidden;gap:4px}
 .strip img{flex:1;object-fit:cover;min-width:0;height:230px}
+
+/* ---- design languages ---------------------------------------------------
+   soft     (playful brands): no frame, blob radius, sticker kickers, big pills
+   tech     (hardware/spec brands): hairline frame, square corners, mono accents
+   editorial(food/heritage):   default — accent frame + underline bars ------- */
+.style-soft .frame{display:none}
+.style-soft .card{border-radius:30px;border:2px solid #f2dcea;box-shadow:0 8px 24px rgba(232,84,138,.08)}
+.style-soft .kick{color:var(--brand);background:#fbe3ee;display:inline-block;padding:8px 22px;border-radius:999px;letter-spacing:.14em;font-size:15px}
+.style-soft .tbar{display:none}
+.style-soft .navp{border-radius:999px}
+.style-soft .pgcirc{border-radius:50%;background:var(--acc)}
+.style-soft .themep,.style-soft .statp{border-radius:999px}
+.style-soft .q{border-radius:0 24px 24px 0;border-left-width:8px}
+.style-soft img.vis{border-radius:28px}
+.style-soft .h1{letter-spacing:-2px}
+.style-tech .frame{border-width:2px;border-radius:4px;inset:34px}
+.style-tech .card{border-radius:6px;border:1px solid #d8d8dc;box-shadow:none}
+.style-tech .kick{letter-spacing:.3em}
+.style-tech .navp{border-radius:4px}
+.style-tech .pgcirc{border-radius:4px;background:#1c1c1e}
+.style-tech .themep,.style-tech .statp{border-radius:4px}
+.style-tech .tbar{height:4px;border-radius:0;width:64px}
+.style-tech img.vis{border-radius:6px}
+.style-tech .q{border-radius:0;border-left-width:3px}
 .kick{font-family:'__BODY__','Helvetica Neue',sans-serif;font-size:16px;letter-spacing:.24em;font-weight:700;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
 .kick.grey{color:#9a917f}
 .h1{font-family:'__DISP__','__BODY__',sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.2px;line-height:1.04;margin-bottom:8px}

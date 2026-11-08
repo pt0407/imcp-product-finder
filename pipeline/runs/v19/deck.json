@@ -17,7 +17,8 @@
     ],
     "date": "December 2026 \u2014 DECA District",
     "assurances_signed": false,
-    "parent_run": ""
+    "parent_run": "",
+    "design_style": "soft"
   },
   "business_problem": "Squishable sells joy in a box but markets like a toy company: the review base (n=125 analyzed, ~96% five-star) is tiny relative to site traffic, 'cute' and 'love' dominate while almost nobody talks about buying for themselves, and impulse purchase has no offline trigger - shoppers can't feel the squish through a screen [R1][R3][S1][S5].",
   "objectives": [

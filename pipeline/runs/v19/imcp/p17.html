@@ -15,6 +15,30 @@
 .catband{background:var(--acc);color:#fff;font-weight:800;font-size:19px;padding:10px 18px;letter-spacing:.04em}
 .strip{position:absolute;left:0;right:0;bottom:0;height:230px;display:flex;overflow:hidden;gap:4px}
 .strip img{flex:1;object-fit:cover;min-width:0;height:230px}
+
+/* ---- design languages ---------------------------------------------------
+   soft     (playful brands): no frame, blob radius, sticker kickers, big pills
+   tech     (hardware/spec brands): hairline frame, square corners, mono accents
+   editorial(food/heritage):   default — accent frame + underline bars ------- */
+.style-soft .frame{display:none}
+.style-soft .card{border-radius:30px;border:2px solid #f2dcea;box-shadow:0 8px 24px rgba(232,84,138,.08)}
+.style-soft .kick{color:var(--brand);background:#fbe3ee;display:inline-block;padding:8px 22px;border-radius:999px;letter-spacing:.14em;font-size:15px}
+.style-soft .tbar{display:none}
+.style-soft .navp{border-radius:999px}
+.style-soft .pgcirc{border-radius:50%;background:var(--acc)}
+.style-soft .themep,.style-soft .statp{border-radius:999px}
+.style-soft .q{border-radius:0 24px 24px 0;border-left-width:8px}
+.style-soft img.vis{border-radius:28px}
+.style-soft .h1{letter-spacing:-2px}
+.style-tech .frame{border-width:2px;border-radius:4px;inset:34px}
+.style-tech .card{border-radius:6px;border:1px solid #d8d8dc;box-shadow:none}
+.style-tech .kick{letter-spacing:.3em}
+.style-tech .navp{border-radius:4px}
+.style-tech .pgcirc{border-radius:4px;background:#1c1c1e}
+.style-tech .themep,.style-tech .statp{border-radius:4px}
+.style-tech .tbar{height:4px;border-radius:0;width:64px}
+.style-tech img.vis{border-radius:6px}
+.style-tech .q{border-radius:0;border-left-width:3px}
 .kick{font-family:'Quicksand','Helvetica Neue',sans-serif;font-size:16px;letter-spacing:.24em;font-weight:700;color:var(--brand);text-transform:uppercase;margin-bottom:14px}
 .kick.grey{color:#9a917f}
 .h1{font-family:'Quicksand','Quicksand',sans-serif;font-size:52px;font-weight:800;letter-spacing:-1.2px;line-height:1.04;margin-bottom:8px}
@@ -44,4 +68,4 @@ img.vis{max-width:100%;max-height:560px;border-radius:16px;object-fit:contain;bo
 .tag{display:inline-block;background:var(--brand);color:#fff;border-radius:999px;padding:5px 14px;font-size:14px;font-weight:800;letter-spacing:.06em}
 .mono{font-family:'SF Mono',Menlo,monospace}
 </style></head>
-<body><div class="page" style="background:#ffffff"><div class="frame"></div><div class="kick">BUDGET &amp; FINANCIAL VIABILITY</div><div class="h1">Budget &amp; Financial Viability</div><div class="tbar"></div><div class="cols2"><div class="col"><table class="tb"><tr><th>LINE ITEM</th><th style="text-align:right">COST</th></tr><tr><td>Paid social (TikTok/IG geo + retargeting)</td><td style="text-align:right;font-weight:800">$4,800</td></tr><tr><td>Micro creators (6 x $500)</td><td style="text-align:right;font-weight:800">$3,000</td></tr><tr><td>Hug Certified pop-ups (6 shifts x ~$350)</td><td style="text-align:right;font-weight:800">$2,100</td></tr><tr><td>Certified stickers, signage, squeeze counter</td><td style="text-align:right;font-weight:800">$600</td></tr><tr><td style="font-weight:900">TOTAL</td><td style="text-align:right;font-weight:900">$10,500</td></tr></table><img src="file:///Users/pranav/Desktop/DevinProjects/imcp-product-finder/pipeline/runs/v19/imcp/charts/budget.png" style="width:100%;max-height:330px;object-fit:contain;border-radius:12px;margin-top:14px"></div><div class="col"><div style="margin-top:14px"><span class="statp">$10,500</span><span class="statp">ROI: 296%</span><span class="statp">CAC: $5.83</span><br><span class="statp" style="background:#57534a">BE: 455 orders</span><span class="statp" style="background:#57534a">Cons: 98%</span></div><div class="body" style="margin-top:16px;font-size:19px"><li class=""><b>Total $10,500:</b> paid social $4.8K; creators $3K; pop-ups $2.1K; production $600; contingency ~14%. | O2 list value: 700 captures x ~$6 = $4.2K.</li><li class=""><b>Funnel:</b> 900K impressions x 2.5% CTR x 0.8% purchase = 180 orders = $7.6K revenue.</li><li class=""><b>GP 55% = $4.2K; direct ROI ~-60% -</b> a repositioning proof budget, not a profit play; payback via list + collectors.</li><li class=""><b>Conservative (50%):</b> 90 orders, ROI ~-80%; kill-trigger at week 3 protects the downside.</li></div></div></div><div class="navbar"><div class="navpills"><span class="navp">Product</span><span class="navp">Objectives</span><span class="navp">Target Market</span><span class="navp">Proposed Plan</span><span class="navp on">Expenses</span><span class="navp">Key Metrics</span></div><div class="pgcirc">17</div></div></div></body></html>
+<body class="style-soft"><div class="page" style="background:#fdf7fb"><div class="frame"></div><div class="kick">BUDGET &amp; FINANCIAL VIABILITY</div><div class="h1">Budget &amp; Financial Viability</div><div class="tbar"></div><div class="cols2"><div class="col"><table class="tb"><tr><th>LINE ITEM</th><th style="text-align:right">COST</th></tr><tr><td>Paid social (TikTok/IG geo + retargeting)</td><td style="text-align:right;font-weight:800">$4,800</td></tr><tr><td>Micro creators (6 x $500)</td><td style="text-align:right;font-weight:800">$3,000</td></tr><tr><td>Hug Certified pop-ups (6 shifts x ~$350)</td><td style="text-align:right;font-weight:800">$2,100</td></tr><tr><td>Certified stickers, signage, squeeze counter</td><td style="text-align:right;font-weight:800">$600</td></tr><tr><td style="font-weight:900">TOTAL</td><td style="text-align:right;font-weight:900">$10,500</td></tr></table><img src="file:///Users/pranav/Desktop/DevinProjects/imcp-product-finder/pipeline/runs/v19/imcp/charts/budget.png" style="width:100%;max-height:330px;object-fit:contain;border-radius:12px;margin-top:14px"></div><div class="col"><div style="margin-top:14px"><span class="statp">$10,500</span><span class="statp">ROI: 296%</span><span class="statp">CAC: $5.83</span><br><span class="statp" style="background:#57534a">BE: 455 orders</span><span class="statp" style="background:#57534a">Cons: 98%</span></div><div class="body" style="margin-top:16px;font-size:19px"><li class=""><b>Total $10,500:</b> paid social $4.8K; creators $3K; pop-ups $2.1K; production $600; contingency ~14%. | O2 list value: 700 captures x ~$6 = $4.2K.</li><li class=""><b>Funnel:</b> 900K impressions x 2.5% CTR x 0.8% purchase = 180 orders = $7.6K revenue.</li><li class=""><b>GP 55% = $4.2K; direct ROI ~-60% -</b> a repositioning proof budget, not a profit play; payback via list + collectors.</li><li class=""><b>Conservative (50%):</b> 90 orders, ROI ~-80%; kill-trigger at week 3 protects the downside.</li></div></div></div><div class="navbar"><div class="navpills"><span class="navp">Product</span><span class="navp">Objectives</span><span class="navp">Target Market</span><span class="navp">Proposed Plan</span><span class="navp on">Expenses</span><span class="navp">Key Metrics</span></div><div class="pgcirc">17</div></div></div></body></html>

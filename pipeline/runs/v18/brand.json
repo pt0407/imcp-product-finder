@@ -20,5 +20,6 @@
   "logo_url": "https://www.puckipuppy.com/cdn/shop/files/PuppyLogo_black.png?v=1736497268",
   "display_font": "Montserrat",
   "body_font": "Poppins",
-  "logo_file": "brand.png"
+  "logo_file": "brand.png",
+  "design_style": "tech"
 }
