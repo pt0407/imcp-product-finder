@@ -1,0 +1,62 @@
+{
+  "run": "v12",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 13,
+    "activities": 12,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 3,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 13,
+    "activities": 12,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 3,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 1,
+    "business_opportunity": 1,
+    "research": 0,
+    "strategy": 2,
+    "activities": 1,
+    "budget": 1,
+    "impact": 0,
+    "organization": 0,
+    "effectiveness": 0,
+    "delivery": 0,
+    "design": 0,
+    "overall": 0
+  },
+  "noisy_categories": [],
+  "raw_total": 79,
+  "capped_total": 79,
+  "penalty_points": 0,
+  "final": 79,
+  "top_fixes": [
+    "Run a small intercept survey (n>=30 jerky shoppers at 2 DFW H-E-B stores) in the Oct-Nov window — unlocks research 10->15 and gives O3's aided-awareness KPI a real baseline (research + impact, ~+6 pts).",
+    "Complete the title slide meta (school, address, participants, date) and replace the empty/duplicated visual slots on Slides 4, 9, 10, 13, 16, 17, 18 with distinct assets — fixes the first-impression professionalism gap and the design-system hole (~+2 pts).",
+    "Add a cost-basis column to the Slide 17 budget lines and name the one uncopiable campaign element on Slide 11 (e.g., exclusive H-E-B velocity-test data or a Braav-only demo certification) (~+2 pts).",
+    "Fix the budget's conservative case (Slide 17): add per-line cost bases and real break-even math for the -40% ROI scenario — this is the single biggest trust gap for a client deciding whether to spend $15K.",
+    "Replace all placeholder/empty visuals (Slides 4, 9, 10, 13, 16, 17, 18) with real charts, mockups, and a proper Gantt — design is capped at 3 and the deck cannot stand alone for judges who read before presenting.",
+    "Run one small primary research wave (30 H-E-B intercepts or 3 store observations with coded field notes) to lift Research from the 10 cap toward 13-15 and convert the 'taste leads' inference into proven demand."
+  ],
+  "scored_at": "2026-11-07T20:51:53"
+}
