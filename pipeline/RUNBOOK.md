@@ -72,6 +72,7 @@ python3 new_run.py "Trial program"          # creates runs/vNN/
 python3 scripts/make_visuals.py ../runs/vNN/deck.json  # generates PNG visuals from deck.json data
 python3 check_deck.py ../runs/vNN/deck.json # loop until 0 errors
 python3 render.py ../runs/vNN/deck.json     # creates deck.md, deck.html, deck.pdf
+python3 render_pptx.py ../runs/vNN/deck.json  # creates deck.pptx - polished editable slides w/ native charts, images, speaker notes
 ```
 
 ## Step 4: Grade and score each variant
