@@ -281,10 +281,19 @@ Build the projection bottom-up from these numbers, not top-down from a target.
 
 ## 15. Judge intel (sourced, not Reddit)
 
-r/DECA is effectively empty — DECA advice lives on DECA Direct, state DECA sites, LinkedIn, and winner write-ups. Verified sources:
+r/DECA is small (~3.7K weekly visitors) and poorly indexed — search engines miss it, but it has real competitor threads. Reddit blocks scraping; ask the team to paste threads manually. Verified sources:
 
 - **"In the Judge's Mind" (DECA Direct):** first 10 seconds decide the room — confident greeting, eye contact, match formality to the judge's role. Judges reward "realistic business thinking": who/what/when/how, costs, timelines, measurable benefit. Strongest decks "tell a cohesive story": restate the issue, name the gap, show the solution fills it. Don't insult the client's current strategy — pitch as enhancement, not fix of their failure.
 - **"Tips from Past Winners" (California DECA PDF):** end by closing the sale — summarize best points, ask the judge to adopt the plan. Judges sit through dozens of decks; uniqueness + confidence beat polish.
 - **Cengage judge article:** never define textbook terms without applying them to THIS scenario; pitching an idea as fixing the company's past failure insults leadership — frame as a new opportunity.
 - **Andrew Weatherman (ex-DECA Exec President, Medium):** don't center the campaign on a gimmick — judges take it less seriously. The two months between state and ICDC separate finalists: know the scenario space, adjust plans to variables, and ground every plan in "real-world" feasibility (who executes, what it costs).
 - **decaplus.org sample role-plays:** official IMCP scenarios — read before delivery practice.
+
+- **r/DECA thread (ICDC 2026 attendees, pasted by team):**
+  - Judges DO read the pitch deck before the presentation — the deck must stand alone.
+  - Loud time warnings precede a hard "15 minutes done" cutoff; ~1 minute for Q&A at ICDC; teams do get cut off mid-answer.
+  - Bring a physical prototype/prop — judges picked it up and interacted with it; a QR code on a table card was scanned 3 separate times. Poster boards judged unnecessary.
+  - Room setup: warehouse-style hall, judge(s) on one side of a table, team opposite with laptop facing them; sometimes 2-3 judges.
+  - Real Q&A seen: "where do you see yourselves in a few years", financial-side questions, "whose idea was it / what inspired it".
+  - EIP note: this year's EIP entry is a pitch deck (not a research paper); a prototype is especially valuable for EIP.
+  - Delivery: memorize ~95%, rehearse recovery if you blank, track time with a watch, confident non-monotone delivery.
