@@ -12,12 +12,16 @@ import re
 TAG = re.compile(r"\s*\[(?:[SAROMG]\d+)(?:\]\[|,\s*|[SARO]\d+)*\]")
 def clean(t): return TAG.sub("", str(t)).strip()
 
-def build_input(deck, slides):
+def build_input(deck, slides, header=True):
     m = deck["meta"]
-    parts = [f"# {m.get('campaign_name','')} — Integrated Marketing Campaign (Product)\n"
+    parts = []
+    if header:
+        title_slide = next((s for s in deck["slides"] if s["section"]=="title"), {})
+        tbul = " | ".join(clean(b) for b in title_slide.get("bullets",[]))
+        parts.append(f"# {m.get('campaign_name','')} — Integrated Marketing Campaign (Product)\n"
              f"{m.get('product','')} by {m.get('company','')}\n"
-             f"Team: {m.get('school','')} — {', '.join(m.get('participants',[]))} — {m.get('date','')}\n"
-             f"Thesis: {m.get('thesis','')}"]
+             f"{m.get('school','')} · {m.get('school_address','')} · {', '.join(m.get('participants',[]))} · {m.get('date','')}\n"
+             f"{tbul}\nThesis: {m.get('thesis','')}")
     for s in slides:
         sec = s["section"].replace("_"," ").title()
         body = f"## {sec}: {s.get('title','')}\n" + "\n".join(f"- {clean(b)}" for b in s.get("bullets",[]))
@@ -70,6 +74,10 @@ def main():
         if a == "--per" and i+1 < len(args): per = int(args[i+1])
 
     slides = deck["slides"]
+    # compact mode: cover+title slides are folded into the header card (Gamma makes its own title card)
+    compact = "--compact" in args
+    if compact:
+        slides = [s for s in slides if s["section"] not in ("cover","title")]
     chunks = [slides[i:i+per] for i in range(0, len(slides), per)]
     print(f"{len(slides)} slides -> {len(chunks)} gamma generations ({per}/gen max)")
     pdfs, urls = [], []
@@ -81,7 +89,7 @@ def main():
             continue
         payload = {
             "title": f"{deck['meta'].get('campaign_name','')} — IMCP part {ci+1} ({deck['meta'].get('product','')})",
-            "inputText": build_input(deck, chunk),
+            "inputText": build_input(deck, chunk, header=(ci == 0)),
             "format": "presentation",
             "textMode": "preserve",
             "cardSplit": "inputTextBreaks",
