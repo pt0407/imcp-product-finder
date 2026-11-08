@@ -1,0 +1,23 @@
+{
+  "site": "https://www.squishable.com",
+  "primary": "#e8548a",
+  "secondary": "#1c1c1e",
+  "accent": "#2bb5a0",
+  "palette": [
+    "#e8548a",
+    "#1c1c1e",
+    "#2bb5a0",
+    "#f7c948",
+    "#000000"
+  ],
+  "site_fonts": [
+    "i",
+    "Poppins",
+    "Inter",
+    "none",
+    "Helvetica"
+  ],
+  "logo_url": ",//squishable.com/cdn/shop/files/winter_squishable_logo.png?pad_color=fff&v=1731522711&width=165",
+  "display_font": "Quicksand",
+  "body_font": "Quicksand"
+}

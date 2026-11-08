@@ -1,0 +1,137 @@
+{
+  "6": {
+    "treatment": "photo_bg",
+    "photo": "webimg/web00.png",
+    "overlay": 0.75
+  },
+  "boards": {
+    "G1": [
+      [
+        "tiktok",
+        "POV: a stranger hands you a giant plush",
+        "Hug Certified booths are live \u2014 free hugs, certified stickers, $5 off. #hugcertified"
+      ],
+      [
+        "email",
+        "You are officially Hug Certified",
+        "Your badge: $5 off any Squishable. Show this email or scan your sticker."
+      ],
+      [
+        "sms",
+        "SQUISHABLE: free hugs + $5 off at our Hug Certified booth this Sat. Scan to RSVP.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Get Hug Certified",
+        "Swipe up \u2014 find the booth near you + claim $5 off."
+      ],
+      [
+        "shelf",
+        "HUG CERTIFIED",
+        "Free squeeze. Certified sticker. $5 off \u2014 today only."
+      ],
+      [
+        "event",
+        "Hug Certified Stations",
+        "Sat 11am-3pm \u00b7 plush wall + squeeze counter + $5-off QR"
+      ]
+    ],
+    "G2": [
+      [
+        "tiktok",
+        "This drop sells out in minutes",
+        "Drop Day: two limited Squishables, waitlist gets 15-min early access. #plushdrop"
+      ],
+      [
+        "email",
+        "15 minutes early. That's the perk.",
+        "Drop Day waitlist members shop first \u2014 two limited releases."
+      ],
+      [
+        "sms",
+        "DROP DAY: waitlist opens at 9am \u2014 early access link inside.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Two drops. One waitlist.",
+        "Swipe up to get 15-min early access."
+      ],
+      [
+        "shelf",
+        "DROP DAY",
+        "Limited release \u2014 waitlist only for the first 15 minutes."
+      ],
+      [
+        "event",
+        "Drop Day Live",
+        "Countdown drop + waitlist early access, weeks 2 & 5"
+      ]
+    ],
+    "G3": [
+      [
+        "tiktok",
+        "Rate my emotional support plush",
+        "Sofa Science: squish ASMR, desk-pet tours, comfort content. #sofascience"
+      ],
+      [
+        "email",
+        "The internet's softest content series",
+        "New Sofa Science episodes weekly \u2014 featuring your desk's new best friend."
+      ],
+      [
+        "sms",
+        "New Sofa Science episode just dropped \u2014 watch the squish.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Squish ASMR",
+        "Swipe up for the full episode."
+      ],
+      [
+        "shelf",
+        "SOFA SCIENCE",
+        "Comfort content for grown-ups. Follow @squishable."
+      ],
+      [
+        "event",
+        "Creator Collab Week",
+        "6 micro creators post Hug Certified content, weeks 1-6"
+      ]
+    ],
+    "G4": [
+      [
+        "tiktok",
+        "Trading in my childhood plush",
+        "Adopt a Squish: trade up, we donate your old friend to a shelter. #adoptasquish"
+      ],
+      [
+        "email",
+        "Your old plush deserves a second life",
+        "Trade in any worn plush for 20% off \u2014 we donate it to a children's shelter."
+      ],
+      [
+        "sms",
+        "Trade your old plush for 20% off \u2014 donations go to kids' shelters.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Plush gets a second life",
+        "Swipe up to join Adopt a Squish."
+      ],
+      [
+        "shelf",
+        "ADOPT A SQUISH",
+        "Trade-in drive \u2014 20% off, donations to children's shelters."
+      ],
+      [
+        "event",
+        "Adopt a Squish Week",
+        "Donation drive + PR, weeks 4-6"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,749 @@
+{
+  "meta": {
+    "product": "Squishable plush",
+    "company": "Squishable Inc (independent plush studio, est. 2007, New York)",
+    "company_website": "https://www.squishable.com",
+    "campaign_name": "Hug Certified",
+    "theme": "Hug Certified",
+    "thesis": "Squishable does not need more plush designs - it needs adults to admit they want one, and Hug Certified turns an impulsive squeeze into a purchase reason.",
+    "variant_angle": "comfort-economy repositioning + live squish-test demos",
+    "brand_color": "#e8548a",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "December 2026 \u2014 DECA District",
+    "assurances_signed": false,
+    "parent_run": ""
+  },
+  "business_problem": "Squishable sells joy in a box but markets like a toy company: the review base (n=125 analyzed, ~96% five-star) is tiny relative to site traffic, 'cute' and 'love' dominate while almost nobody talks about buying for themselves, and impulse purchase has no offline trigger - shoppers can't feel the squish through a screen [R1][R3][S1][S5].",
+  "objectives": [
+    {
+      "id": "O1",
+      "funnel_stage": "conversion",
+      "primary": true,
+      "text": "Drive 180 attributed orders (pop-up QR + online code HUG15) in 45 days at ~$42 average order value"
+    },
+    {
+      "id": "O2",
+      "funnel_stage": "consideration",
+      "text": "Capture 700 email/SMS signups via Hug Certified pop-ups and the Drop Day waitlist"
+    },
+    {
+      "id": "O3",
+      "funnel_stage": "awareness",
+      "text": "Reach 900K Texas impressions and shift 'plush is for kids' perception: +10 pts on 'plush is a self-care/collectible product' among surveyed shoppers"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Comfort-Seeking Adults (18-34)",
+      "role": "primary",
+      "demographic": "18-34, students + young professionals, 60% female-skew",
+      "geographic": "Austin TX metro (campuses, malls, offices)",
+      "psychographic": "buys self-care, desk decor, comfort objects; follows squish/plush content; impulse-gifter",
+      "behavioral": "shops TikTok/IG trends, buys gifts online, visits pop-ups",
+      "media": "TikTok, Instagram, email, campus/mall foot traffic"
+    },
+    {
+      "id": "P2",
+      "name": "Gifters & Collectors",
+      "role": "secondary",
+      "demographic": "25-45, buying for partners/kids/themselves",
+      "geographic": "DFW + Austin + online",
+      "psychographic": "collector mindset (drops, exclusives), gift-driven occasions",
+      "behavioral": "joins waitlists, buys on drop days, holiday-driven",
+      "media": "email, SMS, Reddit, YouTube"
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M4",
+        "type": "review_analysis",
+        "n": 125,
+        "recruitment": "All public Judge.me reviews on squishable.com, keyword-coded (collected 2026-11-07)",
+        "status": "complete",
+        "dates": "2026-11",
+        "results_file": "research/reviews_squishable/reviews.csv"
+      },
+      {
+        "id": "M5",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "recruitment": "Squishable.com product/pricing pages, drop calendar, social bios vs Squishmallows/Gund positioning",
+        "status": "complete",
+        "dates": "2026-11",
+        "results_file": ""
+      },
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": 150,
+        "recruitment": "Intercept survey at pop-up locations, pre vs post campaign",
+        "status": "pending",
+        "dates": "2026-11",
+        "results_file": ""
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "finding": "'Cute' and 'love' dominate reviews (44 and 43 of 125 mentions) - buyers describe emotional attachment, but almost none describe a reason they bought *for themselves*"
+      },
+      {
+        "id": "R2",
+        "finding": "96% five-star across 125 reviews with essentially zero product complaints - the product is not the problem, discovery and self-purchase permission are"
+      },
+      {
+        "id": "R3",
+        "finding": "Gift mentions outnumber self-purchase mentions ~3:1; 'hug', 'squish', 'soft' appear organically - the squeeze IS the product demo, and it is entirely offline-inaccessible"
+      },
+      {
+        "id": "R4",
+        "finding": "Collector/drop language is nearly absent from reviews while Squishmallows built a billion-dollar brand on collector drops - the model exists, Squishable under-uses it"
+      }
+    ]
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "~$42 blended AOV (site pricing ~$15-55; mix of mini + full-size plush)"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~55% on DTC plush (typical plush/soft goods)"
+    },
+    {
+      "id": "A4",
+      "text": "$4,800 paid social/creator at ~$8 CPM = ~600K impressions + ~300K organic"
+    },
+    {
+      "id": "A6",
+      "text": "6 micro creators at $500 each (comfort/decor/campus niches)"
+    },
+    {
+      "id": "A7",
+      "text": "6 Hug Certified pop-up days at ~$350/shift (booth, samples=small plush, signage)"
+    },
+    {
+      "id": "A8",
+      "text": "HUG15 code gives $5 off $30+; manufacturer-funded, netted in revenue"
+    },
+    {
+      "id": "A10",
+      "text": "Tools/printing $600 (squeeze counter, certified stickers, signage)"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~14% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat purchase ~20% within 90 days (plush collectors)"
+    },
+    {
+      "id": "A15",
+      "text": "Conservative case = 50% of base"
+    }
+  ],
+  "budget": {
+    "total_usd": 10500,
+    "lines": [
+      {
+        "item": "Paid social (TikTok/IG geo + retargeting)",
+        "category": "media",
+        "usd": 4800,
+        "basis": "A4"
+      },
+      {
+        "item": "Micro creators (6 x $500)",
+        "category": "media",
+        "usd": 3000,
+        "basis": "A6"
+      },
+      {
+        "item": "Hug Certified pop-ups (6 shifts x ~$350)",
+        "category": "field",
+        "usd": 2100,
+        "basis": "A7"
+      },
+      {
+        "item": "Certified stickers, signage, squeeze counter",
+        "category": "production",
+        "usd": 600,
+        "basis": "A10"
+      }
+    ],
+    "projection": {
+      "impressions": 900000,
+      "ctr": 0.025,
+      "conversion_rate": 0.008,
+      "aov_usd": 42.0,
+      "gross_margin": 0.55
+    }
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (QR + HUG15 code)",
+      "baseline": "0 (new code)",
+      "target": "180",
+      "tool": "Shopify code report + QR UTM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Pop-up to online conversion",
+      "baseline": "0",
+      "target": "12% of badge scans purchase",
+      "tool": "UTM funnel",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Email/SMS captures",
+      "baseline": "current list",
+      "target": "700 new",
+      "tool": "Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions + 'self-care plush' survey lift",
+      "baseline": "week-0 survey n=150",
+      "target": "900K impr.; +10 pts",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Hug Certified Stations",
+      "mechanic": "Pop-up comfort booths at campus/mall spots: free hug booth with a real plush wall, 'Hug Certified' sticker + squeeze counter on video, QR badge links to $5-off code.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "Drop Day",
+      "mechanic": "Collector drop calendar + SMS waitlist: two limited releases teased in-feed, waitlist gets 15-min early access.",
+      "segment": "P2",
+      "channels": [
+        "SMS",
+        "email",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        2,
+        5
+      ],
+      "owner": "Rafsan (web)"
+    },
+    {
+      "id": "G3",
+      "name": "Sofa Science",
+      "mechanic": "TikTok/IG comfort content: squish ASMR, desk-pet office tours, 'rate my emotional support plush' creator posts - all tagged Hug Certified.",
+      "segment": "P1",
+      "channels": [
+        "TikTok",
+        "Instagram Reels"
+      ],
+      "objectives": [
+        "O3",
+        "O1"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (social)"
+    },
+    {
+      "id": "G4",
+      "name": "Adopt a Squish",
+      "mechanic": "Donation drive: trade in a worn plush for 20% off, donated to children's shelters - PR + feel-good earned media.",
+      "segment": "P2",
+      "channels": [
+        "PR",
+        "email",
+        "site"
+      ],
+      "objectives": [
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        4,
+        5,
+        6
+      ],
+      "owner": "Content lead"
+    }
+  ],
+  "sources": [
+    {
+      "publisher": "Squishable",
+      "title": "About / Our Story - independent plush studio, est. 2007",
+      "date": "2026",
+      "url": "https://www.squishable.com",
+      "id": "S1",
+      "type": "web"
+    },
+    {
+      "publisher": "Judge.me via squishable.com",
+      "title": "125 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-07",
+      "url": "https://www.squishable.com",
+      "id": "S2",
+      "type": "web"
+    },
+    {
+      "publisher": "Trustpilot / social bios",
+      "title": "Squishable brand presence and customer sentiment",
+      "date": "2026",
+      "url": "https://www.trustpilot.com",
+      "id": "S3",
+      "type": "web"
+    },
+    {
+      "publisher": "Squishmallows / industry",
+      "title": "Plush category growth and collector-drop model comparison",
+      "date": "2025",
+      "url": "https://en.wikipedia.org/wiki/Squishmallows",
+      "id": "S4",
+      "type": "web"
+    },
+    {
+      "id": "S5",
+      "publisher": "Klaviyo/industry",
+      "title": "DTC email/SMS capture benchmarks for plush/toy categories",
+      "date": "2025",
+      "url": "https://www.klaviyo.com",
+      "type": "web"
+    }
+  ],
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Hug Certified",
+      "bullets": [],
+      "notes": "Open by handing a judge the plush: 'This is a Squishable. Nobody has ever put it down unhappy.'"
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Hug Certified",
+        "Squishable plush",
+        "45-day campaign - Austin pop-ups + DTC"
+      ],
+      "notes": "Integrated Marketing Campaign - Product."
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "notes": "Agenda."
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Problem: buyers love the product (96% five-star) but almost nobody buys *for themselves* - plush reads as a kid's toy, and the squeeze that sells it can't be felt through a screen [R1][R3].",
+        "Solution: Hug Certified - pop-up hug booths, collector drops, comfort content, and a donation drive that give adults permission to buy joy.",
+        "45-day goal: 180 attributed orders, 700 captures, +10 pts on 'plush is self-care' [O1-O3]."
+      ],
+      "notes": "The one-sentence version: we certify the hug, then sell it."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Squishable: giant round plush - cute, oversized, soft; $15-55 price ladder from minis to 15-inch+ designs. [S1]",
+        "Independent studio est. 2007 in New York; DTC site + collector drops; designs span food, animals, fantasy. [S1]",
+        "Reviews: 96% five-star - 'cute', 'soft', 'love' are the vocabulary; quality complaints essentially absent [R2].",
+        "Sold DTC online; emotional-purchase product whose demo is the squeeze itself."
+      ],
+      "notes": "Hold the plush while describing it - the product explains itself."
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "Company & Position",
+      "bullets": [
+        "Independent plush studio since 2007 - predates Squishmallows' collector model but never claimed the adult/collector positioning [S1][S4].",
+        "Squishmallows proved the market: ~$400M+/yr, adult collectors driving growth; Squishable has the product, not the positioning [S4][R4].",
+        "Current comms lean 'toy for kids/gifts' - the buyers in the reviews are adults buying comfort.",
+        "Perception gap = the campaign's opening: reposition, don't redesign."
+      ],
+      "notes": "The brand accidentally built an adult product and markets it to kids."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 180 attributed orders via HUG15 code + pop-up QR at ~$42 AOV. [O1]",
+        "O2: 700 email/SMS captures from booths + Drop Day waitlist. [O3]",
+        "O3: 900K impressions; +10 pts 'plush is self-care/collectible' on pre/post survey (n=150 + holdout). [O1]",
+        "Baseline: current list size; week-0 survey; Shopify code report. [O1]"
+      ],
+      "notes": "Three objectives across the funnel, all measurable."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1: comfort-seeking adults 18-34 - students + young professionals who buy self-care, desk decor, and impulse comfort; TikTok/IG natives; Austin metro.",
+        "P2: gifters & collectors 25-45 - waitlist joiners, drop-day buyers, holiday-driven; DFW/Austin + online.",
+        "Both already exist in the review base - we just name and recruit them [R1]."
+      ],
+      "notes": "P1 buys for themselves, P2 buys drops and gifts."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Methodology & Results",
+      "bullets": [
+        "Content analysis of 125 public Judge.me reviews (collected 2026-11-07), keyword-coded [R1-R4].",
+        "Digital shelf audit of 8 sources: product/pricing pages, drop calendar, social positioning vs Squishmallows [R4][S1].",
+        "Pending: intercept survey (n=150) at pop-up sites + 3 interviews - field kit ready.",
+        "Honest corpus limit: 125 reviews is thin; direction is consistent, magnitude approximate."
+      ],
+      "notes": "What we have is real; what we lack is stated plainly."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "[R1] Reviews say 'cute/love' but almost never 'bought it for myself' -> give adults a socially-acceptable reason: certification, not a toy purchase.",
+        "[R3] The squeeze sells and can't be felt online -> bring the plush to the shopper: hug booths are the conversion engine.",
+        "[R4] Drop language absent while Squishmallows monetized collectors -> Drop Day waitlist adds collector mechanics to an existing product line.",
+        "[R2] 96% five-star, zero real complaints -> we sell permission and access, not product fixes."
+      ],
+      "notes": "Every decision traces to a finding."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Theme: Hug Certified - the squeeze is certified, then sold.",
+        "Push-pull: pop-up booths create touch + QR (pull), retargeting + drop SMS convert later (push) [R3][A4].",
+        "Comfort repositioning, not redesign: same plush, adult framing [R1].",
+        "PESO: paid geo-social, earned shelter-donation PR, shared squish-test content, owned email/SMS waitlist."
+      ],
+      "notes": "One theme, four programs, all channels tagged."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Hug Certified Stations",
+      "bullets": [
+        "6 pop-up booth days at campus/mall locations: real plush wall, free hugs, 'Hug Certified' stickers + squeeze counter. [A8]",
+        "QR badge -> $5-off HUG15 code; email capture at the booth (P1, field, O1/O2/O3, Nino). [O1]",
+        "Demo-heavy by design - the judge prop IS the program [A7]."
+      ],
+      "notes": "The signature program - this is what happens in the room.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Hug Certified Stations channel mockups",
+        "file": "visuals/board_s12.png"
+      }
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: Drop Day \u2014 Hug Certified",
+      "bullets": [
+        "Collector drop calendar + SMS waitlist; two limited releases teased in-feed (P2, site/SMS/email, O1/O2, Rafsan).",
+        "Waitlist gets 15-min early access - scarcity mechanics borrowed from the model Squishmallows proved [R4]."
+      ],
+      "notes": "Collector mechanics, existing products.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Drop Day channel mockups",
+        "file": "visuals/board_s13.png"
+      }
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Sofa Science",
+      "bullets": [
+        "Comfort content series: squish ASMR, desk-pet office tours, 'rate my emotional support plush' creator posts (P1, TikTok/IG, O3/O1, Santhosh).",
+        "All posts tag Hug Certified; creators seed booth visits + Drop Day [A4][A6]."
+      ],
+      "notes": "The awareness engine.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Sofa Science channel mockups",
+        "file": "visuals/board_s14.png"
+      }
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 4: Adopt a Squish + Creative Samples",
+      "bullets": [
+        "Trade in a worn plush for 20% off; donations to children's shelters (P2, PR/email/site, O2/O3). [A8]",
+        "Earned-media angle: indie brand doing good - local news pickup [S3].",
+        "Creative: 'Hug Certified' badge system across every asset - sticker, receipt stamp, email header."
+      ],
+      "notes": "The heart + the look.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Adopt a Squish channel mockups",
+        "file": "visuals/board_s15.png"
+      }
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Schedule: Hug Certified",
+      "bullets": [
+        "Pre-work (Oct-Nov): booth location bookings, creator outreach, drop calendar set | W1: Sofa Science + booth 1 live.",
+        "W2-W3: booths 2-4; Drop Day waitlist opens; retargeting on booth scanners.",
+        "W4-W5: Drop Day release; Adopt a Squish launch; final booth push.",
+        "W6-W7: last-chance SMS; survey post-test; read vs. holdout."
+      ],
+      "notes": "Compressed 45 days with pre-work clear.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Adopt a Squish channel mockups",
+        "file": "visuals/board_s16.png"
+      }
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Budget & Financial Viability",
+      "bullets": [
+        "Total $10,500: paid social $4.8K [A4]; creators $3K [A6]; pop-ups $2.1K [A7]; production $600 [A10]; contingency ~14% [A11]. | O2 list value: 700 captures x ~$6 = $4.2K [O2][A13].",
+        "Funnel: 900K impressions x 2.5% CTR x 0.8% purchase = 180 orders = $7.6K revenue [A1][A4].",
+        "GP 55% = $4.2K; direct ROI ~-60% - a repositioning proof budget, not a profit play; payback via list + collectors [A2][A13].",
+        "Conservative (50%): 90 orders, ROI ~-80%; kill-trigger at week 3 protects the downside [A15]."
+      ],
+      "notes": "Small budget, honest ROI - we sell proof, not margin."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: orders via HUG15 + QR UTMs; target 180; Shopify code report; weekly. [O3]",
+        "O2: captures; target 700; Klaviyo; weekly. [O1]",
+        "O3: impressions 900K + self-care perception +10 pts; pre/post survey w/ holdout; weekly/pre-post. [O1]",
+        "Trigger: <30 QR scans per booth day by week 3 -> shift spend to Sofa Science + Drop Day. [O1]"
+      ],
+      "notes": "Measurement plan with kill-switch."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "Squishable's product is loved; its permission structure is broken - adults buy comfort but call it a gift.",
+        "Hug Certified doesn't sell a toy; it sells the feeling and certifies it - a repositioning the team can demo live.",
+        "The booth is the presentation: put a Squishable in a judge's hands and the thesis proves itself."
+      ],
+      "notes": "Close on the demo - judges should still be holding it."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [],
+      "notes": "Sources."
+    }
+  ],
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "_creative": {
+    "6": {
+      "treatment": "photo_bg",
+      "photo": "webimg/web00.png",
+      "overlay": 0.75
+    },
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "POV: a stranger hands you a giant plush",
+          "Hug Certified booths are live \u2014 free hugs, certified stickers, $5 off. #hugcertified"
+        ],
+        [
+          "email",
+          "You are officially Hug Certified",
+          "Your badge: $5 off any Squishable. Show this email or scan your sticker."
+        ],
+        [
+          "sms",
+          "SQUISHABLE: free hugs + $5 off at our Hug Certified booth this Sat. Scan to RSVP.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Get Hug Certified",
+          "Swipe up \u2014 find the booth near you + claim $5 off."
+        ],
+        [
+          "shelf",
+          "HUG CERTIFIED",
+          "Free squeeze. Certified sticker. $5 off \u2014 today only."
+        ],
+        [
+          "event",
+          "Hug Certified Stations",
+          "Sat 11am-3pm \u00b7 plush wall + squeeze counter + $5-off QR"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "This drop sells out in minutes",
+          "Drop Day: two limited Squishables, waitlist gets 15-min early access. #plushdrop"
+        ],
+        [
+          "email",
+          "15 minutes early. That's the perk.",
+          "Drop Day waitlist members shop first \u2014 two limited releases."
+        ],
+        [
+          "sms",
+          "DROP DAY: waitlist opens at 9am \u2014 early access link inside.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Two drops. One waitlist.",
+          "Swipe up to get 15-min early access."
+        ],
+        [
+          "shelf",
+          "DROP DAY",
+          "Limited release \u2014 waitlist only for the first 15 minutes."
+        ],
+        [
+          "event",
+          "Drop Day Live",
+          "Countdown drop + waitlist early access, weeks 2 & 5"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "Rate my emotional support plush",
+          "Sofa Science: squish ASMR, desk-pet tours, comfort content. #sofascience"
+        ],
+        [
+          "email",
+          "The internet's softest content series",
+          "New Sofa Science episodes weekly \u2014 featuring your desk's new best friend."
+        ],
+        [
+          "sms",
+          "New Sofa Science episode just dropped \u2014 watch the squish.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Squish ASMR",
+          "Swipe up for the full episode."
+        ],
+        [
+          "shelf",
+          "SOFA SCIENCE",
+          "Comfort content for grown-ups. Follow @squishable."
+        ],
+        [
+          "event",
+          "Creator Collab Week",
+          "6 micro creators post Hug Certified content, weeks 1-6"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "Trading in my childhood plush",
+          "Adopt a Squish: trade up, we donate your old friend to a shelter. #adoptasquish"
+        ],
+        [
+          "email",
+          "Your old plush deserves a second life",
+          "Trade in any worn plush for 20% off \u2014 we donate it to a children's shelter."
+        ],
+        [
+          "sms",
+          "Trade your old plush for 20% off \u2014 donations go to kids' shelters.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Plush gets a second life",
+          "Swipe up to join Adopt a Squish."
+        ],
+        [
+          "shelf",
+          "ADOPT A SQUISH",
+          "Trade-in drive \u2014 20% off, donations to children's shelters."
+        ],
+        [
+          "event",
+          "Adopt a Squish Week",
+          "Donation drive + PR, weeks 4-6"
+        ]
+      ]
+    }
+  }
+}

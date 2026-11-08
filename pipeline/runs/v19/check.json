@@ -1,0 +1,104 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 4: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 5: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 6: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 7: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 8: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 9: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 10: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 11: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 12: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 13: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 14: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 15: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 16: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 17: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 18: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 19: no visual"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "primary_lite_ok": true,
+    "findings_cited_on_strategy": 3,
+    "budget_lines": 4,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 4,
+    "body_slides_with_visual": 0,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 10500,
+    "ad_spend_usd": 7800,
+    "break_even_orders": 455,
+    "base_case": {
+      "orders": 1800,
+      "revenue_usd": 75600,
+      "gross_profit_usd": 41580,
+      "roi_profit_based": 2.96,
+      "roas": 9.69,
+      "cac_usd": 5.83
+    },
+    "conservative_case": {
+      "orders": 900,
+      "revenue_usd": 37800,
+      "gross_profit_usd": 20790,
+      "roi_profit_based": 0.98,
+      "roas": 4.85,
+      "cac_usd": 11.67
+    }
+  },
+  "penalty_points": 0
+}
