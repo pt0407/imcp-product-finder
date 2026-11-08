@@ -1,0 +1,96 @@
+{
+  "final_mode": false,
+  "errors": [],
+  "warnings": [
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 4: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 5: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 6: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 7: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 8: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 9: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 10: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 11: no visual"
+    },
+    {
+      "code": "W_THEME",
+      "msg": "slide 11: theme 'Glow Up Hydration' not on strategy slide"
+    },
+    {
+      "code": "W_THEME",
+      "msg": "slide 16: theme 'Glow Up Hydration' not on strategy slide"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 17: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 18: no visual"
+    },
+    {
+      "code": "W_VISUAL",
+      "msg": "slide 19: no visual"
+    },
+    {
+      "code": "W_FINANCE",
+      "msg": "conservative case loses money; address the risk on the budget slide"
+    }
+  ],
+  "facts": {
+    "primary_research_ok": false,
+    "primary_lite_ok": true,
+    "findings_cited_on_strategy": 2,
+    "budget_lines": 5,
+    "has_projection": true,
+    "kpis_missing_target": 0,
+    "kpis_with_baseline": 4,
+    "body_slides_with_visual": 5,
+    "body_slides_with_notes": 16,
+    "campaign_days": 45
+  },
+  "finance": {
+    "campaign_cost_usd": 11400,
+    "ad_spend_usd": 7400,
+    "break_even_orders": 422,
+    "base_case": {
+      "orders": 185,
+      "revenue_usd": 11088,
+      "gross_profit_usd": 4990,
+      "roi_profit_based": -0.562,
+      "roas": 1.5,
+      "cac_usd": 61.69
+    },
+    "conservative_case": {
+      "orders": 92,
+      "revenue_usd": 5544,
+      "gross_profit_usd": 2495,
+      "roi_profit_based": -0.781,
+      "roas": 0.75,
+      "cac_usd": 123.38
+    }
+  },
+  "penalty_points": 0
+}

@@ -1,0 +1,132 @@
+{
+  "boards": {
+    "G1": [
+      [
+        "tiktok",
+        "POV: you finish crochet on your first try",
+        "Can't Fail workshops - 20 min, guaranteed finish. #cantfailclub"
+      ],
+      [
+        "email",
+        "You finished. Officially.",
+        "Your first stitch counts - 10% off your first kit inside."
+      ],
+      [
+        "sms",
+        "WOOBLES: free beginner workshop this Sat - you will finish.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Can't fail. Literally.",
+        "Swipe up - free workshop + 10% off."
+      ],
+      [
+        "shelf",
+        "CAN'T FAIL CLUB",
+        "Free workshop - first stitch guaranteed, kit inside."
+      ],
+      [
+        "event",
+        "Can't Fail Workshop",
+        "Sat 11am-3pm - 20-min session + finished-Wooble display"
+      ]
+    ],
+    "G2": [
+      [
+        "tiktok",
+        "Crochet for people who can't crochet",
+        "Stitch School: 4 videos from hook to finished Wooble. #stitchschool"
+      ],
+      [
+        "email",
+        "Video 1: your first stitch, guaranteed",
+        "The beginner series - from hook to finished plush."
+      ],
+      [
+        "sms",
+        "Your stitch-along is live - 4 videos to a finished Wooble.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "4 videos. One finished plush.",
+        "Swipe up - beginner series."
+      ],
+      [
+        "shelf",
+        "STITCH SCHOOL",
+        "Free video series - hook to finished Wooble."
+      ],
+      [
+        "event",
+        "Stitch School Live",
+        "Video funnel, weeks 1-6"
+      ]
+    ],
+    "G3": [
+      [
+        "tiktok",
+        "I made this and I can't craft",
+        "Show Your Wooble - finished-plush challenge. #cantfailclub"
+      ],
+      [
+        "email",
+        "Your Wooble is the ad",
+        "Post your finish - weekly feature + prize kit."
+      ],
+      [
+        "sms",
+        "Show us your finished Wooble - weekly feature + prize kit.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Show your Wooble",
+        "Swipe up - join the finish wall."
+      ],
+      [
+        "shelf",
+        "SHOW YOUR WOOBLE",
+        "Post your finish - weekly prize kit."
+      ],
+      [
+        "event",
+        "Finish Wall Drop",
+        "UGC challenge, weeks 2-6"
+      ]
+    ],
+    "G4": [
+      [
+        "tiktok",
+        "The gift that's also a hobby",
+        "Gift a Wooble: 2-kit bundle + gift note. #giftawooble"
+      ],
+      [
+        "email",
+        "Give someone their first finished thing",
+        "2-kit gift pack + note - the wholesome gift."
+      ],
+      [
+        "sms",
+        "Gift a Wooble: 2-kit bundle + gift note - this week.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "The perfect gift exists",
+        "Swipe up - gift bundle."
+      ],
+      [
+        "shelf",
+        "GIFT A WOOBLE",
+        "2-kit bundle + note - the gift they'll finish."
+      ],
+      [
+        "event",
+        "Gift Week",
+        "Bundle push, weeks 3-6"
+      ]
+    ]
+  }
+}

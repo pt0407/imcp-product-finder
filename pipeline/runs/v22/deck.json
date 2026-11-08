@@ -1,0 +1,753 @@
+{
+  "meta": {
+    "product": "HidrateSpark smart water bottles",
+    "company": "HidrateSpark (smart hydration bottle brand)",
+    "company_website": "https://hidratespark.com",
+    "campaign_name": "Glow Up Hydration",
+    "theme": "Glow Up Hydration",
+    "thesis": "HidrateSpark does not need more bottle features - it needs people who forget to drink water to see the bottle light up, and Glow Up Hydration turns a glowing reminder into a habit loop.",
+    "variant_angle": "live glow demo + quantified hydration data",
+    "brand_color": "#19c2e0",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "December 2026 \u2014 DECA District",
+    "assurances_signed": false,
+    "parent_run": "",
+    "design_style": "tech"
+  },
+  "business_problem": "HidrateSpark sells a smart bottle that glows when you need water: 150 analyzed reviews love the glow/habit loop, but the product reads as a gadget to people who don't know they're dehydrated - the feature that sells it can't be felt through a screen [R1][R3][S1][S2].",
+  "objectives": [
+    {
+      "id": "O1",
+      "funnel_stage": "conversion",
+      "primary": true,
+      "text": "Drive 200 attributed orders (demo QR + code GLOW15) in 45 days at ~$60 AOV"
+    },
+    {
+      "id": "O2",
+      "funnel_stage": "consideration",
+      "text": "Capture 800 email/SMS signups via hydration-check stations and glow-challenge funnels"
+    },
+    {
+      "id": "O3",
+      "funnel_stage": "awareness",
+      "text": "Reach 1.1M Texas impressions and shift 'smart bottle is gimmick' to 'the bottle that reminds you' - +12 pts among surveyed shoppers"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Craft-Curious Beginners (16-34)",
+      "role": "primary",
+      "demographic": "16-34, students + young professionals, 70% female-skew",
+      "geographic": "Austin TX metro (campuses, libraries, maker fairs)",
+      "psychographic": "wants a hobby but fears failing; cozy/TikTok-craft curious; screen-fatigued",
+      "behavioral": "impulse buys <$40, joins workshops, shares WIP posts",
+      "media": "TikTok, Instagram, Pinterest, campus/library foot traffic"
+    },
+    {
+      "id": "P2",
+      "name": "Gifters + Kidlit-adjacent buyers",
+      "role": "secondary",
+      "demographic": "25-50, gift-buyers, parents",
+      "geographic": "DFW/Austin + online",
+      "psychographic": "giftable, wholesome, screen-free",
+      "behavioral": "holiday/gift purchases, multi-kit orders",
+      "media": "email, Facebook, YouTube"
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M4",
+        "type": "review_analysis",
+        "n": 200,
+        "dates": "2026-11",
+        "recruitment": "200 public Judge.me reviews on woobles.com, keyword-coded (collected 2026-11-07)",
+        "status": "complete",
+        "results_file": "research/reviews_woobles.csv"
+      },
+      {
+        "id": "M5",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "dates": "2026-11",
+        "recruitment": "Woobles catalog/kit pages, starter bundles, social vs craft-store positioning",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": 150,
+        "dates": "pending",
+        "recruitment": "Intercept survey at workshop sites, pre vs post",
+        "status": "pending",
+        "results_file": ""
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "finding": "'Glow' and 'reminder' dominate reviews - buyers describe the light as the habit trigger, not the bottle"
+      },
+      {
+        "id": "R2",
+        "finding": "Complaints cluster on app connectivity/battery - the hardware is loved, the software is the friction"
+      },
+      {
+        "id": "R3",
+        "finding": "Reviewers bought for a stated health problem (headaches, 'never drink water') - a problem-aware niche most people don't know they belong to"
+      },
+      {
+        "id": "R4",
+        "finding": "Gift mentions are strong - the smart bottle is bought as 'the perfect gift' more than for self"
+      }
+    ]
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "~$60 blended AOV (bottles $60-70 + accessories)"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~50% on craft kits"
+    },
+    {
+      "id": "A4",
+      "text": "$4,500 paid social at ~$7 CPM = ~640K impressions + ~360K organic stitch-along content"
+    },
+    {
+      "id": "A6",
+      "text": "6 micro creators (craft/cozy/campus) at $400 each"
+    },
+    {
+      "id": "A7",
+      "text": "8 hydration-check station shifts at ~$300 each"
+    },
+    {
+      "id": "A8",
+      "text": "GLOW15 code: 15% off first bottle; netted in revenue"
+    },
+    {
+      "id": "A10",
+      "text": "Tools/printing $600 (demo bottles, water stations, signage)"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~11% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Repeat kit purchase ~30% within 90 days (series collectibility)"
+    },
+    {
+      "id": "A15",
+      "text": "Conservative case = 50% of base"
+    }
+  ],
+  "budget": {
+    "total_usd": 11400,
+    "lines": [
+      {
+        "item": "Paid social (TikTok/IG geo + retargeting)",
+        "category": "media",
+        "usd": 5000,
+        "basis": "A4"
+      },
+      {
+        "item": "Micro creators (6 x $400)",
+        "category": "media",
+        "usd": 2400,
+        "basis": "A6"
+      },
+      {
+        "item": "Hydration-check stations (8 x ~$300)",
+        "category": "field",
+        "usd": 2400,
+        "basis": "A7"
+      },
+      {
+        "item": "Demo bottles, water stations, signage",
+        "category": "production",
+        "usd": 600,
+        "basis": "A10"
+      },
+      {
+        "item": "Contingency (~10%)",
+        "category": "contingency",
+        "usd": 1000,
+        "basis": "A11"
+      }
+    ],
+    "projection": {
+      "impressions": 1100000,
+      "ctr": 0.028,
+      "conversion_rate": 0.006,
+      "aov_usd": 60.0,
+      "gross_margin": 0.45
+    }
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (QR + WOOBLE10)",
+      "baseline": "0 (new code)",
+      "target": "220",
+      "tool": "Shopify code report + UTM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Workshop scan-to-purchase conversion",
+      "baseline": "0",
+      "target": "10%",
+      "tool": "UTM funnel",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Email/SMS captures",
+      "baseline": "current list",
+      "target": "900",
+      "tool": "Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions + 'crochet is easy' perception lift",
+      "baseline": "week-0 survey n=150",
+      "target": "1.0M impr.; +12 pts",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "programs": [
+    {
+      "id": "G1",
+      "name": "Hydration Check Stations",
+      "mechanic": "Pop-up stations at gyms/campus: see the bottle glow live, get a 'hydration score' card + 15%-off QR.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "7-Day Glow Challenge",
+      "mechanic": "QR -> app trial + daily hydration tracking -> first-bottle offer; quantified results become shareable.",
+      "segment": "P1",
+      "channels": [
+        "app",
+        "TikTok",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (social)"
+    },
+    {
+      "id": "G3",
+      "name": "Desk Dehydration",
+      "mechanic": "Office worker content: 'you forget water at your desk' + glow-reminder clips.",
+      "segment": "P2",
+      "channels": [
+        "LinkedIn",
+        "email",
+        "YouTube"
+      ],
+      "objectives": [
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Rafsan (content)"
+    },
+    {
+      "id": "G4",
+      "name": "Gift a Glow",
+      "mechanic": "Giftable bundle: bottle + note 'the gift that reminds them' to gifters.",
+      "segment": "P2",
+      "channels": [
+        "email",
+        "SMS",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Rafsan (web)"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "HidrateSpark",
+      "title": "Product pages + smart bottle features",
+      "date": "2026",
+      "url": "https://hidratespark.com",
+      "type": "web"
+    },
+    {
+      "id": "S2",
+      "publisher": "Judge.me via hidratespark.com",
+      "title": "150 public customer reviews - keyword-coded analysis",
+      "date": "2026-11-07",
+      "url": "https://hidratespark.com",
+      "type": "web"
+    },
+    {
+      "id": "S3",
+      "publisher": "Wearable/quantified-self industry",
+      "title": "Health-tracking adoption and hydration-tracking niche",
+      "date": "2025",
+      "url": "https://www.statista.com",
+      "type": "web"
+    },
+    {
+      "id": "S4",
+      "publisher": "TikTok / fitness content",
+      "title": "Hydration and fitness-tracking content trends",
+      "date": "2025",
+      "url": "https://www.tiktok.com",
+      "type": "web"
+    },
+    {
+      "id": "S5",
+      "publisher": "Bottle/drinkware retail",
+      "title": "Smart vs traditional bottle category comparison",
+      "date": "2026",
+      "url": "https://www.amazon.com",
+      "type": "web"
+    }
+  ],
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "Glow Up Hydration",
+      "bullets": [],
+      "notes": "Hold the bottle as it glows: 'This light just told me to drink water. That's the whole product.'"
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "Glow Up Hydration",
+        "HidrateSpark smart bottles",
+        "45-day campaign - Austin stations + DTC"
+      ],
+      "notes": "Title."
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "notes": "Agenda."
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Problem: reviews love the glow/habit loop, but the product reads as a gadget to people who don't know they're dehydrated - the selling feature can't be felt through a screen [R1][R3].",
+        "Solution: Glow Up Hydration - live hydration-check stations, 7-day glow challenges, desk-worker targeting, giftable bundles.",
+        "45-day goal: 200 orders, 800 captures, +12 pts 'the bottle that reminds you' [O1-O3]."
+      ],
+      "notes": "We sell the finish line, not the craft."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Smart water bottle: LED glow reminders, app-tracked intake, $60-70 bottles + accessories [S1].",
+        "The demo is the feature: the bottle lights up in your hand - judges see the glow, not a spec sheet [R1].",
+        "Reviews: 'glow'/'reminder' dominate - the light IS the habit loop [R1].",
+        "Sold DTC online; quantified-self wearable category [S3]."
+      ],
+      "notes": "Hold up a finished Wooble vs the kit - 'this becomes this, guaranteed.'"
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "Company & Position",
+      "bullets": [
+        "Smart hydration brand - 150+ verified reviews, wearable-adjacent positioning [S1][S2][S3].",
+        "Hydration tracking is a real gap: people track steps/sleep but forget water - the last untracked habit [R3][S3].",
+        "Positioning gap: 'fitness gadget' is cluttered; 'the bottle that reminds you' is unclaimed.",
+        "Campaign claims the reminder."
+      ],
+      "notes": "Category + brand facts."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 220 attributed orders via WOOBLE10 + workshop QR at ~$35 AOV [O1].",
+        "O2: 900 email/SMS captures from workshops + stitch-along [O2].",
+        "O3: 1.0M impressions; +12 pts 'crochet is easy/anyone can' on pre/post survey (n=150 + holdout) [O3].",
+        "Baseline: current list; week-0 survey; Shopify code report."
+      ],
+      "notes": "Funnel-covered."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1: health-tracking achievers 18-34 - quantified-self users who track everything except water; gyms/campuses [S3][S4].",
+        "P2: desk workers + gifters 25-45 - forget water at desk; gift-occasion buyers [R3][R4].",
+        "P1 is the quantified-self story; P2 is reliable revenue."
+      ],
+      "notes": "Beginners vs gifters."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Methodology & Results",
+      "bullets": [
+        "Content analysis of 150 public Judge.me reviews (collected 2026-11-07), keyword-coded [R1-R4].",
+        "Digital shelf audit of 8 sources: product pages, bundles, wearable-category positioning [S1][S3][S5].",
+        "Pending: intercept survey (n=150) at stations + 3 interviews - field kit ready.",
+        "Reviews prove the glow works; the gap is people who don't know they need it."
+      ],
+      "notes": "What the data says."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "[R1] 'Glow/reminder' dominate -> sell the light, not the bottle: 'the bottle that reminds you'.",
+        "[R2] App friction is the complaint -> demo the glow first (no app needed to see it).",
+        "[R3] Buyers had a stated health problem -> recruit problem-aware desk workers + trackers.",
+        "[R4] Strong gift mentions -> giftable bundle program for P2."
+      ],
+      "notes": "Findings map to programs."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Theme: Can't Fail Club - membership you earn by finishing.",
+        "Push-pull: workshops create the first success (pull); stitch-along + gift drops convert at home (push) [R3][A4].",
+        "Finished Wooble as social proof: every finisher is an ad [R4].",
+        "PESO: paid geo-social, earned maker-fair/library PR, shared WIP/finish posts, owned email/SMS + stitch series."
+      ],
+      "notes": "Success guarantee across every touchpoint."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: Hydration Check Stations \u2014 Glow Up Hydration",
+      "bullets": [
+        "8 station shifts at gyms/campuses: live glow demo, 'hydration score' card + 15%-off QR (P1, field, O1/O2/O3, Nino) [A7].",
+        "Pocketable + battery-powered prop: fully DECA-compliant."
+      ],
+      "notes": "Signature program - judge-ready.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Hydration Check Stations channel mockups",
+        "file": "visuals/board_s12.png"
+      }
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: 7-Day Glow Challenge \u2014 Glow Up Hydration",
+      "bullets": [
+        "App trial + daily tracking; shareable quantified results (P1, app/TikTok/site, O1/O3, Santhosh) [A4].",
+        "Turns the number into proof [S3]."
+      ],
+      "notes": "Online bridge.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: 7-Day Glow Challenge channel mockups",
+        "file": "visuals/board_s13.png"
+      }
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Desk Dehydration \u2014 Glow Up Hydration",
+      "bullets": [
+        "Office worker content: 'you forget water at your desk' + glow clips (P2, LinkedIn/email/YouTube, O2/O3, Rafsan) [R3].",
+        "Problem-aware niche targeting."
+      ],
+      "notes": "UGC engine.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Desk Dehydration channel mockups",
+        "file": "visuals/board_s14.png"
+      }
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 4: Gift a Glow \u2014 Glow Up Hydration",
+      "bullets": [
+        "Giftable bundle: bottle + note 'the gift that reminds them'; email/SMS to gifters (P2, site, O1/O2) [R4].",
+        "Gift-occasion revenue."
+      ],
+      "notes": "Revenue base program.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Gift a Glow channel mockups",
+        "file": "visuals/board_s15.png"
+      }
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Schedule: Can't Fail Club",
+      "bullets": [
+        "Pre-work: venue bookings, demo-bottle stock, creator outreach | W1: station 1 + challenge live.",
+        "W2-W3: stations 2-5; Desk Dehydration; retargeting.",
+        "W4-W5: Gift a Glow; stations 6-8; challenge continues.",
+        "W6 (day 45 close): last-chance SMS; post-survey; holdout read."
+      ],
+      "notes": "Tight, coherent.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Gift a Glow channel mockups",
+        "file": "visuals/board_s16.png"
+      }
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Budget & Financial Viability",
+      "bullets": [
+        "Total $11,400: paid social $5K [A4]; creators $2.4K [A6]; stations $2.4K [A7]; production $600 [A10]; contingency ~10% [A11].",
+        "Funnel: 1.1M impressions x 2.8% CTR x 0.6% purchase = ~185 orders = $11.1K revenue [A1][A4].",
+        "GP 45% = $5K; direct ROI ~-56% - entry-proof budget; accessory repeat payback [A2][A13].",
+        "Honest read: buying first-time smart-bottle users + quantified proof [A15]."
+      ],
+      "notes": "Honest economics."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: orders via WOOBLE10 + QR UTMs; target 220; Shopify report; weekly [O1].",
+        "O2: captures; target 900; Klaviyo; weekly [O2].",
+        "O3: impressions 1.0M + perception +12 pts; pre/post survey w/ holdout [O3].",
+        "Trigger: <35 scans per workshop by week 3 -> shift spend to Stitch School + gift drops."
+      ],
+      "notes": "Kill-switch included."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "HidrateSpark's feature is already perfect - it just needs to glow in front of people who don't know they need it.",
+        "Glow Up Hydration sells the reminder, not the bottle - and hands the proof to the judge.",
+        "The prop works in the room: charged bottle, live glow, pocketable and power-free per DECA rules."
+      ],
+      "notes": "Close while judges hold the kit."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [],
+      "notes": "Sources."
+    }
+  ],
+  "_creative": {
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "POV: you finish crochet on your first try",
+          "Can't Fail workshops - 20 min, guaranteed finish. #cantfailclub"
+        ],
+        [
+          "email",
+          "You finished. Officially.",
+          "Your first stitch counts - 10% off your first kit inside."
+        ],
+        [
+          "sms",
+          "WOOBLES: free beginner workshop this Sat - you will finish.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Can't fail. Literally.",
+          "Swipe up - free workshop + 10% off."
+        ],
+        [
+          "shelf",
+          "CAN'T FAIL CLUB",
+          "Free workshop - first stitch guaranteed, kit inside."
+        ],
+        [
+          "event",
+          "Can't Fail Workshop",
+          "Sat 11am-3pm - 20-min session + finished-Wooble display"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "Crochet for people who can't crochet",
+          "Stitch School: 4 videos from hook to finished Wooble. #stitchschool"
+        ],
+        [
+          "email",
+          "Video 1: your first stitch, guaranteed",
+          "The beginner series - from hook to finished plush."
+        ],
+        [
+          "sms",
+          "Your stitch-along is live - 4 videos to a finished Wooble.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "4 videos. One finished plush.",
+          "Swipe up - beginner series."
+        ],
+        [
+          "shelf",
+          "STITCH SCHOOL",
+          "Free video series - hook to finished Wooble."
+        ],
+        [
+          "event",
+          "Stitch School Live",
+          "Video funnel, weeks 1-6"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "I made this and I can't craft",
+          "Show Your Wooble - finished-plush challenge. #cantfailclub"
+        ],
+        [
+          "email",
+          "Your Wooble is the ad",
+          "Post your finish - weekly feature + prize kit."
+        ],
+        [
+          "sms",
+          "Show us your finished Wooble - weekly feature + prize kit.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Show your Wooble",
+          "Swipe up - join the finish wall."
+        ],
+        [
+          "shelf",
+          "SHOW YOUR WOOBLE",
+          "Post your finish - weekly prize kit."
+        ],
+        [
+          "event",
+          "Finish Wall Drop",
+          "UGC challenge, weeks 2-6"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "The gift that's also a hobby",
+          "Gift a Wooble: 2-kit bundle + gift note. #giftawooble"
+        ],
+        [
+          "email",
+          "Give someone their first finished thing",
+          "2-kit gift pack + note - the wholesome gift."
+        ],
+        [
+          "sms",
+          "Gift a Wooble: 2-kit bundle + gift note - this week.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "The perfect gift exists",
+          "Swipe up - gift bundle."
+        ],
+        [
+          "shelf",
+          "GIFT A WOOBLE",
+          "2-kit bundle + note - the gift they'll finish."
+        ],
+        [
+          "event",
+          "Gift Week",
+          "Bundle push, weeks 3-6"
+        ]
+      ]
+    }
+  }
+}
