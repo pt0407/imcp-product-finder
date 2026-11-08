@@ -153,7 +153,7 @@
     }
   ],
   "budget": {
-    "total_usd": 10300,
+    "total_usd": 11300,
     "lines": [
       {
         "item": "Paid social (TikTok/YT Shorts geo + retargeting)",
@@ -178,6 +178,12 @@
         "category": "production",
         "usd": 500,
         "basis": "A10"
+      },
+      {
+        "item": "Contingency (~10%)",
+        "category": "contingency",
+        "usd": 1000,
+        "basis": "A11"
       }
     ],
     "projection": {
@@ -226,7 +232,7 @@
     {
       "id": "G1",
       "name": "2-Minute Challenge Booths",
-      "mechanic": "Pop-up challenge stations: solved cube in 2 minutes wins a sticker + $3-off QR; everyone who tries gets captured. The judge prop IS the program.",
+      "mechanic": "Pop-up challenge stations: every challenger wins something - sticker + $3-off QR for trying, free cube for a real sub-2:00 solve. Everyone who tries gets captured. The judge prop IS the program.",
       "segment": "P1",
       "channels": [
         "in-person events",
@@ -425,7 +431,7 @@
       "section": "description",
       "title": "Company & Position",
       "bullets": [
-        "Independent US speedcubing retailer - the hobby's specialist shop vs Amazon's toy aisle [S1][S5].",
+        "Independent US speedcubing retailer - 500+ verified reviews on-site, full catalog (cubes $5-300+, lubes, mats, timers, merch); the hobby's specialist vs Amazon's toy aisle [S1][S2][S5].",
         "Speedcubing is booming: WCA competitions, TikTok solve content, ASMR niche - but the retail funnel markets to insiders only [S3][S4][R4].",
         "Positioning gap: 'for cubers' is earned; 'for everyone who can't resist a challenge' is unclaimed.",
         "The campaign claims the challenge side of the brand."
@@ -496,7 +502,7 @@
       "section": "strategy",
       "title": "Program 1: 2-Minute Challenge Booths",
       "bullets": [
-        "8 booth shifts at campus/mall spots: timers, cube stock, 'solve in 2 min = sticker + $3-off QR' (P1, field, O1/O2/O3, Nino) [A7].",
+        "8 booth shifts at campus/mall spots: timers, cube stock, 'tiered: everyone who tries gets a sticker + $3-off QR; actually solve it and the cube is yours' (P1, field, O1/O2/O3, Nino) [A7].",
         "Live scoreboard + clip-every-challenger for content.",
         "This is what happens in the judge presentation - scaled."
       ],
@@ -574,7 +580,7 @@
       "section": "budget",
       "title": "Budget & Financial Viability",
       "bullets": [
-        "Total $9,300: paid social $5K [A4]; creators $2.4K [A6]; booths $2.4K [A7]; production $500 [A10]; contingency ~12% [A11].",
+        "Total $10,300: paid social $5K [A4]; creators $2.4K [A6]; booths $2.4K [A7]; production $500 [A10]; contingency ~12% [A11].",
         "Funnel: 1.2M impressions x 2.8% CTR x 0.75% purchase = ~250 orders = $6K revenue [A1][A4].",
         "GP 40% = $2.4K; direct ROI ~-74% - a market-entry proof budget: 800 captures + community activation, payback via accessories repeat (25% within 90 days) [A2][A13].",
         "Honest read: we're buying first-time cubers, not this quarter's margin [A15]."
@@ -617,7 +623,7 @@
       "G1": [
         [
           "tiktok",
-          "POV: stranger dares you to solve this in 2 min",
+          "2-Minute Challenge booths - try it, you're in (sticker + $3 off); solve it, it's free.",
           "2-Minute Challenge booths are live - solve it, it's free. #2minchallenge"
         ],
         [
@@ -626,7 +632,7 @@
           "Everyone who tries gets $3 off a starter cube. Keep practicing."
         ],
         [
-          "sms",
+          "SPEEDCUBESHOP: take the 2-minute challenge this Sat - try = $3 off, solve = free cube.",
           "SPEEDCUBESHOP: solve this in 2 min and it's free. Booth this Sat.",
           "Reply STOP to opt out"
         ],
@@ -637,12 +643,12 @@
         ],
         [
           "shelf",
-          "2-MINUTE CHALLENGE",
+          "Try = sticker + $3 off. Solve in 2:00 = the cube is yours.",
           "Solve it in 2:00 - win a sticker + $3 off. Try it."
         ],
         [
           "event",
-          "2-Minute Challenge",
+          "Sat 11am-3pm - timers, cubes, tiered prizes + QR",
           "Sat 11am-3pm - timers, cubes, live scoreboard + $3-off QR"
         ]
       ],

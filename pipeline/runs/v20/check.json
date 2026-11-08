@@ -36,26 +36,6 @@
     },
     {
       "code": "W_VISUAL",
-      "msg": "slide 12: no visual"
-    },
-    {
-      "code": "W_VISUAL",
-      "msg": "slide 13: no visual"
-    },
-    {
-      "code": "W_VISUAL",
-      "msg": "slide 14: no visual"
-    },
-    {
-      "code": "W_VISUAL",
-      "msg": "slide 15: no visual"
-    },
-    {
-      "code": "W_VISUAL",
-      "msg": "slide 16: no visual"
-    },
-    {
-      "code": "W_VISUAL",
       "msg": "slide 17: no visual"
     },
     {
@@ -75,33 +55,33 @@
     "primary_research_ok": false,
     "primary_lite_ok": true,
     "findings_cited_on_strategy": 2,
-    "budget_lines": 4,
+    "budget_lines": 5,
     "has_projection": true,
     "kpis_missing_target": 0,
     "kpis_with_baseline": 4,
-    "body_slides_with_visual": 0,
+    "body_slides_with_visual": 5,
     "body_slides_with_notes": 16,
     "campaign_days": 45
   },
   "finance": {
-    "campaign_cost_usd": 10300,
+    "campaign_cost_usd": 11300,
     "ad_spend_usd": 7400,
-    "break_even_orders": 1073,
+    "break_even_orders": 1177,
     "base_case": {
       "orders": 252,
       "revenue_usd": 6048,
       "gross_profit_usd": 2419,
-      "roi_profit_based": -0.765,
+      "roi_profit_based": -0.786,
       "roas": 0.82,
-      "cac_usd": 40.87
+      "cac_usd": 44.84
     },
     "conservative_case": {
       "orders": 126,
       "revenue_usd": 3024,
       "gross_profit_usd": 1210,
-      "roi_profit_based": -0.883,
+      "roi_profit_based": -0.893,
       "roas": 0.41,
-      "cac_usd": 81.75
+      "cac_usd": 89.68
     }
   },
   "penalty_points": 0
