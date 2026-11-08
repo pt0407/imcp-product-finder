@@ -24,22 +24,24 @@ body{width:1560px;height:880px;font-family:-apple-system,Helvetica,Arial,sans-se
 .sh{background:#fff;color:#222;border-radius:12px;padding:12px} .sht{font-size:15px;font-weight:800;color:__BRAND__} .shb{font-size:12px;color:#555;margin:4px 0} .shp{background:#eee;border-radius:8px;height:44px;display:flex;align-items:center;justify-content:center;font-size:11px;color:#999;letter-spacing:1px}
 .ev{background:linear-gradient(160deg,#0f3d2e,#1f6f8b);border-radius:14px;padding:14px;display:flex;flex-direction:column;justify-content:space-between;min-height:170px} .evh{font-size:18px;font-weight:800} .evb{font-size:12px;color:#cfe8f0} .evd{font-size:12px;color:#fff}"""
 
-def board_html(brand, theme, title, tiles):
+def board_html(brand, theme, title, tiles, photo_uri=""):
     """tiles: list of (kind, headline, body) -> 3x2 grid of mockups."""
     cells = ""
     kinds = ["tiktok","email","sms","story","shelf","event"]
+    pbg = f"background:url({photo_uri}) center/cover;box-shadow:inset 0 -110px 60px -20px rgba(0,0,0,.88);" if photo_uri else ""
+    pimg = f"<img src='{photo_uri}' style='width:100%;height:100%;object-fit:contain'>" if photo_uri else "PRODUCT"
     for i,(kind,h,b) in enumerate(tiles):
         k = kinds[i % len(kinds)]
         if k=="tiktok":
-            inner=f"<div class='tt'><div class='ttv'>▶</div><div class='ttc'>@brand</div><div class='ttx'>{e(h)}<br><span>{e(b)}</span></div></div>"
+            inner=f"<div class='tt' style='{pbg}'><div class='ttv'>▶</div><div class='ttc'>@brand</div><div class='ttx'>{e(h)}<br><span>{e(b)}</span></div></div>"
         elif k=="email":
             inner=f"<div class='em'><div class='emh'>{e(h)}</div><div class='emb'>{e(b)}</div><div class='embtn'>Shop now →</div></div>"
         elif k=="sms":
             inner=f"<div class='ph'><div class='bub'>{e(h)}</div><div class='bub me'>{e(b)}</div></div>"
         elif k=="story":
-            inner=f"<div class='st'><div class='stt'>{e(h)}</div><div class='stb'>{e(b)}</div><div class='stswipe'>Swipe up</div></div>"
+            inner=f"<div class='st' style='{pbg}'><div class='stt'>{e(h)}</div><div class='stb'>{e(b)}</div><div class='stswipe'>Swipe up</div></div>"
         elif k=="shelf":
-            inner=f"<div class='sh'><div class='sht'>{e(h)}</div><div class='shb'>{e(b)}</div><div class='shp'>PRODUCT</div></div>"
+            inner=f"<div class='sh'><div class='sht'>{e(h)}</div><div class='shb'>{e(b)}</div><div class='shp' style='padding:6px'>{pimg}</div></div>"
         else:
             inner=f"<div class='ev'><div class='evh'>{e(h)}</div><div class='evb'>{e(b)}</div><div class='evd'>📍 Event</div></div>"
         cells += f"<div class='tile'>{inner}<div class='cap'>{k.upper()}</div></div>"
@@ -79,7 +81,14 @@ def main(deck_path):
         copy = ((deck.get("_creative") or {}).get("boards") or {}).get(prog["id"])
         tiles = [(t[0],t[1],t[2]) for t in copy] if copy else tiles_for(prog)
         title = s.get("title","")
-        html_doc = board_html(brand, theme, title, tiles)
+        # first usable product/photo for mockup backgrounds
+        photo = ""
+        for d in ("photos","webimg"):
+            pd_ = run/d
+            if pd_.exists():
+                pics = sorted(x for x in pd_.iterdir() if x.suffix.lower() in (".jpg",".jpeg",".png",".webp"))
+                if pics: photo = pics[0].resolve().as_uri(); break
+        html_doc = board_html(brand, theme, title, tiles, photo)
         hf = (out/f"board_s{n:02d}.html").resolve(); hf.write_text(html_doc)
         png = out/f"board_s{n:02d}.png"
         subprocess.run([CHROME,"--headless=new","--disable-gpu","--hide-scrollbars",f"--screenshot={png}",
