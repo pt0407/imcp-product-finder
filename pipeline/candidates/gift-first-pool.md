@@ -12,3 +12,10 @@ Criterion: judges SUCCEED or receive a gift — never feel dumb. No dietary/skil
 ## Learned insight
 The prelim room rewards: gift > success-demo > challenge-demo > sensory-demo (dietary) > passive prop.
 Woobles hits the top two tiers at once.
+
+## Round 2 additions (2026-11-07)
+| Candidate | Demo | Corpus | Verdict |
+|---|---|---|---|
+| **sculpd.com** | air-dry pottery kit — "you can't fail" clay demo | Okendo reviews present (unfetched) | strong backup to Woobles |
+| **crockd.com** | pottery kit, same family | Loox present (unfetched) | backup |
+| modernsprout / paintgem / terrarium / knotty | garden/paint kits | no endpoints | skip |
