@@ -15,7 +15,7 @@ All paths are relative to `/Users/pranav/Desktop/DevinProjects/imcp-product-find
 | `pipeline/prompts/03_grade.md` | Grade a deck (fresh session only) |
 | `pipeline/prompts/04_revise.md` | Revise the leading variant |
 | `pipeline/scripts/*.py` | check_deck, score, render, new_run, calibrate, extract_pdf, summarize_survey, make_visuals |
-| `pipeline/tools/*.py` | fetch_reviews_judgeme, analyze_reviews (no-survey primary research) |
+| `pipeline/tools/*.py` | fetch_reviews_judgeme, fetch_reviews_stamped, analyze_reviews (no-survey primary research) |
 | `pipeline/team.json` | School, address, participants, date (the human fills this in) |
 | `pipeline/leaderboard.csv` | Ranked results across all runs |
 

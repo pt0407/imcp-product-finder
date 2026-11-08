@@ -1,0 +1,62 @@
+{
+  "run": "v10",
+  "passes_valid": 2,
+  "passes_rejected": [],
+  "raw": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 11,
+    "activities": 12,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "caps_applied": {},
+  "capped": {
+    "industry_knowledge": 4,
+    "business_opportunity": 4,
+    "research": 10,
+    "strategy": 11,
+    "activities": 12,
+    "budget": 8,
+    "impact": 9,
+    "organization": 4,
+    "effectiveness": 4,
+    "delivery": 4,
+    "design": 4,
+    "overall": 4
+  },
+  "spread": {
+    "industry_knowledge": 1,
+    "business_opportunity": 0,
+    "research": 1,
+    "strategy": 0,
+    "activities": 1,
+    "budget": 0,
+    "impact": 0,
+    "organization": 1,
+    "effectiveness": 1,
+    "delivery": 0,
+    "design": 1,
+    "overall": 1
+  },
+  "noisy_categories": [],
+  "raw_total": 78,
+  "capped_total": 78,
+  "penalty_points": 0,
+  "final": 78,
+  "top_fixes": [
+    "Run real primary research (30+ respondent survey or 3+ interviews with DFW jerky shoppers) to unlock the research cap — potential +5 for roughly a day of work",
+    "Add Statement of Assurances plus school/participant/date metadata on the title slide — avoids a submission penalty for under an hour of work",
+    "Make O1 measure the stated problem: add a repeat-purchase or Amazon-rating-repair KPI with baseline and target so the primary objective proves the thesis, not just first trial",
+    "Specify actual visuals/mockups for the six blank-visual slides (9, 10, 13, 16, 17, 18) and trim the five 111-114-word slides — biggest design-point gain for the least work.",
+    "Add cost basis to every budget line and label the 1.5%/10% funnel conversion assumptions — converts budget from 8 toward 9-10.",
+    "Add title-slide metadata (school, participants, date) and strengthen the conservative-case mitigation story — fixes professionalism warnings and overall impression."
+  ],
+  "scored_at": "2026-11-07T20:34:43"
+}
