@@ -76,20 +76,20 @@
     "ad_spend_usd": 7400,
     "break_even_orders": 422,
     "base_case": {
-      "orders": 185,
-      "revenue_usd": 11088,
-      "gross_profit_usd": 4990,
-      "roi_profit_based": -0.562,
-      "roas": 1.5,
-      "cac_usd": 61.69
+      "orders": 200,
+      "revenue_usd": 12012,
+      "gross_profit_usd": 5405,
+      "roi_profit_based": -0.526,
+      "roas": 1.62,
+      "cac_usd": 56.94
     },
     "conservative_case": {
-      "orders": 92,
-      "revenue_usd": 5544,
-      "gross_profit_usd": 2495,
-      "roi_profit_based": -0.781,
-      "roas": 0.75,
-      "cac_usd": 123.38
+      "orders": 100,
+      "revenue_usd": 6006,
+      "gross_profit_usd": 2703,
+      "roi_profit_based": -0.763,
+      "roas": 0.81,
+      "cac_usd": 113.89
     }
   },
   "penalty_points": 0

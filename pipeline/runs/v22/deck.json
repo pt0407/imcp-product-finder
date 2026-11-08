@@ -42,23 +42,23 @@
   "segments": [
     {
       "id": "P1",
-      "name": "Craft-Curious Beginners (16-34)",
+      "name": "Health-Tracking Achievers (18-34)",
       "role": "primary",
-      "demographic": "16-34, students + young professionals, 70% female-skew",
-      "geographic": "Austin TX metro (campuses, libraries, maker fairs)",
-      "psychographic": "wants a hobby but fears failing; cozy/TikTok-craft curious; screen-fatigued",
-      "behavioral": "impulse buys <$40, joins workshops, shares WIP posts",
-      "media": "TikTok, Instagram, Pinterest, campus/library foot traffic"
+      "demographic": "18-34, fitness-app users, gym/study culture",
+      "geographic": "Austin TX metro (gyms, campuses, offices)",
+      "psychographic": "tracks steps/sleep/macros; quantified-self mindset; hydration is the gap",
+      "behavioral": "buys wearables + tracking apps; premium bottle <$70",
+      "media": "TikTok, Instagram, Strava/fitness apps, gym foot traffic"
     },
     {
       "id": "P2",
-      "name": "Gifters + Kidlit-adjacent buyers",
+      "name": "Desk Workers + Gifters",
       "role": "secondary",
-      "demographic": "25-50, gift-buyers, parents",
+      "demographic": "25-45, office workers + gift-buyers",
       "geographic": "DFW/Austin + online",
-      "psychographic": "giftable, wholesome, screen-free",
-      "behavioral": "holiday/gift purchases, multi-kit orders",
-      "media": "email, Facebook, YouTube"
+      "psychographic": "forgets water at desk; practical-gift buyers",
+      "behavioral": "gadget-curious, gift-occasion buys",
+      "media": "email, YouTube, Reddit"
     }
   ],
   "research": {
@@ -66,18 +66,18 @@
       {
         "id": "M4",
         "type": "review_analysis",
-        "n": 200,
+        "n": 150,
         "dates": "2026-11",
-        "recruitment": "200 public Judge.me reviews on woobles.com, keyword-coded (collected 2026-11-07)",
+        "recruitment": "150 public Judge.me reviews on hidratespark.com, keyword-coded (collected 2026-11-07)",
         "status": "complete",
-        "results_file": "research/reviews_woobles.csv"
+        "results_file": "research/reviews_hidrate/reviews.csv"
       },
       {
         "id": "M5",
         "type": "digital_shelf_audit",
         "n": 8,
         "dates": "2026-11",
-        "recruitment": "Woobles catalog/kit pages, starter bundles, social vs craft-store positioning",
+        "recruitment": "HidrateSpark product/bundle pages, app features, social vs Owala/Stanley bottle positioning",
         "status": "complete",
         "results_file": ""
       },
@@ -117,11 +117,11 @@
     },
     {
       "id": "A2",
-      "text": "Gross margin ~50% on craft kits"
+      "text": "Gross margin ~45% on smart bottle retail"
     },
     {
       "id": "A4",
-      "text": "$4,500 paid social at ~$7 CPM = ~640K impressions + ~360K organic stitch-along content"
+      "text": "$5,000 paid social at ~$7 CPM = ~700K impressions + ~400K organic"
     },
     {
       "id": "A6",
@@ -145,7 +145,7 @@
     },
     {
       "id": "A13",
-      "text": "Repeat kit purchase ~30% within 90 days (series collectibility)"
+      "text": "Accessory repeat ~20% within 90 days (caps, second bottles)"
     },
     {
       "id": "A15",
@@ -189,7 +189,7 @@
     "projection": {
       "impressions": 1100000,
       "ctr": 0.028,
-      "conversion_rate": 0.006,
+      "conversion_rate": 0.0065,
       "aov_usd": 60.0,
       "gross_margin": 0.45
     }
@@ -197,9 +197,9 @@
   "kpis": [
     {
       "objective": "O1",
-      "kpi": "Attributed orders (QR + WOOBLE10)",
+      "kpi": "Attributed orders (QR + GLOW15)",
       "baseline": "0 (new code)",
-      "target": "220",
+      "target": "200",
       "tool": "Shopify code report + UTM",
       "cadence": "weekly"
     },
@@ -221,9 +221,9 @@
     },
     {
       "objective": "O3",
-      "kpi": "Impressions + 'crochet is easy' perception lift",
+      "kpi": "Impressions + 'bottle reminds you' perception lift",
       "baseline": "week-0 survey n=150",
-      "target": "1.0M impr.; +12 pts",
+      "target": "1.1M impr.; +12 pts",
       "tool": "Ads Manager + pre/post survey",
       "cadence": "weekly / pre-post"
     }
@@ -425,7 +425,7 @@
         "Reviews: 'glow'/'reminder' dominate - the light IS the habit loop [R1].",
         "Sold DTC online; quantified-self wearable category [S3]."
       ],
-      "notes": "Hold up a finished Wooble vs the kit - 'this becomes this, guaranteed.'"
+      "notes": "Hold the bottle up as the LED glows - 'this light just told me to drink. That's the whole product.'"
     },
     {
       "n": 6,
@@ -444,9 +444,9 @@
       "section": "objectives",
       "title": "Campaign Objectives",
       "bullets": [
-        "O1 (primary): 220 attributed orders via WOOBLE10 + workshop QR at ~$35 AOV [O1].",
-        "O2: 900 email/SMS captures from workshops + stitch-along [O2].",
-        "O3: 1.0M impressions; +12 pts 'crochet is easy/anyone can' on pre/post survey (n=150 + holdout) [O3].",
+        "O1 (primary): 200 attributed orders via GLOW15 + station QR at ~$60 AOV [O1].",
+        "O2: 800 email/SMS captures from stations + glow challenge [O2].",
+        "O3: 1.1M impressions; +12 pts 'the bottle that reminds you' on pre/post survey (n=150 + holdout) [O3].",
         "Baseline: current list; week-0 survey; Shopify code report."
       ],
       "notes": "Funnel-covered."
@@ -491,10 +491,10 @@
       "section": "strategy",
       "title": "Campaign Strategy",
       "bullets": [
-        "Theme: Can't Fail Club - membership you earn by finishing.",
-        "Push-pull: workshops create the first success (pull); stitch-along + gift drops convert at home (push) [R3][A4].",
-        "Finished Wooble as social proof: every finisher is an ad [R4].",
-        "PESO: paid geo-social, earned maker-fair/library PR, shared WIP/finish posts, owned email/SMS + stitch series."
+        "Theme: Glow Up Hydration - the light reminds you; the campaign reminds them.",
+        "Push-pull: stations create the live glow demo (pull); challenge + gift drops convert at home (push) [R3][A4].",
+        "Quantified self as proof: intake numbers become shareable results [S3].",
+        "PESO: paid geo-social, earned gym/office PR, shared glow clips, owned email/SMS + challenge."
       ],
       "notes": "Success guarantee across every touchpoint."
     },
@@ -564,7 +564,7 @@
       "title": "45-Day Schedule: Can't Fail Club",
       "bullets": [
         "Pre-work: venue bookings, demo-bottle stock, creator outreach | W1: station 1 + challenge live.",
-        "W2-W3: stations 2-5; Desk Dehydration; retargeting.",
+        "Funnel: 1.1M impressions x 2.8% CTR x 0.65% purchase = ~200 orders = $12K revenue [A1][A4].",
         "W4-W5: Gift a Glow; stations 6-8; challenge continues.",
         "W6 (day 45 close): last-chance SMS; post-survey; holdout read."
       ],
@@ -580,7 +580,7 @@
       "section": "budget",
       "title": "Budget & Financial Viability",
       "bullets": [
-        "Total $11,400: paid social $5K [A4]; creators $2.4K [A6]; stations $2.4K [A7]; production $600 [A10]; contingency ~10% [A11].",
+        "O1: orders via GLOW15 + QR UTMs; target 200; Shopify report; weekly [O1].",
         "Funnel: 1.1M impressions x 2.8% CTR x 0.6% purchase = ~185 orders = $11.1K revenue [A1][A4].",
         "GP 45% = $5K; direct ROI ~-56% - entry-proof budget; accessory repeat payback [A2][A13].",
         "Honest read: buying first-time smart-bottle users + quantified proof [A15]."
@@ -592,10 +592,10 @@
       "section": "impact",
       "title": "Impact & Measurement",
       "bullets": [
-        "O1: orders via WOOBLE10 + QR UTMs; target 220; Shopify report; weekly [O1].",
-        "O2: captures; target 900; Klaviyo; weekly [O2].",
-        "O3: impressions 1.0M + perception +12 pts; pre/post survey w/ holdout [O3].",
-        "Trigger: <35 scans per workshop by week 3 -> shift spend to Stitch School + gift drops."
+        "O1: orders via GLOW15 + QR UTMs; target 200; Shopify report; weekly [O1].",
+        "O2: captures; target 800; Klaviyo; weekly [O2].",
+        "O3: impressions 1.1M + perception +12 pts; pre/post survey w/ holdout [O3].",
+        "Trigger: <40 scans per station by week 3 -> shift spend to Glow Challenge + gift drops."
       ],
       "notes": "Kill-switch included."
     },
@@ -623,124 +623,124 @@
       "G1": [
         [
           "tiktok",
-          "POV: you finish crochet on your first try",
-          "Can't Fail workshops - 20 min, guaranteed finish. #cantfailclub"
+          "POV: your bottle tells you to drink water",
+          "Hydration Check stations - see the glow live. #glowuphydration"
         ],
         [
           "email",
-          "You finished. Officially.",
-          "Your first stitch counts - 10% off your first kit inside."
+          "Your hydration score is in",
+          "15% off your first HidrateSpark - the bottle that reminds you."
         ],
         [
           "sms",
-          "WOOBLES: free beginner workshop this Sat - you will finish.",
+          "HIDRATESPARK: free hydration check this Sat - see the glow live.",
           "Reply STOP to opt out"
         ],
         [
           "story",
-          "Can't fail. Literally.",
-          "Swipe up - free workshop + 10% off."
+          "It glows when you need water",
+          "Swipe up - free station + 15% off."
         ],
         [
           "shelf",
-          "CAN'T FAIL CLUB",
-          "Free workshop - first stitch guaranteed, kit inside."
+          "GLOW UP HYDRATION",
+          "Free hydration check - see the glow, get 15% off."
         ],
         [
           "event",
-          "Can't Fail Workshop",
-          "Sat 11am-3pm - 20-min session + finished-Wooble display"
+          "Hydration Check",
+          "Sat 11am-3pm - live glow demo + hydration score card"
         ]
       ],
       "G2": [
         [
           "tiktok",
-          "Crochet for people who can't crochet",
-          "Stitch School: 4 videos from hook to finished Wooble. #stitchschool"
+          "7 days of actually drinking water",
+          "7-Day Glow Challenge - track it, share it. #7dayglow"
         ],
         [
           "email",
-          "Video 1: your first stitch, guaranteed",
-          "The beginner series - from hook to finished plush."
+          "Day 1: your number",
+          "Track your intake for 7 days - the results will surprise you."
         ],
         [
           "sms",
-          "Your stitch-along is live - 4 videos to a finished Wooble.",
+          "Your 7-day glow challenge starts now - track your water.",
           "Reply STOP to opt out"
         ],
         [
           "story",
-          "4 videos. One finished plush.",
-          "Swipe up - beginner series."
+          "7 days. Real numbers.",
+          "Swipe up - join the challenge."
         ],
         [
           "shelf",
-          "STITCH SCHOOL",
-          "Free video series - hook to finished Wooble."
+          "7-DAY GLOW",
+          "Free challenge - app trial + tracked results."
         ],
         [
           "event",
-          "Stitch School Live",
-          "Video funnel, weeks 1-6"
+          "Glow Challenge",
+          "App funnel, weeks 1-6"
         ]
       ],
       "G3": [
         [
           "tiktok",
-          "I made this and I can't craft",
-          "Show Your Wooble - finished-plush challenge. #cantfailclub"
+          "You forgot water again at your desk",
+          "Desk Dehydration - for people who live at their desk. #deskdehydration"
         ],
         [
           "email",
-          "Your Wooble is the ad",
-          "Post your finish - weekly feature + prize kit."
+          "The desk habit you didn't know you had",
+          "The bottle that reminds you - for desk workers."
         ],
         [
           "sms",
-          "Show us your finished Wooble - weekly feature + prize kit.",
+          "Your desk water habit just got a glow-up - 15% off.",
           "Reply STOP to opt out"
         ],
         [
           "story",
-          "Show your Wooble",
-          "Swipe up - join the finish wall."
+          "Forgetting water at your desk?",
+          "Swipe up - the reminder bottle."
         ],
         [
           "shelf",
-          "SHOW YOUR WOOBLE",
-          "Post your finish - weekly prize kit."
+          "DESK DEHYDRATION",
+          "The bottle that reminds you - for desk people."
         ],
         [
           "event",
-          "Finish Wall Drop",
-          "UGC challenge, weeks 2-6"
+          "Desk Week",
+          "Office worker push, weeks 2-5"
         ]
       ],
       "G4": [
         [
           "tiktok",
-          "The gift that's also a hobby",
-          "Gift a Wooble: 2-kit bundle + gift note. #giftawooble"
+          "The gift that reminds them to drink water",
+          "Gift a Glow: bottle + note. #giftaglow"
         ],
         [
           "email",
-          "Give someone their first finished thing",
-          "2-kit gift pack + note - the wholesome gift."
+          "Give them their hydration back",
+          "Smart bottle gift bundle - the gift that reminds them."
         ],
         [
           "sms",
-          "Gift a Wooble: 2-kit bundle + gift note - this week.",
+          "Gift a Glow: smart bottle bundle - this week.",
           "Reply STOP to opt out"
         ],
         [
           "story",
-          "The perfect gift exists",
+          "The gift that glows",
           "Swipe up - gift bundle."
         ],
         [
           "shelf",
-          "GIFT A WOOBLE",
-          "2-kit bundle + note - the gift they'll finish."
+          "GIFT A GLOW",
+          "Bottle + note - the gift that reminds them."
         ],
         [
           "event",
