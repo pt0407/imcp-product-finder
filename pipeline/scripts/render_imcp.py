@@ -344,7 +344,7 @@ def slide_html(deck, s, run, idx, total, charts=None):
         # Gantt-ish table from programs[].weeks
         rows = ""
         for p in deck.get("programs",[]):
-            wks = "".join(f'<span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">{w}</span>' if w in p.get("weeks",[]) else '<span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">{w}</span>' for w in range(1,8))
+            wks = "".join(f'<span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:var(--brand);color:#fff;font-size:14px;font-weight:700;margin-right:4px">{w}</span>' if w in p.get("weeks",[]) else f'<span style="display:inline-block;width:52px;height:26px;line-height:26px;text-align:center;border-radius:6px;background:#efe9dd;color:#b3aa99;font-size:14px;margin-right:4px">{w}</span>' for w in range(1,8))
             rows += f'<tr><td style="font-weight:700">{html.escape(p["name"])}</td><td>{wks}</td><td style="font-size:17px">{html.escape(p.get("owner",""))}</td></tr>'
         body = kicker("45-DAY SCHEDULE") + h1(s.get("title","")) + f'<table class="tb" style="margin-top:20px"><tr><th>PROGRAM</th><th>WEEKS 1-7</th><th>OWNER</th></tr>{rows}</table><div class="body" style="margin-top:20px;font-size:20px">{B(s)}</div>'
         return page(meta, idx, total, body, sec=sec)
