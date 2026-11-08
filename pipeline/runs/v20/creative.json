@@ -1,0 +1,132 @@
+{
+  "boards": {
+    "G1": [
+      [
+        "tiktok",
+        "POV: stranger dares you to solve this in 2 min",
+        "2-Minute Challenge booths are live - solve it, it's free. #2minchallenge"
+      ],
+      [
+        "email",
+        "You couldn't solve it in 2 minutes. Now what?",
+        "Everyone who tries gets $3 off a starter cube. Keep practicing."
+      ],
+      [
+        "sms",
+        "SPEEDCUBESHOP: solve this in 2 min and it's free. Booth this Sat.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Can you solve it in 2:00?",
+        "Swipe up - find the booth near you."
+      ],
+      [
+        "shelf",
+        "2-MINUTE CHALLENGE",
+        "Solve it in 2:00 - win a sticker + $3 off. Try it."
+      ],
+      [
+        "event",
+        "2-Minute Challenge",
+        "Sat 11am-3pm - timers, cubes, live scoreboard + $3-off QR"
+      ]
+    ],
+    "G2": [
+      [
+        "tiktok",
+        "I solved a Rubik's cube for the first time",
+        "Solve School: 6 steps from 'I can't' to first solve. #solveschool"
+      ],
+      [
+        "email",
+        "Step 1: stop trying to solve the whole cube",
+        "The beginner method, in 6 videos - starter bundle inside."
+      ],
+      [
+        "sms",
+        "Your solve tutorial is live - 6 steps to your first solve.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "6 steps to your first solve",
+        "Swipe up - beginner method, no jargon."
+      ],
+      [
+        "shelf",
+        "SOLVE SCHOOL",
+        "Free 6-video beginner course - QR on the booth."
+      ],
+      [
+        "event",
+        "Solve School Launch",
+        "Tutorial funnel live, weeks 1-6"
+      ]
+    ],
+    "G3": [
+      [
+        "tiktok",
+        "Local cubers are faster than you think",
+        "Cube Community Nights - meet the scene. #speedcubing"
+      ],
+      [
+        "email",
+        "Community night: bring your mains",
+        "Monthly meetup - comps, trades, demo crew signups."
+      ],
+      [
+        "sms",
+        "Community night this week - bring your main, meet the scene.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "The cubing scene is real",
+        "Swipe up - next community night."
+      ],
+      [
+        "shelf",
+        "CUBE NIGHT",
+        "Monthly meetup - all levels welcome."
+      ],
+      [
+        "event",
+        "Community Night",
+        "Monthly - comps, trades, demo crew"
+      ]
+    ],
+    "G4": [
+      [
+        "tiktok",
+        "Your first cube is $19.99 and it's good",
+        "First Cube Friday: starter bundle + solve card, weekly. #firstcubefriday"
+      ],
+      [
+        "email",
+        "First Cube Friday: the $19.99 starter kit",
+        "Cube + solve card + lube - everything a first-timer needs."
+      ],
+      [
+        "sms",
+        "FIRST CUBE FRIDAY: starter bundle $19.99 - this week only.",
+        "Reply STOP to opt out"
+      ],
+      [
+        "story",
+        "Start here: $19.99",
+        "Swipe up - starter bundle."
+      ],
+      [
+        "shelf",
+        "FIRST CUBE FRIDAY",
+        "$19.99 starter bundle - cube + solve card + lube."
+      ],
+      [
+        "event",
+        "Drop Friday",
+        "Weekly starter drop, weeks 2-6"
+      ]
+    ]
+  }
+}

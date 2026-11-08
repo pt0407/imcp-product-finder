@@ -1,0 +1,747 @@
+{
+  "meta": {
+    "product": "SpeedCubeShop speed cubes + accessories",
+    "company": "SpeedCubeShop (independent US speedcubing retailer)",
+    "company_website": "https://speedcubeshop.com",
+    "campaign_name": "2-Minute Challenge",
+    "theme": "2-Minute Challenge",
+    "thesis": "SpeedCubeShop does not need more cube SKUs - it needs non-cubers to feel the addiction of a first solve, and the 2-Minute Challenge turns a $12 cube into a challenge nobody walks past.",
+    "variant_angle": "challenge-mechanic retail campaign + judge demo prop",
+    "brand_color": "#e02c2c",
+    "school": "Legacy Ranch High School",
+    "school_address": "1277 Co Rd 258, Liberty Hill, TX 78642",
+    "participants": [
+      "Nino Nguyen",
+      "Santhosh Subburaj",
+      "Rafsan Haque"
+    ],
+    "date": "December 2026 \u2014 DECA District",
+    "assurances_signed": false,
+    "parent_run": "",
+    "design_style": "tech"
+  },
+  "business_problem": "SpeedCubeShop sells to people who already cube: the 500-review base is passionate (77% five-star) but self-selected - shipping and first-time quality complaints are the friction (23 one-star), and there is no mechanism to convert 'I can't solve that' curiosity into a first purchase [R1][R3][S2][S5].",
+  "objectives": [
+    {
+      "id": "O1",
+      "funnel_stage": "conversion",
+      "primary": true,
+      "text": "Drive 250 attributed orders (challenge-booth QR + online code SOLVE2) in 45 days at ~$24 AOV"
+    },
+    {
+      "id": "O2",
+      "funnel_stage": "consideration",
+      "text": "Capture 800 email/SMS signups via 2-Minute Challenge booths and solve-tutorial funnels"
+    },
+    {
+      "id": "O3",
+      "funnel_stage": "awareness",
+      "text": "Reach 1.2M Texas impressions and shift 'cubes are for nerds/kids' to 'the 2-minute challenge anyone tries' - +12 pts among surveyed shoppers"
+    }
+  ],
+  "segments": [
+    {
+      "id": "P1",
+      "name": "Challenge Gamers (13-24)",
+      "role": "primary",
+      "demographic": "13-24, students, puzzle/game-curious",
+      "geographic": "Austin TX metro (campuses, malls, events)",
+      "psychographic": "competitive, TikTok-native, can't walk past an unsolved cube",
+      "behavioral": "impulse buys <$30, shares challenge videos, attends pop-ups",
+      "media": "TikTok, YouTube Shorts, Instagram, campus/mall foot traffic"
+    },
+    {
+      "id": "P2",
+      "name": "Cubing Community + Gifters",
+      "role": "secondary",
+      "demographic": "hobbyists + parents buying gifts",
+      "geographic": "DFW/Austin + online national",
+      "psychographic": "gear-focused (magnets, lube, WCA), gift-buyers",
+      "behavioral": "repeat accessory buyers, drop-day buyers",
+      "media": "YouTube, Reddit, email, SMS"
+    }
+  ],
+  "research": {
+    "methods": [
+      {
+        "id": "M4",
+        "type": "review_analysis",
+        "n": 500,
+        "dates": "2026-11",
+        "recruitment": "500 public Judge.me reviews on speedcubeshop.com, keyword-coded (collected 2026-11-07)",
+        "status": "complete",
+        "results_file": "research/reviews_speedcubeshop/reviews.csv"
+      },
+      {
+        "id": "M5",
+        "type": "digital_shelf_audit",
+        "n": 8,
+        "dates": "2026-11",
+        "recruitment": "SpeedCubeShop product/pricing pages, starter bundles, social bios vs Amazon toy aisle",
+        "status": "complete",
+        "results_file": ""
+      },
+      {
+        "id": "M1",
+        "type": "survey",
+        "n": 150,
+        "dates": "pending",
+        "recruitment": "Intercept survey at challenge booths, pre vs post campaign",
+        "status": "pending",
+        "results_file": ""
+      }
+    ],
+    "findings": [
+      {
+        "id": "R1",
+        "finding": "77% five-star across 500 reviews - the community loves the shop; the product is not the problem"
+      },
+      {
+        "id": "R2",
+        "finding": "One-star complaints concentrate on shipping delays ('it hasn't came yet') and post-purchase quality drops - the friction is the last mile, same as every DTC retailer"
+      },
+      {
+        "id": "R3",
+        "finding": "Reviewers are self-identified cubers - almost nobody describes buying a FIRST cube; the challenge-to-purchase gap has no bridge"
+      },
+      {
+        "id": "R4",
+        "finding": "Speedcubing content is huge on TikTok/YouTube (comps, solves, ASMR) while the retail side markets like a spec shop - the hobby content and the store funnel are disconnected"
+      }
+    ]
+  },
+  "assumptions": [
+    {
+      "id": "A1",
+      "text": "~$24 blended AOV (starter cubes $12-20 + accessories attach)"
+    },
+    {
+      "id": "A2",
+      "text": "Gross margin ~40% on cube retail"
+    },
+    {
+      "id": "A4",
+      "text": "$5,000 paid social at ~$7 CPM = ~700K impressions + ~500K organic challenge content"
+    },
+    {
+      "id": "A6",
+      "text": "6 micro creators (puzzle/campus niches) at $400 each"
+    },
+    {
+      "id": "A7",
+      "text": "8 challenge-booth shifts at ~$300 each (table, timer, cube stock, signage)"
+    },
+    {
+      "id": "A8",
+      "text": "SOLVE2 code: $3 off starter cube; manufacturer-funded, netted in revenue"
+    },
+    {
+      "id": "A10",
+      "text": "Tools/printing $500 (timers, scorecards, challenge signage)"
+    },
+    {
+      "id": "A11",
+      "text": "Contingency ~12% of budget"
+    },
+    {
+      "id": "A13",
+      "text": "Accessory repeat purchase ~25% within 90 days (lube, upgrades)"
+    },
+    {
+      "id": "A15",
+      "text": "Conservative case = 50% of base"
+    }
+  ],
+  "budget": {
+    "total_usd": 10300,
+    "lines": [
+      {
+        "item": "Paid social (TikTok/YT Shorts geo + retargeting)",
+        "category": "media",
+        "usd": 5000,
+        "basis": "A4"
+      },
+      {
+        "item": "Micro creators (6 x $400)",
+        "category": "media",
+        "usd": 2400,
+        "basis": "A6"
+      },
+      {
+        "item": "2-Minute Challenge booths (8 shifts x ~$300)",
+        "category": "field",
+        "usd": 2400,
+        "basis": "A7"
+      },
+      {
+        "item": "Timers, scorecards, signage, cube stock",
+        "category": "production",
+        "usd": 500,
+        "basis": "A10"
+      }
+    ],
+    "projection": {
+      "impressions": 1200000,
+      "ctr": 0.028,
+      "conversion_rate": 0.0075,
+      "aov_usd": 24.0,
+      "gross_margin": 0.4
+    }
+  },
+  "kpis": [
+    {
+      "objective": "O1",
+      "kpi": "Attributed orders (QR + SOLVE2 code)",
+      "baseline": "0 (new code)",
+      "target": "250",
+      "tool": "Shopify code report + QR UTM",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O1",
+      "kpi": "Booth scan-to-purchase conversion",
+      "baseline": "0",
+      "target": "8%",
+      "tool": "UTM funnel",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O2",
+      "kpi": "Email/SMS captures",
+      "baseline": "current list",
+      "target": "800",
+      "tool": "Klaviyo",
+      "cadence": "weekly"
+    },
+    {
+      "objective": "O3",
+      "kpi": "Impressions + 'anyone can try' perception lift",
+      "baseline": "week-0 survey n=150",
+      "target": "1.2M impr.; +12 pts",
+      "tool": "Ads Manager + pre/post survey",
+      "cadence": "weekly / pre-post"
+    }
+  ],
+  "programs": [
+    {
+      "id": "G1",
+      "name": "2-Minute Challenge Booths",
+      "mechanic": "Pop-up challenge stations: solved cube in 2 minutes wins a sticker + $3-off QR; everyone who tries gets captured. The judge prop IS the program.",
+      "segment": "P1",
+      "channels": [
+        "in-person events",
+        "QR offer",
+        "email capture"
+      ],
+      "objectives": [
+        "O1",
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "owner": "Nino (field)"
+    },
+    {
+      "id": "G2",
+      "name": "Solve School",
+      "mechanic": "Beginner solve-tutorial funnel: QR -> 6-step video series -> starter bundle offer. Turns 'I can't' into first purchase.",
+      "segment": "P1",
+      "channels": [
+        "YouTube",
+        "TikTok",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O3"
+      ],
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Santhosh (social)"
+    },
+    {
+      "id": "G3",
+      "name": "Cube Community Nights",
+      "mechanic": "Monthly cubing meetup + WCA-competition outreach: the community that already loves the shop becomes the volunteer demo crew.",
+      "segment": "P2",
+      "channels": [
+        "community",
+        "email",
+        "PR"
+      ],
+      "objectives": [
+        "O2",
+        "O3"
+      ],
+      "weeks": [
+        3,
+        6
+      ],
+      "owner": "Rafsan (community)"
+    },
+    {
+      "id": "G4",
+      "name": "First Cube Friday",
+      "mechanic": "Weekly drop: starter bundle + beginner solve card at $19.99; SMS/email push each Friday.",
+      "segment": "P2",
+      "channels": [
+        "SMS",
+        "email",
+        "site"
+      ],
+      "objectives": [
+        "O1",
+        "O2"
+      ],
+      "weeks": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "owner": "Content lead"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "publisher": "SpeedCubeShop",
+      "title": "About + product catalog - independent speedcubing retailer",
+      "date": "2026",
+      "url": "https://speedcubeshop.com",
+      "type": "web"
+    },
+    {
+      "id": "S2",
+      "publisher": "Judge.me via speedcubeshop.com",
+      "title": "500 public customer reviews - keyword-coded content analysis",
+      "date": "2026-11-07",
+      "url": "https://speedcubeshop.com",
+      "type": "web"
+    },
+    {
+      "id": "S3",
+      "publisher": "WCA / speedcubing community",
+      "title": "World Cube Association competitions and community growth",
+      "date": "2025",
+      "url": "https://www.worldcubeassociation.org",
+      "type": "web"
+    },
+    {
+      "id": "S4",
+      "publisher": "TikTok/YouTube",
+      "title": "Speedcubing content scale - solves, comps, ASMR",
+      "date": "2025",
+      "url": "https://www.tiktok.com",
+      "type": "web"
+    },
+    {
+      "id": "S5",
+      "publisher": "Amazon / toy retail",
+      "title": "Cube category pricing and toy-aisle positioning comparison",
+      "date": "2026",
+      "url": "https://www.amazon.com",
+      "type": "web"
+    }
+  ],
+  "campaign_window": {
+    "start": "2027-01-05",
+    "end": "2027-02-18"
+  },
+  "slides": [
+    {
+      "n": 1,
+      "section": "cover",
+      "title": "2-Minute Challenge",
+      "bullets": [],
+      "notes": "Hand a judge a scrambled cube and a timer. 'Solve it in 2 minutes and it's free.'"
+    },
+    {
+      "n": 2,
+      "section": "title",
+      "title": "Integrated Marketing Campaign - Product",
+      "bullets": [
+        "2-Minute Challenge",
+        "SpeedCubeShop speed cubes",
+        "45-day campaign - Texas booths + DTC"
+      ],
+      "notes": "Title."
+    },
+    {
+      "n": 3,
+      "section": "toc",
+      "title": "Table of Contents",
+      "bullets": [
+        "I. Overview",
+        "II. Product & Company",
+        "III. Campaign Objectives",
+        "IV. Target Market",
+        "V. Research, Insights & Connection",
+        "VI. Strategy, Activities & Schedule",
+        "VII. Proposed Budget",
+        "VIII. Impact & Measurement",
+        "IX. Bibliography"
+      ],
+      "notes": "Agenda."
+    },
+    {
+      "n": 4,
+      "section": "overview",
+      "title": "Campaign Overview",
+      "bullets": [
+        "Problem: the shop sells to people who already cube - 77% five-star fans, but no bridge from 'I can't solve that' curiosity to a first purchase [R1][R3].",
+        "Solution: the 2-Minute Challenge - booths that dare you to solve it, solve-school funnels, community nights, and weekly first-cube drops.",
+        "45-day goal: 250 orders, 800 captures, +12 pts 'anyone can try' [O1-O3]."
+      ],
+      "notes": "We don't sell cubes - we dare people to try."
+    },
+    {
+      "n": 5,
+      "section": "description",
+      "title": "The Product",
+      "bullets": [
+        "Speed cubes: magnetic, corner-cutting puzzles $5-300+; starter cubes $12-20 with lubes/mats/accessories [S1].",
+        "The demo is the product: nobody puts a scrambled cube down without trying it.",
+        "Reviews: 77% five-star of 500 - community-loved [R1].",
+        "Sold DTC online; no physical retail presence to demo in."
+      ],
+      "notes": "Hold the cube while describing the mechanism - judges feel the magnetic click."
+    },
+    {
+      "n": 6,
+      "section": "description",
+      "title": "Company & Position",
+      "bullets": [
+        "Independent US speedcubing retailer - the hobby's specialist shop vs Amazon's toy aisle [S1][S5].",
+        "Speedcubing is booming: WCA competitions, TikTok solve content, ASMR niche - but the retail funnel markets to insiders only [S3][S4][R4].",
+        "Positioning gap: 'for cubers' is earned; 'for everyone who can't resist a challenge' is unclaimed.",
+        "The campaign claims the challenge side of the brand."
+      ],
+      "notes": "Specialist credibility + mass-market challenge appeal."
+    },
+    {
+      "n": 7,
+      "section": "objectives",
+      "title": "Campaign Objectives",
+      "bullets": [
+        "O1 (primary): 250 attributed orders via SOLVE2 code + booth QR at ~$24 AOV [O1].",
+        "O2: 800 email/SMS captures from booths + solve-school funnel [O2].",
+        "O3: 1.2M impressions; +12 pts 'cubing is for everyone' on pre/post survey (n=150 + holdout) [O3].",
+        "Baseline: current list; week-0 survey; Shopify code report."
+      ],
+      "notes": "Conversion-led, challenge-flavored."
+    },
+    {
+      "n": 8,
+      "section": "target_market",
+      "title": "Target Market",
+      "bullets": [
+        "P1: challenge gamers 13-24 - students who can't walk past an unsolved cube; TikTok/YT Shorts natives; Austin metro [S4].",
+        "P2: cubing community + gifters - hobbyists buying upgrades, parents buying gifts; online national [R1].",
+        "P1 is the growth unlock; P2 is the revenue base."
+      ],
+      "notes": "New solvers vs existing cubers - different jobs."
+    },
+    {
+      "n": 9,
+      "section": "research",
+      "title": "Research Methodology & Results",
+      "bullets": [
+        "Content analysis of 500 public Judge.me reviews (collected 2026-11-07), keyword-coded [R1-R4].",
+        "Digital shelf audit of 8 sources: catalog, starter bundles, social vs Amazon positioning [S1][S5].",
+        "Pending: intercept survey (n=150) at booths + 3 interviews - field kit ready.",
+        "500 reviews is a real corpus; shipping/quality themes are clear."
+      ],
+      "notes": "Biggest corpus yet for a non-food brand."
+    },
+    {
+      "n": 10,
+      "section": "research",
+      "title": "Insights -> Campaign Decisions",
+      "bullets": [
+        "[R1] 77% five-star, community-loved -> sell belonging + challenge, not product fixes.",
+        "[R2] Complaints are shipping/quality friction -> set expectations at booth + bundle for first-timers, not returns.",
+        "[R3] Nobody describes a FIRST cube -> build the bridge: 2-minute challenge = try before you buy.",
+        "[R4] Hobby content is massive, store funnel is insider -> Solve School connects viral cubing content to a starter offer."
+      ],
+      "notes": "Every program maps to a finding."
+    },
+    {
+      "n": 11,
+      "section": "strategy",
+      "title": "Campaign Strategy",
+      "bullets": [
+        "Theme: 2-Minute Challenge - dare them to solve it, then sell them the cube.",
+        "Push-pull: booths create the try (pull); retargeting + Friday drops convert later (push) [R3][A4].",
+        "Community as crew: cubers staff the booths - authentic demos, zero talent cost [R1].",
+        "PESO: paid geo-social, earned comp/community PR, shared challenge clips, owned email/SMS + solve series."
+      ],
+      "notes": "Challenge mechanic across all four programs."
+    },
+    {
+      "n": 12,
+      "section": "strategy",
+      "title": "Program 1: 2-Minute Challenge Booths",
+      "bullets": [
+        "8 booth shifts at campus/mall spots: timers, cube stock, 'solve in 2 min = sticker + $3-off QR' (P1, field, O1/O2/O3, Nino) [A7].",
+        "Live scoreboard + clip-every-challenger for content.",
+        "This is what happens in the judge presentation - scaled."
+      ],
+      "notes": "The signature - judges do this live.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: 2-Minute Challenge Booths channel mockups",
+        "file": "visuals/board_s12.png"
+      }
+    },
+    {
+      "n": 13,
+      "section": "strategy",
+      "title": "Program 2: Solve School \u2014 2-Minute Challenge",
+      "bullets": [
+        "6-step beginner solve-tutorial series; QR from booths -> videos -> starter bundle (P1, YT/TikTok/site, O1/O3, Santhosh) [A4].",
+        "Bridges 'I can't' to 'I just did' - the R3 gap [R3]."
+      ],
+      "notes": "Tutorial funnel as content + conversion.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Solve School channel mockups",
+        "file": "visuals/board_s13.png"
+      }
+    },
+    {
+      "n": 14,
+      "section": "strategy",
+      "title": "Program 3: Cube Community Nights \u2014 2-Minute Challenge",
+      "bullets": [
+        "Monthly cubing meetup + WCA-competition outreach; community cubers demo at booths (P2, community/email/PR, O2/O3, Rafsan) [S3].",
+        "Earned media: local speedcubing scene + retailer partnership story."
+      ],
+      "notes": "The community does the talking.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: Cube Community Nights channel mockups",
+        "file": "visuals/board_s14.png"
+      }
+    },
+    {
+      "n": 15,
+      "section": "strategy",
+      "title": "Program 4: First Cube Friday \u2014 2-Minute Challenge",
+      "bullets": [
+        "Weekly starter-bundle drop ($19.99 cube + solve card) pushed via SMS/email each Friday (P2, site, O1/O2). [A1]",
+        "Creative: timer motif everywhere - 2:00 countdown as visual device across ads, emails, booth signage."
+      ],
+      "notes": "Cadence drop + creative device.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: First Cube Friday channel mockups",
+        "file": "visuals/board_s15.png"
+      }
+    },
+    {
+      "n": 16,
+      "section": "strategy",
+      "title": "45-Day Schedule: 2-Minute Challenge",
+      "bullets": [
+        "Pre-work: booth bookings, community outreach, cube stock | W1: Solve School + booth 1 live.",
+        "W2-W3: booths 2-5; First Cube Friday begins; retargeting on scanners.",
+        "W4-W5: community night; booths 6-8; drop cadence continues.",
+        "W6-W7: last-chance SMS; post-survey; read vs holdout."
+      ],
+      "notes": "Compressed but coherent.",
+      "visual": {
+        "type": "image",
+        "desc": "Creative board: First Cube Friday channel mockups",
+        "file": "visuals/board_s16.png"
+      }
+    },
+    {
+      "n": 17,
+      "section": "budget",
+      "title": "Budget & Financial Viability",
+      "bullets": [
+        "Total $9,300: paid social $5K [A4]; creators $2.4K [A6]; booths $2.4K [A7]; production $500 [A10]; contingency ~12% [A11].",
+        "Funnel: 1.2M impressions x 2.8% CTR x 0.75% purchase = ~250 orders = $6K revenue [A1][A4].",
+        "GP 40% = $2.4K; direct ROI ~-74% - a market-entry proof budget: 800 captures + community activation, payback via accessories repeat (25% within 90 days) [A2][A13].",
+        "Honest read: we're buying first-time cubers, not this quarter's margin [A15]."
+      ],
+      "notes": "Honest economics again - proof budget."
+    },
+    {
+      "n": 18,
+      "section": "impact",
+      "title": "Impact & Measurement",
+      "bullets": [
+        "O1: orders via SOLVE2 + QR UTMs; target 250; Shopify report; weekly [O1].",
+        "O2: captures; target 800; Klaviyo; weekly [O2].",
+        "O3: impressions 1.2M + perception +12 pts; pre/post survey w/ holdout [O3].",
+        "Trigger: <40 scans per booth by week 3 -> shift spend to Solve School + drops."
+      ],
+      "notes": "Kill-switch included."
+    },
+    {
+      "n": 19,
+      "section": "impact",
+      "title": "Why It Matters",
+      "bullets": [
+        "SpeedCubeShop owns the inside of the hobby; the outside - everyone who can't resist a scrambled cube - is unclaimed.",
+        "The 2-Minute Challenge turns retail into a dare; the dare is the demo; the demo is the sale.",
+        "Put a timer and a cube in front of anyone and the thesis proves itself - including in this room."
+      ],
+      "notes": "Close while a judge is still trying to solve it."
+    },
+    {
+      "n": 20,
+      "section": "bibliography",
+      "title": "Bibliography",
+      "bullets": [],
+      "notes": "Sources."
+    }
+  ],
+  "_creative": {
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "POV: stranger dares you to solve this in 2 min",
+          "2-Minute Challenge booths are live - solve it, it's free. #2minchallenge"
+        ],
+        [
+          "email",
+          "You couldn't solve it in 2 minutes. Now what?",
+          "Everyone who tries gets $3 off a starter cube. Keep practicing."
+        ],
+        [
+          "sms",
+          "SPEEDCUBESHOP: solve this in 2 min and it's free. Booth this Sat.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Can you solve it in 2:00?",
+          "Swipe up - find the booth near you."
+        ],
+        [
+          "shelf",
+          "2-MINUTE CHALLENGE",
+          "Solve it in 2:00 - win a sticker + $3 off. Try it."
+        ],
+        [
+          "event",
+          "2-Minute Challenge",
+          "Sat 11am-3pm - timers, cubes, live scoreboard + $3-off QR"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "I solved a Rubik's cube for the first time",
+          "Solve School: 6 steps from 'I can't' to first solve. #solveschool"
+        ],
+        [
+          "email",
+          "Step 1: stop trying to solve the whole cube",
+          "The beginner method, in 6 videos - starter bundle inside."
+        ],
+        [
+          "sms",
+          "Your solve tutorial is live - 6 steps to your first solve.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "6 steps to your first solve",
+          "Swipe up - beginner method, no jargon."
+        ],
+        [
+          "shelf",
+          "SOLVE SCHOOL",
+          "Free 6-video beginner course - QR on the booth."
+        ],
+        [
+          "event",
+          "Solve School Launch",
+          "Tutorial funnel live, weeks 1-6"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "Local cubers are faster than you think",
+          "Cube Community Nights - meet the scene. #speedcubing"
+        ],
+        [
+          "email",
+          "Community night: bring your mains",
+          "Monthly meetup - comps, trades, demo crew signups."
+        ],
+        [
+          "sms",
+          "Community night this week - bring your main, meet the scene.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "The cubing scene is real",
+          "Swipe up - next community night."
+        ],
+        [
+          "shelf",
+          "CUBE NIGHT",
+          "Monthly meetup - all levels welcome."
+        ],
+        [
+          "event",
+          "Community Night",
+          "Monthly - comps, trades, demo crew"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "Your first cube is $19.99 and it's good",
+          "First Cube Friday: starter bundle + solve card, weekly. #firstcubefriday"
+        ],
+        [
+          "email",
+          "First Cube Friday: the $19.99 starter kit",
+          "Cube + solve card + lube - everything a first-timer needs."
+        ],
+        [
+          "sms",
+          "FIRST CUBE FRIDAY: starter bundle $19.99 - this week only.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Start here: $19.99",
+          "Swipe up - starter bundle."
+        ],
+        [
+          "shelf",
+          "FIRST CUBE FRIDAY",
+          "$19.99 starter bundle - cube + solve card + lube."
+        ],
+        [
+          "event",
+          "Drop Friday",
+          "Weekly starter drop, weeks 2-6"
+        ]
+      ]
+    }
+  }
+}

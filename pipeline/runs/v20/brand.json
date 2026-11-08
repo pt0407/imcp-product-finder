@@ -1,0 +1,24 @@
+{
+  "site": "https://speedcubeshop.com",
+  "primary": "#e02c2c",
+  "secondary": "#1F6FEB",
+  "accent": "#0b1221",
+  "palette": [
+    "#e02c2c",
+    "#1c1c1e",
+    "#f2c500",
+    "#2b7de9",
+    "#00a651",
+    "#ff8c00"
+  ],
+  "site_fonts": [
+    "Inter",
+    "Poppins",
+    "monospace"
+  ],
+  "logo_url": "https://speedcubeshop.com/cdn/shop/files/Legacy-Logo-2025-TM.svg?v=1780883548&width=320",
+  "display_font": "Barlow Condensed",
+  "body_font": "Barlow",
+  "logo_file": "brand.svg",
+  "design_style": "tech"
+}
