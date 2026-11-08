@@ -508,7 +508,7 @@
       "notes": "Signature program - judge-ready.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Program 1 channel mockups",
+        "desc": "Creative board: Tease (search + geo social) channel mockups",
         "file": "visuals/board_s12.png"
       }
     },
@@ -523,7 +523,7 @@
       "notes": "Online bridge.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Program 2 channel mockups",
+        "desc": "Creative board: Measured Pair Weekend (launch) channel mockups",
         "file": "visuals/board_s13.png"
       }
     },
@@ -538,7 +538,7 @@
       "notes": "UGC engine.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Program 3 channel mockups",
+        "desc": "Creative board: Sustain (club + workplace) channel mockups",
         "file": "visuals/board_s14.png"
       }
     },
@@ -554,7 +554,7 @@
       "notes": "Revenue base program.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Program 4 channel mockups",
+        "desc": "Creative board: Convert + Close channel mockups",
         "file": "visuals/board_s15.png"
       }
     },
@@ -572,7 +572,7 @@
       "notes": "Tight, coherent.",
       "visual": {
         "type": "image",
-        "desc": "Creative board: Milestones channel mockups",
+        "desc": "Creative board: Convert + Close channel mockups",
         "file": "visuals/board_s16.png"
       }
     },
@@ -618,5 +618,137 @@
       "bullets": [],
       "notes": "Sources."
     }
-  ]
+  ],
+  "_creative": {
+    "boards": {
+      "G1": [
+        [
+          "tiktok",
+          "Same shoe. Same price. Measured first.",
+          "The Measured Pair - 12-point fit scan, free. #measuredpair"
+        ],
+        [
+          "email",
+          "Your foot has a number. Find it.",
+          "Free fit id scan - saved profile, matched price."
+        ],
+        [
+          "sms",
+          "FLEET FEET: free 12-point fit scan this weekend - book ahead.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "Same shoe, measured first",
+          "Swipe up - book a free fit id."
+        ],
+        [
+          "shelf",
+          "THE MEASURED PAIR",
+          "Same shoe, same price, chosen after a 12-point scan."
+        ],
+        [
+          "event",
+          "Tease Week",
+          "Paid search + geo social, W1"
+        ]
+      ],
+      "G2": [
+        [
+          "tiktok",
+          "Your foot measured in 60 seconds",
+          "Measured Pair Weekend - scan first, then one shoe. #measuredpair"
+        ],
+        [
+          "email",
+          "Scan first. Shoe second.",
+          "Measured Pair Weekend - your 12-point profile, saved forever."
+        ],
+        [
+          "sms",
+          "MEASURED PAIR WEEKEND: free scan, saved profile.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "The shoe that fits",
+          "Swipe up - scan weekend."
+        ],
+        [
+          "shelf",
+          "MEASURED PAIR WEEKEND",
+          "Free 12-point scan - then one shoe."
+        ],
+        [
+          "event",
+          "Scan Weekend",
+          "In-store launch, W2"
+        ]
+      ],
+      "G3": [
+        [
+          "tiktok",
+          "We brought the scanner to you",
+          "Club + workplace scan days - no store trip needed. #measuredpair"
+        ],
+        [
+          "email",
+          "The scanner came to you",
+          "Run club + Workplace Fit days - get measured on-site."
+        ],
+        [
+          "sms",
+          "SCANNER ON-SITE this week at your club - free fit id.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "We came to you",
+          "Swipe up - on-site scans."
+        ],
+        [
+          "shelf",
+          "SCAN DAYS",
+          "Free fit id at your club or office."
+        ],
+        [
+          "event",
+          "Scan Days",
+          "Run club + employers, W3-4"
+        ]
+      ],
+      "G4": [
+        [
+          "tiktok",
+          "You got scanned. Now what?",
+          "Convert + close - the second pair is already in the plan. #measuredpair"
+        ],
+        [
+          "email",
+          "Your profile is saved - one step left",
+          "Happy Fit reminder + attach the pair right."
+        ],
+        [
+          "sms",
+          "Your fit id is saved - finish the pair this week.",
+          "Reply STOP to opt out"
+        ],
+        [
+          "story",
+          "One step left",
+          "Swipe up - complete the pair."
+        ],
+        [
+          "shelf",
+          "FINISH THE PAIR",
+          "Scanned? Your profile is saved - finish it."
+        ],
+        [
+          "event",
+          "Close Week",
+          "Milestones + POS readback, W6"
+        ]
+      ]
+    }
+  }
 }
