@@ -1,0 +1,73 @@
+{
+  "run": "v17",
+  "grader_session": "fresh",
+  "pass": 2,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: \"Stryve Foods Corp (NASDAQ: SNAX), Plano TX; founded by Ted Casey (Dymatize), ex-NFL player Gabe Carimi... Net sales $29.9M -> $17.7M (-41%) in FY2023; 10-K cites... 'low-quality revenue'\" plus named regional competitors and a positioning quadrant",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"net sales fell 41% (10-K) while ~1,400 public reviews show only 4% discovered Braav in-store - distribution without velocity\" - a specific structural channel/velocity problem, with SMART O1-O3 on Slide 7",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"Primary, no-survey (complete): keyword-coded analysis of 1,400 public Stamped.io reviews... and a public distribution/digital-shelf audit of 8 sources... survey/interviews not run - published reviews skew positive\" - 2 qualifying no-survey methods, 4 findings cited on strategy slides, auto-capped at 10",
+      "fix": "Run the promised survey/interviews (n>=30 or >=3) to unlock 11-15; the deck itself flags that published reviews skew positive, so primary survey data would materially strengthen the awareness and clean-label claims."
+    },
+    "strategy": {
+      "score": 13,
+      "evidence": "Slide 11: \"Big idea: It's Not Jerky - biltong is air-dried, never cooked... 'air-dried, not cooked' is a factual difference no jerky brand can claim\" with cited findings and a test-vs-control design; still a fairly standard IMC/PESO mix underneath the big idea",
+      "fix": "Make the ownable mechanism - the 6-week velocity test with control stores and the 'air-dried, never cooked' proof - the lead of every program slide rather than one line in the mix; competitors can copy creators and coupons, they cannot copy a verified air-dry process claim or retailer test design."
+    },
+    "activities": {
+      "score": 14,
+      "evidence": "Slide 16: \"W2-W3 (Jan 12-25): Biltong 101 demos begin (P1, field, O1/O2, Nino); Taste-Off videos 1-2 (P1, TikTok, O3, Santhosh)\" - week-by-week, segment/channel/objective/named owner per line",
+      "fix": "Pre-work (Oct-Nov sell-in) sits outside the 45-day window - state explicitly that it precedes the campaign and add the week-0 audit task as a dated activity; 'read test vs. control + awareness survey' (W6-W7) has no owner listed."
+    },
+    "budget": {
+      "score": 9,
+      "evidence": "Slide 17: \"Total $15,000: social $5,500... creators 3 x $1,000... demos 12 x $250... contingency $2,200\" - lines now sum correctly to $15,000 with funnel math, profit-based ROI 21%, conservative -40%, and new margin sensitivity (\"at 35% GP ROI ~-6%; breakeven margin ~37%\")",
+      "fix": "A11 says 'Contingency ~1.3% of budget' but $2,200 is ~14.7% - fix the mislabeled percentage; also slide word count is 124 (over the 110 cap), move margin math detail to notes."
+    },
+    "impact": {
+      "score": 9,
+      "evidence": "Slide 18: \"O3: aided awareness of 'biltong' baseline at week 0 vs. post-campaign survey of 150 shoppers + non-campaign holdout DMAs; target +12 pts net of control\" - every KPI has baseline, target, tool, cadence; + explicit trigger thresholds",
+      "fix": "n=150 has ~8pt margin of error, so a +12pt aided-awareness target is barely detectable - raise to n>=300 or use a platform brand-lift study; add a QR-scan-to-coupon attribution window definition."
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slide 3 TOC follows official outline order I-IX and Slides 12-15 each carry one program/creative idea; but Slide 14 still packs '3 DFW creators taste-offs' AND 'The Biltong Story' founder videos/emails into one slide - two programs on one slide",
+      "fix": "Split Slide 14: Program 3 (taste-off tour) and Program 4 (The Biltong Story) are distinct programs in deck.json (G3, G4) and deserve separate slides."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 thesis \"Stryve does not need more doors - it needs shoppers who understand what biltong is and come back for it\" restated verbatim on Slide 19 close; persistent through-line from problem to measurement",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk-track notes on all 16 body slides with planned interactive elements: Slide 12 \"hand the judge the printed shelf talker and sample-cup sleeve\", Slide 14 \"Walk the judge through the phone mockup of the taste-off\", Slide 8 persona cards, Slide 15 \"Read the shelf talker aloud\"",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "All 16 body slides carry visuals; Slides 1/5/15 now use real Braav product photography (photos/sliced_slab.png, stryve_bites.png, stryve_original.png), consistent dark-red brand system; but check.json flags Slide 17 at 124 words vs the 40-110 winner band",
+      "fix": "Trim Slide 17 to <=110 words - move the conservative-case and margin-sensitivity detail into speaker notes or an appendix; the real product photos are a genuine upgrade, keep them."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Slide 2/title metadata now complete (school 'Legacy Ranch High School', address, 3 named participants, campaign dates) - major professionalism fix vs prior runs; however meta.date is hedged 'April 2027 (ICDC - confirm)' which signals unconfirmed submission details in a client pitch",
+      "fix": "Confirm and lock the actual ICDC date in meta.date before submission; remove the parenthetical hedge."
+    }
+  },
+  "top_fixes": [
+    "Fix A11: 'Contingency ~1.3%' is wrong - $2,200 is ~14.7% of $15,000 - and trim Slide 17 to <=110 words (currently 124) by moving margin-sensitivity math to notes (points: budget 9->10, design 4->5, ~30 min).",
+    "Split Slide 14 into two slides - Program 3 taste-off tour and Program 4 The Biltong Story are separate programs (G3/G4) compressed onto one slide (points: organization 4->5, ~15 min).",
+    "Lock the ICDC date - meta.date 'April 2027 (ICDC - confirm)' is unconfirmed; a client pitch cannot carry a hedge (points: overall 4->5, ~5 min).",
+    "If time permits, run even a small primary survey (n>=30 H-E-B shoppers) to break the 10-point research cap - the deck itself admits published reviews skew positive (points: research 10->13+, ~4-6 hours)."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "run": "v17",
+  "grader_session": "fresh",
+  "pass": 1,
+  "scores": {
+    "industry_knowledge": {
+      "score": 5,
+      "evidence": "Slide 6: \"Competitors in Texas biltong are fragmented regional players (Brooklyn Biltong, Shaka's, Billi Tong's, Lowfeld Soul Food); Stryve is the only national brand with H-E-B scale\" plus dated FY2023 10-K facts (net sales $29.9M -> $17.7M, 'low-quality revenue') and a positioning map; Slide 5 adds product specifics (2.25oz bag, $7.99 Sprouts, three SKUs)",
+      "fix": ""
+    },
+    "business_opportunity": {
+      "score": 5,
+      "evidence": "Slide 4: \"net sales fell 41% (10-K) while ~1,400 public reviews show only 4% discovered Braav in-store - distribution without velocity\" - a specific structural channel/velocity problem, plus SMART O1-O3 on Slide 7 (\"2,000 attributed purchases... +25% units per store at 6 demo stores vs. 6 control\")",
+      "fix": ""
+    },
+    "research": {
+      "score": 10,
+      "evidence": "Slide 9: \"keyword-coded analysis of 1,400 public Stamped.io reviews [R1][R4] and a public distribution/digital-shelf audit of 8 sources... survey/interviews not run - published reviews skew positive\" - two no-survey primary methods with honest limitation disclosure, but capped at 10 under primary_lite; Slide 10 traces findings to decisions (\"Finding: ... -> in-store education, not more awareness ads\")",
+      "fix": "Run at least a small real survey (n>=30 H-E-B shoppers) or 3 buyer/store-manager interviews; the deck already promises a post-campaign awareness survey of 150 shoppers, so fielding a pre-campaign version unlocks 11-15."
+    },
+    "strategy": {
+      "score": 14,
+      "evidence": "Slide 11: \"Big idea: It's Not Jerky - biltong is air-dried, never cooked\" with a factual proof point no jerky brand can claim, a test-vs-control velocity-test design pitched to H-E-B's buyer (Slide 13 sell-in), and push-pull retailer economics; largely built on cited findings [R1][R3][R6][S6]",
+      "fix": "Make the velocity-test-vs-control design the named hero of the big idea rather than a measurement detail - that is the truly uncopiable element versus regional biltong brands."
+    },
+    "activities": {
+      "score": 14,
+      "evidence": "Slide 16: \"W2-W3 (Jan 12-25): Biltong 101 demos begin (P1, field, O1/O2, Nino); Taste-Off videos 1-2 (P1, TikTok, O3, Santhosh)\" - segment, channel, objective, and named owner per activity across pre-work + 6 campaign weeks within the 45-day window",
+      "fix": "State explicitly how the Oct-Nov pre-work sell-in weeks map onto the 45-day campaign window (they precede Jan 5) so judges do not read the schedule as 7 weeks long."
+    },
+    "budget": {
+      "score": 10,
+      "evidence": "Slide 17: \"Total $15,000: social $5,500... creators 3 x $1,000; demos 12 x $250; production $900; tools $400; contingency $2,200\" sums correctly, funnel math shown (\"1.5M x 1.5% x 10% = 2,250 purchases at $18 avg = $40.5K\"), profit-based ROI 21%, conservative case -40% acknowledged, and the new margin-sensitivity line \"at 35% GP (10-K low end) ROI ~-6%; breakeven margin ~37%\" closes the prior financial-viability gap",
+      "fix": ""
+    },
+    "impact": {
+      "score": 10,
+      "evidence": "Slide 18: every objective maps to KPI + baseline + target + tool + cadence - \"O3: 1.5M impressions; aided awareness of 'biltong' baseline at week 0 vs. post-campaign survey of 150 shoppers + non-campaign holdout DMAs; target +12 pts net of control\", plus QR/units-per-store test-vs-control tracking and explicit pivot triggers (\"under 30 QR scans per shift by week 3, move demos to top 3 stores\")",
+      "fix": ""
+    },
+    "organization": {
+      "score": 4,
+      "evidence": "Slides 3 and 4 follow official outline order (Overview -> Product & Company -> Objectives -> Target Market -> Research -> Strategy/Activities/Schedule -> Budget -> Impact -> Bibliography); Slide 14 still compresses creator tour, founder-story email/SMS program, and named credibility into one slide - three ideas on one page",
+      "fix": "Split Slide 14's founder-story email/SMS program onto its own slide to restore one-idea-per-slide before the creative samples."
+    },
+    "effectiveness": {
+      "score": 5,
+      "evidence": "Slide 4 thesis \"Stryve does not need more doors - it needs shoppers who understand what biltong is and come back for it\" is restated verbatim as the close on Slide 19 (\"Close on the thesis, word for word, as we opened\"), with a persuasive problem->evidence->solution through-line",
+      "fix": ""
+    },
+    "delivery": {
+      "score": 5,
+      "evidence": "Talk track on all 16 body slides plus planned interactions: \"hand the judge the printed shelf talker and sample-cup sleeve\" (Slide 12), \"Show the two persona cards printed side by side\" (Slide 8), and a TikTok phone-mockup walkthrough (Slide 14)",
+      "fix": ""
+    },
+    "design": {
+      "score": 4,
+      "evidence": "Real Stryve product photography verified in the rendered PDF on Slides 5 (stryve_original.png, 2888x3897) and 15 (stryve_bites.png, 1080x889) - a genuine upgrade over generated imagery - and all 16 body slides carry visuals, but Slide 1's claimed photo does NOT render: deck.json references photos/sliced_slab.png yet deck.html's cover is bare text (pdfimages confirms page 1 has no image, and sliced_slab.png is referenced nowhere in deck.html), and Slide 17 still runs 124 words vs the 62-92 winner average (check.json W_WORDS)",
+      "fix": "Wire photos/sliced_slab.png into the cover section of deck.html (or confirm the PDF pipeline renders deck.json visuals for covers) so the claimed third real photo actually appears; trim Slide 17 below ~110 words by moving funnel/conservative-case math to speaker notes."
+    },
+    "overall": {
+      "score": 4,
+      "evidence": "Complete, professional client-pitch deck: 20 slides, cited sources [S#][R#][O#][A#], bibliography with URLs, realistic conservative case, and named participants - but meta.date is \"April 2027 (ICDC - confirm)\", a tentative unconfirmed date on the title slide, and assurances_signed is false",
+      "fix": "Confirm and lock the ICDC date before printing/filing, and get participant assurances signed; the '(ICDC - confirm)' placeholder reads as unfinished on a competition deck."
+    }
+  },
+  "top_fixes": [
+    "Slide 1 cover does not render the real product photo: deck.json points to photos/sliced_slab.png but deck.html's cover section has no <img> and pdfimages shows no image on page 1 - the file is downloaded but unused. Either embed it in the cover or fix deck.json so the deck matches the claim.",
+    "Run a real survey/interviews (n>=30 or 3+) to lift Research from the 10-point no-survey cap to 11-15; the promised post-campaign survey of 150 shoppers proves the team knows how.",
+    "Trim Slide 17 (124 words) and Slide 4 (~111 words) toward the 62-92 winner average; move funnel math and the conservative-case detail into speaker notes.",
+    "Split Slide 14's three compressed ideas (creator tour, founder-story email/SMS, named credibility) to restore one-idea-per-slide for Organization.",
+    "Replace the tentative meta.date 'April 2027 (ICDC - confirm)' with a confirmed date and sign assurances before competition day."
+  ],
+  "total": 90
+}

@@ -24,6 +24,7 @@ body { margin: 0; font-family: -apple-system, Helvetica, Arial, sans-serif; colo
 .slide.cover { background: var(--brand); color: #fff; display: flex; flex-direction: column; justify-content: center; }
 .cover h1 { font-size: 64px; margin: 0 0 12px; }
 .cover p { font-size: 26px; margin: 4px 0; opacity: .95; }
+.cover img { position: absolute; right: 48px; top: 50%; transform: translateY(-50%); max-height: 78%; max-width: 34%; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,.3); }
 .kicker { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--brand); font-weight: 700; }
 h2 { font-size: 38px; margin: 6px 0 18px; }
 .cols { display: flex; gap: 0.45in; height: 5.2in; }
@@ -63,8 +64,13 @@ def render_html(deck, run_dir):
         if s["section"] == "bibliography" and not bullets:
             bullets = bibliography_bullets(deck)
         if s["section"] == "cover":
+            v = s.get("visual") or {}
+            f = v.get("file")
+            img = ""
+            if f and (run_dir / f).exists():
+                img = f"<img src='{(run_dir / f).resolve().as_uri()}'>"
             parts.append(f"<section class='slide cover'><h1>{html.escape(s.get('title', ''))}</h1>"
-                         + "".join(f"<p>{html.escape(b)}</p>" for b in bullets) + "</section>")
+                         + "".join(f"<p>{html.escape(b)}</p>" for b in bullets) + img + "</section>")
             continue
         v = s.get("visual") or {}
         vis = ""
